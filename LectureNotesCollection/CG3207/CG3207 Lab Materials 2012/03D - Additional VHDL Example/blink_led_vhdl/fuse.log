@@ -1,0 +1,35 @@
+Determining compilation order of HDL files
+Analyzing VHDL file simple_count.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file simple_count_tbw.vhw
+Restoring VHDL parse-tree ieee.std_logic_textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_textio.vdb
+Restoring VHDL parse-tree std.textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/textio.vdb
+Saving VHDL parse-tree work.simple_count into
+c:/xilinx_designs/s3aeval/blink_led/isim/work/simple_count.vdb
+Saving VHDL parse-tree work.simple_count_tbw into
+c:/xilinx_designs/s3aeval/blink_led/isim/work/simple_count_tbw.vdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 55688 Kb
+Fuse CPU Usage: 470 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package textio from library std
+Using precompiled package std_logic_textio from library ieee
+Compiling architecture behavioral of entity simple_count [simple_count_default]
+Compiling architecture testbench_arch of entity simple_count_tbw
+Compiled 9 VHDL Units
+Built simulation executable simple_count_tbw_isim_beh.exe
+Fuse Memory Usage: 56972 Kb
+Fuse CPU Usage: 520 ms

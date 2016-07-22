@@ -1,0 +1,59 @@
+//-----------------------------------------------------------------------
+// InsertionSort: Sorts the words in the array m_WordList. 
+//
+// Input: two integers mark the begin and end of the array to be sorted
+// Output: None
+// Assumptions: begin and end are in the range of the m_WordList, and 
+//   m_FileWordCount has a count of the number of words.
+// Properties: On completion, the words between begin and end, in the  
+//   array are sorted alphabetically, and the flag m_Sorted is set to true.
+// Methodology: The sorting is accomplished via `insertion sort.'  	
+//-----------------------------------------------------------------------
+private void InsertionSort(int begin, int end) throws Exception
+{
+	// Initialize local variables:
+	
+	// index stores the slot in the array that we are trying to fill
+	int index = 0;
+	// strMin stores the word we are currently sorting into place
+	String SortString = null;
+	// iMax stores the index of the largest sorted word
+	int iMaxSorted = 0;
+	
+	// Check for errors
+	if ((m_WordList==null) || (m_FileWordCount==0) || (begin<0) 
+			||(end>=m_FileWordCount) || (begin>end))
+	{
+		throw new Exception("Failed in InsertionSortWords: no words to sort.");
+	}
+
+	// Iterate through every index in the array.
+	// At the beginning of each iteration of the loop, we have sorted
+	// the elements in the prefix m_WordList[0..iMaxSorted].
+	// The goal of the iteration is to find the proper slot for the string
+	// m_WordList[iMaxSorted+1].
+	// At the end of each iteration of the loop, we have sorted the 
+	// prefix of the array m_WordList[0..iMaxSorted+1].
+	for (iMaxSorted = begin; iMaxSorted<end; iMaxSorted++)
+	{
+		// First, fix the string we are going to sort into place
+		SortString = m_WordList[iMaxSorted+1];
+		
+		// We need to find where SortString fits in the array [1..iMaxSorted+1]
+		index = iMaxSorted+1;
+		while (index > begin && SortString.compareTo(m_WordList[index-1]) < 0)
+		{
+			m_WordList[index] = m_WordList[index-1];
+			index--;
+		}
+		
+		// Now that we have found where SortString goes,  
+		// move it into place.
+		m_WordList[index] = SortString;				
+	}
+	
+	// though the sorting is probably undone, but since it's executed once, 
+	//	it means that the sorting algorithms has been called. thus
+	m_Sorted = true;
+}
+

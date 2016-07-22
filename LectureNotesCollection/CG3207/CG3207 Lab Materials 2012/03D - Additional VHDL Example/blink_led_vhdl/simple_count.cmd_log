@@ -1,0 +1,21 @@
+xst -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -ifn "C:/xilinx_designs/s3aeval/blink_led/simple_count.xst" -ofn "C:/xilinx_designs/s3aeval/blink_led/simple_count.syr"
+ngdbuild -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s400a-ft256-4 "simple_count.ngc" simple_count.ngd
+map -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -p xc3s400a-ft256-4 -cm area -pr off -k 4 -c 100 -o simple_count_map.ncd simple_count.ngd simple_count.pcf
+par -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -w -intstyle ise -ol std -t 1 simple_count_map.ncd simple_count.ncd simple_count.pcf
+trce -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -v 3 -s 4 -xml simple_count simple_count.ncd -o simple_count.twr simple_count.pcf
+bitgen -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -f simple_count.ut simple_count.ncd
+ngdbuild -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s400a-ft256-4 "simple_count.ngc" simple_count.ngd
+map -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -p xc3s400a-ft256-4 -cm area -pr off -k 4 -c 100 -o simple_count_map.ncd simple_count.ngd simple_count.pcf
+par -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -w -intstyle ise -ol std -t 1 simple_count_map.ncd simple_count.ncd simple_count.pcf
+trce -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -v 3 -s 4 -xml simple_count simple_count.ncd -o simple_count.twr simple_count.pcf -ucf simple_count.ucf
+bitgen -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -f simple_count.ut simple_count.ncd
+xst -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -ifn "C:/xilinx_designs/s3aeval/blink_led/simple_count.xst" -ofn "C:/xilinx_designs/s3aeval/blink_led/simple_count.syr"
+ngdbuild -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s400a-ft256-4 "simple_count.ngc" simple_count.ngd
+map -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -p xc3s400a-ft256-4 -cm area -pr off -k 4 -c 100 -o simple_count_map.ncd simple_count.ngd simple_count.pcf
+par -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -w -intstyle ise -ol std -t 1 simple_count_map.ncd simple_count.ncd simple_count.pcf
+trce -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -v 3 -s 4 -xml simple_count simple_count.ncd -o simple_count.twr simple_count.pcf -ucf simple_count.ucf
+bitgen -ise "C:/xilinx_designs/s3aeval/blink_led/blink_led.ise" -intstyle ise -f simple_count.ut simple_count.ncd
+xst -intstyle ise -ifn "D:/Documents/Dropbox/On Learning/modules/current/CG3207/CG3207 Lab Materials 2012/03D - Additional VHDL Example/blink_led_vhdl/simple_count.xst" -ofn "D:/Documents/Dropbox/On Learning/modules/current/CG3207/CG3207 Lab Materials 2012/03D - Additional VHDL Example/blink_led_vhdl/simple_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc simple_count.ucf -p xc3s400a-ft256-4 "simple_count.ngc" simple_count.ngd  
+map -intstyle ise -p xc3s400a-ft256-4 -cm area -ir off -pr off -c 100 -o simple_count_map.ncd simple_count.ngd simple_count.pcf 
+par -w -intstyle ise -ol high -t 1 simple_count_map.ncd simple_count.ncd simple_count.pcf 

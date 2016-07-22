@@ -1,0 +1,3 @@
+MODULE simple_count_tbw
+SUBMODULE simple_count
+INSTANCE UUT

@@ -1,0 +1,5 @@
+Hi,
+
+For this time's PS, I didn't discuss with others since it's quite simple...
+
+Oh, actually I used another one's idea during the DG (but I forgot his name...), for a better performance in checking if the graph is connected.

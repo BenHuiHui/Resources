@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="blink_led.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="blink_led.ntrc_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="simple_count.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="simple_count.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="simple_count.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="simple_count.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="simple_count.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="simple_count.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="simple_count.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="simple_count.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="simple_count.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simple_count.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="simple_count.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="simple_count.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="simple_count.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="simple_count.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="simple_count.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="simple_count.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="simple_count_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simple_count_fpe.prj"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="simple_count_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="simple_count_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="simple_count_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="simple_count_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="simple_count_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="simple_count_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="simple_count_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="simple_count_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="simple_count_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="simple_count_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="simple_count_summary.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simple_count_tbw_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simple_count_tbw_bencher.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="simple_count_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simple_count_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="simple_count_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="smartpreview.twr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3627201722833531837" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5106803683752401193" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-912781545564222827" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-4094180764884733158" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154600" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8533426211062860621" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154610" xil_pn:in_ck="8421436225511100162" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="1311244255347977444" xil_pn:start_ts="1348154600">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="blink_led.ntrc_log"/>
+      <outfile xil_pn:name="simple_count.lso"/>
+      <outfile xil_pn:name="simple_count.ngc"/>
+      <outfile xil_pn:name="simple_count.ngr"/>
+      <outfile xil_pn:name="simple_count.prj"/>
+      <outfile xil_pn:name="simple_count.stx"/>
+      <outfile xil_pn:name="simple_count.syr"/>
+      <outfile xil_pn:name="simple_count.xst"/>
+      <outfile xil_pn:name="simple_count_fpe.prj"/>
+      <outfile xil_pn:name="simple_count_tbw_beh.prj"/>
+      <outfile xil_pn:name="simple_count_tbw_bencher.prj"/>
+      <outfile xil_pn:name="simple_count_vhdl.prj"/>
+      <outfile xil_pn:name="simple_count_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154610" xil_pn:in_ck="8421436225511098910" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="2540763604060015914" xil_pn:start_ts="1348154610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154617" xil_pn:in_ck="9214024481953195766" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="270622532511909568" xil_pn:start_ts="1348154610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="simple_count.bld"/>
+      <outfile xil_pn:name="simple_count.ngd"/>
+      <outfile xil_pn:name="simple_count_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154622" xil_pn:in_ck="5388695386740001015" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-2836189773595213093" xil_pn:start_ts="1348154617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="simple_count.pcf"/>
+      <outfile xil_pn:name="simple_count_map.map"/>
+      <outfile xil_pn:name="simple_count_map.mrp"/>
+      <outfile xil_pn:name="simple_count_map.ncd"/>
+      <outfile xil_pn:name="simple_count_map.ngm"/>
+      <outfile xil_pn:name="simple_count_map.xrpt"/>
+      <outfile xil_pn:name="simple_count_summary.xml"/>
+      <outfile xil_pn:name="simple_count_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1348154632" xil_pn:in_ck="-6557634802945366640" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3373904778572030817" xil_pn:start_ts="1348154622">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="simple_count.pad"/>
+      <outfile xil_pn:name="simple_count.par"/>
+      <outfile xil_pn:name="simple_count.ptwx"/>
+      <outfile xil_pn:name="simple_count.unroutes"/>
+      <outfile xil_pn:name="simple_count.xpi"/>
+      <outfile xil_pn:name="simple_count_pad.csv"/>
+      <outfile xil_pn:name="simple_count_pad.txt"/>
+      <outfile xil_pn:name="smartpreview.twr"/>
+    </transform>
+  </transforms>
+
+</generated_project>

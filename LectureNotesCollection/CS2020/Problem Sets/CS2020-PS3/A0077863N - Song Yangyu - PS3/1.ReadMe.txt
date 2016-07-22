@@ -1,0 +1,9 @@
+For this problem set:
+
+Question 6: "TreeNode.java";
+
+Question 7: 
+	"q7.txt" is the pseudocode, and 
+	"RunwayScheduler.java" is another solution written in Java Code
+
+You may refer to the front of each file for more information.

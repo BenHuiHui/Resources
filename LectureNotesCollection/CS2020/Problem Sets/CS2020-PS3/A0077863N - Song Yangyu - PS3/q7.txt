@@ -1,0 +1,194 @@
+Problem Set 3, Quesiton 7:
+
+Info: this is a pseudocode solution to Question, with the use of the implementation of IRunwaySearch
+	interface. However, I think it would be faster if we use hashing, and the code is in the file
+	".java".
+On the Reading of this txt file: If you're using VIM, it would looks much better if you type:
+		set filetype=java
+
+----------------------------------------------------
+Methods can use: 
+
+public interface IRunwaySearch<typeA, typeB> {
+	void insert(typeA key, typeB data);
+	boolean search(typeA key);
+	typeB dataSearch(typeA key);
+	typeB dataSuccessor(typeA key);
+	typeB dataPredecessor(typeA key);
+	typeA keySuccessor(typeA key);
+	typeA keyPredecessor(typeA key);
+	void delete(typeA key);
+}
+----------------------------------------------------
+
+
+
+------------------------------------------------------------------
+	pseudocode part:
+
+Asumption: suppose there's a class Runway, which has implemented 
+	the interface IRunwaySearch, and Runway itself is a tree
+	node;
+	In addition, I've added a compartor method, so that it can
+	sort according to pilots' names
+	For simplicity, assume Runway has a constructor:
+		Runway(int key, String pilotName)
+
+More about class Runway:
+	public class Runway implements IRunwaySearch<typeA = int , typeB = String>, Comparable<Runway>{
+		Runway lChild,rChild,parent;
+		
+		// keys
+		int time; String pilotName;
+
+		// the rest of the code to override the interface
+		/*
+		void insert(typeA key, typeB data);
+		boolean search(typeA key);
+		typeB dataSearch(typeA key);
+		typeB dataSuccessor(typeA key);
+		typeB dataPredecessor(typeA key);
+		typeA keySuccessor(typeA key);
+		typeA keyPredecessor(typeA key);
+		void delete(typeA key);
+		*/
+
+		// and a compartor method
+		@Override
+		public int compareTo(Runway b) {
+			return this.pilotName.compareToIgnoreCase(b.pilotName);
+		}
+		
+		// For simplicity, assume Runway has a constructor:
+		Runway(int key, String pilotName){
+			this.key = key; this.pilotName = pilotName;
+		}
+	}
+
+
+pseudocode:
+
+public class RunwayScheduler extends IRunwayScheduler{
+	Runway runway = new Runway();
+	
+	List<Runway> pilots;	// the list of pilots to store the data according to the names of the pilots
+	boolean pilotsSorted = false;
+	
+	/* Functionality: Insert the time slot into the array runway.
+ 	 * Rule:	the time must be of 3 distance to the other time
+	 * Return:	true if succeed, false otherwise
+ 	 */
+	public boolean requestTimeSlot(int time, String pilot){
+		int preTime = runway.keyPredecessor(time);
+		int postTime = runway.keySuccessor(time);
+		if( (preTime==null?true:(time-preTime >= 3)) && (postTime==null?true:(postTime - time >=3)) ){
+			runway.insert(time, pilot);
+			pilotSorted = false;	// set it to false since we added in new data, thus need to resort
+			return true;
+		}
+		else return false;
+	}
+	
+	/* Functionality: return a proper next time point according to the rule
+	 * Return: if there's a property time, then just return it;
+	 * 	while if there's not, then return -1.
+	 */
+	public int getNextFreeSlot(int time){
+		int preTime = runway.keySuccessor(time);
+		int PostTime = runway.keySuccessor(time);
+		if(runway.search(time))	// that time key has been occupied
+			return getNextFreeSlop(time+3);
+		else if( preTime!=null && time-preTime < 3)	// case when time is too near to the preTime
+			return getNextFreeSlot(preTime+3);
+		else if( postTime!=null && postTime-time < 3)	// case when time is to near to the postTime
+			return getNextFreeSlot(postTime+3);
+		else	// case when just satisfy
+			return time;
+	}
+	
+	/* Functionality: for a given time, return the time next Plane after this time point
+	 * Assumption:	the plane flying at this specific time point would not be considered as a next Plane
+	 * Return: 	the time of the next plane; null(or -1, depends on runway.keySuccessor()) if there's 
+	 * 		no next Plane
+	 */
+	public int getNextPlane(int time){
+		return runway.keySuccessor(time);
+	}
+	
+	/* Functionality: for a given time, return the name of next Pilot after this time point
+	 * Assumption:	the pilot flying at this specific time point would not be considered as a next Pilot
+	 * Return:	the name of the next pilot; null(or "no such pilot", depends on runway.dataSuccessor())  
+	 */
+	public String getPilot(int time){
+		return runway.dataSuccessor(time);
+	}
+	
+	/* Functionality: this *private* method would sort the pilots List if it's unsorted
+	 * Return:	null; after this funcion, List pilots is sorted, and pilotSorted is setted to true.
+	 */
+	private void sortPilots(){
+		if(pilotSorted)	return;
+		this.pilots = new ArrayList<Runway>();
+		
+		// start the tree walk to store all the Pilots
+		int currentTime = runway.;
+			// starting with time -1, thus 0 can be the first successor
+		while(currentTime!=null){
+			this.pilots.add(new Runway(currentTime,dataSearch(currentTime)));
+			currentTime = keySuccessor(currentTime);
+		}
+
+		// then sort this ArrayList of pilots, based on the comparator overrided in class Runway
+		Collections.sort(this.pilots);
+
+		// set the flag to be sorted
+		pilotsSorted = true;
+	}
+	
+	/* Functionality: return a list of pilots according to there name (in alphabetical order)
+	 */ 
+	public List<String> getPilots(){
+		if(!pilotsSorted)	this.sortPilots();
+		List<String> res = new ArrayList<String>();
+		String currentPilot=null;
+		for(int i=0;i<this.pilots.size();i++){
+			if(currentPilot!=this.pilots.get(i).pilotName){
+				currentPilot=this.pilots.get(i).pilotName;
+				res.add(currentPilot);
+			}
+			else continue;
+		}
+	}
+	
+	/* Functionality: for a given pilot name, return a list of its flying time
+	 * Return: if pilot found, return this list; if not, return a null list
+	 */ 
+	public List<Integer> getPilotSchedule(String pilot){
+		if(!pilotsSorted)	this.sortPilots();
+		List<Integer> res = new ArrayList<Integer>();
+
+		// can use binary search here to get a better performance
+		// but since the set of pilots is pretty small, linear search would be acceptable
+		int key;
+		for(key=0;key<this.pilots.size();key++){
+			if(pilot==this.pilots.get(key).pilotName)	break;
+		}
+
+		if(key==this.pilots.size())	return res;	// pilot unfound, thus return an empty list
+
+		// add this pilot's time to that List res
+		while(pilot==this.pilots.get(key)){
+			res.add(this.pilots.time);
+			key++;
+		}
+	}
+}
+
+
+Reference:
+1. on the usage of List/Collections.sort:
+	from the book <Thinking in Java, 4th ed> by Bruce Eckel, in the chapter of "Holding your Objects"
+2. on the compartor:
+	Implementing compareTo, url: http://www.javapractices.com/topic/TopicAction.do?Id=10	
+
+In the meanwhile, I've also checked with *Ding Mingzhe* for the updates of this Problem set.

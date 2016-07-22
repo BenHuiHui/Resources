@@ -1,0 +1,189 @@
+Problem Set 3, Quesiton 7:
+
+For the purpose of this problem, you may assume that each pilot has a unique name. However,
+some pilots may be scheduled to land more than one plane. That is, a given pilot may request
+multiple time slots. Design each of these routines to be as efficient as possible. For this problem,
+you may submit your solution in pseudocode, rather than Java (though we have provided Java
+interfaces for those who want to use Java). Along with the code/pseudocode, be sure to explain
+the overall design of your data structure and the precise behavior of each of the functions. (Do not
+forget to specify what happens when errors occur.) The following is an example execution
+
+
+----------------------------------------------------
+Methods can use: 
+
+public interface IRunwaySearch<typeA, typeB> {
+	void insert(typeA key, typeB data);
+	boolean search(typeA key);
+	typeB dataSearch(typeA key);
+	typeB dataSuccessor(typeA key);
+	typeB dataPredecessor(typeA key);
+	typeA keySuccessor(typeA key);
+	typeA keyPredecessor(typeA key);
+	void delete(typeA key);
+}
+----------------------------------------------------
+
+
+
+------------------------------------------------------------------
+	pseudocode part:
+
+Asumption: suppose there's a class Runway, which has implemented 
+	the interface IRunwaySearch, and Runway itself is a tree
+	node;
+	In addition, I've added a compartor method, so that it can
+	sort according to pilots' names
+	For simplicity, assume Runway has a constructor:
+		Runway(int key, String pilotName)
+
+More about class Runway:
+	public class Runway implements IRunwaySearch<typeA = int , typeB = String>, Comparable<Runway>{
+		Runway lChild,rChild,parent;
+		
+		// keys
+		int time; String pilotName;
+
+		// the rest of the code to override the interface
+		/*
+		void insert(typeA key, typeB data);
+		boolean search(typeA key);
+		typeB dataSearch(typeA key);
+		typeB dataSuccessor(typeA key);
+		typeB dataPredecessor(typeA key);
+		typeA keySuccessor(typeA key);
+		typeA keyPredecessor(typeA key);
+		void delete(typeA key);
+		*/
+
+		// and a compartor method
+		@Override
+		public int compareTo(Runway b) {
+			return this.pilotName.compareToIgnoreCase(b.pilotName);
+		}
+		
+		// For simplicity, assume Runway has a constructor:
+		Runway(int key, String pilotName){
+			this.key = key; this.pilotName = pilotName;
+		}
+	}
+
+
+pseudocode:
+public class RunwayScheduler extends IRunwayScheduler{
+	Runway runway = new Runway();
+	
+	List<Runway> pilots;	// the list of pilots to store the data according to the names of the pilots
+	boolean pilotsSorted = false;
+
+	public boolean requestTimeSlot(int time, String pilot){
+		int preTime = runway.keyPredecessor(time);
+		int postTime = runway.keySuccessor(time);
+		if( (preTime==null?true:(time-preTime >= 3)) && (postTime==null?true:(postTime - time >=3)) ){
+			runway.insert(time, pilot);
+			pilotSorted = false;	// set it to false since we added in new data, thus need to resort
+			return true;
+		}
+		else return false;
+	}
+
+	public int getNextFreeSlot(int time){
+		int preTime = runway.keySuccessor(time);
+		int PostTime = runway.keySuccessor(time);
+		if(runway.search(time))	// that time key has been occupied
+			return getNextFreeSlop(time+3);
+		else if( preTime!=null && time-preTime < 3)	// case when time is too near to the preTime
+			return getNextFreeSlot(preTime+3);
+		else if( postTime!=null && postTime-time < 3)	// case when time is to near to the postTime
+			return getNextFreeSlot(postTime+3);
+		else	// case when just satisfy
+			return time;
+	}
+
+	public int getNextPlane(int time){
+		return runway.keySuccessor(time);
+	}
+
+	public String getPilot(int time){
+		return runway.dataSuccessor(time);
+	}
+	
+	/* TODO: to delete
+	void insert(typeA key, typeB data);
+	boolean search(typeA key);
+	typeB dataSearch(typeA key);
+	typeB dataSuccessor(typeA key);
+	typeB dataPredecessor(typeA key);
+	typeA keySuccessor(typeA key);
+	typeA keyPredecessor(typeA key);
+	void delete(typeA key);
+	*/
+
+	private void sortPilots(){
+		if(pilotSorted)	return;
+		this.pilots = new ArrayList<Runway>();
+		
+		// start the tree walk to store all the Pilots
+		int currentTime = runway.;
+			// starting with time -1, thus 0 can be the first successor
+		while(currentTime!=null){
+			this.pilots.add(new Runway(currentTime,dataSearch(currentTime)));
+			currentTime = keySuccessor(currentTime);
+		}
+
+		// then sort this ArrayList of pilots, based on the comparator overrided in class Runway
+		Collections.sort(this.pilots);
+
+		// set the flag to be sorted
+		pilotsSorted = true;
+	}
+
+	public List<String> getPilots(){
+		if(!pilotsSorted)	this.sortPilots();
+		List<String> res = new ArrayList<String>();
+		String currentPilot=null;
+		for(int i=0;i<this.pilots.size();i++){
+			if(currentPilot!=this.pilots.get(i).pilotName){
+				currentPilot=this.pilots.get(i).pilotName;
+				res.add(currentPilot);
+			}
+			else continue;
+		}
+	}
+
+	public List<Integer> getPilotSchedule(String pilot){
+		if(!pilotsSorted)	this.sortPilots();
+		List<Integer> res = new ArrayList<Integer>();
+
+		// can use binary search here to get a better performance
+		// but since the set of pilots is pretty small, linear search would be acceptable
+		int key;
+		for(key=0;key<this.pilots.size();key++){
+			if(pilot==this.pilots.get(key).pilotName)	break;
+		}
+
+		if(key==this.pilots.size())	return res;	// pilot unfound, thus return an empty list
+
+		// add this pilot's time to that List res
+		while(pilot==this.pilots.get(key)){
+			res.add(this.pilots.time);
+			key++;
+		}
+	}
+}
+
+
+
+
+
+
+
+Reference:
+
+1. to delete depulated elements from a list:
+	http://hailinhe1986-163-com.javaeye.com/blog/645233 (in Chinese)
+2. on the usage of List/Collections.sort:
+	from the book <Thinking in Java, 4th ed> by Bruce Eckel, in the chapter of "Holding your Objects"
+3. on the compartor:
+	
+	

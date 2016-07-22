@@ -1,0 +1,15 @@
+
+================================================================================
+Timing constraint: TS_clock = PERIOD TIMEGRP "clock" 62.5 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 351 paths analyzed, 63 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.799ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+

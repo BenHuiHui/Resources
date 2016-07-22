@@ -1,0 +1,9 @@
+V3 3
+FL "D:/Documents/Dropbox/On Learning/modules/current/CG3207/CG3207 Lab Materials 2012/03D - Additional VHDL Example/blink_led_vhdl/simple_count.vhd" 2008/05/26.14:58:24 P.28xd
+EN work/simple_count 1348154604 \
+      FL "D:/Documents/Dropbox/On Learning/modules/current/CG3207/CG3207 Lab Materials 2012/03D - Additional VHDL Example/blink_led_vhdl/simple_count.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/simple_count/Behavioral 1348154605 \
+      FL "D:/Documents/Dropbox/On Learning/modules/current/CG3207/CG3207 Lab Materials 2012/03D - Additional VHDL Example/blink_led_vhdl/simple_count.vhd" \
+      EN work/simple_count 1348154604

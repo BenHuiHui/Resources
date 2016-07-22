@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Thu Sep 20 23:23:40 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "enable" LOCATE = SITE "K3" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "D14" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "C16" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "C15" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "B15" LEVEL 1;
+COMP "clock" LOCATE = SITE "C10" LEVEL 1;
+TIMEGRP clock = BEL "count_0" BEL "count_1" BEL "count_2" BEL "count_3" BEL
+        "count_4" BEL "count_5" BEL "count_6" BEL "count_7" BEL "count_8" BEL
+        "count_9" BEL "count_10" BEL "count_11" BEL "count_12" BEL "count_13"
+        BEL "count_14" BEL "count_15" BEL "count_16" BEL "count_17" BEL
+        "count_18" BEL "count_19" BEL "count_20" BEL "count_21" BEL "count_22"
+        BEL "count_23" BEL "count_24" BEL "count_25" BEL
+        "clock_BUFGP/BUFG.GCLKMUX" BEL "clock_BUFGP/BUFG";
+TS_clock = PERIOD TIMEGRP "clock" 62.5 ns HIGH 50%;
+SCHEMATIC END;
+

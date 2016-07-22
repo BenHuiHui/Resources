@@ -1,0 +1,59 @@
+// other modification: I've copy&paste the InsertionSort in 4a into 
+// the file VectorTextFile3.java
+
+//-----------------------------------------------------------------------
+// MergeSortWords: Sorts the words in the array m_WordList. 
+//
+// Input: Begin and End are indices into the array m_WordList.
+// Output: None
+// Assumptions: m_WordList holds a non-empty set of words, and
+// m_FileWordCount has a count of the number of words.  Also,
+// we require that: 0 <= Begin <= End < m_FileWordCount.
+// Properties: On completion, the words in m_WordList[Begin..End] are  
+// sorted alphabetically, and the flag m_Sorted is set to true. Note 
+// that the array indices are inclusive, i.e., m_WordList[Begin] and
+// m_WordList[End] are both sorted.
+// Methodology: The sorting is accomplished via `merge sort'; while when 
+// 	the data size to be sorted is small, it will use insertion sort. 
+//-----------------------------------------------------------------------
+private void MergeSortWords(int Begin, int End) throws Exception
+{	
+	final int MinMergeSize = 10;
+	// First, check for errors
+	if (End < Begin)
+	{
+		throw new Exception("Failed MergeSortWords: End is not greater than Begin.");
+	}
+	if ((m_WordList==null) || (m_FileWordCount<1))
+	{
+		throw new Exception("Failed in MergeSortWords: no words to sort.");
+	}
+	
+	// Determine the number of words in the array to sort
+	int NumWords = End-Begin+1;
+	
+	// If there is only one element in the list to sort, then
+	// by definition, it is already well sorted.
+	if (NumWords < MinMergeSize)
+	{
+		//System.out.println("Num of words to be sorted: " + NumWords);
+		InsertionSort(Begin,End);
+		return;			
+	}
+	
+	// We now divide the list into two parts, each 1/2 the size
+	// of the initial list.  The first list is from [Begin..Middle-1]
+	// and the second list is from [Middle..End].
+	//
+	// Note that division by two automatically rounds to an integer.
+	int Middle = Begin + NumWords/2;		
+			
+	// Recursively sort each half-list.
+	MergeSortWords(Begin, Middle-1);
+	MergeSortWords(Middle, End);		
+	
+	
+	// Merge the two sorted lists.
+	Merge(Begin, Middle, End);
+}
+
