@@ -1,0 +1,28 @@
+1. it's more similiar to a thread.
+
+They don't have Address space, global variable, child process; 
+but they can open files
+
+
+2. Memory is managed by page. When a process/thread want a certain memory, it would requrest for that part of the memory, and the system would look for that memeory. Because the size of a page is small, this would ensure that only a small portion of memory is accessed at any time
+
+
+3.  Num     T1 Amount       T2 Amount       Cost        Average Speed
+    1)      -               1GB             81.92       80ns
+    2)      1GB             -               2048        10ns
+    3)      256KB           1GB             82.42       11.4ns
+
+
+4. The actual address of vertial memory is the harddisk address; in order to see it as "memory", system would create memory some sort of mapping to be seen as "extended memory", and store that in the page table; when the OS request for memory which is vertial memory, it would translate it to the address of harddisk, and visit. This translation is the address translation in virtual memory
+
+5. 
+    a) Maximum size:
+        Virtual Memory:     1kB
+        Physical Memory:    512B
+    b) Maximum Page:
+        Virtual:    16
+        Physical:   8
+    c)
+        0   -> 
+        15  -> 
+        

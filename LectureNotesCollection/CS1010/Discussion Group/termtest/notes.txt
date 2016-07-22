@@ -1,0 +1,31 @@
+A
+  1. B  ac
+  2. B  ac
+  3. D,  3 choose E, 2A, 1C
+  4. C,  1B
+  5. D,  1E
+  6. A,  1B 1C
+  7. E-? 11C, 2B
+  8. A,  6D, 5B, 1E
+  9. A,  1D, 1E
+ 10. E,  1C, 2D, 8B
+
+11.
+  1) line 7: scanf should take the address of variable
+  2) line 9: should be guess == secret
+  3) line 14: capitalized return
+  4) line 1: include <stdio.h> -> #include <stdio.h>
+
+12.
+Output:
+0 1 2 3 4
+
+13. 54000 11 --?  nearly all wrong
+
+14. 20 1301 --?  mostly wrong
+
+15. return a || (!b && c)  -- note that using while can gain 1 mark
+
+16.
+  do a in-place sorting
+

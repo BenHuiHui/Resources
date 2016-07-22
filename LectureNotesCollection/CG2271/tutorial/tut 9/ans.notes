@@ -1,0 +1,26 @@
+1. in vGetKey function, when sndMsg is called, the pointer to ch is passed;
+    however, this is a local variable and it would be over written by the new
+    value of ch.
+    A proper way is to pass the value of ch, as a void pointer
+
+2. see the code
+
+3. // copied from Wikipedia:
+    In computing, a computer program or subroutine is called reentrant if it can
+    be interrupted in the middle of its execution and then safely called again
+    ("re-entered") before its previous invocations complete executing.
+
+    example: see q3.c
+
+4. see q4.c
+
+
+5. do you agree with "no prementation -> no data-sharing problems"
+  a) it's still possible that a race condition exist if the RTOS has multiple
+     processors
+  b) the problems of data-sharing is with Race-condition; it's still possible to
+     happen. For example, say if a user open a text file, then the user open
+     this file again.. this would cause a race condition.
+     In the RTOS... it might happen if the software is not so well written so
+     that... one program open the same file twice, then the changes might be
+     over-written.

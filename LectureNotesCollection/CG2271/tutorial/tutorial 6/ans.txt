@@ -1,0 +1,2 @@
+1. DMA:Dynamic Memory Access
+	Doesn't require 

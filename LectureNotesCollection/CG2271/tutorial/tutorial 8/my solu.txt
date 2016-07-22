@@ -1,0 +1,11 @@
+1. This can lead to a race condition, because "tmp++" is short for:
+	tmp = tmp + 1;
+where it's to read the value of tmp first, and then assign it to the new value of tmp; this can be possibly prempted in CPU.
+
+2. Atomicity means an operation is done in a contious series of actions as a whole, this cannot be interrupted.
+Atomicity is guaranteed in CPU by disabiling interrupt when perform the tasks requires atomicity.
+
+3.  1) Disabling Interrupt: this is efficient enough to enforcing mutal exclusion; by doing so we can only execute one task -- multi-tasking cannot be performed.
+    2) Lock Variables: This can enforce mutal-exclusion. The disvantage is that, when the variable is locked, and being pre-empted, and that higher priority task is waiting for the locked variable to be released, this would cause a dead-lock.
+    3) Strict Alternation: 
+

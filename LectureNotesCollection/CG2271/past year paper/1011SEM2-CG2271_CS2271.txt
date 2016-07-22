@@ -1,0 +1,9 @@
+1 a) It would stop working when the "sleep signal" or "wakeup signal" got lost.
+	Scenario of "sleep signal" got lost:
+		The producer produced an item, then count=N; but at this time it got pre-empted; consumer consume, and found out count==N-1, then send a wakeup signal to producer -- but because producer is awake, this signal would be lost; when the producer back to run, it would go on with the sleep(), and then sleep; the consumer would never try to wake up the producer again, and when it consume up the item, it would also leep. Then both of them stops working.
+  b,c) When calling the "wakeup(producer)", if producer is wake, then block the task until producer is in sleep state.
+
+2 -- don't understand "uC/OS-II" 
+3 a) It can be used for Fixed Priority Scheduling -- sort T according to priority, then apply the critical Instance Analysis; it cannot be used for Earliest Deadlien First Scheduling, because the EDF Scheduling's priority is variable, but not fixed. Critical Instance Analysis can be only applied to fixed priority. 
+  b) i. If the switching overhead is non-negligable, then in the calculation one would need to add-in the overhead per interrupt in the calculation; however, this is is non-predictable because the 
+    ii. If there're inter-task dependencies, then in the analysis Si would depends on later tasks also -- but at the point of calculating Si, only the Sk where k< i has been calculated. Therefore one cannot do critically instant analysis when there's inter-dependency over the tasks. 
