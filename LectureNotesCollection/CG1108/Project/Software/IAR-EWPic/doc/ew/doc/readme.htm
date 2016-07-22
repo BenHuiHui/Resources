@@ -1,0 +1,172 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Readme file for IAR Embedded Workbench for Microchip PIC 2.21A</title>
+</head>
+<body bgcolor="#ffde00">
+
+<a href="http://www.iar.com"><img SRC="IARSystems.jpg" ALIGN=RIGHT BORDER=0 height=83 width=136></a>
+<h2>Readme file for IAR Embedded Workbench for Microchip PIC</h2>
+
+<font size=-1>
+Updated: 2002-09-25 [IFRC]<br>
+Archived: $Revision: 1.4 $
+</font> 
+
+
+<P>This is the readme file for the complete product package. Here you will find
+links to individual readme files for each component, such as compiler, linker
+etc. It is highly recommended that you read these files as they contain
+information about new features, program corrections, known problems and other
+information issued after release of the user guides.
+
+<P>The date format used throughout these files is: YYYY-MM-DD.
+<P>
+
+<h3>Contents</a></h3>
+<ul>
+<li><a href="readme.htm#highlights">Product highlights</a>
+<li><a href="readme.htm#components">Readme files for individual components</a>
+<li><a href="readme.htm#installation">Installation and license activation</a></li>
+<li><a href="readme.htm#contents">Product contents</a>
+<li><a href="readme.htm#documentation">Documentation</a>
+<li><a href="readme.htm#trademarks">Trademarks</a>
+</ul>
+
+<h3><a NAME="highlights"></a>Product highlights</h3>
+<ul>
+<b>News/highlights in this release:</b><p>
+  <ul>
+  <li>Support for the 12F629, 12F675, 16F72, 16F630, 16F676, 16F818, 16F819, 16F873A, 16F874A, 16F876A, and 16F877A devices has been added.</li><br>
+  <li>New optimizations have been introduced in the compiler. </li><br>
+  </ul>
+</ul>
+
+<h3><a name="components">Readme files for individual components</h3>
+  <ul>
+  <LI><A href="ewgui.htm">IAR Embedded Workbench</A>
+  <li><a href=iccpic.htm>IAR C Compiler</a>
+  <li><a href=apic.htm>IAR Assembler</a>
+  <LI><A href="cwgui.htm">IAR C-SPY Debugger</A>
+  <li>IAR C-SPY Debugger
+    <ul>
+    <li><a href=cspic.htm>PIC Simulator</a>
+    <li><a href=cspici.htm>MPLAB ICE2000 Emulator</a>
+    </ul>
+  <li><a href=xlink.htm>IAR XLINK Linker</a>
+  <li><a href=clib.htm>IAR C Runtime Libraries</a>
+  </ul>
+
+
+<H3><A name=installation></A>Installation and license activation</H3>
+
+<UL>
+  Information about the installation and the license activation procedure
+  can be found in the following documents:
+</UL>
+
+<UL>
+  <LI>QuickStart cards
+  <UL>
+    <LI><A href="QSstandalone.pdf">Stand-alone license installation</A>
+    <LI><A href="QSnetwork.pdf">Network license installation</A>
+    <LI><A href="QSupgrade.pdf">Upgrade installation</A>
+  </UL>
+  <LI><A href="InstallationGuide.pdf">IAR Embedded Workbench Installation and Licensing Guide</A>
+</UL>
+
+<H3><A name=general></A>General information</H3>
+
+<UL>
+  <H4>License management system</H4>
+  In this release the dongles are optional since a new license management system is used. When installing the
+  product with a QuickStart key it will be usable for 30 days. During this period the product(s) must be
+  registered with IAR to activate the license. After registration a permanent key will be sent
+  to you which opens up the product(s) for which you have a valid license. The product will be locked
+  to the computer on which it has been installed unless a License Server or dongle is used. A stand-alone
+  license can be transfered to a different PC by using the license transfer functionality.
+  For more information, see Installation and license activation above.
+</UL>
+
+<h3><a name="contents">Product contents</h3>
+<ul><h4>EWPIC V2.21A</h4>
+<ul>  <pre>
+  EW23      V2.31E    IAR Embedded Workbench Application
+  CW23      V2.31D(1) IAR C-SPY Debugger Application 
+  WTDPIC    V2.21A    IAR Windows Target Descriptor
+  ICCPIC    V2.21A    IAR ANSI C Compiler
+  APIC      V2.21A    IAR Assembler
+  SPIC      V2.21A(1) IAR C-SPY Simulator Driver 
+  IPIC      V2.21A(1) IAR C-SPY ICE2000 Emulator Driver 
+  ICESOCK   V2.24     IAR C-SPY ICE2000 Emulator Server
+  CLIB      V3.34L    IAR C Runtime Libraries
+  XLINK     V4.53M    IAR XLINK Linker
+  XLIB      V3.28K    IAR XLIB Librarian 
+  XAR       V1.03C    IAR XAR Library Builder
+  LICMAN    V1.22A    IAR License Manager
+
+  (1) Not included in the Limited Edition
+
+  UBROF version: 7
+
+  Run-time Model Version: 9
+</pre>
+
+  </ul><h4>Supported derivatives:</h4><ul>12C671, 12C672, 12CE673*, 12CE674*, 12F629, 12F675<br>
+	16C432, 16C433, 16C554, 16C558, <br>
+	16C620, 16C620A, 16C621, 16C621A, 16C622, 16C622A, 16CE623*, 16CE624*, 16CE625*,<br>
+	16C61, 16C62A, 16C62B, 16C63, 16C63A, 16C64A, 16C65A, 16C65B, 16C66, 16C67, <br>
+	16C641, 16C642, 16C661, 16C662, <br>
+	16C710, 16C711, 16C712, 16C715, 16C716, 16C717, <br>
+	16C71, 16C72, 16C72A, 16C73A, 16C73B, 16C74A, 16C74B, 16C76, 16C77, <br>
+	16C770, 16C771, 16C773, 16C774, <br>
+	16C745, 16C765, 16C781, 16C782, <br>
+	16C923, 16C924, 16C925, 16C926, <br>
+	16F627, 16F628, 16F630, 16F676, <br>
+	16F72, 16F73, 16F74, 16F76, 16F77, <br>
+	16F818, 16F819, <br>
+        16F83, 16C84, 16F84, 16F84A, <br>
+	16F870, 16F871, 16F872, 16F873, 16F874, 16F876, 16F877, <br>
+	16F873A, 16F874A, 16F876A, 16F877A,<br>
+	17C42A, 17C43, 17C44, <br>
+	17C752, 17C756, 17C756A, 17C762, 17C766<p>
+* no built-in support for serial EEPROM
+</ul>
+
+<h4><a name="documentation">Documentation</h4>
+<ul>
+<pre>
+  IAR C Compiler                        CPIC              Sep-00
+  <a href=iccpic.pdf>PIC IAR C Compiler Programming Guide</a>
+  IAR Embedded Workbench                UPIC              Sep-00
+  <a href=ewpic.pdf>PIC IAR Embedded Workbench Interface Guide</a>
+  IAR C-SPY Debugger                    CWPIC             Sep-00
+  <a href=cwpic.pdf>PIC IAR C-SPY User Guide</a>
+  IAR Assembler                         APIC              Sep-00
+  IAR XLINK Linker And XLIB Librarian
+  <a href=apic.pdf>PIC IAR Assembler, Linker and Librarian Programming Guide</a>
+  </pre>
+</ul>
+</ul>
+
+<h3><a name="trademarks">Trademarks</h3>
+<ul>
+<p align="justify">
+IAR, IAR Embedded Workbench, IAR XLINK Linker, and IAR XLIB Librarian are trademarks owned by IAR Systems. 
+C-SPY is a trademark registered in Sweden by IAR Systems. Microchip, PIC, ICE2000, and MPLAB are registered 
+trademarks of Microchip Technology Inc. Microsoft is a registered trademark, and Windows is a trademark of 
+Microsoft Corporation. Intel and Pentium are registered trademarks of Intel Corporation. All other product 
+names are trademarks or registered trademarks of their respective owners. 
+</ul></p>
+
+<center><a href="http://www.iar.com"><img SRC="IARSystems.jpg" BORDER=0 height=83 width=136></a><br>
+<a href="http://www.iar.com">http://www.iar.com</a></center>
+
+<br>
+<font size=-1>
+Copyright 2001-2002 IAR Systems. All rights reserved.<br>
+</font> 
+
+</body>
+</html>
+

@@ -1,0 +1,936 @@
+<html>
+<head>
+<title>Readme file for IAR C Compiler for Microchip PIC</title>
+</head>
+<body bgcolor="#ffde00">
+
+<h2>Readme file for ICCPIC V2.21A</h2>
+<font size=-1>
+Updated: 2002-09-25 [IFRC]<br>
+Archived: $Revision: 1.12 $
+</font> 
+
+<h2>Contents</a></h2>
+  <ul>
+  <li><a href=#important>Important information</a>
+  <li><a href=#features>New features</a>
+  <li><a href="icc_diag.htm">Diagnostic messages</a>
+  <li><a href=#problems>Known problems</a>
+  <li><a href=#pcorr>Program corrections</a>
+  <li><a href=#mcorr>Manual corrections</a>
+  <li><a href=#misc>Miscellaneous</a>
+  <li><a href=#history>Release history</a>
+  </ul>
+
+
+<!-------------------------------------------------------------------------->
+<!-- IMPORTANT INFORMATION                                                -->
+<!-------------------------------------------------------------------------->
+<h3><a name="important">Important information</a></h3>
+<ul>
+</ul><b>2.12A</b><ul>
+<li>	The directory structure has been changed to agree with other IAR Systems products. <p>
+<ul>
+		<li>Assembler include files have moved to ...\PICmicro\inc\.</li><p>
+		<li>Device configuration files (*.i39) have moved to ...\PICmicro\config\.</li><p>
+		<li>Linker command files (*.xcl) have moved to ...\PICmicro\config\.</li><p>
+		<li>The C library source files and library build scripts have moved to ...\PICmicro\src\lib\.</li><p>
+		<li>All documentation has moved to ...\PICmicro\doc\.</li><p>
+</ul>
+	To use older projects with this new structure, be sure to change paths for setup and include files.
+</li><p>
+
+</ul><b>2.10A</b><ul>
+<li>
+          <a name="runtimemodel"></a>The runtime model version has been changed to 9.</li><p>
+<li>
+          IAR PICmicro C Compiler stores data types with the most significant
+          byte first. Check your code for byte order dependencies if you port 
+          code from another tool.</li><p>
+<li>
+          The linker can now produce the COFF output format which in turn can
+          be converted to the COD format for use with Microchip's MPLAB. The 
+          linker relies on the runtime model attribute <tt>__cpu</tt> for information
+          about which controller is used. If you write an assembler-only program,
+          make sure you include a line like the following in your program:<p>
+
+          <ul><tt>RTMODEL "__cpu", "0x6c61"</tt></ul><p>
+
+	  <tt>__cpu</tt> must be written in lowercase and the controller name must 
+          be the expected hexadecimal code that matches your CPU. Take a look inside
+          the corresponding ioxxx.inc file for the correct hexadecimal code.<p>
+
+          To help MPLAB users, all linker command files now include a line that 
+          produces an Intel hex file (extension .hex) as required by MPLAB, 
+          in addition to the format chosen by the customer.<p>
+
+          To choose COFF, use the option <tt>-Fcoff</tt> from the command line, or 
+          choose COFF as output format in the IAR Embedded Workbench.<p>
+
+          Local variable names are combined with the name of the function 
+          they are declared in. For instance:<p>
+
+          <ul><tt>void test( void )<br>
+          {<br>
+            char p;         // Local variable<br>
+            ...<br>
+          }</tt></ul><p>
+
+          where <tt>p</tt> would receive the name <tt>test__p</tt> to distinguish it from a variable <tt>p</tt> 
+          declared in another function.</li><p>
+<li>
+          Accessing an SFR register from within an inline assembler statement 
+          can generate errors if you do not observe some rules. If a variable 
+          is only referred to from within an assembler statement, it should 
+          also be declared <tt>__root</tt> to prevent the compiler to remove it 
+          before the assembler can parse the expression. (Note that the I/O 
+          files are not declared <tt>__root</tt> by default). If you attempt to access
+          an SFR that is declared with an anonymous union, the name will be 
+          prefixed with <tt>_A_</tt> to preserve the anonymous union information. This
+          means that you could access <tt>PCLATH</tt> with the name <tt>PCLATH</tt> but <tt>STATUS</tt>
+          should be referred to as <tt>_A_STATUS</tt>.</li><p>
+</ul><b>2.00A</b><ul>
+<li>
+          The runtime model version has been changed to 8.</li><p>
+
+<li>
+          The runtime model attribute <tt>__cpu</tt> has been changed from the name
+          of the CPU to the hexadecimal code representation used to identify the 
+          CPU to MPLAB.</li><p>
+
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- NEW FEATURES                                                         -->
+<!-------------------------------------------------------------------------->
+<h3><a name="features">New features</a></h3>
+<ul>
+<li>Support for the 12F629, 12F675, 16F72, 16F630, 16F676, 16F818, 16F819, 16F873A, 16F874A, 16F876A, and 16F877A devices has been added.</li>
+<li>Eeprom variables can be placed with the @ operator, allowing easier field upgrades of software.</li>
+<li>New register contents optimizations.</li>
+<li>Relational operations has been improved.</li>
+<li>Mixed size arithmetic has been improved.</li>
+<li>Improved inlining for non-static functions.</li><p>
+</ul> 
+
+<!-------------------------------------------------------------------------->
+<!-- KNOWN PROBLEMS                                                       -->
+<!-------------------------------------------------------------------------->
+<h3><a name="problems">Known problems</a></h3>
+<ul>
+<li><a name="EW11765"><b>EW11765: </b>
+	If a <tt>__bankN_func</tt> is inlined in a <tt>__bankM_func</tt>, then 
+        the overlay of the <tt>__bankN_func</tt> will placed in <tt>__bankM</tt>. 
+        To avoid this, specify --no_inline on the command line or write 
+	<tt>#pragma optimize = no_inline</tt> before the function definition.</li><p>
+
+<li><a name="picc0015"><b>PICC0015: </b>
+          Variables declared <tt>volatile</tt> may seem to be optimized away in 
+          C-SPY.
+          This is a problem with the debug information sent to C-SPY, and it
+          does not mean that the variable is not volatile.</li><p>
+<li>
+          For high-end controllers the compiler may fail to produce correct
+          jumps across pages when the size of the module exceeds the code page 
+          size. In that case it will abort with an error [Pic033]. A 
+          workaround is to rearrange the code so that the incorrect jump does 
+          not cross a code page boundary or to insert <tt>__no_operation()</tt> to push
+          the <tt>goto</tt> instruction past the page border.</li><p>
+
+<li><a name="picc0029"><b>PICC0029: </b>
+          An inline assembler line that references the PC symbol, $, is 
+          calculated incorrectly. Avoid using statements like:<p>
+
+          <ul><tt>GOTO $+1</tt></ul></li><p>
+
+<li><a name="picc0033"><b>PICC0033: </b>
+          Variables referred only from within inline assembler statements may
+          be removed by the compiler. A workaround is to declare the variable
+          <tt>__root</tt> to force the compiler to ignore it when removing unused
+          variables. See Important information and Manual corrections and 
+          updates.</li><p>
+
+<li><a name="picc0044"><b>PICC0044: </b>
+          The compiler can remove infinite loops at high optimization levels if the 
+          condition contains variables and the code inside the loop is empty. 
+
+          <p>Example:<p>
+          
+          <tt><ul>while( temp ) {}</ul></tt><p>
+
+          Workaround: Replace <tt>temp</tt> with 1.</li><p>
+
+<li>
+	  Bit access may fail for the first bit in a <tt>struct</tt> bitfield. Instead
+          of a bit access, a cast to an <tt>int</tt> will be made, generating correct
+          but large code.</li><p>
+<li>
+	  External symbols are not available to the inline assembler.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- PROGRAM CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="pcorr">Program corrections</a></h3>
+<ul>
+</ul><b>2.21A</b><ul><p>
+<li>	Under certain circumstances, an essential bank switch instruction following a call could be removed.<br>[EW11770, EW12286]</li>
+<li>    A <tt>char</tt> variable used as a switch expression could sometimes be optimized away on high-end derivatives (PIC17).<br>[EW11888]</li>
+<li>	The loop <tt>i=0; do ... while(--i);</tt> would repeat infinitely.<br>[EW11766]</li>
+<li>    Access through a generic pointer in a structure could cause an internal error.<br>[EW11339]</li>
+<li>    Bank restoration after function calls on a targets with only one general purpose register bank could fail if the last access in the function was to a bank 1 SFR.<br>[EW11240]</li>
+<li>    Switch statements with several (> 10) cases could have their switch variable optimized away.<br>[EW11222]</li>
+<li>    Placing an eeprom variable with the @ operator generated an error message.<br>[EW10639]</li>
+<li>    Bit operations on volatile variables generated one extra access.<br>[EW10064]</li>
+</ul><b>2.20A</b><ul><p>
+<li>    <a name="EW10012"><b>EW10012: </b>An issue where a carry flag would be used but not generated under high optimization was resolved.</li><p>
+<li>	<a name="CP0013"><b>CP0013: </b>An issue where the compiler failed to find the licence on certain localized Windows versions, e. g. danish Windows 98, was resolved. </li><p>
+<li>	<a name="PICC0089"><b>PICC0089: </b>Bank 2 was missing in the setup files for 17C752 and 17C762.</li><p>
+<li>	<a name="PICC0088"><b>PICC0088: </b>Functions not using bank 1 or bank 3 memory would cause missing bank switches on return under high optimization. This problem has been corrected.</li><p>
+<li>	<a name="PICC0085"><b>PICC0085: </b>Bit operations on volatile variables would cause an extra read on the address. This problem has been corrected.</li><p>
+</ul><b>2.12A</b><ul><p>
+<li>	<a name="PICC0080"><b>PICC0080: </b>An error in the device setup files for 16F627 and 16F628 caused PCLATH not to be saved during interrupts. This problem has been corrected.</li><p>
+<li>	<a name="PICC0079"><b>PICC0079: </b>An issue concerning indirect bit manipulation was resolved. For example,<p>
+	<ul>
+		<tt>__bank char *p = &c;<br>
+		*p &= 0xFE;</tt><p>
+	</ul>
+	would leave c unchanged.</li><p>
+<li>	<a name="PICC0077"><b>PICC0077: </b>Accessing the BSR (PIC17) inside a C function would halt the compilation with an internal error.</li><p>
+<li>    <a name="PICC0076"><b>PICC0076: </b>Interrupted const memory accesses 
+          could cause erratic behavior in runtime on PIC17. This problem has 
+          been corrected.</li><p>
+<li>	<a name="PICC0075"><b>PICC0075: </b><tt>while( foo()&0 )</tt> would halt compilation with an internal error.</li><p>
+<li>	An issue concerning interrupted const memory accesses where the ISR used indirect calls was resolved.</li><p>
+<li>	An error in the setup files for 16F627 and 16F628 caused user variables on location 0x21 and/or 0xA1 to be overwritten on interrupts. This error has been corrected.</li><p>
+
+</ul><b>2.10A</b><ul><p>
+<li>
+          Support added for 16F870, 16F871, 16F872.</li><p>
+
+<li><a name="picc0069"><b>PICC0069, PICC0069B: </b>
+          A file with only a constant declared function pointer to an 
+          external function resulted in an internal error: <tt>Unknown segment:
+          OVERLAYx</tt>. This has been corrected.</li><p>
+
+<li><a name="picc0070"><b>PICC0070: </b>
+        Accessing a const char with an absolute address caused an 
+          exception. This has been corrected.</li><p>
+
+<li><a name="picc0072"><b>PICC0072: </b>
+          Adding a long variable with a constant that contained zero in
+          the lowest byte generated an ADDWFC instruction without a 
+          preceding ADDWF that could result in a wrong result depending
+          on the state of the carry flag. This has been corrected.</li><p>
+
+<li><a name="picc0073"><b>PICC0073: </b>
+        The SFR SSPBUF could be accessed but not read if the destination
+          was not used. SSPBUF must always be read. This has been corrected.</li><p>
+
+<li>
+          Added segment CHECKSUM to link files. Used by the linker to store
+          the result of the checksum calculation.</li><p>
+
+<li> 
+          The 17c42a files contained incorrect memory information. This has
+          been corrected.</li><p>
+
+</ul><b>2.00D</b><ul><p>
+<li>
+          Corrected a program error that could cause registers to fail to be preserved
+          during an interrupt.</li><p>
+
+<li>
+          Corrected a program error in the C library routine <tt>qsort</tt> that resulted in an
+          unsorted result.</li><p>
+
+<li><a name="picc0068"><b>PICC0068: </b>
+        The debug versions of <tt>getchar</tt> and <tt>putchar</tt> were always loaded instead
+          of the C Library version when building a non-terminal I/O build.</li><p>
+
+</ul><b>2.00C</b><ul><p>
+<li>
+          Support added for 16C745, 16C765.</li><p>
+
+<li><a name="picc0059"><b>PICC0059: </b>
+        A file containing only a declaration of a pointer to an external
+          function caused an internal error caused by a reference to the
+          OVERLAYx segment used by the function.</li><p>
+
+<li>
+          Corrected a program error that could result in an internal error while saving
+          registers for high-end controllers.</li><p>
+
+<li>
+          The I/O-files for 16F873 and 16F876 contained SFR registers that
+          are not available for the controllers.</li><p>
+
+<li>
+          Initialization of zeroed variables in EEPROM memory for 16F627,
+          16F628, 16F873, 16F874, 16F876, and 16F877 could loop indefinetely.</li><p>
+
+</ul><b>2.00B</b><ul><p>
+<li>
+          Fixed a problem with temporary overlay variables that could cause
+          unnecessarily large overlay frames.</li><p>
+
+<li>
+          Inlined character right shifts.</li><p>
+
+</ul><b>2.00A</b><ul><p>
+<li>
+          Support added for 16F62X, 16C77X.</li><p>
+
+<li><a name="picc0052"><b>PICC0052: </b>
+        An internal error is no longer generated if you try to cast from an 
+          int to a <tt>__bank *</tt>.</li><p>
+
+<li><a name="picc0053"><b>PICC0053: </b>
+        The <tt>#pragma constseg</tt> directive now works.</li><p>
+
+<li><a name="picc0056"><b>PICC0056: </b>
+        In previous versions of the software there was a software error 
+          that could cause multiple accesses when assigning 1-bit bitfields 
+          declared as volatile. This has been corrected. The correction might, 
+          however, cause slightly larger code.</li><p>
+
+<li><a name="picc0057"><b>PICC0057: </b>
+        The C startup code failed to inform the linker of call information
+          that caused low_level_init to appear as not called resulting in 
+          incorrect memory allocation.</li><p>
+
+<li><a name="picc0058"><b>PICC0058: </b>
+        The I/O files for 16C84 and 16F84 had EEADR placed at address 0x07
+          instead of 0x09.</li><p>
+
+<li><a name="picc0060"><b>PICC0060: </b>
+        An optimization that swapped a DECF instruction and PCLATH set/clear
+          instructions before a long jump swapped instructions even if the DECF
+          instruction was preceded by a skip instruction. This only occurred on
+          mid-range controllers at the highest optimization level. </li><p>
+
+<li><a name="xlink0137"><b>XLINK0137: </b>
+        XLINK produced an incorrect COFF format that could cause MP2COD to 
+          fail to produce C debugging information. 
+          This has now been corrected.</li><p>
+
+<li>
+          Minor code optimizations to multiplication.</li><p>
+
+<li>
+          The optimizer generated incorrect code when reading the value of a 
+          const declared pointer if it was declared as below:
+
+          <p><ul><tt>char *const p = "Hello";</tt></ul><p>
+
+          This has been corrected.</li><p>
+
+<li>
+          Improved usage of MOVFP/MOVPF when reading/writing SFRs.</li><p>
+
+</ul><b>1.23A</b><ul><p>
+
+<li><a name="picc0046"><b>PICC0046: </b>
+        XLINK could disregard empty memory when generating intel-hex
+          output which could result in moved interrupt vectors when it sorted
+          the output.</li><p>
+
+<li><a name="picc0047"><b>PICC0047: </b>
+        For targets with a GPR area in bank 2 or 3, interrupt functions 
+          failed to allocate memory to save WREG in these banks. </li><p>
+
+<li><a name="picc0048"><b>PICC0048: </b>
+        Due to some internal changes in the compiler frontend, the linker 
+          could no longer remove unreferenced files, resulting in larger code 
+          and potentially larger data areas. </li><p>
+
+<li><a name="picc0049"><b>PICC0049: </b>
+        An error in the floating point library made casts converting a float 
+          to int with a float value between zero and -1.0 to be wrong. </li><p>
+
+<li>
+          The used overlay area in a function is now added as a comment to the
+          last instruction of each function.<br>
+          Ex:
+          <p><ul><tt>RETURN                       ;  Overlay area size: 1</tt></ul>
+</li><p>
+
+<li>
+          Added bitnames to PORTA/B/C/D/E where missing in I/O-files.</li><p>
+
+</ul><b>1.22C   </b><ul><p>
+
+<li><a name="picc0045"><b>PICC0045: </b>
+        Usage of empty <tt>for</tt> loops in combination with the highest speed optimization level
+          could result in an exception in the compiler.</li><p>
+
+</ul><b>1.22B</b><ul><p>
+
+<li><a name="picc0043"><b>PICC0043: </b>
+        Copy of structs for highend chips that used INDF0 and INDF1 with 
+          autoincrement only incremented FSR0.</li><p>
+
+</ul><b>1.22A</b><ul><p>
+
+<li>
+          Support added for 16F87X and 17C76X.</li><p>
+
+<li><a name="picc0037"><b>PICC0037: </b>
+        Casts from a <tt>__dptr</tt> pointer to a <tt>__bank</tt> pointer generated code that
+          could fail to detect if it was a null pointer cast.</li><p>
+
+<li><a name="picc0038"><b>PICC0038: </b>
+        The CONST segment had byte alignment instead of word alignment.</li><p>
+
+<li><a name="picc0039"><b>PICC0039: </b>
+        A bug in the assembly macro %DecShort used by the libraries caused
+          initialization of RTABLE to write over the whole code memory.</li><p>
+
+<li><a name="picc0040"><b>PICC0040: </b>
+        Added an error when trying to access <tt>__rtable</tt> and <tt>__ptable</tt> through array
+          indexing or pointers with offset.</li><p>
+
+<li><a name="picc0041"><b>PICC0041: </b>
+        Fixed a bug where we tried to store a '1' to a volatile SFR using a
+          CLRF followed by INCF to save WREG. Now for volatiles a MOVLW 1 
+          followed by MOVWF is used, for all other cases CLRF followed by INCF
+          is used.</li><p>
+
+<li>
+          Fixed a bug where the linker could remove unreferenced functions from
+          an object file resulting in potential problems with GOTOs if the size
+          of the object file exceeded the code page size.</li><p>
+
+<li>
+          Removed error [Pic039] since it is now handled elsewhere.</li><p>
+
+<li>
+          Removed error [Pic007] since it was too strict.</li><p>
+
+<li>
+          Various bit and cast optimizations added.</li><p>
+
+</ul><b>1.21A</b><ul><p>
+
+<li><a name="picc0030"><b>PICC0030: </b>
+        Casts from a <tt>__bankX</tt> pointer to a <tt>__bank</tt> pointer sometimes produced
+          the wrong value.</li><p>
+
+<li><a name="picc0031"><b>PICC0031: </b>
+        The IRP bit of the STATUS register was not tracked correctly by the 
+          compiler and the IRP modifying BCF and BSF instructions could be removed even if they
+          should not be.</li><p>
+
+<li><a name="picc0032"><b>PICC0032: </b>
+        The IRP bit of the STATUS register was set instead of cleared when
+          initializing zero data in bank 1.</li><p>
+
+<li><a name="picc0034"><b>PICC0034: </b>
+        Writes of larger objects than one byte accessed through either a
+          <tt>__bank</tt> pointer or a <tt>__dptr</tt> pointer would write garbage in all bytes
+          except the first one if the object was placed in another bank than 
+          zero.</li><p>
+
+<li><a name="picc0035"><b>PICC0035: </b>
+        Using an expression like:
+
+          <p><ul><tt>*p += 1;</tt></ul><p>
+
+          and <tt>p</tt> was a pointer to short or long and of a type other than default
+          or <tt>__bankX</tt>, the compiler failed with an internal error.</li><p>
+
+<li><a name="picc0036"><b>PICC0036: </b>
+        Using a memory attribute other than <tt>__bankX_func</tt> to declare a 
+          function generated an internal error. A new error [Pic039] is now
+          generated to prevent illegal memory attributes.</li><p>
+
+<li>
+          Minor optimizations to copying of small structs/unions.</li><p>
+
+</ul><b>1.20C</b><ul><p>
+
+<li><a name="picc0025"><b>PICC0025: </b>
+        Passing a struct member to a function could cause an internal error.</li><p>
+
+<li><a name="picc0026"><b>PICC0026: </b>
+        Sometimes casts from a <tt>__bankX</tt> pointer to a <tt>__bank</tt> pointer resulted 
+          in a [Pic006] error.</li><p>
+
+<li><a name="picc0027"><b>PICC0027: </b>
+        Accessing a <tt>__bank</tt> pointer could sometimes cause the compiler to 
+          miss a bank switch after the access.</li><p>
+
+<li><a name="picc0028"><b>PICC0028: </b>
+        Passing a struct member to a function could fail if the member was
+          accessed through a <tt>__dptr</tt> (generic) pointer.</li><p>
+
+<li>
+          Minor optimizations for logical bit operations.</li><p>
+
+</ul><b>1.20B</b><ul><p>
+
+<li><a name="picc0024"><b>PICC0024: </b>
+        Initialized variables declared <tt>__ptable</tt> were allowed.</li><p>
+
+<li>
+          The result of a signed character modulo operation could have 
+          the wrong sign.</li><p>
+
+<li>
+          A sign extend of a bitfield variable could fail to place the 
+          result in the correct memory address. </li><p>
+
+<li>
+          The compiler now allows the <tt>__monitor</tt> and <tt>__interrupt</tt> keywords to 
+          be used on the same function.</li><p>
+
+<li>
+          The compiler now correctly handles the search order for <tt>#include</tt>
+          directives. Previously a file inside <...> was sought in the same
+          directory as the file containing the include statement when it 
+          should only search in the include path.</li><p>
+
+
+</ul><b>1.20A [Demo Version Only]</b><ul><p>
+
+<li><a name="picc0018"><b>PICC0018: </b>
+        Two consecutive post increments of unsigned char variables could 
+          fail because the first was optimized from an ADDWF to an INCF 
+          with the MOVLW 1 removed, but the second still used ADDWF and 
+          depended on the MOVLW 1 to be correct.</li><p>
+
+<li><a name="picc0019"><b>PICC0019: </b>
+        Sign-extension of int bitfields was faulty and could fail if the 
+          bitfield was of the same size as the integral type.</li><p>
+
+<li><a name="picc0020"><b>PICC0020: </b>
+        Long multiplication with -1 could fail for mid-range controllers if
+          multiplied with another small negative number.</li><p>
+
+<li><a name="picc0021"><b>PICC0021: </b>
+        Negating a signed char for high-end controllers could fail because
+          of a misuse of the NEGW instruction.</li><p>
+
+<li><a name="picc0022"><b>PICC0022: </b>
+        Calls to exit made through function pointers failed since calls to
+          the exit function were made through inline code and no exit label 
+          existed.</li><p>
+
+<li><a name="picc0023"><b>PICC0023: </b>
+        A char comparison with zero did not produce a necessary bank switch
+          which could cause programs to fail if the wrong bank was active.</li><p>
+
+<li>
+          The C startup initialization code, and reading of constants for 
+          mid-range controllers could fail if the controller had more than 
+          one code page. </li><p>
+
+<li>
+          I/O files now generate an error if the I/O file used is for another
+          controller than the specified one.</li><p>
+
+<li>
+          The tutorial files force an error if not compiled for the 17C43
+          controller. (This would be the 17C756 controller from ICC version 2.20A.)</li><p>
+
+<li>
+          When an error was generated that was caused by any problem relating
+          to the processor setup files, it could sometimes result in an
+          internal error.</li><p>
+
+<li>
+          Optimized bit skip instructions, calls, shifts, switch statements 
+          and unnecessary moves.</li><p>
+
+<li>
+          A new error, [Pic034], is issued when <tt>setjmp</tt> or <tt>longjmp</tt> is called
+          to inform that they are not available for the PICmicro C compiler.</li><p>
+
+<li>
+          A new error, [Pic035], is issued when a write to a <tt>__ptable</tt> location
+          is attempted.</li><p>
+
+
+</ul><b>1.12A</b><ul><p>
+        
+<li><a name="picc0001"><b>PICC0001: </b>
+        Removed iccfloat.c and exit.c from the C-libraries. They have been
+          replaced by inline code.</li><p>
+
+<li><a name="picc0006"><b>PICC0006: </b>
+        The compiler could inccorrectly remove assembler instructions that it
+          thought were useless. This has been corrected.</li><p>
+
+<li><a name="picc0007"><b>PICC0007: </b>
+        An internal error could be generated for interrupt functions for 
+          midrange controllers that called other C functions. 
+          Interrupt functions could also fail to restore registers when 
+          exiting the interrupt function. Both these errors have been 
+          corrected.</li><p>
+
+<li><a name="picc0008"><b>PICC0008: </b>
+        A comment character in the assembler I/O file for the 16c924 
+          controller was a colon instead of a semi-colon resulting in a broken
+          library file.</li><p>
+
+<li><a name="picc0009"><b>PICC0009: </b>
+        A long addition failed to produce correct code for non-immediate
+          additions.</li><p>
+
+<li><a name="picc0010"><b>PICC0010: </b>
+        The <tt>__eeprom</tt> keyword was not recognized and generated an error when 
+          used.</li><p>
+
+<li><a name="picc0011"><b>PICC0011: </b>
+        An IORWF instruction could be optimized away, resulting in the removal
+          of code that was depending on the result of the instruction.</li><p>
+
+<li><a name="picc0012"><b>PICC0012: </b>
+        The compiler failed to inform the linker about functions making
+          indirect calls. This in turn could lead the linker to use the same
+          overlay area as other indirectly called functions and could result
+          in unexpected behavior when more than one function was called
+          indirectly.</li><p>
+
+<li><a name="picc0014"><b>PICC0014: </b>
+        The I/O files for 16c65a, 16c66 and 16c67 had the preprocessor 
+          variable <tt>__HAS_PAGES</tt> define twice resulting in an error when 
+          building the libraries and warnings when linking.</li><p>
+
+<li>
+          A signed char negation sequence, "c = -c;", could be optimized away. 
+          This caused an error in the C library functions <tt>exp</tt> and <tt>pow</tt>.</li><p>
+
+<li>
+          A float to int cast problem has been corrected, a very small number
+          could be cast to infinity instead of zero.</li><p>
+
+<li>
+          A float problem that could result in numerical errors using 
+          sin/cos/tan has been corrected.</li><p>
+
+<li>
+          Various jump optimizations have been made.</li><p>
+
+<li>
+          Moved the version number from the library build blxxx.bat files to 
+          the tstpic.bat file.</li><p>
+
+<li>
+          Removed the PTABLE write code. Consequently removed the TBLSAVE
+          segment for high-end PIC linkfiles.</li><p>
+
+<li>
+          const combined with memory keywords placed the variable as <tt>RETLW</tt>
+          instructions, but access was through the memory specifier resulting in
+          invalid reads. This has been corrected and a new warning [Pic032] is 
+          issued when the user combines const with a memory specifier 
+          explaining that the memory specifier is without effect.</li><p>
+
+<li>
+          <tt>__no_init</tt> variables located using <tt>__rtable</tt> are now  allowed. 
+          <br>Syntax:
+            <p><ul><tt>__no_init __rtable char c @ 0x1000;</tt></ul><p>
+          
+          0x1000 is the Word address. If an odd number of bytes is read, the
+          word containing the single byte reads/writes the high byte of the
+          word.</li><p>
+
+
+</ul><b>1.11A</b><ul><p>
+
+<li>
+          <tt>__set_configuration_word</tt> has been corrected.</li><p>
+
+<li>
+          A problem with bankswitching on midrange chips has been corrected.</li><p>
+
+<li>
+          An error [Pic030] is issued when you declare variables in a bank
+          which does not have a GPR area.</li><p>
+
+<li>
+          A warning [Pic031] is issued when you place a variable in a bank
+          that does not have a GPR area and the address is not between
+          0x00 and 0x20 for that bank. </li><p>
+
+<li>
+          Corrected a problem where the interrupt vector address could be doubled.</li><p>
+
+<li>
+          PCLATH related problem solved.</li><p>
+
+<li>
+          Memory contents tracking errors corrected.</li><p>
+
+<li>
+          Corrected some floating point problems.</li><p>
+
+<li>
+          Corrected a problem with initialization of global or static function 
+          pointers variables which could result in incorrect addresses.</li><p>
+
+
+</ul><b>1.10B</b><ul><p>
+
+<li>
+          Minor optimizations to the libraries and compiler.</li><p>
+
+<li>
+          A new error [Pic028] is issued when the compiler generates code that
+          uses more RAM than is available to the chosen controller. The error
+          can be changed to a warning using the <tt>--diag_warning=Pic028</tt> option.</li><p>
+
+<li>
+          An unhandled exception using optimization level 9 case has been 
+          corrected.</li><p>
+
+<li>
+          Default hexfile format was removed from the linkfiles. It collided
+          with the linker format options in the Embedded Workbench.</li><p>
+
+<li>
+          A <tt>#pragma constseg</tt> declaration could address the wrong memory.</li><p>
+
+<li>
+          The tutorial files now generate an error if compiled for a 
+          mid-range controller.</li><p>
+
+<li>
+          Fixed a <tt>__TID__</tt> check in inpic.h</li><p>
+
+<li>
+          A warning [Pic029] is issued for variables that <tt>#pragma dataseg</tt> do no
+          affect.</li><p>
+
+</ul>
+
+<!-------------------------------------------------->
+<!-- MANUAL CORRECTIONS                           -->
+<!-------------------------------------------------->
+<h3><a name="mcorr">Manual corrections</a></h3>
+
+<ul>
+</ul><b>V2.21A</b><ul><p>
+The floating point library for the PICmicro has relaxed the IEEE854 rounding rules. 
+To save memory footprint and time, the sticky bit has not been implemented. Thus a 
+rounding error of 1 LSB can be expected.<br>[EW12712] <p>
+
+</ul><b>V2.20A</b><ul><p>
+<b>LOCATION</b><p>
+The <tt>#pragma location</tt> directive specifices the location—the absolute
+address—of the variable whose declaration follows the <tt>#pragma</tt>
+directive. For example:<p>
+
+<tt><ul>#pragma location=0x10
+char PIND; // PIND is located at address 10h</ul></tt><p>
+
+The directive can also take a string specifying the segment placement for
+either a variable or a function, for example:<p>
+
+<tt><ul>#pragma location="MY_SEG"</ul></tt><p>
+This can for example be used to place a function in a specific memory area.<p>
+
+</ul><b>V2.00C</b><ul><p>
+
+<li>
+          page 191<p>
+
+          The last words in the first sentence under 'DEFINING INTERRUPT VECTORS'
+          should be "#pragma vector directive", not "vector program".</li><p>
+
+</ul><b>V2.00B</b><ul><p>
+
+<li>
+          <tt>#pragma location</tt> is now allowed on constants. The address specified is
+          a word address. The following declarations are equivalent:<p>
+
+          <ul><tt>#pragma location = 0x100
+          const int i = 200;</tt></ul><p>
+
+          or<p>
+
+          <ul><tt>const int i @ 0x100 = 200;</tt></ul><p>
+
+          A known problem is that the compiler frontend removes the variable
+          unless a reference is made. Use the <tt>__root</tt> keyword to prevent 
+          the removal.</li><p>
+
+</ul><b>V2.00A</b><ul><p>
+
+<li>
+          page 60<p>
+
+          Please read the supplied document <a href="cstartup.pdf">cstartup.pdf</a> for updated information about how to include a
+          modified cstartup in your code.</li><p>
+
+<li>
+          page 167
+
+          <b>__ROOT</b><p>
+
+          The <tt>__root</tt> attribute on a function or variable ensures that, if the 
+          module containing the function or variable is included in linked 
+          output, the function or variable is also included, whether or not it
+          is referenced by the rest of the program.<p>
+
+          Normally, only the part of the runtime library calling main and any 
+          interrupt vectors are root. This attribute can be used to make other 
+          functions and/or variables behave the same way.<p>
+
+          The <tt>__root</tt> is placed in front of the type, for example to place 
+          settings in non-volatile memory.<p>
+
+          <ul><tt>__root int settings[10];</ul></tt><p>
+
+          <tt>#pragma object_attribute</tt> can also be used. The following declaration 
+          is equivalent to the previous one:<p>
+
+          <ul><tt>#pragma object_attribute=__root<br>
+          int settings[10];</ul></tt><p>
+
+          Note: The <tt>__root</tt> keyword cannot be used in typedefs.</li><p>
+
+</ul><b>V1.23A</b><ul><p>
+
+<li>
+          <a name="picc0050"><b>PICC0050: </b></a>
+          page 61<p> 
+          If you modify CSTARTUP, you have to provide it with a define that
+          is used to set the runtime model version. For the V1.23A runtime 
+          model version that is seven, you add the following option to the 
+          command line:<p>
+          <ul><tt>-DRTVER="\"7\""</ul></tt><p>
+          
+          The <a href="#runtimemodel">current runtime model</a> version can be found at the beginning of 
+          this document.</li><p>
+
+</ul><b>V1.22A</b><ul><p>
+
+<li>
+          New intrinsic functions for flash support have been added to the <tt>inpic.h</tt> file.
+
+          Syntax:<p>
+
+            <ul><tt>int  __flash_read_int( unsigned short address );</tt></ul><p>
+
+                Read an int (14-bit) located at word address 'address'.<p>
+
+            <ul><tt>void __flash_write_int( unsigned short address, int value );</tt></ul><p>
+              
+                Write a 14-bit int 'value' at word address 'address'.<p>
+
+            <ul><tt>char __flash_read_low_char( unsigned short address );<br>
+            char __flash_read_high_char( unsigned short address );</tt></ul><p>
+
+                Read the low or high byte at word address 'address'.</li><p>
+
+</ul><b>V1.20B</b><ul><p>
+
+<li>
+          A new readme file, <a href="icc_diag.htm">icc_diag.htm</a>, that describes the PICmicro related
+          diagnostic messages, has been added and is installed in the doc
+          directory.</li><p>
+
+<li>
+          page 10<p> Under DATA REPRESENTATION:<br> 
+          <ul>Variables are stored with the least significant part located at 
+          low memory address.</ul><p>  
+          The correct text should be:<br>
+          <ul>Variables are stored with the most significant part located at the
+          low memory address.</ul></li><p>
+
+
+</ul><b>V1.20A</b><ul><p>
+
+<li>
+          page 175<p>
+          The value of the predefined symbol __IAR_SYSTEMS_ICC__ has been 
+          changed to 3.</li><p>
+
+</ul><b>V1.12A</b><ul><p>
+
+<li>
+          A new <tt>#pragma</tt> directive, <tt>optimize</tt>, has been added to decrease the level of 
+          optimization or to turn off some specific optimization. <p>
+          
+          SYNTAX:<p> <ul><tt>#pragma optimize=token [token] ...</tt></ul><p>
+
+          where token is one or more of the following:<p>
+         <ul>   
+            s               - speed optimization<br>
+            z               - size optimization<br>
+            [0-9]           - optimization level<br>
+            no_cse          - turns off common subexpression elimination<br>
+            no_unroll       - turns off loop unrolling<br>
+            no_inline       - turns off inlining of functions<br>
+            no_code_motion  - turns off rearranging of code
+	</ul><p>
+
+          Note: It is not possible to optimize for speed and size at the 
+          same time. Only one of the s and z tokens can be used.<p>
+
+          The <tt>#pragma</tt> directive affects only the function that follows 
+          immediately after the directive.<p>
+
+          Note: If the <tt>#pragma optimize</tt> directive is used to specify an 
+          optimization level that is higher than what is specified on the
+          command line, the token of the <tt>#pragma</tt> directive is ignored.</li><p>
+
+<li>
+          The linker command files make use of a new linker directive -P, that is 
+          incorrectly described in the manuals. For a correct description of
+          it, read the <a href="xlink.htm">xlink readme</a>.</li><p>
+
+<li>
+          In the chapter <tt>#pragma</tt> directives reference, the description of 
+          <tt>#pragma</tt> function is incorrect. The correct use is to use the <tt>#pragma
+          type_attribute</tt> directive instead of function. The <tt>#pragma function=default</tt> is
+          not necessary anymore since the <tt>#pragma</tt> refers only to the function
+          following immediately after the <tt>#pragma</tt>.</li><p>
+        
+<li>
+          The example used for the <tt>#pragma dataseg</tt> directive is incorrect. The correct code
+          sequence should be:
+ 	<p>
+        <ul>
+	  <tt>#pragma dataseg=MY_SEGMENT<br>
+          __no_init char myBuffer[10];<br>
+          #pragma dataseg=default</tt>
+	</ul>
+	<p>
+          Notice the use of the <tt>__no_init</tt> keyword. If it is not used, the 
+          compiler will not place the variable in MY_SEGMENT, since the
+          startup sequence needs a predefined set of segments to initialize
+          variables.</li><p>
+
+<li>
+          The segment LCODE has been removed</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MISCELLANEOUS                                                        -->
+<!-------------------------------------------------------------------------->
+<h3><a name="misc">Miscellaneous</a></h3>
+<ul>
+<li>The inlining optimization has been changed to prevent files from growing under high size optimization. Functions not defined as <tt>static</tt> will not be inlined as often as before. If a function is not called from another module, consider making it <tt>static</tt> to allow inlining.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- RELEASE HISTORY                                                      -->
+<!-------------------------------------------------------------------------->
+<h3><a name="history">Release history</a></h3>
+<ul>
+<li>V2.21A - Current release. New derivatives and improved optimizations.</li>
+<li>V2.20A - New derivatives and better switch statements.</li>
+<li>V2.12A - HTML readme files. Improved bank switching, new peephole optimizations and new derivatives. </li>
+<li>V2.10A - New optimizations. New derivatives.</li>
+</ul>
+
+<br>
+<font size=-1>
+Copyright 2001-2002 IAR Systems. All rights reserved.<br>
+</font> 
+
+</body>
+</html>

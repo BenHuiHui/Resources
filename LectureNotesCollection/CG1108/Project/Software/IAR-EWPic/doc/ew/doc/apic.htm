@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Readme file for IAR Assembler for Microchip PIC</title>
+</head>
+<body bgcolor="#ffde00">
+
+<h2>Readme file for APIC V2.21A</h2>
+<font size=-1>
+Updated: 2002-09-25 [IFRC]<br>
+Archived: $Revision: 1.9 $
+</font> 
+
+<h2>Contents</a></h2>
+  <ul>
+  <li><a href=#important>Important information</a>
+  <li><a href=#features>New features</a>
+  <li><a href=#problems>Known problems</a>
+  <li><a href=#mcorr>Manual corrections</a>
+  <li><a href=#pcorr>Program corrections</a>
+  <li><a href=#misc>Miscellaneous</a>
+  <li><a href=#history>Release history</a>
+  </ul>
+
+
+<!-------------------------------------------------------------------------->
+<!-- IMPORTANT INFORMATION                                                -->
+<!-------------------------------------------------------------------------->
+<h3><a name="important">Important information</a></h3>
+<ul><b>2.00A: </b><li>The runtime model attribute <tt>__cpu</tt> has been changed from the name
+of the CPU to the hexadecimal code representation used to identify the 
+CPU to MPLAB. To find out the correct code, open the ioxxx.inc file
+and look for <tt>RTMODEL "__cpu","xxx"</tt> where <tt>xxx</tt> is the code.</li></ul>
+
+<!-------------------------------------------------------------------------->
+<!-- NEW FEATURES                                                         -->
+<!-------------------------------------------------------------------------->
+<h3><a name="features">New features</a></h3>
+<ul>
+<li>Support for the 12F629, 12F675, 16F72, 16F630, 16F676, 16F818, 16F819, 16F873A, 16F874A, 16F876A, and 16F877A devices has been added.</li><p>
+</ul>
+
+
+<!-------------------------------------------------------------------------->
+<!-- KNOWN PROBLEMS                                                       -->
+<!------------------------------------------------------------------------->
+<h3><a name="problems">Known problems</a></h3>
+<ul><li>None.</li></ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MANUAL CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="mcorr">Manual corrections</a></h3>
+<ul>
+        <li> [Page 130] <b>The #define directive</b><p>
+
+          At the bottom of page 130, the text describing the C preprocessor 
+          #define directive is not complete.
+          Avoid using any comments at the end of a #define statement since
+          the C preprocessor just substitutes the label with the text that follows the label. 
+          This means that if you have a C++ or assembler comment after the #define:<p>
+
+          <ul><tt>#define X 3  ; Comment</tt></ul><p>
+
+          and uses X in an expression where X is not last on the line,<p>
+
+          <ul><tt>MOVPF   X, 0x20</tt></ul><p>
+  
+          the assembler will interpret everything after X as a comment.
+
+          In the above example, the preprocessor will replace X with <p>
+          <ul><tt>3 ; Comment</tt></ul><p>
+          This will in turn make the rest of the instruction, ", 0x20", to
+          be placed after the comment character and thus considered a comment 
+          by the assembler. In the above example, an error would occur since 
+          the instruction <p>
+
+          <ul><tt>MOVPF   3  ; Comment, 0x20</tt></ul><p>
+
+          is illegal, but if an expression is used like in the example at the
+          bottom of page 130, no error will be produced and errors which can be very hard to track down 
+          may occur in your code.<p></li>
+
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- PROGRAM CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="pcorr">Program corrections</a></h3>
+<ul>
+</ul><b>2.20A: </b><ul><p>
+<li><a name="EW10012"><b>PICA0083: </b>There was an error in the asm_tut.xcl assembler tutorial linker command file that caused no hex file to be produced.</li><p>
+</ul><b>2.12A: </b><ul><p>
+<li>None.</li><p>
+</ul><b>2.00B: </b><ul><p>
+<li>I/O files for 16C745 and 16C765 have been added.</li><p>
+</ul><b>2.00A: </b><ul><p>
+<li>I/O files for 16F62X and 16C77X have been added.</li><p>
+</ul><b>1.13A: </b><ul><p>
+<li>Various minor improvements.</li><p>
+</ul><b>1.12A: </b><ul><p>
+<li>Added I/O files for 16F87X and 17C76X</li>
+<li>Fixed addresses of SFRs in I/O files for 17c75x.</li><p>
+</ul><b>1.11A: </b><ul><p>
+<li>Compatible with ICCPIC V1.20A.</li><p>
+</ul><b>1.10D: </b><ul><p>
+<li>The C preprocessor could remove a defined variable if it was
+          checked within a preprocessor block which was excluded. For example:<p>
+          <ul><tt>#ifdef HIGHEND<br>
+          #ifdef PAGES<br>
+          ...   <br>
+          #else<br>
+          ...<br>
+          #endif /* PAGES */<br>
+          #else<br>
+          #ifdef PAGES<br>
+          ...    /* 0 */<br>
+          #else<br>
+          ...    /* 1 */<br>
+          #endif /* PAGES */<br>
+          #endif /* HIGHEND */<p></tt></ul>
+          If the compiler was invoked with the <tt>-DPAGES</tt> option but <tt>HIGHEND</tt>
+          was not defined, the expected code to assemble would be in the
+          <tt>/* 0 */</tt> block but was in fact the <tt>/* 1 */</tt> block.</li><p>
+
+        <li><a name="pica0017"></a><b>PICA0017:</b>
+
+          If errors occurred when assembling a file and the errors did not 
+          occur in the last module, the assembler still produced an object
+          file that in turn included an error tag in UBROF. The error would not
+          be discovered until linking. This is also the reason why some of the 
+          include files for the assembler have been wrong and have gone 
+          undetected.</li><p>
+
+
+</ul><b>1.10C: </b><ul><p><li><a name="pica0014"></a><b>PICA0014:</b> The I/O files for 16C65A, 16C66 and 16C67 had the preprocessor
+          variable __HAS_PAGES defined twice resulting in an error from
+          the assembler.</li><p>
+
+</ul><b>1.10B: </b><ul><p><li>Removed the alias tid for the preprocessor variable __TID__.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MISCELLANEOUS                                                        -->
+<!-------------------------------------------------------------------------->
+<h3><a name="misc">Miscellaneous</a></h3>
+<ul><li>Nothing</li></ul>
+
+<!-------------------------------------------------------------------------->
+<!-- RELEASE HISTORY                                                      -->
+<!-------------------------------------------------------------------------->
+<h3><a name="history">Release history</a></h3>
+<ul>
+<li>V2.21A - Current release. New derivatives.</li>
+<li>V2.20A - New derivatives.</li>
+<li>V2.12A - First version with HTML readme files. New derivatives.</li>
+</ul>
+
+<br>
+<font size=-1>
+Copyright 2001-2002 IAR Systems. All rights reserved.<br>
+</font> 
+
+</body>
+</html>

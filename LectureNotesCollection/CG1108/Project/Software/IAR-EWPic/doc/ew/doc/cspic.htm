@@ -1,0 +1,496 @@
+<html>
+<head>
+<title>Readme file for IAR C-SPY Simulator for Microchip PIC</title>
+</head>
+<body bgcolor="#ffde00">
+
+<h2>Readme file for CSPIC V2.21A</h2>
+<font size=-1>
+Updated: 2002-09-25 [IFRC]<br>
+Archived: $Revision: 1.9 $
+</font> 
+
+<h2>Contents</a></h2>
+  <ul>
+  <li><a href=#important>Important information</a>
+  <li><a href=#features>New features</a>
+  <li><a href=#problems>Known problems</a>
+  <li><a href=#mcorr>Manual corrections</a>
+  <li><a href=#pcorr>Program corrections</a>
+  <li><a href=#misc>Miscellaneous</a>
+  <li><a href=#history>Release history</a>
+  </ul>
+
+For information about the generic components of the IAR C-SPY Simulator for Microchip PIC, refer to the file <a href=cwgui.htm>Readme file for IAR C-SPY Debugger</a>
+
+<!-------------------------------------------------------------------------->
+<!-- IMPORTANT INFORMATION                                                -->
+<!-------------------------------------------------------------------------->
+<h3><a name="important">Important information</a></h3>
+<ul>
+<li>
+<b>C-SPY execution and screen updates</b><br>
+While C-SPY is executing a command (including Run), it will not
+update the screen, except for the toolbars and the non-client area.
+This means that you should turn off your screen-saver
+when you leave C-SPY running for an extended period of time.
+Switching to another application while C-SPY is executing a
+Run command will cause screen update problems when you switch back
+to C-SPY.
+While C-SPY is executing, the only way to stop it is to click the 
+Stop button in the toolbar or to use any shortcut key assigned to the Stop
+command.
+</li><p>
+<li>
+<b>Tab expansion in C-SPY</b><br>
+The source window in C-SPY does not handle tabs. Instead it expands tabs
+with the number of spaces specified in the "Tab space" field in the
+"Window Settings" dialog (Options>Settings...). If your source code
+contains tabs, the current statement and breakpoint markers may not
+appear properly aligned with the text. To adjust this, set tab space
+to 1 character.
+</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- NEW FEATURES                                                         -->
+<!-------------------------------------------------------------------------->
+<h3><a name="features">New features</a></h3>
+<ul><li>
+Support for the 12F629, 12F675, 16F72, 16F630, 16F676, 16F818, 16F819, 16F873A, 16F874A, 16F876A, and 16F877A devices has been added.
+</li><p>
+</ul> 
+
+<!-------------------------------------------------------------------------->
+<!-- KNOWN PROBLEMS                                                       -->
+<!-------------------------------------------------------------------------->
+<h3><a name="problems">Known problems</a></h3>
+<ul>
+<li>When linking with the Intel and Motorola binary formats without debug information, the byte ordering in the disassembly window is incorrect. </li><p>
+<li>The behavior of Program Memory Read, PMR, on 16C717, 16C770, 16C771, 16C925, 16C926, 16F73, 16F74, 16F76, and 16F77 is unspecified
+      when interrupted. The C-SPY simulator will warn when an interrupt occurs during PMR. Microchip
+      recommends that the global interrupt enable bit should be cleared before using PMR.</li><p>
+<li>The Memory window contents are not updated after they have been changed 
+      by macros. Refreshing can be forced by scrolling the Memory window
+      back and forth.<br>
+      [reference EW292]</li><p>
+<li>'Step'/'Step into' do not work properly in highly optimized functions.
+      In such cases explicit breakpoints or the 'Goto' command can be used.<br>
+      [reference EW245]</li><p>
+<li>Debugging files compiled with maximum optimization may cause the CALLS
+      window to fail to display properly.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MANUAL CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="mcorr">Manual corrections</a></h3>
+<ul>
+</ul><b>V1.21A</b><p><ul>
+<li>   A new format specifier has been added:<p>
+
+       <ul>%b    - binary</ul><p>
+
+     [C-SPY Expressions, Format specifiers]<p></li>
+       
+
+</ul><b>V1.20A</b><p><ul>
+  <li> A number of system macros have been added:<p>
+   
+     <b>__go</b><p><ul> Starts execution<p>
+
+                   SYNTAX<br>
+
+                   <tt>__go()</tt><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__go();</tt><p></ul>
+
+     <b>__step</b><p><ul>        Executes the next statement or instruction<p>
+                 
+                   SYNTAX<br>
+
+                   <tt>__step(kindOf)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>kindOf</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                 "OVER" - does not enter C/C++ 
+                                          functions or assembler
+                                          subroutines<br>
+
+                                 "INTO" - enters C/C++ functions
+                                          or assembler subroutines</ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__step();</tt><p></ul>
+
+     <b>__multiStep</b><p><ul>   Executes a sequence of steps<p>
+
+                   SYNTAX<br>
+
+                   <tt>__multiStep(kindOf, noOfSteps)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>kindOf</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                "OVER" - does not enter C/C++ 
+                                          functions or assembler
+                                          subroutines<br>
+
+                                 "INTO" - enters C/C++ functions
+                                          or assembler subroutines</ul><p>
+
+                   <tt><b>noOfSteps</b></tt><br><ul>     Number of steps to execute (integer)</ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__multiStep(12);</tt><p></ul>
+
+     <b>__autoStep</b><p><ul>    Steps continuously, with selectable time delay, 
+                   until a breakpoint or a program exit is detected.<p>
+
+                   SYNTAX<br>
+
+                   <tt>__autoStep(delay)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>delay</b></tt><br><ul>          Delay between steps in tenths
+                                  of a second (integer)</ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__autoStep(12);</tt><p></ul>
+
+     <b>__reset</b><p><ul>       Resets the target processor<p>
+
+                   SYNTAX<br>
+
+                   <tt>__reset()</tt><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__reset();</tt><p></ul>
+
+     <b>__calls</b><p><ul>       Toggles calls mode on or off<p>
+
+                   SYNTAX<br>
+
+                   <tt>__calls(what)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>what</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                 "ON"  - turns calls mode on<br>
+
+                                 "OFF" - turns calls mode off<br></ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__calls("ON");</tt><p></ul>
+
+     <b>__realtime</b><p><ul>    Toggles realtime mode on or off<p>
+
+                   SYNTAX<br>
+
+                   <tt>__realtime(what)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>what</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                 "ON"  - turns calls mode on<br>
+
+                                 "OFF" - turns calls mode off<br></ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__realtime("OFF");</tt><p></ul>
+
+<li> Toggling calls mode does not affect the program exit breakpoint.<br>
+     [C-SPY Reference, Control menu, Calls]</li><p>
+
+<li> Valid format specifiers in the current version are:<p><ul><tt>
+       %c    - character<br>
+       %o    - octal<br>
+       %x,%X - hexadecimal<br>
+       %s    - string</ul></tt><p>
+     Invalid or no specifier maps to the default format based on 
+     the expression type.<br>
+     [C-SPY Expressions, Format specifiers]</li><p>
+       
+<li> The return value of the '__setBreak()' system macro has been changed from<p>
+    
+       <ul><tt>int 0</tt></ul><br>
+    
+     to<br>
+
+       <ul><tt>Successful     int 0<br>
+       Unsuccessful   Non-zero error number</tt></ul><p>
+
+     [C-SPY macros, __setBreak]</li><p>
+
+<li> The definition of system macro __clearBreak() has been changed from<p>
+
+     <ul><tt>__clearBreak(address, segment)</tt></ul><br>
+
+     to<br>
+
+     <ul><tt>__clearBreak(address, segment, access)</tt></ul><p>
+
+     The meaning of the 'access' parameter is the same as in the corresponding
+     __setBreak() macro eg:<p>
+
+     <ul><tt>access</tt> -  the memory access type; concatenation of any of 'R', 'W',
+               'F', 'I' or 'O'.</li></ul><p>
+
+
+
+<li><h4> Debug session options</h4>
+
+To start a debugging session, a set of session options must be passed to C-SPY.
+You can do this by specifying options on the command line or in the 
+dialog box shown when you load a file from the File menu.
+
+There are the following general session options:<p>
+
+<b>driver option: "-d"</b> followed by name of driver to be used. Currently supported
+               drivers are: <p>
+               <ul>spic16 - simulator for mid-range (14-bit) PICs<br>
+               spic17 - simulator for high-end (16-bit) PICs<br>
+               ipic16 - ICE2000 emulator for mid-range PICs<br>
+               ipic17 - ICE2000 emulator for high-end PICs</ul><p>
+
+               This option can only be used on the command line.
+
+               Example:<p>
+
+               <ul><tt>-d spic16</tt></ul><p>
+
+<b>set-up option: "-f"</b> followed by file name containing set-up macro(s). All 
+               macros from the specified file will be registered automatically 
+               during the start-up phase.<p>
+
+               <ul>Example:<br>
+
+               <tt>-f C:\IAR\EW23\PICmicro\CWPIC\SERIAL.MAC</tt></ul><p>
+
+<b>SFR debug window: "-p"</b> followed immediately by the SFR setup file. <p>
+               <ul>Example:<br>
+               <tt>-pPIC17C43.DDF</tt></ul><p>
+</li>			
+
+
+<li><h4>Starting C-SPY from the command line</h4>
+
+If you specify a valid input file name and a driver (and any other session
+options) on the command line, C-SPY loads the input file automatically. Otherwise 
+if no driver is specified (and there is more than one installed) C-SPY asks you 
+to choose one and continues; if no input file is given, C-SPY goes into standby
+mode and you must load the input file from the File menu to continue.</li><p>
+
+<li><h4>Loading input file from the File menu</h4>
+
+When you choose a file to be loaded with the Open command on the File menu
+or from the list of recently used files, a dialog box is displayed showing 
+driver and session options to be used. You may modify them if a file to be 
+loaded needs another set of options.<p>
+
+NOTE: No driver option or input file name should be specified in the 
+"Options:" field.<p></li>
+
+
+<li><h4>Error handling in Macros</h4>
+
+Note that all error conditions encountered while processing system macros 
+are handled by the C-SPY error handler. This means that the execution 
+is stopped and a corresponding error message is displayed; the user cannot
+take care of these errors by testing macro return value.<p>
+</ul>
+<!-------------------------------------------------------------------------->
+<!-- PROGRAM CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="pcorr">Program corrections</a></h3>
+<ul>
+</ul><b>V2.20A</b><p><ul>
+<li><a NAME="EW10055"><b>EW10055: </b>Interrupt flags were not set if the GIE flag or the specific interrupt enable flag was cleared. This has been corrected.</li><p>
+
+</ul><b>V2.12A</b><p><ul>
+<li>None.</li><p>
+
+</ul><b>V2.00D</b><p><ul>
+<li><a NAME="picdtw0071"><b>PICDTW0071: </b>Watching absolute constants caused a crash in the simulator. </li><p>
+<li><a NAME="picdtw0063"><b>PICDTW0063: </b>Using <tt>#register</tt> to view registers displayed garbage.</li><p>
+<li><a NAME="picdtw0062"><b>PICDTW0062: </b>C-SPY failed to set breakpoints on odd addresses.</li><p>
+<li>Writing to EEPROM now sets the EEIF bit correctly.</li><p>
+
+
+</ul><b>V1.21B</b><p><ul>
+<li><a NAME="picdtw0042"><b>PICDTW0042: </b>C-SPY no longer generates a fatal error when debugging a file that has data in the configuration word.</li><p>
+<li>C-SPY nows displays a progress dialog while loading SFR definition data at startup.<br>
+      [reference EW303]</li><p>
+<li>C-SPY no longer leaks system resources when left running on Windows 95 or 98.<br>
+      [reference EW372]</li><p>
+<li>C-SPY no longer crashes when reloading an externally modified debug file.<br>
+      [reference EW373]</li><p>
+
+
+</ul><b>V1.21A</b><p><ul>
+<li>The source window should now correctly display longer lines (up to 512 characters).</li><p>
+<li>It is now possible to stop C-SPY program execution from the keyboard
+      either by pressing 'Esc' or using any command accelerator associated
+      with the 'Stop' command.</li><p>
+
+<li>Attributes of an anonymous struct/union are now passed onto members during
+      evaluation, thus correcting a problem that could result in incorrect
+      values in the Watch and Quickwatch windows.</li><p>
+
+<li>Corrected a problem where the "Go to" command destination address was not
+      evaluated correctly for processors with word-addressed memory.</li><p>
+
+<li>Support for the 16F87X family flash operations has been added.</li><p>
+
+<li>Bank 8 support added for 17C76X controllers.</li><p>
+
+<li>C-SPY interpreted the watch on assembler symbols using the <tt>#asm-sym</tt>
+      syntax to be a <tt>__dptr</tt> pointer and thus the value pointed to was
+      wrong. While not corrected completely, it is now interpreted as a <tt>__bank0</tt>
+      pointer that at least works for the ?A0 kind of symbols used by the
+      C compiler.</li><p>
+
+
+</ul><b>V1.20B</b><p><ul>
+<li><a NAME="picdtw0002"><b>PICDTW0002: </b>
+      The address of variables declared as <tt>__ptable</tt>, <tt>__rtable</tt> and <tt>const</tt> were 
+      misinterpreted as half of their correct value and caused the watch and 
+      locals windows to display wrong values.</li><p>
+<li><a NAME="picdtw0025"><b>PICDTW0025: </b>
+      Disassembled instructions that contain very long variable names could
+      generate a fatal error that forced C-SPY to exit.</li><p>
+
+
+</ul><b>V1.20A (Demo Version Only)</b><p><ul>
+<li><a NAME="picdtw0016"><b>PICCDTW0016: </b>
+      Sometimes the last bitfields in a struct were not updated correctly, and 
+      displayed a zero value.</li><p>
+
+<li>Unable to open file when the filename was typed manually.
+    <br>[reference EW301]</li><p>
+
+<li>Problem with the Macro Files dialog when 'hide known extensions' was 
+      enabled in the file explorer.
+      <br>[reference EW306]</li><p>
+
+<li>Applying Quickwatch/Watch to a macro name not followed by 
+      a left parenthesis crashed C-SPY.
+      <br>[reference EW309]</li><p>
+
+<li>The following system macros have been added:<br>
+<ul>
+        '__go'<br>
+        '__step'<br>
+        '__multiStep'<br>
+        '__autoStep'<br>
+        '__reset'<br>
+        '__calls'<br>
+        '__realtime'<br>
+</ul>
+      - see <a href=#mcorr>"Manual corrections and updates"</a>.</li><p>
+
+<li>It is now possible to read input files in the Intel-Extended format.</li><p>
+
+<li>Loading an input file with a name containing a character greater than '~' resulted in fatal error: "Input file multiply defined".
+      <br>[reference EW267]</li><p>
+
+<li>Count value 0 is no longer accepted by the <tt>__setBreak()</tt> system macro.
+      <br>[reference EW288]</li><p>
+
+<li>A problem with delayed profiling start after profiling reset has been corrected.
+      <br>[reference EW278]</li><p>
+
+<li>The <tt>__setBreak()</tt> system macro has been changed to return an error status - see "Manual corrections and updates".
+      <br>[reference EW265]</li><p>
+
+<li>Duplicate windows could appear in C-SPY when opening a session.
+      <br>[reference EW281]</li><p>
+
+<li>The source timestamp mismatch warnings could not be turned off.
+      <br>[reference EW258]</li><p>
+
+<li>Failed to read SFR definitions when session was reloaded.
+      <br>[reference EW270]</li><p>
+
+<li>The memory window had problems at end of memory with 32-bit address.
+      <br>[reference EW271]</li><p>
+
+<li>The state of Real-time and Calls was not remembered between sessions.
+      <br>[reference EW255]</li><p>
+
+
+</ul><b>V1.11B</b><p><ul>
+<li>Code memory is now initialized to 0xFFFF instead of 0x0000.</li><p>
+
+</ul><b>V1.11A</b><p><ul>
+<li>An error in the PCLATH simulation has been corrected.</li><p>
+
+</ul><b>V1.10B</b><p><ul>
+<li>The TRIS and OPTION instructions have been added for the PIC16.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MISCELLANEOUS                                                        -->
+<!-------------------------------------------------------------------------->
+<h3><a name="misc">Miscellaneous</a></h3>
+<ul><li>Simulation of the Program Memory Read (PMR) in 16C717, 16C770, 16C771, 16C925, 16C926, 16F73, 16F74, 16F76, and 16F77 has been added. </li></ul>
+
+<!-------------------------------------------------------------------------->
+<!-- RELEASE HISTORY                                                      -->
+<!-------------------------------------------------------------------------->
+<h3><a name="history">Release history</a></h3>
+<ul>
+<li>V2.21A - Current release. New derivatives.</li>
+<li>V2.20A - New derivatives and program corrections.</li>
+<li>V2.12A - First release with HTML readme files. New derivatives.</li>
+</ul>
+
+<br>
+<font size=-1>
+Copyright 2001-2002 IAR Systems. All rights reserved.<br>
+</font> 
+
+</body>
+</html>

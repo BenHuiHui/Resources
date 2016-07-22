@@ -1,0 +1,552 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="Lars-Ove Karlsson">
+   <title>Readme file for IAR C-SPY Debugger</title>
+</head>
+<body bgcolor="#FFDE00">
+
+<h2>Readme file for IAR C-SPY Debugger V2.31D</h2>
+<font size=-1>Updated: 2001-11-12 [IWAG, IBEV]</font>
+
+<h2>Contents</h2>
+
+<ul>
+<li><a href="#important">Important information</a></li>
+
+<li><a href="#mcorr">Manual corrections and updates</a></li>
+
+<li><a href="#problems">Known problems in the current version</a></li>
+
+<li><a href="#pcorr">Program corrections and updates</a></li></ul>
+
+
+
+
+
+
+
+
+
+
+
+<h3><a NAME="important"></a>Important information</h3>
+
+<ul><h4>Additional documentation</h4>
+
+<!-- PACK3 and older, optional!!! -->
+<h4>The file "deislxxx.isu"</h4>
+
+<ul>After installing the IAR C-SPY Debugger, you may notice a file named
+"deislxxx.isu" located in your target installation directory (xxx is
+a number). This file contains uninstallation information to enable you to
+automatically uninstall the IAR C-SPY Debugger by opening the control panel
+"Add/Remove programs". Although deleting this file does not affect the
+operation of the IAR C-SPY Debugger, it does mean that you can not automatically
+uninstall it.</ul>
+
+<h4>C-SPY execution and screen updates</h4>
+
+<ul>While C-SPY is executing a command (including run), it will not
+update the screen, except for the toolbars and the non-client area.
+This means that you are recommended to turn off your screen-saver
+when leaving C-SPY running for an extended period of time.
+Further switching to another application while C-SPY is executing a
+"Run" command will cause screen update problems when switching back
+to C-SPY.
+While C-SPY is executing, the only way to stop it is to press the stop
+button in the toolbar or to use any key accelerator assigned to the stop
+command.</ul>
+
+<h4>Tab expansion in C-SPY</h4>
+
+<ul>The Source window in C-SPY does not handle tabs, rather it expands tabs
+with the number of spaces specified in the "Tab space" field in the
+"Window Settings" dialog (Options->Settings...). If your source code
+contains tabs, the current statement and breakpoint markers may not
+appear properly aligned with the text. To adjust this, set tab space
+to the appropriate value depending on the compiler you use. (Some
+compilers report a tab as being 1 character, others as being 8 chars.)</ul></ul>
+
+
+<h3><a NAME="mcorr"></a>Manual corrections and updates</h3>
+
+<ul><h4>C-SPY Kernel 1999-05-26</h4><p>
+
+<ul><li>A new format specifier has been added:<p>
+
+<pre>%b    - binary</pre><p>
+
+<i><font=-1>[C-SPY Expressions, Format specifiers]</i></font></ul></ul>
+       
+<ul><h4>C-SPY Kernel 1999-02-17</h4><p>
+
+<ul><li>The reference information for new system macros:<p>
+   
+ <pre>__autoStep</pre>
+ <ul>Steps continuously, with selectable time delay,</br>
+               until breakpoint or program exit is detected.<p>
+                   <h5>SYNTAX</h5>
+
+                   <pre>__autoStep(delay)</pre>
+
+                   <h5>PARAMETERS</h5>
+
+                   <pre>delay</pre><ul>Delay between steps in tenth<br>
+                                  of a second (integer)</ul><p>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__autoStep(12);</pre></ul><p>
+
+<pre>__calls</pre>       <ul>Toggles calls mode on or off<p>
+
+                   <h5>SYNTAX</h5>
+
+                   <pre>__calls(what)</pre>
+
+                   <h5>PARAMETERS</h5>
+
+                   <pre>what</pre>        <ul>Predefined string, one of:<br>
+                               
+                                 <tt>"ON"</tt>  - turns calls mode on<br>
+
+                                 <tt>"OFF"</tt> - turns calls mode off</ul>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__calls("ON");</pre></ul>
+
+<pre>__go</pre>          <ul>Starts execution<p>
+
+                   <h5>SYNTAX</h5>
+
+                   <pre>__go()</pre>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__go();</pre></ul>
+
+<pre>__multiStep</pre>   <ul>Executes a sequence of steps<p>
+
+                   <h5>SYNTAX</h5>
+
+                   <pre>__multiStep(kindOf, noOfSteps)</pre>
+
+                   <h5>PARAMETERS</h5>
+
+                   <pre>kindOf</pre>
+				           <ul>Predefined string, one of:<br>
+                               
+                                 <tt>"OVER"</tt> - does not enter C/C++ 
+                                          functions or assembler
+                                          subroutines<br>
+
+                                 <tt>"INTO"</tt> - enters C/C++ functions
+                                          or assembler subroutines</ul>
+
+                   <pre>noOfSteps</pre>     <ul>Number of steps to execute (integer)</ul>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__multiStep("INTO", 12);</pre></ul>
+
+<pre>__realtime</pre>    <ul>Toggles realtime mode on or off<p>
+
+                   <h5>SYNTAX</h5>
+
+                   <pre>__realtime(what)</pre>
+
+                   <h5>PARAMETERS</h5>
+
+                   <pre>what</pre>        <ul>Predefined string, one of:<br>
+                               
+                                 <tt>"ON"</tt>  - turns realtime mode on<br>
+
+                                 <tt>"OFF"</tt> - turns realtime mode off</ul>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__realtime("OFF");</pre></ul>
+
+     <pre>__reset</pre>       <ul>Resets the target processor<p>
+
+                   <h5>SYNTAX</h5>
+
+                   <pre>__reset()</pre>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__reset();</pre></ul>
+
+     <pre>__step</pre>        <ul>Executes the next statement or instruction<p>
+                 
+                   <h5>SYNTAX</h5>
+
+                   <pre>__step(kindOf)</pre>
+
+                   <h5>PARAMETERS</h5>
+
+                   <pre>kindOf</pre>        <ul>Predefined string, one of:<br>
+                               
+                                 <tt>"OVER"</tt> - does not enter C/C++ 
+                                          functions or assembler
+                                          subroutines<br>
+
+                                 <tt>"INTO"</tt> - enters C/C++ functions
+                                          or assembler subroutines</ul>
+
+                   <h5>RETURN VALUE</h5>
+
+                   int 0<p>
+
+                   <h5>EXAMPLE</h5>
+
+                   <pre>__step("OVER");</pre></ul></ul></ul>
+
+<ul><h4>C-SPY Kernel 1999-01-28</h4><p>
+
+<ul><li>Toggling calls mode does not affect the program exit breakpoint.<p>
+     <i><font=-1>[C-SPY Reference, Control menu, Calls]</i></font><p>
+
+   <li>Valid format specifiers in the current version are:<p>
+       <pre>%c    - character
+%o    - octal
+%x,%X - hexadecimal
+%s    - string</pre>
+     Invalid or omitted specifier maps to the default format based on 
+     the expression type.<p>
+     <i><font=-1>[C-SPY Expressions, Format specifiers]</i></font><p></ul>
+       
+<ul><li>The return value of the <tt>'__setBreak()'</tt> system macro has been changed from<p>
+    
+      <ul>int 0</ul><p>
+    
+    to<p>
+
+      <ul>Successful     int 0<br>
+      Unsuccessful   Non-zero error number</ul><p>
+
+    <i><font=-1>[C-SPY macros, __setBreak]</i></font></i></font><p></ul></ul></ul>
+
+<h3><a NAME="problems"></a>Known problems in the current version</h3>
+
+<ul><li><a NAME="ew292"><b>EW292: </b>The Memory window contents is not updated after it has been changed 
+    by macro(s). Scrolling the Memory window back and forth forces a refresh. 
+    <p>
+
+  <li><a NAME="ew245"><b>EW245: </b>'step'/'step into' fails to work properly in highly optimized functions.
+    In such cases explicit breakpoints or the 'goto' command can be used. 
+    <p></ul>
+     
+<h3><a NAME="pcorr"></a>Program corrections and updates</h3>
+
+
+
+
+<ul><h4>C-SPY Kernel 2001-11-07</h4><p>
+  <ul>
+    <li><a NAME="ew426"></a><b>EW426: </b>Use of the 'Verify All' ('-c2') 
+    option could in some cases lead to a crash.
+	This problem has been corrected.</li><p>
+
+    <li><a NAME="ew431"></a><b>EW431: </b>Evaluation of enum constants could
+	in some cases lead to an internal error. This problem has been corrected.</li><p>
+
+    <li><a NAME="ew437"></a><b>EW437: </b>Incorrect result of evaluating pointer
+	arithmetics in input files using a UBROF version older than 7.
+	This problem has been fixed.</li><p>
+
+    <li><a NAME="ew438"></a><b>EW438: </b>The value of the C-SPY macro variable
+	of a float type shown incorrectly. This problem has been fixed.</li><p>
+
+    <li><a NAME="IAR10501"></a><b>IAR10501: </b>"Optimized away" variables incorrectly shown in the Watch/QuickWatch
+    windows. This problem has been corrected.</li><p>
+  </ul>
+</ul>
+
+<ul><h4>C-SPY Kernel 2000-10-24</h4><p>
+  <ul>
+    <li><a NAME="ew414"></a><b>EW414: </b>Evaluating a C macro that expands 
+	to "::" will no longer cause a crash.</li><p>
+
+    <li><a NAME="ew416"></a><b>EW416: </b>Locals and Watch windows are now
+	updated correctly when running in "Calls off" mode.</li><p>
+
+    <li><a NAME="ew417"></a><b>EW417: </b>Corrected a problem that could cause
+	"Goto cursor" to not stop properly.</li><p>
+
+    <li><a NAME="ew420"></a><b>EW420: </b>Symbols defined in a linker command
+	file are now always untyped.</li><p>
+
+    <li><a NAME="ew421"></a><b>EW421: </b>The SFR variables could mistakenly be
+	interpreted as bit variables. This problem has been corrected.</li><p>
+
+    <li><a NAME="ew422"></a><b>EW422: </b>Corrected a problem with the
+	"Verify All" option.</li><p>
+  </ul>
+</ul>
+
+
+
+<ul><h4>C-SPY GUI 2.31D 2000-03-27</h4><p>
+
+<ul><li><a NAME="ew397"><b>EW397: </b>Corrected a problem with the initialization of the "Memory Fill" dialog.<p>
+
+  <li><a NAME="ew398"><b>EW398: </b>Corrected a problem in the "Source" window that could cause a double-click
+    to select too many characters.
+    <p></ul>
+
+<h4>C-SPY Kernel 2000-03-27</h4><p>
+
+<ul><li><a NAME="ew379"><b>EW379: </b>The use of C macros in combination with certain code optimizations
+    could result in a fatal error:<p>
+    "Input file error: 'Nonexistent source range info'".<p>
+    This problem has been corrected.<p>
+
+  <li><a NAME="ew382"><b>EW382: </b>Corrected the calculation of extended segment addresses when loading
+    Intel-Extended format.<p>
+
+  <li><a NAME="ew389"><b>EW389: </b>Referring to C/C++ function prefixed with '#' is now handled correctly.<p>
+
+  <li><a NAME="ew395"><a NAME="ew396"><b>EW395, EW396: </b>Cast operations could in some cases lead to an internal error.
+    These problems have been corrected.<p>
+
+  <li><a NAME="ew401"><b>EW401: </b>Expansion of arrays of enum constants in the "Watch" or "QuickWatch"
+    window now works correctly.<p>
+
+  <li><a NAME="ew405"><b>EW405: </b>Applying "Properties" on '#'-prefixed assembler symbols now works
+    correctly.<p></ul>
+
+<h4>C-SPY GUI 2.31C 1999-11-17</h4><p>
+
+<ul><li><a NAME="ew303"><b>EW303: </b>C-SPY nows displays a progress dialog while loading SFR definition
+    data at startup.<p>
+
+  <li><a NAME="ew372"><b>EW372: </b>Corrected a problem that caused C-SPY to leak system resources when
+    left running on Windows 95 or 98.<p>
+
+  <li><a NAME="ew373"><b>EW373: </b>Corrected a problem that could cause C-SPY to crash when reloading
+    an externally modified debug file.<p></ul>
+
+<h4>C-SPY Kernel 1999-11-15</h4><p>
+
+
+<ul><li><a NAME="ew342"><b>EW342: </b>It is no longer necessary to restart C-SPY after a fatal error
+    to run another debug session.<p>
+
+  <li><a NAME="ew365"><b>EW365: </b>The definition of an enum type with no constants defined
+    no longer causes C-SPY to crash.<p>
+
+  <li><a NAME="ew375"><b>EW375: </b>Automatic execution of code until 'main' could, in some cases,
+    result in a missing "current PC" marker or an empty source window.
+    This has now been corrected.<p></ul>
+
+<h4>C-SPY GUI 2.31B 1999-08-23</h4><p>
+
+
+<ul><li><a NAME="ew346"><b>EW346: </b>The source window should now correctly display longer lines (up to
+    512 characters).<p>
+
+  <li><a NAME="ew347"><b>EW347: </b>Corrected a problem that could cause C-SPY to discard some keyboard
+    and mouse messages.<p>
+
+  <li><a NAME="ew348"><b>EW348: </b>When changing between drivers (e.g. a ROM-monitor and simulator),
+    C-SPY no longer restores windows that are not supported in the
+    new configuration.<p>
+
+  <li><a NAME="ew356"><b>EW356: </b>Corrected a problem that would case the "Macro" dialog to crash if the
+    system had MFC42.DLL version 6 installed.<p>
+
+  <li><a NAME="ew358"><b>EW358: </b>The "match whole word" option in the "Find" dialog should now work
+    as intended.<p>
+
+  <li><a NAME="ew359"><b>EW359: </b>Under certain circumstances, double-clicking a file in the "Macro"
+    dialog would cause the dialog to close rather than adding the file.
+    This has been fixed.<p>
+
+  <li><a NAME="ew360"><b>EW360: </b>Corrected a bug that could cause a row in the "Locals" window to get
+    the wrong height.<p></ul>
+
+<h4>C-SPY Kernel 1999-08-17</h4><p>
+
+<ul><li><a NAME="ew357"><b>EW357: </b>Evaluation of variables declared as "volatile" should no longer
+    cause a crash.<p>
+
+  <li><a NAME="ew355"><b>EW355: </b>Corrected a problem in evaluation of valid '#asm_label' expressions
+    that could lead to the following error:<p>
+    "Error[112]: Unknown symbol referenced"<p>
+
+  <li><a NAME="ew354"><b>EW354: </b>Sometimes the function name was not shown in the function name combo box
+    (Source window) even though cursor was placed within the function body.
+    The name was not shown in the expanded combo box either.<p>
+
+  <li><a NAME="ew353"><b>EW353: </b>Evaluating a complex logical expression could give an incorrect result.<p>
+
+  <li><a NAME="ew351"><b>EW351: </b>Evaluating the constant 0xFFFFFFFFL resulted in an overflow user error
+    instead of the value -1L.<p>
+
+  <li><a NAME="ew350"><b>EW350: </b>An empty statement in a macro (just ";") caused C-SPY to crash.<p>
+
+  <li><a NAME="ew349"><b>EW349: </b>If a macro parameter contained a string nested in a string without being
+    preceded by a '\', C-SPY would signal an internal error rather than a
+    user error.<p>
+
+  <li><a NAME="ew343"><b>EW343: </b>Dragging an int array to the Memory window should no longer cause a crash.<p></ul>
+
+
+
+<h4>C-SPY GUI 2.31A 1999-05-26</h4><p>
+
+<ul><li><a NAME="ew133"><b>EW133: </b>It is now possible to stop C-SPY program execution from the keyboard
+    either by pressing &lt;Esc&gt; or using any command accelerator associated
+    with the 'stop' command.<p>
+
+  <li><a NAME="ew223"><b>EW223: </b>It is now possible to assign key accelerators including &lt;Del&gt;.<p>
+
+  <li><a NAME="ew293"><b>EW293: </b>Pressing &lt;Esc&gt; while having the focus in the file and function combo-boxes
+    causes focus to be set to the Source window.<p>
+
+  <li><a NAME="ew295"><b>EW295: </b>The macro file dialog now remembers column widths.<p>
+
+  <li><a NAME="ew329"><b>EW329: </b>Some command accelerators were displayed incorrectly in the menus.<p>
+
+  <li><a NAME="ew333"><b>EW333: </b>Navigating through windows with &lt;Ctrl&gt; + &lt;Tab&gt; should now work consistently.<p>
+
+  <li><a NAME="ew334"><b>EW334: </b>Corrected a problem where pressing &lt;Ctrl&gt; + &lt;End&gt; followed by &lt;End&gt; in the
+    disassembly window caused a crash.<p>
+
+  <li><a NAME="ew337"><b>EW337: </b>Corrected a problem where an invalid font setting in the Terminal I/O
+    window could cause a crash.<p></ul>
+
+<h4>C-SPY Kernel 1999-05-26</h4><p>
+
+
+<ul>  <li><a NAME="ew331"><b>EW331: </b>The value read by the '__readFile()' macro from file opened for text read
+    could sometimes be incorrect. This has been corrected.<p>
+
+  <li><a NAME="ew327"><b>EW327: </b>Attributes of anonymous structs/unions are now passed onto members during
+    evaluation, thus correcting a problem that could result in incorrect
+    values in the Watch and QuickWatch windows.<p>
+
+  <li><a NAME="ew326"><b>EW326: </b>Corrected a problem where the "Go to" command destination address was not
+    evaluated correctly for processors with word addressed memory.<p>
+
+  <li><a NAME="ew324"><b>EW324: </b>Corrected a problem where evaluating the value of bit variables gave an
+    incorrect result or crashed C-SPY.<p>
+
+  <li><a NAME="ew321"><b>EW321: </b>Applying the operator 'sizeof' to the address of a function could lead to a crash.
+    This has now been corrected.<p>
+
+  <li><a NAME="ew320"><b>EW320: </b>Inspecting the properties of an 'address of' expression  (& operator) should no
+    longer lead to an internal error.<p>
+
+  <li><a NAME="ew319"><b>EW319: </b>Inspecting properties of a bit field could lead to an internal error. This should
+    no longer be the case.<p></ul>
+
+
+
+
+<h4>C-SPY GUI 2.30D 1999-02-17</h4><p>
+
+
+  <ul><li><a NAME="ew313"><b>EW313: </b>Corrected a problem that could cause the Terminal I/O and Calls windows
+    to lose their titles.<p></ul>
+
+<h4>C-SPY Kernel 1999-03-26</h4><p>
+
+<ul><li><a NAME="ew316"><b>EW316: </b>Expanding arrays of stuct/union/class objects in QuickWatch or Watch window
+    caused a C-SPY internal error.<p>
+
+  <li><a NAME="ew312"><b>EW312: </b>Evaluating expressions containing logical operators could crash C-SPY.<p></ul>
+
+
+<h4>C-SPY GUI 2.30D 1999-02-17</h4><p>
+
+
+<ul><li><a NAME="ew301"><b>EW301: </b>Unable to open file when the filename was typed manually.<p>
+
+  <li><a NAME="ew306"><b>EW306: </b>Fixed a problem with the Macro Files dialog when 'hide known extensions'
+    was enabled in the file explorer.<p></ul>
+
+<h4>C-SPY Kernel 1999-02-17</h4><p>
+
+
+<ul>  <li><a NAME="ew309"><b>EW309: </b>Applying QuickWatch/Watch to a macro name not followed by 
+    a left parenthesis caused C-SPY to crash.<p>
+
+  <li>The following system macros have been added:
+
+<pre>__go
+__step
+__multiStep
+__autoStep
+__reset
+__calls
+__realtime</pre>
+
+	See <a href="#mcorr">Manual corrections and updates</a><p>
+
+  <li>It is now possible to read input files having the Intel-Extended format.<p>
+
+  <li><a NAME="ew267"><b>EW267: </b>Loading an input file with a name containing a character greater than '~'
+    resulted in fatal error:<p>"Input file multiply defined".<p></ul>
+
+<h4>C-SPY Kernel 1999-01-28</h4><p>
+
+
+<ul>  <li><a NAME="ew288"><b>EW288: </b>Count value 0 is no longer accepted by the <tt>'__setBreak()'</tt> system macro<p>
+
+  <li><a NAME="ew278"><b>EW278: </b>Problem with delayed profiling start after profiling reset fixed<p>
+
+  <li><a NAME="ew265"><b>EW265: </b>The <tt>'__setBreak()'</tt> system macro has been changed to return an error status.<br>
+	See <a href="#mcorr">Manual corrections and updates</a><p></ul>
+
+<h4>C-SPY GUI 2.30C 1999-01-28</h4><p>
+
+
+<ul><li><a NAME="ew281"><b>EW281: </b>Duplicate windows could appear in C-SPY when opening a session.<p></ul>
+
+<h4>C-SPY GUI 2.30B 1998-12-12</h4><p>
+
+
+<ul><li><a NAME="ew258"><b>EW258: </b>The source timestamp mismatch warnings could not be turned off.<p>
+
+  <li><a NAME="ew270"><b>EW270: </b>Failed to read SFR definitions when session was reloaded.<p>
+
+  <li><a NAME="ew271"><b>EW271: </b>Memory window had problems at end of memory with 32-bit address.<p>
+
+  <li><a NAME="ew255"><b>EW255: </b>State of Real-time and Calls were not remembered between sessions.<p></ul>
+
+<h4>C-SPY GUI 2.30A 1998-12-04</h4><p>
+
+
+  <ul><li>Initial release<p></ul>
+
+

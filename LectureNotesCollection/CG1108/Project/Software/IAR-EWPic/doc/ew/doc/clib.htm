@@ -1,0 +1,356 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="ILAK">
+   <title>Readme file for IAR C Run-time Library</title>
+</head>
+<body bgcolor="#ffde00">
+
+<h2>Readme file for CLIB V3.34L</h2>
+<font size="-1"> </font>
+<h2>Contents</A></h2>
+<ul>
+<li><A href="#important">Important Information</A>
+
+<li><A href="#mcorr">Manual Corrections and Updates</A>
+
+<li><A href="#problems">Known Problems in Current Version</A>
+
+<li><A href="#pcorr">Program Corrections and Updates</A></li>
+</ul>
+
+<h3><a NAME="important"></a>    Important Information</h3>
+<ul>
+        This readme file contains information that are valid for two 
+          products, the normal package included with a compiler (all
+          standard include files and some c files) and the whole source
+          for the library.
+          
+
+<h4> 3.34D</h4>
+<ul>
+<li>In previous versions of this file, some bugs in 
+    section 4 were put under the version for which they were reported. Now, all 
+    bugs (for all listed versions) are described under the version in which they 
+    were fixed.<p></p>             
+                
+	          </li>
+</ul>
+
+<h4> 3.34A</h4>
+<ul>
+<li>printf, CHANGED BEHAVIOR:<p>
+
+    When using <tt>REDUCED_SUPPORT</tt> (_small_write) in _formatted_write, 
+    %X, %x and %o previously zero-padded the output. Now, leading zeros are 
+    removed.<p></p>     
+	         
+	</li>
+</ul>
+
+<h4> 3.33F</h4>
+<ul>
+<li>printf, CHANGED BEHAVIOR:<p>
+
+    When using <tt>REDUCED_SUPPORT</tt> in _formatted_write, %x previously printed
+	capitals, e.g., <tt>printf(&quot;%x&quot;, 0x1f2a);</tt> outputs <tt>&quot;0x1F2A&quot;</tt>. While correcting
+	this, support was included for %X to allow the same output as before. h
+	and l modifiers are also supported in <tt>REDUCED_SUPPORT</tt> 
+    but can easily be removed when not necessary.<p></p>    
+	   </li>
+</ul>
+
+</ul>
+
+<h3><a NAME="mcorr"></a>Manual Corrections and Updates</h3>
+<ul>
+
+<h4> 3.33C</h4>
+<ul>
+<li>The <tt>exp10</tt> function is not described in manuals produced before 8th of
+    November 1996.<p>
+
+	<ul><pre>
+Include file:    math.h
+Declaration:     double exp10(double arg)
+Parameters:      arg    A double value
+Return value:    a double with the value 10^arg
+Description:     Computes the value 10^arg</pre></ul><p></p></li>
+</ul>
+
+</ul>
+
+<h3><a NAME="problems"></a>Known Problems 
+in Current Version<BR>    </h3>
+
+<h3><a NAME="pcorr"></a>Program Corrections and Updates</h3>
+<UL>
+
+<h4> 3.34L - 2001-06-15</h4>
+<ul>
+<li>sysmac.h - <tt>__IAR_SYSTEMS_ICC__</tt> set to 5 now allowed.<p></p>
+
+<li>stdlib.h, calloc.c - First parameter changed from unsigned int to size_t.<p></p>
+</li>
+</ul>
+
+<h4> 3.34K - 2000-10-06</h4>
+<ul>
+        <li>heap.c<br>
+          The rebuild info has 
+    been deleted.<p></p>
+               
+          </li>
+</ul>
+	
+<h4> 3.34J - 1999-09-16</h4>
+<ul>
+        <li>setjmp.h<br>
+          Both '<tt>setjmp</tt>' and '<tt>longjmp</tt>' 
+    must be declared as __standard_function if the target is H8/300.<p></p>     
+              </li>
+</ul>
+<h4> 3.34I - 1999-08-16</h4>
+<ul>
+        <li>strtok.c <br>
+          Fixed it when fed with a string like <tt>&quot;12|34\0567&quot;</tt>. If searching
+          for <tt>&quot;|&quot;</tt> it then returned <tt>&quot;12&quot;</tt>, <tt>&quot;34&quot;</tt>, and <tt>&quot;567&quot;</tt>.<p></p>
+
+        <li>frmwri.c (REDUCED variant)<br>
+          Added a cast in the <tt>va_arg</tt> read.<p></p>
+
+        <li>assert.h<br>
+          Deleted the warnings pragma settings.<p></p></li>
+</ul>
+<h4> 3.34H - 1999-05-20</h4>
+<ul>
+<li>stdarg.h, va_start() for ICC7700, ICC8051 ver 1 - 3.10 - Inserted a cast
+    to <tt>void *</tt><p></p>
+
+<li>frmwri.c (small_write version) - %d for negative 
+    values now prints correctly.<p></p>
+
+<li>strtol.c, strtoul.c - Overflow is now correctly 
+    identified.<p></p>       </li>
+</ul>
+
+<h4> 3.34G - 1999-02-15</h4>
+<ul>
+<li>atol.c, atoi.c, atof.c, free.c - Slight 
+optimization.<p></p>
+
+<li>ctype.h, iccext.h, icclbutl.h math.h, setjmp.h, 
+    stdio.h, stdlib.h, string.h - Deleted parameter names on function 
+    declarations.<p></p>
+
+<li>All files - Style changed whereever applicable, tabs 
+    removed.<p></p>        </li>
+</ul>
+
+<h4> 3.34F - 1998-11-24</h4>
+<ul>
+<li>malloc.c,realloc.c,heap.c,memstruc.i - Deleted <tt>align_on</tt> macro, and rewrote alignment code.<p></p>
+
+<li>malloc.c, realloc.c - Changed style of coding.<p></p>      </li>
+</ul>
+
+<h4> 3.34E - 1998-11-16</h4>
+<ul>
+<li>sysmac.h - <tt>__IAR_SYSTEMS_ICC__</tt> set to 3 now allowed.<p></p>
+
+<li>wchar_t in stddef.h is now set to <tt>__WCHAR_T_TYPE__</tt>, if defined.<p></p>  </li>
+</ul>
+
+<h4> 3.34D - 1998-09-18</h4>
+<ul>
+<li><a NAME="clib0017"></a><b>CLIB0017:</b> scanf: frmrd.c - frmrd ignored formatter 
+    string L-modifier when int was larger than short.<p></p>
+
+<li><a NAME="clib0016"></a><b>CLIB0016:</b> malloc.c - <tt>PTR_ATTRIBUTE</tt> was missing in align_on macro.<p></p>
+
+<li><a NAME="clib0015"></a><b>CLIB0015:</b> heap.c - <tt>PTR_ATTRIBUTE</tt> replaced by <tt>MEM_ATTRIBUTE</tt> for <tt>&quot;char
+    bulk_storage[MALLOC_BUFSIZE]&quot;</tt>.<p></p>
+
+<li>exp.c, log.c - test <tt>__IAR_SYSTEMS_ICC__</tt> instead of
+    <tt>__IAR_SYSTEMS_ICC</tt>.<p></p>
+
+<li>qsort.c - <tt>QSORT_MAXSIZE</tt> 
+    can be defined externally.<p></p>
+
+<li>scanf.c - <tt>SCANF_MAXLINE</tt> 
+    can be defined externally.<p></p>
+
+<li>ctype.h, iccext.h, iccbutl.h, stdarg.h - Includes 
+    sysmac.h.<p></p>
+
+<li>ctype.h, iccext.h, iccfloat.h, icclbutl.h, math.h, setjmp.h, stdarg.h,
+    stdlib.h, string.h, sysmac.h - Uses <tt>__INTRINSIC</tt> macro.<p></p>
+
+<li>stdarg.h - Test for <tt>__IAR_SYSTEMS_ICC__</tt> &gt;= 2 (before == 2).<p></p>
+
+<li>stdio.h - Removed unused pragma.<p></p>
+
+<li>stdio.h - Removed sysmac.h include.<p></p>
+
+<li>sysmac.h - Corrected definition of <tt>__IAR_SYSTEMS_ICC__</tt>.<p></p></li>
+</ul>
+
+<h4> 3.34C - 1998-07-01</h4>
+<ul>
+<li><a NAME="clib0014"></a><b>CLIB0014:</b> math.h, tan.c - Confusing constant name: <tt>'_INVPI' = 4/pi</tt>, changed to
+    <tt>1/pi</tt>.<p></p>
+
+<li><a NAME="clib0013"></a><b>CLIB0013:</b> strtol.c,strtoul.c - When string contained zeros only, e.g., <tt>&quot;0000&quot;</tt>,
+    **endptr was <tt>'0'</tt>, not <tt>'\0'</tt> as it 
+    should.<p></p>   
+    </li>
+</ul>
+
+<h4> 3.34B</h4>
+<ul>
+<li>stdarg.h - <tt>__va_start()</tt> supplied by some compilers. Two flavors of
+    <tt>va_arg()</tt> available.<p></p>
+
+<li>stddef.h - Changed definition of <tt>offsetof()</tt> macro.<p></p> </li>
+</ul>
+
+<h4> 3.34A - 1998-04-31</h4>
+<ul>
+<li><a NAME="clib0012"></a><b>CLIB0012:</b> printf: frmwri.c (_small_write), intwri.c 
+    - The small formatter did not output the correct value for 32 bit numbers 
+    when using %o.<p></p>
+
+<li><a NAME="clib0011"></a><b>CLIB0011:</b> qsort.c - The internal buffer pointer 
+    pointed wrong when calling qsort more than once.<p></p>
+
+<li><a NAME="clib0010"></a><b>CLIB0010:</b> printf: frmwri.c (_small_write) - The 
+    small formatter zero-padded output when using %x, %X and %o.<p></p>
+
+<li>sysmac.h is a new include file that governs 
+    target-dependent options in the library. A lot of files need to include 
+this.<p></p>
+
+<li>isxxx.c - <tt>#pragma function=intrinsic(0)</tt> removed.<p></p>
+
+<li>cosh.c, exp.c, exp10.c, log.c, pow.c, satan.c, sinh.c, sinus.c, sqrt.c,
+    tan.c, tanh.c, float.h, iccfloat.h, math.h - Uses <tt>__FLOAT_SIZE__</tt> and
+	<tt>__DOUBLE_SIZE__</tt> now. float.h uses <tt>__LONG_DOUBLE_SIZE__</tt> as well.<p></p>
+
+<li>limits.h - Uses <tt>__INT_SIZE__</tt>. Max and min supplied by compiler (e.g.
+    <tt>CHAR_MAX...</tt>).<p></p>
+
+<li>setjmp.h - Uses <tt>__JMP_BUF_ELEMENT_TYPE__</tt> and
+    <tt>__JMP_BUF_NUM_ELEMENTS__</tt>.<p></p>
+
+<li>stddef.h,stdio.h,stdlib.h,string.h - <tt>size_t</tt> and <tt>ptrdiff_t</tt> 
+    defined in sysmac.h.<p></p>
+
+<li>frmrd.c,frmwri.c,intwri.c - Uses <tt>VAPTR</tt> macro now.<p></p>  </li>
+</ul>
+
+<h4> 3.33H - 1998-01-19</h4>
+<ul>
+<li><a NAME="clib0009"></a><b>CLIB0009:</b> scanf: frmrd.c - <tt>sscanf(&quot;ABC&quot;, &quot;%s%n&quot;, myStr, &amp;myInt)</tt> returned with <tt>myInt
+    == 0</tt>, i.e., zero characters scanned 
+    when reaching the %n.<p></p>
+
+<li>printf: frmwri.c (reduced_support) - Modified <tt>va_arg()</tt> fetch for h-modifier to remove 32-bit 
+    target bug.<p></p>  
+         </li>
+</ul>
+
+<h4> 3.33G - 1997-09-10</h4>
+<ul>
+<li>printf: frmwri.c - Detail improvements to ANSI compliance:<p>
+    <ul><tt>+ (&quot;%0*d&quot;,-3,0)</tt> produced <tt>&quot;000&quot;</tt> instead of <tt>&quot;0  &quot;</tt>.<br>
+	    <tt>+ (&quot;%#.0o&quot;,0)</tt> should produce one zero.<br>
+		+ unsigned conversions did not ignore the <tt>&quot;+&quot;</tt> flag.<br>
+		+ unsigned conversions did not ignore the <tt>&quot; &quot;</tt> flag.<br>
+		<tt>+ (&quot;%#.2o&quot;,1)</tt> padded one extra zero.<br></ul><p></p>
+          
+<li><a NAME="clib0006"></a><b>CLIB0006:</b> printf: frmwri.c - Zero field width supplied as a argument,
+    <tt>printf(&quot;%*.0f&quot;, 0, 1.654)</tt>, will not produce any output. The correct output
+	should be <tt>&quot;1&quot;</tt>.<p></p>
+
+<li><a NAME="clib0007"></a><b>CLIB0007:</b> strtod.c - When string contains zeros only, e.g., <tt>&quot;0000&quot;</tt>, **endptr will be
+    <tt>'0'</tt>, not <tt>'\0'</tt> as it 
+    should.<p></p>
+
+<li><a NAME="clib0008"></a><b>CLIB0008:</b> stdarg.h - Some of the older IAR compilers for chip with word alignment on
+    stack generated a faulty address in some cases if an 8-bit object was
+	given as the parameter to the <tt>'va_start'</tt> macro.<p></p> 
+    </li>
+</ul>
+
+<h4> 3.33F - 1997-05-27</h4>
+<ul>
+<li><b>CLIB0005:</b> printf: frmwri.c - Zero precision, <tt>printf(&quot;%.0d&quot;,0)</tt>, prints out a <tt>&quot;0&quot;</tt> instead of nothing. ANSI says 
+    that if the argument is zero then nothing should be printed if the precision 
+    is zero.<p></p>
+
+<li>printf: frmwri.c (reduced_support) - %x and %X 
+    added. h and l modifiers added.<p></p>           
+    </li>
+</ul>
+
+<h4> 3.33E - 1997-04-17</h4>
+<ul>
+<li>Some minor adjustments in 'stdarg.h'.<p></p>
+
+<li>An uninitialized variable in 'libtest.c' could make 
+    the test crash.<p></p>        
+    </li>
+</ul>
+
+<h4> 3.33D - 1997-03-20</h4>
+<ul>
+<li>stdio.h - Two new functions have been added <tt>'vprintf'</tt> and <tt>'vsprintf'</tt>.<p>
+    <ul><pre>
+vprintf : Works as 'printf' with the variable argument list of
+          'printf(...)' replaced with a 'va_list' argument.
+
+vsprintf: Works as 'sprintf' with the variable argument list of
+          'sprintf(...)' replaced with a 'va_list' argument.
+</pre></ul>For more information about these functions, see the ANSI standard 
+    definition.<p></p>
+
+<li><a NAME="clib0002"></a><b>CLIB0002:</b> stdarg.h - The function/macro <tt>'va_end'</tt> does now return <tt>((void)0)</tt> as default.<p></p>
+
+<li><a NAME="clib0003"></a><b>CLIB0003:</b> printf/scanf: frmwri.c, frmrd.c - When using pointer formatter ( %p ) the
+    default format for <tt>scanf</tt> was decimal number and the default format for
+	printf was hexadecimal number. The <tt>scanf</tt> has 
+    been changed to have hexadecimal number as default.<p></p>
+
+<li><a NAME="clib0004"></a><b>CLIB0004:</b> scanf: frmrd.c - <tt>'scanf'</tt> assumed that <tt>'short'</tt> was the same as <tt>'int'</tt> and therefore scanned a 32-bit value when the 
+    formatter &quot;%h&quot; was given.<p></p> 
+              
+    </li>
+</ul>
+
+<h4> 3.33C - 1996-12-19</h4>
+  <UL>
+<li>printf: (and releated functions) - The <tt>printf</tt> functions default precision
+    is set to 6 digits. In earlier version <tt>printf</tt> could write 
+    seven or more digits.<p></p>
+
+<li>printf:(and releated functions) - When:<p>
+    <ul>- the conversion specifier is d or i<br>
+	    - the field with is set to zero<br>
+		- the value to be printed is zero<p></p></ul>then there should be no character written. 
+    In earlier version a zero will be written but not in this version.<p></p>
+
+<li>scanf:(and releated functions) - When scanning for a 
+    float/double number the buffer pointer would not be updated to point out the 
+    next character to be read. The pointer still point out the last character 
+    read. This means that the last digit in the float/double number will the 
+    next character to be read.<p></p>
+
+<li>math.h: - The declaration of <tt>exp10</tt> is missing. Should be: <tt>MEMORY_ATTRIBUTE
+    double exp10 (double __arg);</tt></li></UL></UL>
+<P><TT></TT>&nbsp;</P>
+<P><TT>$Revision: 1.4 $</TT></P><p></p>
+<font size="-1">Copyright 2000 IAR Systems. All rights reserved.</font>
+</body>
+</html>

@@ -1,0 +1,1764 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.73 [en] (WinNT; I) [Netscape]">
+   <title>Recent Manual Updates for XLINK V4.53M</title>
+</head>
+<body bgcolor="#FFDE00">
+
+<h2>Recent Manual Updates for XLINK V4.53M</h2>
+<font size=-1>Updated: July 10, 2002 [IJYB]</font>
+<br><font size=-1>Archived: $Revision: 1.33 $</font><p>
+
+This document is a supplement to the XLINK Release Notes, <a
+href=xlink.htm>xlink.htm</a>, and contains recent changes to the XLINK
+manual. Each section or sub-section is marked with the XLINK version
+of its most recent change. No attempt is made to represent a history
+of changes in this file. It documents only the current state of
+affairs.<p>
+
+If you are using XLINK in the Embedded Workbench integrated
+development environment, you may need a newer version of the Embedded
+Workbench for the relevant target in order to take full advantage of
+recently added features.<p>
+
+<ul>
+<tt>[4.52A]&nbsp;</tt><a HREF="#chap01">Added Output Formats</a><br>
+<tt>[4.51P]&nbsp;</tt><a HREF="#chap02">IEEE-695 Details</a><br>
+<tt>[4.48J]&nbsp;</tt><a HREF="#chap03">XCOFF78K Details</a><br>
+<tt>[4.51Q]&nbsp;</tt><a HREF="#chap04">Checksums and Fillers (-H -J -h)</a><br>
+<tt>[4.49C]&nbsp;</tt><a HREF="#chap05">Code Duplication (-K)</a><br>
+<tt>[4.48J]&nbsp;</tt><a HREF="#chap06">Pack Segments (-P)</a><br>
+<tt>[4.51T]&nbsp;</tt><a HREF="#chap07">Revised Segment Placement (-Z -P -b)</a><br>
+<tt>[4.51A]&nbsp;</tt><a HREF="#chap08">Expanded Segment Placement Range Syntax (-Z -P)</a><br>
+<tt>[4.51A]&nbsp;</tt><a HREF="#chap09">Function/Variable Level Linking</a><br>
+<tt>[4.53E]&nbsp;</tt><a HREF="#chap10">ELF details</a><br>
+<tt>[4.51D]&nbsp;</tt><a HREF="#chap11">Address Expressions</a><br>
+<tt>[4.53D]&nbsp;</tt><a HREF="#chap12">UBROF Versions</a><br>
+<tt>[4.52B]&nbsp;</tt><a HREF="#chap13">Address Translation (-M)</a><br>
+<tt>[4.51J]&nbsp;</tt><a HREF="#chap14">COFF Details</a><br>
+<tt>[4.51K]&nbsp;</tt><a HREF="#chap15">Scatter Loading (-Q)</a><br>
+<tt>[4.51N]&nbsp;</tt><a HREF="#chap16">Diagnostics Control (-w)</a><br>
+<tt>[4.53A]&nbsp;</tt><a HREF="#chap17">Multiple output files (-O)</a><br>
+<tt>[4.53A]&nbsp;</tt><a HREF="#chap_E">New Errors</a><br>
+<tt>[4.52A]&nbsp;</tt><a HREF="#chap_W">New Warnings</a><br>
+<tt>[4.51C]&nbsp;</tt><a HREF="#chap_L">Log of Minor Changes</a><br>
+</ul>
+
+<h3><a NAME="chap01">Added Output Formats</a></h3>
+<ul>
+When using the command line version of XLINK, the output format is selected
+with the -F command line option. In the Embedded Workbench it is selected on
+the XLINK Output Settings page.<p>
+
+<h4><a NAME="motorola-s19">
+4.52A - MOTOROLA-S19, MOTOROLA-S28 and MOTOROLA-S37</a></h4><p>
+<ul>
+    XLINK can now generate three variants of the <tt>motorola</tt> output
+    format, each using only a specific set of record types.
+    <dl>
+      <dt><tt>motorola-s19</tt>:</dt><dd>Uses the S1 and S9 record types,
+    which use 16-bit addresses.</dd>
+      <dt><tt>motorola-s28</tt>:</dt><dd>Uses the S2 and S8 record types,
+    which use 24-bit addresses.</dd>
+      <dt><tt>motorola-s37</tt>:</dt><dd>Uses the S3 and S7 record types,
+    which use 32-bit addresses.</dd>
+    </dl>
+    The <tt>motorola</tt> output format uses a mixture of the record types,
+    depending on the range of addresses output.
+</ul><p>
+
+<h4>4.51J - COFF</h4><p>
+<ul>
+    XLINK can now generate COFF format output. See the <a HREF="#chap14">COFF
+	section</a> of this document for more information about this
+	format.
+</ul><p>
+
+<h4>4.51C - ELF</h4><p>
+<ul>
+    XLINK can now generate ELF format output with DWARF format debug
+	information. See the <a HREF="#chap10">ELF section</a> of this document
+	for more information about this format.
+</ul><p>
+
+<h4>4.51A - IEE659-M, IEEE659-IS, and IEEE659-IE</h4><p>
+<ul>
+    These three new output formats produce one output file in the IEEE-695
+	format and one in, respectively, the MOTOROLA, INTEL-STANDARD or
+	INTEL-EXTENDED output format. If there is a need to supply format variant
+	options for the second format, these can be added to the "-y" option after
+	a comma.<p>
+
+    Example:
+
+    <ul><pre>-Fieee695-ie -ygbr,1</pre></ul>
+
+    This will output an IEEE-695 file using the format variant "-ygbr" and an
+    INTEL-EXTENDED file using the format variant "-y1" (or "-Y1").
+</ul><p>
+
+<h4>4.49J - AOMF80251</h4><p>
+<ul>
+    The output format AOMF80251 is an Intel object format for 80251
+    processors. XLINK follows the "Object Module Format 251 Specification"
+	revision 1.7.
+</ul><p>
+
+<h4>4.51D - UBROF, UBROF5, UBROF6, UBROF7, and UBROF8</h4><p>
+<ul>
+    The IAR Universal Binary Relocatable Object Format, UBROF, has been
+	updated to version 8.0.0. This means that XLINK will now output UBROF 8
+	files when given UBROF 8 input. The UBROF format is used by IAR's C-SPY
+	debugger and a number of other debuggers/emulators. The new version of
+	the output format can, in addition to a number of other smaller
+	improvements, result in a very significant reduction in the size of the
+	output file.<p>
+
+    In conjunction with this several new output formats have been added to
+    XLINK:
+
+    <pre>
+     -Fubrof5   Output UBROF 5 even if any input was UBROF 6
+     -Fubrof6   Output UBROF 6 even if no input was UBROF 6
+     -Fubrof7   Output UBROF 7 even if no input was UBROF 7
+     -Fubrof8   Output UBROF 8 even if no input was UBROF 8
+     -Fubrof    Output UBROF (a synonym for -Fdebug)</pre>
+
+    If you are using a debugger/emulator that reads UBROF and the output
+	file cannot be loaded, a new format version could be the cause. In that
+	case try using one of the -FubrofX variants or contact the supplier of
+	your debugger/emulator. Also be sure to check the compiler release notes
+	for any pertinent information on this issue.
+</ul><p>
+
+<h4>4.49A - SIMPLE</h4><p>
+<ul>
+    The SIMPLE output format is a very simple binary output format. Source
+	code for a SIMPLE reader is provided to make it easy to handle particular
+	output requirements at a customer site.  See the SIMPLE
+	subdirectory.
+</ul><p>
+
+<h4>4.48J - IEEE695</h4><p>
+<ul>
+    The output format IEEE-695 is supported only for certain combinations of
+	processors and debuggers/emulators. See the IEEE-695 section of this
+	document for more information about this and other issues regarding the
+	IEEE-695 format.
+</ul><p>
+
+<h4>4.48B - XCOFF78K</h4><p>
+<ul>
+    The output format xcoff78k is a NEC proprietary format and is supported
+	only for the NEC 78k series of processors. See the xcoff78k section of
+	this document for more information about this format.
+</ul><p>
+
+<li><b>4.48F - MSP430_TXT</b><p>
+    The output format msp430_txt is a simple output format used in Texas
+	Instruments Starter Kits.</li><p>
+</ul>
+
+<h3><a NAME="chap02">IEEE-695 Details</a></h3>
+<ul>
+
+<li><b>4.51A - Format Variant Modifiers.</b><p>
+    XLINK supports a number of format variant modifiers that govern particular
+	subtleties in the IEEE-695 output format through the use of the -y command
+	line option. Combinations of format variant modifiers can be used by
+	specifying more than one flag character in a single -y command line
+	option. For example, -ygl makes XLINK output global types both globally
+	and in each module.<p>
+
+    The available format variant modifiers for IEEE-695 are:
+
+    <pre>-yg  Output global types globally</pre>
+
+    <ul>Output globally visible types in a BB2 block at the beginning of the
+	    output file.</ul>
+
+	<pre>-yl  Output global types in each module</pre>
+
+    <ul>Output the globally visible types in a BB1 block at the beginning of
+	    each module in the output file.</ul>
+
+	<pre>-yb  Treat bit sections as byte sections</pre>
+
+    <ul>XLINK supports the use of IEEE-695 'based variables' to represent bit
+	    variables, and the use of bit addresses for bit-addressable sections.
+		Turning on this modifier makes XLINK treat these as if they were byte
+		variables/sections.</ul>
+
+	<pre>-ym  Adjust output for Mitsubishi PDB30 debugger</pre>
+
+    <ul>Turning on this modifier adjusts the output in some particular ways
+	    for the Mitsubishi PDB30 debugger. Note that you will need to use
+	    the 'l' and 'b' modifiers as well (<tt>-ylbm</tt>).</ul>
+
+	<pre>-ye  No block-local constants</pre>
+
+    <ul>Using this modifier will cause XLINK to not emit any block-local
+	    constant in the output file. One way these can occur is if an enum
+		is declared in a block.</ul>
+
+	<pre>-yv  Handle variable life times</pre>
+
+    <ul>Use the 'variable life time' support in IEEE-695 to output more
+	    accurate debug information for variables whose location varies.</ul>
+
+	<pre>-ys  Output stack adjust records</pre>
+
+    <ul>Output IEEE-695 'stack adjust' records to indicate the offset from
+	    the stack pointer of a virtual frame pointer.</ul>
+
+	<pre>-ya  Output module locals in BB10 block</pre>
+
+    <ul>Output information about module local symbols in BB10 (assembler
+	    level) blocks as well as in the BB3 (high level) blocks, if any.</ul>
+
+	<pre>-yr  Last return refers to end of function</pre>
+
+    <ul>Change the source line information for the last return statement in a
+	    function to refer to the last line of the function instead of the
+		line it is on.</ul>
+
+	<pre>-yd  No #define constants</pre>
+
+    <ul>Do not emit any '<tt>#define constant</tt>' records. This can
+	    sometimes drastically reduce the size of the output file.</ul></li><p>
+
+<li><b>4.51P</b><p>
+    Recommended settings for some combinations of cpus and debuggers are:
+
+	<pre>
+    6812     Noral debugger                     -ygvs
+    68HC16   Microtek debugger                  -ylb?
+    740      Mitsubishi PD38                    -ylbma
+    7700     HP RTC debugger                    -ygbr
+    7700     Mitsubishi PD77                    -ylbm
+    H8300    HP RTC debugger                    -ygbr
+    H8300H   HP RTC debugger                    -ygbr
+    H8S      HP RTC debugger                    -ygbr
+    M16C     HP RTC debugger                    -ygbr
+    M16C     Mitsubishi PD30/PDB30/KDB30        -ylbm
+    T900     Toshiba RTE900 m25                 -ygbe
+    T900     Toshiba RTE900 m15                 -ygbed</pre></li>
+</ul>
+</ul>
+
+<h3><a NAME="chap03">XCOFF78K Details</a></h3>
+<ul>
+<li><b>4.48J - Format Variant Modifiers.</b><p>
+    XLINK supports a number of format variant modifiers that govern
+	particular subtleties in the xcoff78k output format through the use
+	of the -y command line option. Combinations of format variant
+	modifiers can be used by specifying more than one flag character in
+	a single -y command line option. For example, <tt>-ysp</tt> makes XLINK
+	truncate symbols to 31 characters and strip source file paths.<p>
+
+    The available format variant modifiers for xcoff78k are:
+
+    <pre>-ys  Truncate symbols to 31 characters</pre>
+
+    <ul>Symbols names longer than 31 characters will be truncated to be
+	    exactly 31 characters. Irrespective of the setting of this
+		modifier, section names are always truncated to 7 characters if
+		longer and module names are truncated to 31 characters.</ul>
+
+	<pre>-yp  Strip source file paths</pre>
+
+    <ul>Strip the path, if any, from source file references, leaving
+	    only the name and the extension.</ul>
+
+	<pre>-ye  Include module enums</pre>
+
+    <ul>Normally XLINK will not output module local constants in the
+	    xcoff78k file. The way IAR compilers currently work these
+        include all <tt>#define</tt> constants as well as all SFRs. Turn on
+        this modifier to get them included.</ul>
+
+	<pre>-yl  Hobble line number info</pre>
+
+    <ul>When outputting debug information, ignore any source file line
+        number references that are not in a strictly increasing order
+        within a function.</ul></li><p>
+</ul>
+
+<h3><a NAME="chap04">Checksums and Fillers (-H -J -h)</a></h3>
+<ul>
+<li><b>4.51G - Filler Bytes</b><p>
+    The command line option "-H" can be used to generate filler bytes:
+          
+    <ul><pre>-Hhexstring</pre></ul>
+          
+    Fill all linker-introduced gaps between segment parts with the
+	repeated hexstring. The linker can introduce gaps because of
+	alignment restrictions, or to fill ranges given in segment placement
+	options. The normal behavior, when no -H option is given, is that
+	these gaps are not given a value in the output file.<p>
+	
+	The ranges that are filled are all the ranges into which segments
+	with any content (code or constant data bytes) are placed. For a
+	more explicit way to specify which ranges are filled, see the
+	explanation of -h below.<p>
+	
+	Example:
+          
+    <ul><pre>-HBEEF</pre></ul>
+          
+    Fill all the gaps with the value 0xbeef. Even bytes will get the
+    value 0xbe, and odd bytes will get the value 0xef.</li><p>
+
+<li><b>4.51Q - Checksum Generation</b><p>
+    The command line option "-J" can be used to generate a checksum in
+	the linker image:
+          
+    <ul><pre>-Jsize,algorithm[,flags]</pre></ul>
+          
+    Checksum all generated raw data bytes.
+    
+<pre>    size can be one of:
+        1       One byte of checksum
+        2       Two bytes of checksum
+        4       Four bytes of checksum
+
+    algorithm can be one of:
+        sum     Simple arithmetic sum
+        crc16   CRC16 (generating polynomial 0x11021)
+        crc32   CRC32 (generating polynomial 0x4C11DB7)
+        crc=n   CRC with a generating polynomial of n
+
+    flags can be a combination of:
+        1       One's complement
+        2       Two's complement
+        m       Mirror bytes</pre>
+
+    In all cases it is the least significant 1, 2 or 4 bytes of the
+	result that will be output, in the natural byte order for the
+	processor. The CRC checksum is calculated as if the following code
+	was called for each bit in the input, most significant bit of each
+	byte first, augmented with size (1, 2 or 4) bytes of zeros, starting
+	with a crc of 0:<p>
+
+<pre>
+    unsigned long
+    crc(int bit,
+        unsigned long oldcrc)
+    {
+      unsigned long newcrc = (oldcrc << 1) ^ bit;
+      if (oldcrc & 0x80000000)
+        newcrc ^= POLY;
+      return newcrc;
+    }
+</pre>
+
+    POLY is the generating polynomial. The checksum is the result of the
+    final call to this routine. If the mirror flag is given, the
+    checksum is calculated with each byte bit-reversed, that is
+    least-significant bit first, and then the result is also
+    bit-reversed. If the 1 or 2 flag is given, the checksum is the one's
+    or two's complement, respectively, of the result.<p>
+
+    Note that the above routine is not a very time efficient way to
+    calculate the checksum. See any text on crc calculation for faster
+    ways. For checksums of size 2 or 1, the needed precision in the
+    calculations will also be correspondingly lower. Also note that the
+    checksum is calculated over the bytes in the input plus a number of
+    zero bytes equal to the checksum size.<p>
+
+    The linker will place the checksum byte(s) at the label <tt>__checksum</tt>
+    in the segment CHECKSUM. This segment must be placed using the
+    segment placement options like any other segment.<p>
+
+    Example:
+
+    <ul><pre>-J4,crc32,1</pre></ul>
+
+    Calculate a 4 byte checksum using the generating polynomial
+    0x4C11DB7 and output the one's complement of the calculated value.</li><p>
+
+<li><b>4.51M - Fill ranges</b><p>
+    The command line option -h can be used to specify the ranges to
+    fill. Normally, all ranges given in segment placement commands (-Z
+    -P) into which any actual content (code or constant data) is placed
+    are filled. For example:
+
+<pre>
+    -Z(CODE)INTVEC=0-FF
+    -Z(CODE)RCODE,CODE,CDATA0=0-7FFF,F800-FFFF
+    -Z(DATA)IDATA0,UDATA0=8000-8FFF
+</pre>
+
+    If INTVEC contains anything the range 0-FF will be filled. If RCODE,
+    CODE or CDATA0 contains anything the ranges 0-7FFF and F800-FFFF
+    will be filled. IDATA0 and UDATA0 are normally only place holders for
+    variables, which means that the range 8000-8FFF will not be filled.<p>
+
+    The command line option -h can be used to explicitly specify which
+    ranges to fill. Its syntax is:
+
+    <ul><pre>-h[(<seg_type>)]{<range>}+</pre></ul>
+
+    That is, it can have an optional segment type (which can be used to
+    specify address space for architectures with multiple address
+    spaces) and one or more address ranges. For example:
+
+    <ul><pre>-h(CODE)0-FFFF</pre></ul>
+
+    or, equivalently, as segment type CODE is the default,
+
+    <ul><pre>-h0-FFFF</pre></ul>
+
+    This will cause the range 0-FFFF to be filled, regardless of what
+    ranges are specified in segment placement commands. Under many
+    circumstances the use of -h will not be needed.<p>
+
+    -h can be specified more than once, in order to specify fill ranges
+    for more than one address space.<p>
+
+    -h does not currently restrict the ranges used for checksum
+    calculation. This may change in a future revision.</li><p>
+</ul>
+
+<h3><a NAME="chap05">Code Duplication (-K)</a></h3>
+<ul>
+<li><b>4.49C - A new option to do code duplication has been added:</b>
+
+    <ul><pre>-Ksegments=increment,count</pre></ul>
+
+    Duplicate any raw data bytes from the segments `count' times, adding
+	increment to the addresses each time. In order for this to be
+	useful, the segments should likely be mentioned in a "-Z" segment
+	placement option. The count can optionally be specified as '*',
+	which means to duplicate the segments enough times to match the
+	highest number of banks actually used in a bank segment placement
+	option.<p>
+	
+	This can be used to make part of a PROM be non-banked even though
+	the entire PROM is physically banked. Use "-b" or "-P" to place the
+	banked segments into the rest of the PROM.<p>
+	
+	Example:
+
+    <ul><pre>-KRCODE0,RCODE1=20000,4</pre></ul>
+
+    Duplicate the contents of the RCODE0 and RCODE1 segments 4 times,
+	using addresses 0x20000 higher each time. This will place 5 copies
+	of each of the bytes from the segments into the output file, at the
+	addresses x, x+0x20000, x+0x40000, x+0x60000 and x+0x80000.</li><p>
+</ul>
+
+<h3><a NAME="chap06">Pack Segments (-P)</a></h3>
+<ul>
+<li><b>4.48J</b><p>
+    A new option "-P" is available, as a complement to "-Z" (segment
+	definition) and "-b" (banked segment definition). It has the syntax:
+
+    <ul><pre>-P[(type)]segments=start-end[,start-end]...</pre></ul>
+
+    The linker attempts to pack the segment parts from the segments
+	given in a "-P" option into the ranges given. In order to do this it
+	splits each segment into its segment parts and forms new segments
+	for each of the ranges. All the ranges have to be closed (have both
+	a start and an end). The segment parts will not be placed in any
+	specific order into the ranges.<p>
+
+    A segment part is the smallest linkable unit. Prior to UBROF 7 each
+	module could have at most one segment part for a particular
+	segment. Beginning with UBROF 7 a module can make several separate
+	contributions to a segment.<p>
+
+    Attempting to get the start and end (using the SFB/SFE assembler
+	operators) of a segment that has been split and reformed will not
+	work.</li><p>
+</ul>
+
+<h3><a NAME="chap07">Revised Segment Placement</a></h3>
+<ul>
+<li><b>4.51T</b><p>
+    Segment placement is now both more convenient and more powerful
+    while preserving compatibility with the old scheme.
+
+    In the new scheme, -Z (sequential placement) and -P (packed
+	placement) are the recommended segment placement command line
+	options. -b (banked placement) is now deprecated, though it will
+	likely stay around for a long time for compatibility reasons. -P now
+	supports the functionality of -b in a more convenient and powerful
+	fashion.<p>
+
+    Previously, the memory ranges given to segment placement options
+	basically had to be disjunct, since each placement option would
+	place segment in isolation from all other placement options (with
+	the exception of bit memory placement).<p>
+
+    In the new scheme, all -Z and -P commands are considered in the
+	order in which they were given, taking into account any memory
+	occupied by previously placed segments, including segment
+	duplication and anything placed at absolute addresses by the input
+	files.<p>
+
+    This makes it possible to place segments with less rigorous
+	requirements in what is left over from placing segments with more
+	strict requirements. For example, if we have two segments (Z1, Z2)
+	that must be placed in the zero page (0-FF) and three (A1, A2, A3)
+	that can be placed anywhere in available RAM (0-1FFF), we can now
+	place them like this:
+
+    <pre>
+     -Z(DATA)Z1,Z2=0-FF
+     -Z(DATA)A1,A2,A3=0-1FFF</pre>
+
+    This will place Z1 and Z2 from 0 up, giving an error if they do not
+	fit into the range given, and then place A1, A2 and A3 from the
+	first address not used by Z1 and Z2.<p>
+
+    -P differs from -Z in that it does not necessarily place the
+	segments (or segment parts) sequentially. See above for more
+	information about -P. With -P it is possible to put segment parts
+	into holes left by earlier placements.<p>
+
+    Use -Z when you need to keep a segment in one consecutive chunk,
+	when you need to preserve the order of segment parts in a segment,
+	or, more unlikely, when you need to put segments in a specific
+	order. There can be several reasons to do this, but most of them are
+	fairly obscure. The most important is to keep variables and their
+	initializers in the same order and in one block. Beginning with
+	UBROF 7 the segments used for this have attributes that direct the
+	linker to do the right thing, so -Z is no longer needed for these
+	segments.<p>
+
+    Use -P when you need to put things into several ranges, for instance
+	when doing banking.<p>
+
+    Bit segments are always placed first, regardless of where their
+	placement commands are given.<p>
+
+    Placement into far memory (FAR, FARCODE, FARCONST segment types) is
+	the odd man out. In the old scheme, -Z placed segment parts
+	consecutively, moving a segment part past a 64K boundary if
+	needed. In the new scheme, -Z places the segments that fit entirely
+	into the first page and range sequentially, and then places the rest
+	using a special variant of sequential placement that can move an
+	individual segment part into the next range if it did not fit. This
+	means, as before, that far segments can be split into several memory
+	ranges, but it is guaranteed that a far segment has a well-defined
+	start and end.<p>
+
+    There is a new modifier to the -Z segment placement command line
+    option. -Z@ will give the old segment placement behavior of
+    placing segments without taking into account any other use of the
+    address ranges given. This is basically only useful if you
+    actually want to get segment overlap.<p>
+
+</li>
+</ul>
+
+<h3><a NAME="chap08">Expanded Segment Placement Range Syntax</a></h3>
+<ul>
+<li><b>4.51A</b><p>
+    The syntax for address ranges in the -Z and -P segment placement
+	command line options has been extended to make it more convenient to
+	specify repeating ranges.<p>
+
+<ol type="1">
+<li>Ranges with a repeat count
+
+    <ul><pre>[SSS-EEE]*NNN+XXX</pre></ul>
+
+    This repeats the range SSS-EEE NNN times, adding XXX each
+	repition. The +XXX part is optional, and defaults to the length
+	of the range. For example:
+
+    <ul><pre>[1000-1FFF]*3+2000</pre></ul>
+
+    is the same as
+
+    <ul><pre>1000-1FFF,3000-3FFF,5000-5FFF</pre></ul>
+
+    and
+
+    <ul><pre>[1000-1FFF]*3</pre></ul>
+
+    is the same as
+
+    <ul><pre>1000-1FFF,2000-2FFF,3000-3FFF</pre></ul></li>
+
+<li>Paged ranges
+
+    <ul><pre>[SSS-EEE]/PPP</pre></ul>
+
+    This is the entire range SSS-EEE, split into pages of size and
+    alignment PPP. For example:
+
+    <ul><pre>[50-77F]/200</pre></ul>
+
+    is the same as
+
+    <ul><pre>50-1FF,200-3FF,400-5FF,600-77F</pre></ul>
+
+    Note that the start and end of the range do not have to coincide
+    with a page boundary.</li></ol><p>
+
+    All numbers in segment placement command line options are interpreted
+    as hexadecimal unless preceded by a '.'. That is, the numbers written
+    as "10" and by ".16" both mean the number sixteen.</li><p>
+</ul>
+<h3><a NAME="chap09">Function/Variable Level Linking</a></h3>
+<ul>
+<li><b>4.51A</b><p>
+    Linking now takes place in two steps. XLINK first does module level
+    linking and then segment part level linking.<p>
+	
+	Compilers/assemblers producing UBROF 7 or later can put individual
+	functions/variables into separate segment parts, and can represent
+	all dependencies between segment parts in the object file. This
+	enables XLINK to exclude unneeded functions/variables from a
+	build. Object files in UBROF 6 or earlier cannot represent this
+	information and thus do not take advantage of the new feature.<p>
+	
+	Module level linking starts by including all PROGRAM modules. Then
+	enough LIBRARY modules are included so as to satisfy all external
+	symbol references, if possible. When more than one LIBRARY module
+	exports a certain symbol, preference is given to the module that is
+	specified first on the command line.<p>
+	
+	Segment part level linking then starts by including all ROOT segment
+	parts in included modules, and then adds enough other segment parts
+	to satisfy all dependencies. Dependencies are either references to
+	external symbols defined in other modules or intra-module segment
+	part references. ROOT segment parts are normally the root of the C
+	runtime boot process and any interrupt vector elements.</li><p>
+</ul>
+
+<h3><a NAME="chap10">ELF details</a></h3>
+<ul>
+<li><b>4.51I - Format Version</b><p>
+    XLINK output conforms to ELF as described in "Executable and
+	Linkable Format (ELF)", and DWARF version 2, as described in "DWARF
+	Debugging Information Format" revision 2.0.0 (July 27, 1993), both
+	part of the Tools Interface Standard Portable Formats Specification,
+	Version 1.1.</li><p>
+
+<li><b>4.53E - Supported Targets</b><p>
+    The ELF format is currently supported for the 6811, 6812, 6816, Arm, 
+    MC80, M32C, SH and v850 target processors.</li><p>
+
+<li><b>4.53A - Format Variant Modifiers</b><p>
+    The available format variant modifiers for ELF/DWARF are:<p>
+
+    <pre>-ya  Format suitable for debuggers from ARM Ltd (also sets -p flag)</pre>
+
+    <ul>Adjusts the output to suit ARM Ltd debuggers. This changes the
+    flag values for some debug sections in ELF and pads all sections
+    to an even multiple of four bytes. It also has the effect of
+    turning on -yp.</ul>
+
+    <pre>-yc  Use address_class attributes for pointer types</pre>
+
+    <ul>Output an address_class attribute for pointer types based on
+    the UBROF memory attribute number. Use of this format variant
+    option requires a DWARF reader (debugger) that understands
+    these.</ul>
+
+    <pre>-yf  Suppress DWARF Call Frame Information</pre>
+
+    <ul>Do not output a .debug_frame section. Note that a .debug_frame
+    section is only generated if enough information is present in the
+    linker input files.</ul>
+
+    <pre>-ym  Output types in each compilation unit, instead of once for all</pre>
+
+    <ul>Normally, all types are output once, in the first compilation
+	    unit, and global debug info references are used to refer to
+		them in the rest of the debug information. If -ym is
+		specified, all types are output in each compilation unit, and
+		compilation unit relative references are used to refer to
+		them.</ul>
+
+    <pre>-yn  Suppress DWARF debug output</pre>
+
+    <ul>Output an ELF file with no debug information.</ul>
+
+    <pre>-yp  Multiple Elf program sections</pre>
+
+    <ul>Output one Elf program section for each segment, instead of one for
+	    all segments combined.</ul>
+
+    <pre>-ys  Ref_addr (global refs) use .debug_info (not file) offsets</pre>
+
+    <ul>Up to version 4.51R of XLINK, global debug info references
+	    (used for references to type records when -ym is not
+		specified) were offsets into the .debug_info section. This is
+		not according to the DWARF specification, and from XLINK
+		version 4.51S offsets into the entire file are instead
+		used. Specifying -ys causes XLINK to still use .debug_info
+		section offsets for these references.</ul>
+
+    <pre>-yv  Use variant use_location semantics for member pointers</pre>
+
+    <ul>The DWARF standard specifies a use_location semantics that
+    requires passing complete objects on the DWARF expression
+    stack, which is ill-defined. Turning on this option causes XLINK
+    to emit use_location attributes where the addresses of the objects
+    are passed instead. Use of this format variant option requires a
+    DWARF reader (debugger) that understands this.</ul>
+
+        <p>
+	As of version 4.51K of XLINK, ELF/DWARF format output includes
+	module local symbols. The command line option -n can be used to
+	suppress module local symbols in any output format.</li><p>
+</ul>
+
+<h3><a NAME="chap11">Address Expressions</a></h3>
+<ul>
+<li><b>4.51D - Symbolic Addresses</b><p>
+    Addresses in command line options can now use symbolic values
+	defined in earlier "-D" command line options. If the symbol can be
+	confused with a (hexadecimal) number it must be enclosed in quote
+	("'") characters. Example:
+    <pre>
+     -Dfoo=1000
+     -Dfee=1FFF
+     -Z(CODE)CODE=foo-'fee'</pre>
+
+    The last line is equivalent to:
+
+    <ul><pre>-Z(CODE)CODE=1000-1FFF</pre></ul>
+
+    Note that the symbol "fee" must be quoted since "fee" is a legal
+    hexadecimal number.</li><p>
+
+<li><b>4.51D - Address Expressions</b><p>
+    Addresses in command line options can now be given as
+	expressions. Expressions must be enclosed in parentheses. Available
+	operators are binary "*", "/", "%", "+", "-", "<<", ">>", "&", "^"
+	and "|", with the same priorities as in C. Parentheses can be used
+	for sub-expressions. Example:
+	<pre>
+     -Dfoo=1000
+     -Dlen=1000
+     -Z(CODE)CODE=foo-(foo+len-1)</pre>
+
+    The last line is equivalent to:
+
+    <ul><pre>-Z(CODE)CODE=1000-1FFF</pre></ul></li><p>
+</ul>
+
+<h3><a NAME="chap12">UBROF versions</a></h3>
+<ul>
+<li><b>4.51E - UBROF</b><p>
+    UBROF, Universal Binary Relocatable Object Format, is an object
+	format used by IAR's tools for both relocatable (into the linker)
+	and absolute (out of the linker) object files.</li><p>
+
+<li><b>4.53D - Brief History</b><p>
+    UBROF has evolved through a number of revisions. The latest version
+	of UBROF is UBROF 9.
+    <pre>
+     1986  UBROF 3    Assembler level linking. First release of this XLINK.
+     1988  UBROF 4    Adds C information - types, source info, etc.
+     1992  UBROF 5    Adds support for expanded set of IAR keywords.
+     1997  UBROF 6    Source references. More compact representation
+                      for files with many modules. Also adds detailed
+                      version info.
+     1998  UBROF 7    Further expanded type system for new generation
+                      of compilers.
+     1999  UBROF 8    Adds support for Embedded C++.
+     2001  UBROF 9    Adds support for call frame information. Enhanced
+                      statement information. Some improvements in variable
+                      information.
+                      UBROF 9.0 was a temporary release and has been
+                      superseded by UBROF 9.1.</pre></li><p>
+
+<li><b>4.53D - Supported Versions</b><p>
+    XLINK reads all UBROF versions from UBROF 3 onwards, and can output
+	all UBROF versions from UBROF 5 onwards. There is also support for
+	outputting something called "Old UBROF" which is an early version of
+	UBROF 5, close to UBROF 4.<p>
+
+    Normally XLINK outputs the same version of UBROF as used in its
+	input files. More exactly, it uses the latest version found in the
+	input files. If you have a debugger that does not support this
+	version of UBROF, XLINK can be directed to use another version. This
+	is done by using one of the command line options
+    <pre>
+     -Fubrof5
+     -Fubrof6
+     -Fubrof7
+     -Fubrof8
+     -Fubrof9</pre>
+
+    Old UBROF can be selected by using -Fdebug and the format variant
+	option "-Y#".<p>
+
+    For IAR's debugger, C-SPY, this is not a problem, which means that
+	the command line option -r, which apart from specifying UBROF output
+	also selects C-SPY specific library modules from the IAR standard
+	library, always uses the same UBROF version as found in the inputs.<p>
+
+    When XLINK outputs a version of UBROF that is earlier than the one
+	used in its inputs there is almost always some form of debug
+	information loss, though this can be minor if the input files do not
+	make critical use of new features in the newer version of UBROF.<p>
+
+    This debug information loss can consist of some of the following
+	items. For each version this list contains information that cannot
+	be represented, or not fully represented, in earlier versions of
+	UBROF.
+    <pre>
+     UBROF 5    Up to 16 memory keywords resulting in different
+                pointer types and different function calling
+                conventions.
+     UBROF 6    Source in header files. Assembler source debug.
+     UBROF 7    Support for up to 255 memory keywords. Support for
+                target type and object attributes. Enum constants
+                connected to enum types. Arrays with more than 65535
+                elements. Anonymous structs/unions. Slightly more
+                expressive variable tracking info.
+     UBROF 8    Embedded C++ object names. Added base types. Typedefs
+                used in the actual types. Embedded C++ types:
+                references and pointers to members. Class
+                members. Target defined base types.
+     UBROF 9    Call frame information. Function call step points.
+                Inlined function instances.</pre>
+
+    In each case, XLINK attempts to convert the information to something
+	that is representable in an earlier version of UBROF, but this
+	conversion is, by necessity, incomplete and can cause
+	inconsistencies. In many cases, though, notably when not much use is
+	made of the new features, the conversion will result in something
+	that is almost indistinguishable from the original as far as
+	debugging is concerned.</li><p>
+</ul>
+
+<h3><a NAME="chap13">Address Translation</a></h3>
+<ul>
+<li><b>4.52B</b><p>
+    XLINK can now do logical to physical address translation on output
+	for some output formats. Logical addresses are the addresses as seen
+	by the program, and these are the addresses used in all other XLINK
+	command line options. Normally these addresses are also used in the
+	output object files, but by using a new command line option, "-M", a
+	mapping from the logical addresses to physical addresses, as used in
+	the output object file can be established.<p>
+
+    The syntax of the -M command line option is:
+
+    <ul><pre>-M[(segment_type)]logical_ranges=physical_ranges</pre></ul>
+
+    This is very similar to a segment placment command line option (-Z
+	and -P), except that both logical_ranges and physical_ranges are
+	lists of address ranges.<p>
+
+    Each occurrence of -M defines a linear mapping from a list of
+	logical address ranges to a list of physical address ranges, in the
+	order given, byte by byte. For example:
+
+    <ul><pre>-M0-FF,200-3FF=1000-11FF,1400-14FF</pre></ul>
+
+    will define a mapping
+    <pre>
+     logical addresses 000-0FF map to physical addresses 1000-10FF
+        "        "     200-2FF  "        "         "     1100-11FF
+        "        "     300-3FF  "        "         "     1400-14FF</pre>
+
+    Several -M command line options can be given to establish a more
+	complex mapping.<p>
+
+    Address Translation can be useful in banked systems. Assume a code
+	bank at address 0x8000 of size 0x4000, replicated 4 times, occupying
+	a single physical ROM. If we want all the banks using physically
+	contiguous addresses in the output file, we can use:
+    <pre>
+     -P(CODE)BANKED=[8000-BFFF]*4+10000         // Place banked code
+     -M(CODE)[8000-BFFF]*4+10000=10000          // Single ROM at 0x10000</pre>
+
+    This means that the new segment placement commands (-P, -Z) can now
+    replace all uses of the old banked segment placement command
+    (-b). The last significant remaining feature of -b to support was
+    the limited address translation provided by -b@ and -b#. Address
+    translation is a more general and more powerful replacement.<p>
+
+    Address translation only works for some output formats, primarily
+    the simple formats with no debug information. This is the current
+    list of supported output formats:<p>
+    <pre>
+     aomf80196          aomf8051         aomf8096
+     ashling            ashling-6301     ashling-64180
+     ashling-6801       ashling-8080     ashling-8085
+     ashling-z80        extended-tekhex  hp-code
+     intel-extended     intel-standard   millenium
+     motorola           mpds-code        mpds-symb
+     pentica-a          pentica-b        pentica-c
+     pentica-d          rca              symbolic
+     ti7000             typed            zax</pre></li><p>
+</ul>
+
+<h3><a NAME="chap14">COFF Details</a></h3>
+<ul>
+<li><b>4.51J - Supported Targets</b><p>
+    XLINK currently supports COFF output for the PIC target processor,
+    tailored to work with the MPLAB debugger. MPLAB needs both an intel-hex
+	file and a COD file. To convert the file from COFF to COD use the MP2COD
+	program supplied in the Microchip MPLAB distribution.<p>
+
+    The way to use COFF output for Microchip MPLAB is to use the option
+    <tt>-Fcoff</tt> to set the primary output format, and then add the option
+    <tt>-Ointel-standard=.hex</tt> (or intel-extended) to the linker file to 
+    generate both formats at the same time.<p>
+
+    The ICCPIC linker files has the -O option added to produce intel-hex
+    files by default.<p>
+  
+    XLINK does not support debug info for include files, and for 
+    assembler files with multiple modules, may generate multiple instances
+    of the source files in the absolute listing file produced by MP2COD.<p>
+
+    XLINK also generates a varying number of dummy files that will generate
+    a warning from MP2COD that it cannot find the file specified. All these
+    files have names beginning with $$. The warnings can safely be
+	ignored.</li><p>
+</ul>
+
+<h3><a NAME="chap15">Scatter Loading (-Q)</a></h3>
+<ul>
+<li><b>4.51K</b><p>
+    XLINK can now do automatic setup for copy initialization of segments
+    (scatter loading). The new command line option -Q uses the following
+    syntax:
+
+    <ul><pre>-Qsegment=initializer_segment</pre></ul>
+
+    This will cause the linker to generate a new segment
+    `initializer_segment' into which it will place all data content of
+    the segment `segment'. Everything else, for instance symbols and
+    debugging information, will still be associated with the segment
+    `segment'. The intent is that startup code in the application will
+    then at runtime copy the contents of `initializer_segment' (in ROM)
+    to `segment' (in RAM).<p>
+
+    This is very similar to what compilers do for initialized variables
+    and is primarily intended to be used for code that needs to be in
+    RAM memory.<p>
+
+    The segment `initializer_segment' must be placed like any other
+    segment using the segment placement commands.<p>
+
+    Here's an example. Assume that the code in the segment RAMCODE
+    should be executed in RAM. Scatter loading can be used to make the
+    linker transfer the contents of segment RAMCODE (which will be in
+    RAM) into the (new) segment ROMCODE (which will be in ROM), like
+    this:
+
+    <ul><pre>-QRAMCODE=ROMCODE</pre></ul>
+
+    Then RAMCODE and ROMCODE need to be placed, using the usual segment
+    placement commands. RAMCODE needs to be placed in the relevant part
+    of RAM, and ROMCODE in ROM. Something like this:
+    <pre>
+     -Z(DATA)RAM segments,RAMCODE,Other RAM segments=0-1FFF
+     -Z(CODE)ROM segments,ROMCODE,Other ROM segments=4000-7FFF</pre>
+
+    This will reserve room for the code in RAMCODE somewhere between
+    address 0 and address 0x1FFF, the exact address depending on the
+    size of other segments placed before it. Similarly, ROMCODE (which
+    now contains all the original contents of RAMCODE) will be placed
+    somewhere between 0x4000 and 0x7FFF, depending on the other stuff
+    being placed into ROM.<p>
+
+    At some time before executing the first code in RAMCODE, the
+    contents of ROMCODE will need to be copied into it. This can be done
+    as part of the startup code (in CSTARTUP) or in some other part of
+    the code.</li><p>
+</ul>
+
+<h3><a NAME="chap16">Diagnostics Control (-w)</a></h3>
+<ul>
+<li><b>4.51N - Diagnostic IDs</b><p>
+    As the severity of diagnostic messages can now be changed, the
+    identity of a particular diagnostic now includes its original
+    severity as well as its number. That is, diagnostic messages will
+    typically be output as:
+    <pre>
+     Warning[w6]: Type conflict for external/entry ...
+     Error[e1]: Undefined external ...</pre></li><p>
+
+<li><b>4.51N - Severity Control for Diagnostics</b><p>
+    The -w option can now, in addition to its other uses, be used to
+    change the severity of particular diagnostic messages using the
+    following syntax:
+
+    <ul><pre>-w&lt;ID>[=&lt;severity>]</pre></ul>
+
+    <tt>&lt;ID&gt;</tt> is the id of a diagnostic message, which is the letter
+	'e' followed by an error number, the letter 'w' followed by a warning
+	number, or just a warning number.<p>
+
+    <tt>&lt;severity&gt;</tt> is one of 'i, 'w' or 'e'. If omitted it
+	defaults to 'i'.
+    <pre>
+     i          Ignore this diagnostic. No diagnostic output.
+     w          Emit a warning for this diagnostic.
+     e          Emit an error for this diagnostic.</pre>
+
+    -w can be used several times in order to change the severity of more
+    than one diagnostic.<p>
+
+    Fatal errors are not affected by this option.<p>
+
+    Some examples:
+    <pre>
+     -w26       Turn off warning 26
+     -ww26            "
+     -ww26=i          "
+     -we106=w   Make error 106 be a warning</pre></li><p>
+</ul>
+
+<h3><a NAME="chap17">Multiple output files (-O)</a></h3>
+<ul>
+<li><b>4.53A - Multiple output files</b><p>
+
+    <ul><pre>-O<i>format</i>[,<i>variant</i>][=<i>filename</i>]</pre></ul><p>
+
+    Any number of <tt>-O</tt> command line options can be
+    specified. Each will result in one output file using the format
+    <i>format</i>, possibly with the variant <i>variant</i> (as if
+    specified in a <tt>-Y</tt> or <tt>-y</tt> command line option). If
+    no filename is given, the output file will get the same name as
+    some other output file, or the name given in a <tt>-o</tt> command
+    line option, with the default extension for the format. If the
+    filename starts with a '<tt>.</tt>', it is assumed to be an
+    extension, and the file gets the same name as if no name was
+    given, only with the specified extension.<p>
+
+    Example:
+    <ul><pre><tt>-Odebug=foo
+-Omotorola=.s19
+-Ointel-extended,1=abs.x</tt></pre></ul><p>
+
+    This will result in one output file named <tt>foo.dbg</tt>, using
+    the UBROF format, one named <tt>foo.s19</tt>, using the MOTOROLA
+    format, and one named <tt>abs.x</tt>, using the INTEL-EXTENDED
+    format as if <tt>-Y1</tt> was also given.<p>
+
+    Output files produced by using -O will be in addition to those
+    produced from use of the -F/-o/-y command line options. This means
+    that until support for the new feature is added to the Embedded
+    Workbench, extra output files can be added to the linker command
+    file.<p>
+
+    As before, if <tt>-r</tt> is specified, only one output file is
+    generated, using the UBROF format and selecting special runtime
+    library modules for C-SPY.<p>
+
+</li>
+
+<li><b>4.53A - Restrict output to a single address space</b><p>
+
+    Output in the simple ROM output formats (intel-standard,
+    intel-extended, motorola, motorola-s19, motorola-s28,
+    motorola-s37, millenium, ti7000, rca, tektronix, extended-tekhex,
+    hp-code and mpds-code) can now be restricted to include only bytes
+    from a single address space by prefixing a format variant modifier
+    with a segment type specifying the desired address space, in
+    parentheses. This is particularly useful when used in combination
+    with the multiple output files feature (<tt>-O</tt>).<p>
+
+    Example:
+    <ul><pre><tt>-Ointel-extended,(CODE)=file1
+-Ointel-extended,(DATA)=file2</tt></pre></ul><p>
+
+    This will result in two output files, both using the
+    INTEL-EXTENDED output format. The first (named <tt>file1</tt>)
+    will contain only bytes in the address space used for the CODE
+    segment type, while the second (named <tt>file2</tt>) will contain
+    only bytes in the address space used for the DATA segment
+    type. If these address spaces are not the same, the content of the
+    two files will be different.
+
+</li>
+
+</ul>
+
+<h3><a NAME="chap_E">New Errors</a></h3>
+<ul>
+<li><b>4.53A</b><p>
+<pre>
+  133 The output format <i>format</i> cannot handle multiple address
+      spaces. Use format variants (-y -O) to specify which address
+      space is wanted
+
+      The output format used has no way to specify an address
+      space. The format variant modifier used can be prefixed with a
+      segment type to restrict output only to the corresponding
+      address space.
+
+      For example, "-Fmotorola -y(CODE)" will restrict output
+      to bytes from the address space used for the CODE segment type.
+
+      See the section on <a HREF="#chap17">multiple output files</a> for more information.
+
+  132 Module <i>module</i> ( <i>file</i> ) uses UBROF version 9.0. This version
+      of UBROF was temporary and is no longer supported by XLINK
+
+      Support for UBROF 9.0.0 has been dropped from XLINK starting
+      with XLINK 4.53A.
+</pre></li><p>
+
+<li><b>4.52A</b><p>
+<pre>
+  131 Far segment type illegal in packed placement command:
+      "<i>command</i>". Use explicit address intervals instead. For
+      example:
+          [20000-4FFFF]/10000
+
+      Using a far segment type (<tt>FARCODE</tt>, <tt>FARDATA</tt>,
+      <tt>FARCONST</tt>) is illegal in packed placement (-P).
+
+  130 Segment placement needs an address range: "<i>command</i>"
+
+      The first segment placement command (<tt>-Z -P</tt>) must have
+      an address range.
+</pre></li><p>
+
+<li><b>4.51K</b><p>
+<pre>
+  128 Segments cannot be mentioned more than once in a copy init
+      command: "-Q<i>args</i>"
+
+      Each segment can only be either the source or the target of a
+      copy init command.
+
+  127 Segment placement command "<i>command</i>" provides no address range,
+      but the last address range(s) given are not of the proper kind
+      (bit addresses versus byte addresses).
+
+      This error will occur if something like this is entered:
+
+             -Z(DATA)SEG=1000-1FFF
+             -Z(BIT)BITVARS=
+
+      Note that the first uses byte addresses and the second needs bit
+      addresses. To avoid this, provide address ranges for both.
+</pre></li><p>
+<li><b>4.51J</b><p>
+<pre>
+  126 Runtime Model Attribute "__cpu" not found. Please enter at
+      least one line in your assembly code that contains the following
+      statement: RTMODEL "__cpu","16C61". Replace 16C61 with your
+      chosen CPU. The CPU must be in uppercase.
+
+      The "__cpu" runtime model attribute is needed when producing
+      COFF output. The compiler always supplies this attribute, so
+      this error can only occur for programs consisting entirely of
+      assembler modules. At least one of the assembler modules must
+      supply this attribute.
+</pre></li><p>
+<li><b>4.51D</b><p>
+<pre>
+  124 Segment conflict for segment <i>segment</i>. In module "<i>mod1</i>" there
+      is a segment part that is of type <i>type1</i>, while in module
+      "<i>mod2</i>" there is a segment part that is of type <i>type2</i>
+
+      All segment parts for a given segment must be of the same
+      type. One reason for this conflict can be that a COMMON segment
+      is mistakenly declared RSEG (relocatable) in one module.
+
+      Another way this can happen is if COMMON and RELOCATABLE
+      segments are given in the same -P segment placement command.
+
+  123 The output format <i>format</i> does not support address translation
+      (-M, -b# or -b@)
+
+      Address translation is not supported for all output formats.
+
+  122 The address <i>address</i> is too large to be represented in the
+      output format <i>format</i>
+
+      The chosen output format <i>format</i> cannot represent the address
+      <i>address</i>. For example, the output format INTEL-STANDARD can
+      only represent addresses in the range 0-FFFF.
+
+  121 Segment part or absolute content at logical addresses <i>start</i> -
+      <i>end</i> would be translated into more than one physical address
+      range
+
+      The current implementation of address translation does not allow
+      logical addresses from one segment part (or the corresponding
+      range for absolute parts from assembler code) to end up in more
+      than one physical address range. If for example, -M0-1FFF=10000
+      and -M2000-2FFF=20000 are used, it is not ok for a single
+      segment part to straddle the boundary at address 2000.
+
+  120 Overlapping address ranges for address translation. <i>address
+      type</i> address <i>address</i> is in more than one range
+
+      The address <i>address</i> (of type logical or physical) is the
+      source or target of more than one address translation
+      command. If, for example, both -M0-2FFF=1000 and
+      -M2000-3FFF=8000 are given, this error may be given for any of
+      the logical addresse in the range 2000-2FFF, for which two
+      separate translation commands have been given.
+
+  119 Cannot handle C++ identifiers in this output format
+
+      The output format chosen is one that does not support the use of
+      C++ identifiers (block-scoped names or names of C++ functions).
+</pre></li><p>
+<li><b>4.50A</b><p>
+<pre>
+  118 Incompatible runtime models. Module <i>module1</i> specifies that
+      <i>attribute</i> must be <i>value</i>, but module
+      <i>module2</i> specifies no value for this attribute
+
+      These modules cannot be linked together. They were compiled with
+      settings that resulted in incompatible runtime models.
+
+  117 Incompatible runtime models. Module <i>module1</i> specifies that
+      <i>attribute</i> must be <i>value1</i>, but module
+      <i>module2</i> has the value <i>value2</i>
+
+      These modules cannot be linked together. They were compiled with
+      settings that resulted in incompatible runtime models.
+
+  116 Definition of <i>symbol</i> in module <i>module1</i> is not compatible with
+      definition of <i>symbol</i> in module <i>module2</i>
+
+      The symbol <i>symbol</i> has been tentatively defined in one or both
+      of the modules. Tentative definitions must match other
+      definitions.
+</pre></li><p>
+<li><b>4.49J</b><p>
+<pre>
+  115 Unmatched '"' in extended command file or XLINK_ENVPAR
+
+      When parsing an extended command file or the environment
+      variable XLINK_ENVPAR, XLINK found an unmatched quote
+      character. For filenames with quote characters you need to put a
+      backslash before the quote character. For example, writing
+
+             c:\iar\"A file called \"file\""
+
+      will cause XLINK to look for a file called
+
+             A file called "file"
+
+      in the c:\iar directory.
+</pre></li><p>
+<li><b>4.49F</b><p>
+<pre>
+  113 Corrupt input file: "<i>symptom</i>" in module <i>module</i> ( <i>file</i> )
+
+      The input file indicated appears to be corrupt. This can occur
+      either because for some reason the file has been corrupted after
+      it was created, or because of a problem in the
+      compiler/assembler used to create it. If the latter appears to
+      be the case, please contact IAR.
+</pre></li><p>
+<li><b>4.49E</b><p>
+<pre>
+  112 The module <i>module</i> is for an unknown cpu (tid = <i>tid</i>). Either
+      the file is corrupt or you need a later version of XLINK 
+
+      The version of XLINK used has no knowledge of the cpu that the
+      file was compiled/assembled for.
+</pre></li><p>
+<li><b>4.49C</b><p>
+<pre>
+  111 The file "file" is not a UBROF file                    
+
+      The contents of the file are not in a format that XLINK can
+      read.
+
+  110 Function <i>function</i> mentioned as caller in -a# does not make
+      indirect calls
+
+      Only functions that actually make indirect calls can be
+      specified to do so in an indirect call option.
+
+  109 Function <i>function</i> mentioned as callee in -a# is not indirectly
+      called
+
+      Only functions that actually can be called indirectly can be
+      specified to do so in an indirect call option.
+
+  108 Cannot find function <i>function</i> mentioned in -a#
+
+      All the functions specified in an indirect call option must
+      exist in the linked program.
+
+  107 Banked segments do not fit into the number of banks specified
+
+      The linker did not manage to fit all of the contents of the
+      banked segments into the banks given.
+</pre></li><p>
+<li><b>4.49A</b><p>
+<pre>
+  106 Syntax error or bad argument in <i>option</i>
+
+      There was an error when parsing the command line argument given.
+</pre></li><p>
+<li><b>4.48K</b><p>
+<pre>
+  105 Recursion not allowed for this system. Check module map for
+      recursive functions
+
+      The runtime model used does not support recursion. Each function
+      determined by the linker to be recursive is marked as such in
+      the module map part of the linker list file.
+</pre></li><p>
+<li><b>4.48J</b><p>
+<pre>
+  104 Failed to fit all segments into specified ranges. Problem
+      discovered in segment <i>seg</i>
+
+      The packing algorithm used in the linker didn't manage to fit
+      all the segments. Consider making smaller segment parts (moving
+      things into different input files), or decreasing the total size
+      of the segments, to make the packing easier.
+
+  103 Ranges must be closed in <i>option</i>
+
+      The '-P' option requires all memory ranges to have an end.
+
+  102 No such segment type: <i>option</i>
+      
+      The segment type given is not a valid one.
+
+  101 Segment already defined: "<i>seg</i>" in <i>option</i>
+
+      The segment has already been mentioned in a segment definition
+      option.
+
+  100 Segment name too long: "<i>seg</i>" in <i>option</i>
+
+      The segment name exceeded the maximum length (255 characters).
+
+   99 Syntax error in segment definition: <i>option</i>
+
+      There was a syntax error in the option.
+
+   98 Unmatched /* comment in extended command file
+
+      No matching '*/' was found in the .xcl-file.
+
+   97 Unmatched -! comment in extended command line variable
+      XLINK_ENVPAR
+
+      As error 96, but for the environment variable XLINK_ENVPAR.
+
+   96 Unmatched -! comment in extended command file
+
+      An odd number of '-!' (comment) options were seen in an
+      .xcl-file.
+
+   95 Module <i>mod</i> ( <i>file</i> ) uses source file references, which are
+      not available in UBROF 5 output
+
+      This feature cannot be filtered out by the linker when producing
+      UBROF 5 output. Use "-re" or "-ri" to the compiler to turn it
+      off.
+</pre></li><p>
+<li><b>4.48G</b><p>
+<pre>
+   94 Unknown flag <i>x</i> in local symbols option <i>-nx</i>
+
+      The character <i>x</i> is not a valid flag in the local symbols
+      option.
+
+   93 Non-existant warning number <i>no</i>, (valid numbers are 0-<i>max</i>)
+
+      An attempt to suppress a warning that does not exist gives this
+      error.
+
+   92 Cannot use this format with this cpu
+
+      Some formats need cpu-specific information and are only
+      supported for some cpus.
+
+   88 Wrong library used ( compiler version or memory model mismatch
+      ). Problem found in <i>mod</i> ( <i>file</i> ). Correct library tag is
+      <i>tag</i>
+
+      Code from this compiler needs a matching library.  A library
+      belonging to a later or earlier version of the compiler may have
+      been used.
+
+   87 Function with F-index <i>i</i> has not been defined before tiny_func
+      referenced in module <i>mod</i> ( <i>file</i> )
+
+      Check that all tiny functions are defined before they are used
+      in a module.
+
+   86 The definition for far/farc segment <i>name</i> can't be downwards or
+      have a range
+                                      
+      Segments in far memory cannot be allocated from higher
+      addresses, nor can they have a range given in the segment option
+      -Z.
+
+   85 The far/farc segment <i>name</i> in module <i>mod</i> ( <i>file</i> ), is
+      larger than <i>size</i>
+
+      The segment <i>name</i> is too large to be a far segment.
+</pre></li><p>
+</ul>
+
+<h3><a NAME="chap_W">New Warnings</a></h3>
+<ul>
+<li><b>4.52A</b><p>
+<pre>
+   56 A long filename may cause MPLAB to fail to display the source
+      file: '<i>pathname</i>'
+
+      When outputting COFF output for the PIC and PIC18 processors on
+      a Windows host the output file contains a reference to a source
+      file that needs long filenames in order to work. MPLAB cannot
+      handle long filenames.
+
+   55 No source level debug information will be generated for modules
+      using the UBROF object format version 8 or earlier. One such
+      module is <i>module</i> ( <i>file</i> )
+
+      When generating UBROF 9 output, essential debug information is
+      not present in input files using UBROF 8 or earlier. For these
+      files all debug information will be suppressed in the output
+      file.
+</pre></li><p>
+<li><b>4.51S</b><p>
+      The warning about long filenames (warning 56) is warning 55 in XLINK
+      4.51S and XLINK 4.51T.
+</li><p>
+<li><b>4.51E</b><p>
+<pre>
+   53 Some untranslated addresses overlap translation ranges. Example:
+      Address <i>addr1</i> (untranslated) conflicts with logical address
+      <i>addr2</i> (translated to <i>addr1</i>)
+
+      This can be caused by something like this:
+
+        -Z(CODE)SEG1=1000-1FFF
+        -Z(CODE)SEG2=2000-2FFF
+        -M(CODE)1000=2000
+
+      This will place SEG1 at logical address 1000 and SEG2 at logical
+      address 2000. However, the translation of logical address 1000
+      to physical address 2000 and the absence of any translation for
+      logical address 1000 will mean that in the output file, both
+      SEG1 and SEG2 will appear at physical address 1000.
+</pre></li><p>
+<li><b>4.51D</b><p>
+<pre>
+   52 More than one definition for the byte at address <i>address</i> in
+      common segment <i>segment</i>
+
+      The most probable cause of this is that more than one module
+      defines the same interrupt vector.
+
+   51 Some source reference debug info was lost when translating to
+      UBROF 5 (example: statements in "<i>function</i>" in module <i>module</i>)
+
+      UBROF 6 file references can handle source code in more than one
+      source file for a module. This is not possible in UBROF 5
+      embedded source, so any references to files not included have
+      been removed.
+
+   50 There was a problem when trying to embed the source file "<i>source</i>"
+      in the object file
+
+      This warning is given if the file <i>source</i> could not be found or
+      if there was an error reading from it. XLINK searches for source
+      files in the same places it searches for object files, so
+      including the directory where the source file is located in the
+      XLINK include directories ("-I" command line option) could solve
+      the first problem.
+</pre></li><p>
+<li><b>4.51A</b><p>
+<pre>
+   49 Using SFB/SFE in module <i>module</i> ( <i>file</i> ) for segment
+      <i>segment</i>, which has no included segment parts
+
+      SFB/SFE (assembler directives for getting the start or end of a
+      segment) has been used on a segment for which no segment parts
+      were included.
+
+   48 Corrupt input file: "<i>symptom</i>" in module <i>module</i> ( <i>file</i> )
+
+      The input file indicated appears to be corrupt. This warning is
+      used in preference to Error 113 when the problem is not serious,
+      and is unlikely to cause trouble.
+</pre></li><p>
+<li><b>4.50A</b><p>
+<pre>
+   47 Range error in module <i>module</i> ( <i>file</i> ), segment <i>segment</i> at
+      address <i>address</i>. Value <i>value</i>, in tag <i>tag</i>, is out of bounds
+      <i>bounds</i>
+
+      This replaces error 18 when -Rw is specified.
+
+   46 External function <i>function</i> in module <i>module</i> ( <i>file</i> ) has
+      no global definition
+
+      This replaces error 68.
+
+   45 Memory attribute info mismatch between modules <i>module1</i> (
+      <i>file1</i> ) and <i>module2</i> ( <i>file2</i> )
+
+      The UBROF 7 memory attribute information in the given modules is
+      not the same.
+</pre></li><p>
+<li><b>4.49E</b><p>
+<pre>
+   44 C library routine localtime failed. Timestamps will be wrong
+
+      XLINK is unable to determine the correct time. This primarily
+      affects the dates in the list file. This problem has been
+      observed on one host platform if the date is after the year
+      2038.
+</pre></li><p>
+<li><b>4.49C</b><p>
+<pre>
+   43 The function <i>function</i> in module <i>module</i> ( <i>file</i> ) is
+      indirectly called but is not mentioned in the right part of any
+      -a# declaration
+
+      If any -a# indirect call options are given they must, taken
+      together, specify the complete picture.
+
+   41 The function <i>function</i> in module <i>module</i> ( <i>file</i> ) makes
+      indirect calls but is not mentioned in the left part of any -a#
+      declaration
+
+      If any -a# indirect call options are given they must, taken
+      together, specify the complete picture.
+
+   40 The module <i>module</i> contains obsolete type information that will
+      not be checked by the linker
+
+      This kind of type information was replaced in 1988.
+
+   39 The function <i>function</i> in module <i>module</i> ( <i>file</i> ) does not
+      appear to be called. No static overlay area will be allocated
+      for its params and locals
+
+      As far as XLINK can tell, there are no callers for the function,
+      so no space is needed for its params and locals. To make XLINK
+      allocate space anyway use -a(function).
+
+   38 There are indirect calls both from interrupts and from the main
+      program. This can make the static overlay system
+      unreliable. Using -ai will avoid this
+
+      If a function is called from an interrupt while it is already
+      running its params and locals will be overwritten.
+
+   37 More than one interrupt function makes indirect calls. This can
+      make the static overlay system unreliable. Using -ai will avoid
+      this
+
+      If a function is called from an interrupt while it is already
+      running its params and locals will be overwritten.
+
+   36 There are indirectly called functions doing indirect calls. This
+      can make the static overlay system unreliable
+
+      XLINK does not know what functions can call what functions in
+      this case, which means that it cannot make sure static overlays
+      are safe.
+</pre></li><p>
+<li><b>4.48J</b><p>
+<pre>
+   35 There is more than one definition for the struct/union type with
+      tag <i>tag</i>
+
+      Two or more different structure/union types with the same tag
+      exist in the program. If these types were meant to be the same,
+      it is likely that the declarations differ slightly. There will
+      then also very likely be one or more warnings about type
+      conflicts (warning 6). If they were not meant to be the same,
+      consider turning off this warning.
+
+   34 The 20 bit segmented variant of the INTEL EXTENDED format cannot
+      represent the addresses specified. Consider using -Y1 (32 bit
+      linear addressing).
+
+      The program uses addresses higher than 0xFFFFF, and the
+      segmented variant of the chosen format cannot handle this. The
+      linear addressing variant can handle full 32 bit addresses.
+
+   33 Using "-r" overrides format option. Using UBROF
+
+      The "-r" option specifies UBROF format and C-SPY library
+      modules. It overrides any "-F" (format) option
+
+   32 Format option set more than once. Using <i>format</i> format
+
+      The format option can only be given once. The linker uses the
+      format <i>format</i>.
+</pre></li><p>
+<li><b>4.48G</b><p>
+<pre>
+   31 Modules have been compiled with possibly incompatible settings:
+      <i>more info</i>
+
+      According to the contents of the modules, they are not
+      compatible.
+
+   30 Module <i>name</i> is compiled for <i>cpu1</i>, expected <i>cpu2</i>
+
+      You are building an executable for cpu <i>cpu2</i>, but module <i>name</i>
+      is compiled for cpu <i>cpu1</i>.
+
+   29 Parts of segment <i>name</i> are inited, even though it is of type
+      <i>type</i>
+
+      Initing DATA memory is not useful if the result of linking is to
+      be promable.
+
+   28 Parts of segment <i>name</i> are inited, parts not
+
+      This is not useful if the result of linking is to be promable.
+
+   27 No code at start address found in reset vector
+
+      Failed in determining the LOCATION setting for XCOFF output
+      format for the 78400 processor, because no code was found at the
+      address specified in the reset vector.
+
+   26 No reset vector found
+
+      Failed in determining the LOCATION setting for XCOFF output
+      format for the 78400 processor, because no reset vector was
+      found.
+
+   25 Using "-Y#" discards and distorts debug information. Use with
+      care. If possible, find an updated debugger that can read modern
+      UBROF
+
+      Using the UBROF format modifier -Y# is not recommended.
+
+   24 <i>num</i> counts of 'warning' total
+
+      For each warning of type 23 actually emitted, a summary is
+      provided at the end.
+
+   23 <i>limitation specific warning</i>
+
+      Due to some limitation in the chosen output format, or in the
+      information available, XLINK cannot produce the correct
+      output. Only one warning for each specific limitation is given.
+</pre></ul>
+
+<h3><a NAME="chap_L">Log of Minor Changes</a></h3>
+<ul>
+<li><b>4.51C - New Default for Intel Extended</b><p>
+    The INTEL-EXTENDED output format has been changed to use the 32-bit
+    linear variant ("-Y1") by default on new targets. To get the 20-bit
+    segmented variant for one of these targets use the format variant
+    option "-Y0".</li><p>
+
+<li><b>4.51A - Changes to the Map File</b><p>
+    The map file now includes information about segment type for
+    addresses. On many processors this is used to determine the address
+    space of an address (ie CODE/DATA on Harvard architectures).<p>
+
+    To make place for this, two uninteresting columns have been removed
+    from the Segment Map table in the map file.<p>
+
+    <b>Obsolete Command Line Options</b><p>
+
+    XLINK now ignores the command line options "-m" and "-t", if
+    given. The new behavior is in essence as if "-m" was used, and
+    "-t" was not used.<p>
+
+    <b>Extra Space in Segments</b><p>
+
+    When using segment placement with extra space (eg CSTACK+100), the
+    extra space is added only if there is at least one segment part
+    actually included from this segment (ie, if the segment was actually
+    needed for anything).</li><p>
+
+<li><b>4.50A - Make Range Errors Be Warnings</b><p>
+    The command line option -R has gained a flag, "w". As before,
+    specifying -R makes XLINK ignore range errors. Now, specifying -Rw
+    makes XLINK treat range errors as warnings.</li><p>
+
+<li><b>4.49C - Maximum Number of Banks in -b</b><p>
+    It is now possible to specify the number of banks in the bank
+    segment placement option (-b). The syntax is now:
+
+    <ul><pre>-b[addrtype][(type)]segments=first,length,incr[,count]</pre></ul>
+
+    where the optional <i>count</i> is a decimal count of the number of banks
+    available.</li><p>
+
+<li><b>4.49A - No End Address Restriction for Far Segment Placement</b><p>
+    The restriction on address ranges for far segments has been
+    removed. It is now allowed to have an end address (or even several
+    ranges) in a "-Z" segment placement command line option dealing with
+    far (FAR, FARCONST or FARCODE) segments.</li><p>
+
+<li><b>4.49A - Downwards Allocation End Address Changed To Be More
+               Consistent</b><p>
+
+    The meaning of a single address in a "-Z" option with downwards
+	("#") allocation has changed. It used to be that the address given
+	was the first address not to be used. It is now considered to be the
+	last address to be used. This is the same as when specifying a
+	range.<p>
+ 
+    Example:
+
+	<ul><pre>
+     -Z(CODE)CODE#5000</pre>
+
+    This used to mean the same as
+	<pre>
+     -Z(CODE)CODE#0-4FFF</pre>
+
+    but is now the same as
+	<pre>
+     -Z(CODE)CODE#0-5000</pre></ul></li><p>
+
+<li><b>4.48N - Turn Off Detailed Type Conflict Information</b><p>
+    A new command line option "-wt" has been added. When "-wt" is given
+    the detailed type information output for warnings 6 (type conflict)
+    and 35 (multiple structs with same tag) is suppressed.</li><p>
+
+<li><b>4.48K - Return Status Control</b><p>
+    A new command line option "-ws" has been added. It affects the
+    return status of XLINK as follows:
+    <pre>
+    Condition                      No -ws      -ws
+    ---------                      ------      ---
+    No errors or warnings             0         0
+    Warnings, but no errors           0         1
+    One or more errors                2         2</pre>
+
+    "-ws" thus only affects the return status when there is one or more
+    warnings but no errors.</li><p>
+
+<li><b>4.48J - List Output Directory Option</b><p>
+    A new option "-L" is available. Its syntax is:
+    <pre>
+     -Lprefix          Generate a list on: &lt;prefix> &lt;dest> &lt;.lst></pre>
+
+    A useful special case of this is to use "-L" with no arguments to
+    get a list file in the current directory.</li><p>
+
+<li><b>4.48D - Suppress Compiler Generated Module-Local Symbols</b><p>
+    The -n option can now take a modifier 'c' to only suppress compiler
+    generated module-local symbols.  These are usually jump or constant
+    labels, at best of fairly marginal interest, and even then only when
+    debugging at assembly level.
+
+    Example:
+
+    <ul><pre>-nc</pre></ul></li><p>
+</ul>
+
+<font size=-1>Copyright 2000 IAR Systems. All rights reserved.</font>
+</body>
+</html>

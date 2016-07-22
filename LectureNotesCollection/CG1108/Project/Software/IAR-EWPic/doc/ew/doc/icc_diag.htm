@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>ICCPIC Diagnostic Messages</title>
+</head>
+<body bgcolor="#ffde00">
+
+<h2>Diagnostic Messages for ICCPIC V2.21A</h2>
+<font size=-1>
+Updated: 2002-09-25 [IFRC]<br>
+Archived: $Revision: 1.9 $
+</font> 
+
+<h2>Contents</a></h2>
+  <ul>
+  <li><a href=#important>Important information</a>
+  <li><a href=#features>List of diagnostic messages</a>
+  </ul>
+
+
+<!-------------------------------------------------------------------------->
+<!-- IMPORTANT INFORMATION                                                -->
+<!-------------------------------------------------------------------------->
+<h3><a name="important">Important information</a></h3>
+<ul>
+<li>
+        Errors can be of three levels: Fatal errors (FE), Hard errors (HE)
+        and Soft errors (SE).
+        An important feature of Soft errors is that they can be reduced to warnings 
+        using the <tt>--diag_warning=tag,tag...</tt> 
+        command-line option.
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- DIAGNOSTIC MESSAGES                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="features">List of diagnostic messages</a></h3>
+<ul>
+        Types of diagnostics:<p>
+<ul>
+        FE - Fatal error (Compiler aborts compilation)<br>
+        HE - Hard error<br>
+        SE - Soft error (Can be reduced to a warning)<br>
+        W  - Warning<br>
+        R  - Remark<p>
+</ul>
+        Notation:<br>
+        <tt>printf</tt> formatters are used to show what kind of information that is 
+        added to the diagnostic texts.
+
+<h4>V2.21A</h4>
+<ul>
+      <li><b>[Pic042] - SE</b><p>
+        Variable %s cannot be placed, the eeprom area ends at address %x<p>
+        An eeprom variable could not be placed with the @ operator since the address was too large for the chosen microcontroller. <p></li>
+
+</ul>
+<h4>V2.00C</h4>
+<ul>
+      <li><b>[Pic041] - HE</b><p>
+        Out of spill memory.<p>
+        The compiler ran out of space to store intermediate results. <p></li>
+
+</ul>
+<h4>V1.22A</h4><ul>
+      <li><b>[Pic040] - HE</b><p>
+        Indexing a table pointer is not allowed.<p>
+
+        Using a construct like <tt>p[10]</tt> or <tt>*(p+10)</tt> where <tt>p</tt> is a pointer to
+        <tt>__rtable</tt> or <tt>__ptable</tt> now generates an error since arrays are not
+        supported for table addressing. If absolutely necessary, use a
+        construct like:<p>
+
+        <tt><ul>#define P(x) (*((unsigned short __rtable *) (0x8000+(x))))</ul></tt><p>
+
+        where <tt>0x8000</tt> is the base address. If you use the address of a 
+        variable declared as table, be sure that the variable used as 
+        the base address in the macro is of the type <tt>unsigned short</tt> to avoid 
+        generating a pointer addition that generates this error.<p></li>
+
+</ul><h4>V1.21A</h4><ul>
+      <li><b>[Pic039] - obsolete</b><p></li>
+
+</ul><h4>V1.20C</h4><ul>
+      <li><b>[Pic038] - R</b><p>
+        Declaring a const auto variable as static may save both RAM and ROM.<p>
+
+        An auto variable declared as const requires initialization each time
+        you enter the function. If the value used to initialize the variable
+        is constant, it might be better to declare the variable static, and
+        thus save the RAM used for the auto variable and the ROM used to 
+        initialize it.<p></li>
+
+</ul><h4>V1.20B</h4><ul>
+      <li><b>[Pic037] - W</b><p>
+        The code size %s words is too large to fit the chosen controller. Try 
+        splitting the file into smaller parts.<p>
+
+        When a C file exceeds the size of a code page, the compiler calculates
+        jumps based on the assumption that the code starts from the beginning of
+        a page. This means that it cannot be placed in the first code page,
+        since the startup sequence and interrupt vectors occupy the first few 
+        addresses. For a controller with only two code pages, it is impossible
+        to link when this warning has occurred.<p></li>
+        
+      <li><b>[Pic036] - HE</b><p>
+        Zero initialized __ptable variables are not allowed, use __no_init
+        to avoid initializing the variables.<p>
+
+        See [Pic035].<p></li>
+
+
+      <li><b>[Pic035] - HE</b><p>
+        Writes to PTABLE are not supported.<p>
+
+        Since writes to internal Code memory have dependencies on 
+        programming voltage and more, direct writes using C is disallowed. 
+        You can still declare a <tt>__no_init</tt> <tt>__ptable</tt> variable and write to 
+        it using assembly.
+        External code memory accessed through <tt>__rtable</tt> has no such
+        write limitation.<p></li>
+
+      <li><b>[Pic034] - HE</b><p>
+        setjmp and longjmp are not supported on the PICmicro.<p>
+
+        The C library functions <tt>setjmp</tt> and <tt>longjmp</tt> are not supported for
+        the IAR C Compiler for PICmicro due to the limited call stack and the
+        static overlay model used. This is a deviation from the ANSI C 
+        specification.<p></li>
+
+      <li><b>[Pic033] - HE</b><p>
+        Function too complex, try rearranging code or split the file into smaller
+        parts.<p>
+
+        This error occurs when the code size of the compiled file is larger 
+        than a code page and the compiler optimizations generated a short jump
+        that crossed the page boundary (which is not allowed). 
+        A workaround is to rearrange the functions in the file making the 
+        assembly code different and safer to optimize. Another workaround is 
+        to insert a <tt>__no_operation()</tt> to safely push the jump instruction into
+        the next code page where it will work.<p></li>
+      
+      <li><b>[Pic032] - W</b><p>
+        const overrides the memory specifier.<p>
+
+        Combining both const and a memory specifier to declare an initalized
+        const variable always places the variables in Code memory using 
+        the RETLW instruction. We plan to allow <tt>__rtable</tt> and <tt>__ptable</tt> consts in the future.<p></li>
+
+      <li><b>[Pic031] - W</b><p>
+        No GPR area available for %s, make sure that %x is the correct 
+        address<p>
+
+        Trying to place a located variable in a bank that has no GPR area 
+        accessible to the compiler. The compiler always treats the GPR area 
+        as it would start at offset 0x20 of the bank.<p></li>
+
+      <li><b>[Pic030] - HE</b><p>
+        No GPR area available in bank n for %s<p>
+
+        Trying to place a non-located variable in a bank with no GPR area.<p></li>
+
+      <li><b>[Pic029] - W</b><p>
+        Variable is not declared __no_init and is thus not affected by the #pragma
+        dataseg directive.<p>
+
+        Only variables declared as <tt>__no_init</tt> are affected by the 
+        <tt>#pragma dataseg</tt> directive.<p></li>
+
+      <li><b>[Pic028] - SE</b><p>
+        Too much memory allocated in bank x for the chosen microcontroller.<p>
+
+        An error is generated if more variables are placed in a bank than
+        the size of the GPR area allows. <p></li>
+
+      <li><b>[Pic027] - HE</b><p>
+        __set_configuration_word can only take an immediate value.<p>
+
+        The __set_configuration intrinsic function can only take an
+        immediate value due to the way the configuration word works.<p></li>
+
+      <li><b>[Pic026] - HE</b><p>
+        Absolute addressed variables must have a memory specifier.<p>
+
+        The compiler must be informed which memory to place the variable in.<p></li>
+
+      <li><b>[Pic025] - HE</b><p>
+        Structs and arrays are not allowed for __ptable and __rtable.<p>
+
+        Structs and arrays are not allowed when using the TABLE due to the 
+        internal representation of the TABLE memory pointers.<p></li>
+
+      <li><b>[Pic024] - HE</b><p>
+        Illegal number of parameters for intrinsic.<p>
+
+        This error is only generated if an illegal declaration of an
+        intrinsic function is found that differs from the expected
+        number of parameters.<p></li>
+
+      <li><b>[Pic023] - Obsolete</b><p></li>
+
+      <li><b>[Pic022] - HE</b><p>
+        Hardware multiply is not available for the chosen controller.<p>
+
+        Trying to use the <tt>__hw_multiply</tt> intrinsic function on a processor that does
+        not have a hardware multiplier.<p></li>
+
+      <li><b>[Pic021] - HE</b><p>
+        Auto variables cannot have a storage specifier.<p>
+
+        Trying to specify a local non-static variable with a memory specifier.<p></li>
+
+      <li><b>[Pic020] - HE</b><p>
+        Illegal parameter to __tris(unsigned char).<p>
+
+        The parameter must be an immediate value.<p></li>
+
+      <li><b>[Pic019] - HE</b><p>
+        Calls to interrupt functions are not allowed.<p>
+
+        Direct calls to functions declared as interrupt are not allowed.<p></li>
+
+      <li><b>[Pic018] - Obsolete</b><p></li>
+
+      <li><b>[Pic017] - W</b><p>
+        WREG, PCLATH, STATUS/ALUSTA and BSR will not be saved automatically
+        unless a vector is assigned to the interrupt function.<p>
+
+        The compiler cannot generate the register save code without a vector
+        assigned to the interrupt function. That is because sometimes WREG 
+        must be saved before jumping to the interrupt function from the 
+        interrupt vector.<p></li>
+
+      <li><b>[Pic016] - HE</b><p>
+        __setN can only be used once on a function<p>
+
+        The <tt>__setN</tt> keyword can only be applied once on a function.<p></li>
+
+      <li><b>[Pic015] - HE</b><p>
+        __setN can only be used on functions declared __interrupt.<p></li>
+
+      <li><b>[Pic014] - HE</b><p>
+        Function must be declared __interrupt to have a vector.<p>
+
+        The <tt>#pragma vector</tt> directive can only be applied to a function declared as an
+        interrupt function.<p></li>
+
+      <li><b>[Pic013] - HE</b><p>
+        Interrupt functions cannot return a value.<p>
+
+        Since no interrupt function can be called, no return of values 
+        is allowed.<p></li>
+
+      <li><b>[Pic012] - HE</b><p>
+        Interrupt functions cannot take parameters.<p>
+
+        Since no interrupt function can be called, no parameters can be
+        passed to it.<p></li>
+
+      <li><b>[Pic011] - HE</b><p>
+        Located objects cannot be initiated.<p>
+
+        Located objects are not allowed to have an initializer.<p></li>
+
+      <li><b>[Pic010] - HE</b><p>
+        Auto variables cannot be located.<p>
+
+        Local variables are not allowed to be located.<p></li>
+
+      <li><b>[Pic009] - HE</b><p>
+        __no_init objects cannot be initialized.<p></li>
+
+      <li><b>[Pic008] - W</b><p>
+        Located variable is implicitly __no_init.<p>
+
+        Since located variables are not allowed to have initializers, they
+        are implicitly declared as <tt>__no_init</tt>.<p></li>
+
+      <li><b>[Pic007] - Obsolete</b><p></li>
+
+      <li><b>[Pic006] - HE</b><p>
+        Illegal cast: A variable of type xxx cannot be cast to a <tt>__dptr</tt> 
+        pointer<p>
+
+        This error message is redundant and should not occur.<p></li>
+
+      <li><b>[Pic005] - FE/HE</b><p>
+        Target Error: %s<p>
+
+        A target-defined message. <p></li>
+
+      <li><b>[Pic004] - FE</b><p>
+        --uses_external_memory option not allowed for mid-range processors.<p>
+
+        No external memory is available for the mid-range controllers 
+        supported by the C compiler.<p></li>
+
+      <li><b>[Pic003] - HE</b><p>
+        SFR xxx is located on a different address than preset for this 
+        processor<p>
+
+        The user-defined SFR address differs from the internal address. 
+        This only affects SFR addresses used by the compiler, WREG,
+        STATUS/ALUSTA etc.<p></li>
+
+      <li><b>[Pic002] - FE</b><p>
+        Dongle error: %s<p>
+
+        A dongle-related error. The %s explains the type of error.<p></li>
+
+      <li><b>[Pic001] - HE</b><p>
+        Mixing memory attributes for segment seg.<p></li>
+
+
+</ul>
+</ul>
+
+<br>
+<font size=-1>
+Copyright 1999-2002 IAR Systems. All rights reserved.<br>
+</font> 
+
+</body>
+</html>

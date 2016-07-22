@@ -1,0 +1,475 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.72 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="Bengt Vagnhammar">
+   <title>Readme file for IAR Embedded Workbench V2.31E</title>
+</head>
+<body bgcolor="#FFDE00">
+
+<h2>
+Readme file for IAR Embedded Workbench 2.31E</h2>
+<font size=-1>Updated: 10th of December, 2001 [IBEV]</font>
+<h3>
+Contents</h3>
+
+<ul>
+<li>
+<a href="#important">Important information</a></li>
+
+<li>
+<a href="#mcorr">Manual corrections and updates</a></li>
+
+<li>
+<a href="#problems">Known problems in current version</a></li>
+
+<li>
+<a href="#pcorr">Program corrections and updates</a></li>
+</ul>
+
+<h3>
+<a NAME="important"></a>Important information</h3>
+
+<h4>
+Files needed for uninstallation of the product</h4>
+
+<ul>After installing the IAR Embedded Workbench, you may notice that a
+number of files have been placed in a subdirectory to your "Program files"
+directory. These files are needed for the InstallShield Wizard to be able
+to uninstall the IAR Embedded Workbench. Although deleting these files
+does not affect the operation of the IAR Embedded Workbench, it does mean
+that you cannot automatically uninstall it.</ul>
+
+<h4>
+Miscellaneous error dialogs during building</h4>
+
+<ul>If you repeatedly get error dialogs giving generic error messages like
+"Error running tool" when building a particular file, the likely cause
+is a problem in the tool, not in the IAR Embedded Workbench itself. Most
+probably the tool runs into problems dealing with a particular construct
+in the input file. There are two different ways of finding the cause of
+the problem:
+<br>&nbsp;
+<ol type="#">
+<li>
+If you have a command-line version of the tool available, run it with the
+same options and note if it produces any error messages. (The options used
+when running a tool in the IAR Embedded Workbench can be seen in the Message
+window if message filtering is set to "all".)</li>
+
+<li>
+Try to comment out part of the input using #ifdef/#endif, and see if that
+makes any difference.</li>
+</ol>
+
+<p><br>The cause of the problem may be erroneus input (which arguably should
+be reported properly from the tool) or it may be a program error.</ul>
+
+<h4>
+External editor configuration</h4>
+
+<ul>As different DDE capable editors use different commands, it is necessary
+to consult the user documentation supplied with your editor to find the
+correct command syntax.
+<p>Here are some example configurations for particular editors:
+<p>EasyCase
+<ul>
+<pre>Editor:&nbsp; C:\EASY\Easy-cpp.exe
+Service: easy-cpp
+Command: system [line($CUR_LINE$)] [load("$FILE_PATH$")]</pre>
+</ul>
+Codewright
+<ul>
+<pre>Editor:&nbsp; c:\cw32\cw32.exe
+Service: Codewright
+Command: System BufEditFile $FILE_PATH$&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $FILE_PATH$ MovToLine $CUR_LINE$</pre>
+</ul>
+Note that there seems to be a problem with Codewright that can cause the
+selected buffer to be activated in the background, but when bringing Codewright
+to the foreground, it may revert to the previously selected buffer. To
+work around that problem, use this command configuration instead:
+<ul>
+<pre>System OutputWindow=1
+System BufEditFile $FILE_PATH$
+$FILE_PATH$ MovToLine $CUR_LINE$</pre>
+</ul>
+The first command is equivalent to clicking on a tab in the Codewright
+Output Window, bringing it to the foreground before the other commands
+are issued.</ul>
+
+<h4>
+Avoiding absolute paths in project options</h4>
+
+<ul>In IAR Embedded Workbench 2.31A and later, it is possible to use argument
+variables in project options. This makes it possible to make projects more
+portable between different environments by avoiding unnecessary absolute
+paths. The most obvious use for this is to make include options and xcl-file
+options compiler and/or project relative.
+<p>Example:
+<br>
+<ul><br>Setting an include option to "$TOOLKIT_DIR$\inc\" would make the build
+tool look for include files in the "inc" subdirectory of the active product
+(i.e. standard system includes).
+<p>Setting an include option to "$PROJ_DIR$\inc\" would make the
+build tool look for include files in the "inc" subdirectory of the current
+project directory.
+<br>&nbsp;</ul>
+For more information about what argument variables are available, refer
+to the IAR Embedded Workbench User Guide.</ul>
+
+<h3>
+<a NAME="mcorr"></a>Manual corrections and updates</h3>
+
+<ul>
+<h4>
+EW 2.31D 2001-11-07</h4>
+
+<ul>
+<li>New functionality in the Project window pop-up menu:
+<p>Choose Export File List... to save information about which files and
+groups the project consists of, in a product-neutral format (which means
+that no settings are saved). If you want to import the corresponding information
+from another project, choose Import File List...&nbsp; All information
+about files or groups that are missing from your current project will be
+added from the imported project file list.
+<p>These menu options can be useful if you want to migrate a project from
+a similar processor family, or if you want to synchronize different stages
+of a project.</li></ul>
+</ul>
+
+<blockquote>
+<h4>
+EW 2.31C 2000-03-24</h4>
+</blockquote>
+
+<ul>
+<ul>
+<li>
+The text editor now supports block indent. If you make a selection that
+spans multiple rows, pressing tab will indent the selected rows and pressing
+shift+tab will unindent. This is very handy in combination with the "Edit->Match
+Brackets" command as that allows you to select the block containing the
+caret and repeatedly grow the selection if so desired.</li>
+
+<li>
+The "Make Control" page of the settings dialog (Options->Settings...),
+contains an additional check box option: "Reload last project at startup".
+If you uncheck this, the IAR Embedded Workbench will not automatically
+load the last project at startup.</li>
+</ul>
+
+<h4>
+EW 2.31B 1999-11-19</h4>
+
+<ul>
+<li>
+The IAR XLINK Linker options control panels have been updated to reflect
+new IAR XLINK Linker features.</li>
+
+<p>The section "Warnings/Errors" on the "Diagnostics" page contains
+three new fields: "Suppress these diagnostics", "Treat these as warnings"
+and "Treat these as errors". In these fields you can give a comma- or space-separated
+list of diagnostics that you want to reclassify. (This corresponds to the
+"-w" command line option.) Example:
+<ul>
+<pre>"Suppress these diagnostics" w26, e106</pre>
+</ul>
+The "Output" page contains a new drop-down list "Module-local symbols"
+that allow you to specify inclusion of module-local symbols. (This corresponds
+to the "-n" command line option.)
+<p>For further information about IAR XLINK Linker options, refer to the
+file "<a href="xman.htm">xman.htm</a>".</ul>
+
+<h4>
+EW 2.31A 1999-05-28</h4>
+
+<ul>
+<li>
+There are two additional argument variables:</li>
+
+<p>&nbsp;<b>$EW_DIR$</b> that expands to the directory of the IAR Embedded
+Workbench, for example "c:\iar\ew23".
+<p>&nbsp;<b>$TOOLKIT_DIR$</b> that expands to the directory of the active
+product, for example "c:\iar\ew23\AVR".</ul>
+
+<h4>
+EW 2.30D 1999-02-17</h4>
+
+<ul>
+<li>
+Virtual Space mode in the editor Version 2.30D of the IAR Embedded Workbench
+introduces a new editor option: "Enable Virtual Space". In virtual space
+mode, you can move the text caret into areas that do not contain any text.</li>
+</ul>
+</ul>
+
+<h3>
+<a NAME="problems"></a>Known problems in current version</h3>
+
+<ul>None.</ul>
+
+<h3>
+<a NAME="pcorr"></a>Program corrections and updates</h3>
+
+
+<h4>
+EW 2.31E 2001-12-10</h4>
+
+<ul>
+<li>
+<a NAME="ew10950"></a><b>EW10950:</b>
+Corrected a problem with scrolling when selecting text using &lt;Shift&gt;+
+&lt;DownArrow&gt;.</li>
+</ul>
+
+
+<h4>
+EW 2.31D 2001-11-08</h4>
+<ul>
+<li>
+It is now possible to export and import product-neutral project file lists,
+see <a href="#mcorr">Manual corrections and updates.</a></li>
+
+<li>
+<a NAME="ew406"></a><b>EW406:</b> Corrected a problem that occured if the
+XCL file name field in the XLINK options was empty.</li>
+
+<li>
+<a NAME="ew415"></a><b>EW415: </b>Corrected a problem concerning visibility
+of matches when double-clicking on results from the "Find" command.</li>
+
+<li>
+<a NAME="ew425"></a><b>EW425:</b> The Format drop down list on the Output
+page of the XLINK options has been updated to include the output formats
+motorola-s19, motorola-s28, and motorola-s37.</li>
+
+<li>
+<a NAME="ew429"></a><b>EW429:</b> Corrected a problem with external DDE
+editors that use the file path as "topic" string. The problem appeared
+when the path contained spaces.</li>
+
+<li>
+<a NAME="ew434"></a><b>EW434:</b> Expansion of macro variables, such as
+$EXE_DIR$, is now performed on all fields from the "Configure Tools" dialog.</li>
+</ul>
+
+<h4>
+EW 2.31C 2000-03-24</h4>
+
+<ul>
+<li>
+<a NAME="ew384"></a><b>EW384:</b> The drop-down list of the Project Window
+can now contain more entries before scrolling.</li>
+
+<li>
+<a NAME="ew385"></a><b>EW385:</b> The "Find" and "Replace" dialogs now
+remember all search attributes.</li>
+
+<li>
+<a NAME="ew386"></a><b>EW386:</b> Toolbar search is no longer case-sensitive.</li>
+
+<li>
+<a NAME="ew387"></a><b>EW387:</b> It is now possible to display the text
+editor context-menu by pressing the context-menu key on the keyboard.</li>
+
+<li>
+<a NAME="ew391"></a><b>EW391:</b> Corrected a problem that could cause
+the IAR Embedded Workbench to fail to convert old project files containing
+files with local IAR XLINK Linker option overrides.</li>
+
+<li>
+<a NAME="ew393"></a><b>EW393, EW394:<a NAME="ew394"></a></b> Made some
+improvements to the "Find in Files" dialog. It now remembers the set of
+files and attributes from the last search. Further focus is put on the
+search string rather than on the filename.</li>
+
+<li>
+<a NAME="ew402"></a><b>EW402:</b> Text editor selection highlight is now
+restored when switching between the IAR Embedded Workbench and another
+application, having the "Find" or "Replace" dialogs active.</li>
+
+<li>
+<a NAME="ew407"></a><b>EW407:</b> Pressing Shift+Tab in a text editor window
+now causes the caret to be moved back to the previous indent position.</li>
+
+<li>
+<a NAME="ew409"></a><b>EW409:</b> It is now possible to choose whether
+to automatically load the last project on startup (see "Manual corrections
+and updates" above)</li>
+
+<li>
+<a NAME="ew411"></a><b>EW411:</b> The default output directory names are
+no longer restricted to 8 characters.</li>
+
+<li>
+<a NAME="ew412"></a><b>EW412:</b> Corrected caret positioning in the text
+editor when using virtual space and stepping into a tab.</li>
+</ul>
+
+<h4>
+EW 2.31B 1999-11-17</h4>
+
+<ul>
+<li>
+<a NAME="ew49"></a><b>EW49:</b> The text editor "Find" and "Replace" dialogs
+now have a history of recently used strings.</li>
+
+<li>
+<a NAME="ew239"></a><b>EW239:</b> It was previously possible to generate
+invalid #include or #define arguments by adding lines that were either
+empty or contained only whitespace. The IAR Embedded Workbench now filters
+away such lines.</li>
+
+<li>
+<a NAME="ew315"></a><b>EW315:</b> Corrected a couple of problems with the
+"Project Files" dialog.</li>
+
+<li>
+<a NAME="ew340"></a><b>EW340:</b> The text editor now clears build and
+find bookmarks when a file is renamed.</li>
+
+<li>
+<a NAME="ew361"></a><b>EW361:</b> The text editor now allows undo actions
+beyond a save file operation.</li>
+
+<li>
+<a NAME="ew362"></a><b>EW362:</b> If the IAR Embedded Workbench is launched
+by dragging a project file onto the application icon the path is now expanded
+to "long" format rather than using the short (8 + 3) path format. (NOTE:
+This does not work on file systems that lack a proper mapping between short
+and long pathnames.)</li>
+
+<li>
+<a NAME="ew363"></a><b>EW363:</b> The IAR Embedded Workbench now properly
+takes into account maximized and minimized states when restoring a project
+desktop.</li>
+
+<li>
+<a NAME="ew364"></a><b>EW364:</b> It is now possible to specify an IAR
+XLINK Linker "Fill pattern" that is up to 4 bytes long.</li>
+
+<li>
+<a NAME="ew370"></a><b>EW370:</b> Corrected a problem that made it impossible
+to assign key shortcuts to editor navigation commands (CharLeft, WordLeft
+etc.).</li>
+
+<li>
+<a NAME="ew371"></a><b>EW371:</b> When printing to low resolution printers
+the text could be unacceptably small. This has now been corrected.</li>
+</ul>
+
+<h4>
+EW 2.31A 1999-05-28</h4>
+
+<ul>
+<li>
+<a NAME="ew222"></a><b>EW222:</b> Windows that have been "pinned" can no
+longer get lost off-screen when restoring a project on a monitor with a
+lower display resolution.</li>
+
+<li>
+<a NAME="ew223"></a><b>EW223:</b> Corrected a problem that made it impossible
+to assign key accelerators including &lt;Del>.</li>
+
+<li>
+<a NAME="ew241"></a><b>EW241:</b> Corrected a problem with keyboard navigation
+in the project options dialog.</li>
+
+<li>
+<a NAME="ew314"></a><b>EW314:</b> The text editor now correctly resets
+the undo stack when saving.</li>
+
+<li>
+<a NAME="ew318"></a><b>EW318:</b> Corrected a problem that could cause
+the text editor to fail to properly scroll the window to keep the caret
+visible when typing.</li>
+
+<li>
+<a NAME="ew329"></a><b>EW329:</b> Some command accelerators were displayed
+incorrectly in the menus. This has now been fixed.</li>
+
+<li>
+<a NAME="ew330"></a><b>EW330:</b> Corrected a problem that under certain
+circumstances could cause a crash when a user-defined tool was using argument
+variables.</li>
+</ul>
+
+<h4>
+EW 2.30D 1999-02-17</h4>
+
+<ul>
+<li>
+Added "virtual space" option to the text editor.</li>
+
+<li>
+<a NAME="ew305"></a><b>EW305, EW307:<a NAME="ew307"></a></b> Corrected
+some problems with word-wise navigation and selection.</li>
+
+<li>
+<a NAME="ew306"></a><b>EW306:</b> The "project files" &amp; "find in files"
+dialogs now work properly when the Explorer option "Hide Known Extensions"
+is on.</li>
+
+<li>
+<a NAME="ew308"></a><b>EW308:</b> Corrected a problem concerning dragging
+text over the editor left bar.</li>
+</ul>
+
+<h4>
+EW 2.30C 1999-01-27</h4>
+
+<ul>
+<li>
+The IAR Embedded Workbench now supports product families that have context
+help.</li>
+
+<li>
+<a NAME="ew280"></a><b>EW280:</b> It is no longer possible to add a user-defined
+tool to the tools menu without giving it a name.</li>
+
+<li>
+<a NAME="ew282"></a><b>EW282:</b> It is now possible to use the IAR Embedded
+Workbench key shortcuts to cut, copy &amp; paste in the toolbar search
+box.</li>
+
+<li>
+<a NAME="ew283"></a><b>EW283, EW284:<a NAME="ew284"></a></b> Corrected
+a problem that caused open text editor and binary editor documents to ignore
+changes to the "Scan for changed files" option.</li>
+
+<li>
+<a NAME="ew285"></a><b>EW285:</b> Corrected a problem that could cause
+the foreground window's caret to be positioned at an incorrect position
+when reloading a modified binary file.</li>
+
+<li>
+<a NAME="ew287"></a><b>EW287:</b> It is now possible to exit toolbar search
+mode from the keyboard by pressing &lt;ESC>.</li>
+
+<li>
+<a NAME="ew291"></a><b>EW291:</b> When converting old IAR Embedded Workbench
+2.01 projects, the tool paths would not be correctly reset until the project
+had been saved once. This has now been corrected.</li>
+</ul>
+
+<h4>
+EW 2.30B 1998-12-10</h4>
+
+<ul>
+<li>
+Performance enhancements in the editor.</li>
+</ul>
+
+<h4>
+EW 2.30A 1998-12-04</h4>
+
+<ul>
+<li>
+Initial release.</li>
+</ul>
+</ul>
+<font size=-1>Copyright 2000-2001 IAR Systems. All rights reserved.</font>
+</body>
+</html>

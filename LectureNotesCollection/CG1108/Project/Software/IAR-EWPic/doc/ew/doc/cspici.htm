@@ -1,0 +1,455 @@
+<html>
+<head>
+<title>Readme file for IAR C-SPY MPLAB ICE2000 Emulator for Microchip PIC</title>
+</head>
+<body bgcolor="#ffde00">
+
+<h2>Readme file for CSPICI V2.21A</h2>
+<font size=-1>
+Updated: 2002-09-25 [IFRC]<br>
+Archived: $Revision: 1.8 $
+</font> 
+
+<h2>Contents</a></h2>
+  <ul>
+  <li><a href=#important>Important information</a>
+  <li><a href=#features>New features</a>
+  <li><a href=#problems>Known problems</a>
+  <li><a href=#mcorr>Manual corrections</a>
+  <li><a href=#pcorr>Program corrections</a>
+  <li><a href=#misc>Miscellaneous</a>
+  <li><a href=#history>Release history</a>
+  <li><a href="ice2kqr.pdf">ICE2000 Quick Reference Manual</a>
+  </ul>
+
+For information about the generic components of the IAR C-SPY ICE2000 Emulator for Microchip PIC, refer to the file <a href=cwgui.htm>Readme file for IAR C-SPY Debugger</a>
+
+<!-------------------------------------------------------------------------->
+<!-- IMPORTANT INFORMATION                                                -->
+<!-------------------------------------------------------------------------->
+<h3><a name="important">Important information</a></h3>
+<ul><b>VERY IMPORTANT!</b><p><li>             
+Using the same parallel port for both the ICE2000 emulator and the hardware lock, 
+the dongle, has been known to damage the dongle in 
+some rare cases. IAR suggests you use different parallel ports for the 
+emulator and the dongle.
+</li><p>
+<li>
+<b>Running with target board</b><br>
+When connecting the emulator probe to a circuit, please make sure you have a 
+power supply connected and a stable voltage on the MCLR pin. If the circuit
+floats, erratic behavior could result.
+</li><p>
+<li>
+<b>Installation</b><br>
+When installing the IAR Systems Embedded Workbench on Microsoft Windows NT or 
+Microsoft Windows 2000, Microchip MPLAB 5.70 must also be installed since MPLAB uses 
+its own parallel port device driver for the MPLAB ICE2000 Emulator. The latest 
+version of MPLAB may be found at <a href=http://www.microchip.com>http://www.microchip.com</a>. 
+On Microsoft Windows NT4, Service Pack 4 or later must be installed for the 
+parallel port to function properly.</li><p>
+<li>
+<b>C-SPY execution and screen updates</b><br>
+While C-SPY is executing a command (including Run), it will not
+update the screen, except for the toolbars and the non-client area.
+This means that you should turn off your screen-saver
+when you leave C-SPY running for an extended period of time.
+Switching to another application while C-SPY is executing a
+Run command will cause screen update problems when you switch back
+to C-SPY.
+While C-SPY is executing, the only way to stop it is to click the 
+Stop button in the toolbar or to use any shortcut key assigned to the Stop
+command.
+</li><p>
+<li>
+<b>Tab expansion in C-SPY</b><br>
+The source window in C-SPY does not handle tabs. Instead it expands tabs
+with the number of spaces specified in the "Tab space" field in the
+"Window Settings" dialog (Options>Settings...). If your source code
+contains tabs, the current statement and breakpoint markers may not
+appear properly aligned with the text. To adjust this, set tab space
+to the appropriate value depending on which compiler you use. (Some
+compilers report a tab as being 1 character, others as being 8 characters.)
+</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- NEW FEATURES                                                         -->
+<!-------------------------------------------------------------------------->
+<h3><a name="features">New features</a></h3>
+<ul>
+<li>Support for the 16F72, 16F873A, 16F874A, 16F876A, and 16F877A devices has been added.</li>
+<li>Debug driver DLL selection has been simplified.</li>
+</ul> 
+
+<!-------------------------------------------------------------------------->
+<!-- KNOWN PROBLEMS                                                       -->
+<!-------------------------------------------------------------------------->
+<h3><a name="problems">Known problems</a></h3>
+<ul>
+<li>When linking with the Intel and Motorola binary formats without debug information, the byte ordering in the disassembly window is incorrect. </li><p>
+<li><a name="picdtw0082"><b>PICDTW0082: </b>The TBLAT register is not displayed correctly when debugging. This problem is associated with a Microchip MPLAB error.<p></li>
+<li>The Memory window contents are not updated after they have been changed 
+      by macros. Refreshing can be forced by scrolling the Memory window
+      back and forth.<br>
+      [reference EW292]</li><p>
+<li>'Step'/'Step into' do not work properly in highly optimized functions.
+      In such cases explicit breakpoints or the 'Goto' command can be used.<br>
+      [reference EW245]</li><p>
+<li>Debugging files compiled with maximum optimization may cause the CALLS
+      window to fail to display properly.</li><p>
+<li>When using complex triggers to halt execution, the halt occurs 2 to 3 cycles after the actual trig point. This is a hardware related problem. </li><p>
+<li>The vertical scrollbar sometimes disappears in the trace memory window. The page up and page down keys as well as the arrow keys still work, so you can use these to view the remaining trace window contents.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MANUAL CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="mcorr">Manual corrections</a></h3>
+<ul>
+</ul><b>V1.10A</b><p><ul>
+<li>   A new format specifier has been added:<p>
+
+       <ul>%b    - binary</ul><p>
+
+     [C-SPY Expressions, Format specifiers]<p></li>
+       
+
+  <li> A number of system macros have been added:<p>
+   
+     <b>__go</b><p><ul> Starts execution<p>
+
+                   SYNTAX<br>
+
+                   <tt>__go()</tt><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__go();</tt><p></ul>
+
+     <b>__step</b><p><ul>        Executes the next statement or instruction<p>
+                 
+                   SYNTAX<br>
+
+                   <tt>__step(kindOf)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>kindOf</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                 "OVER" - does not enter C/C++ 
+                                          functions or assembler
+                                          subroutines<br>
+
+                                 "INTO" - enters C/C++ functions
+                                          or assembler subroutines</ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__step();</tt><p></ul>
+
+     <b>__multiStep</b><p><ul>   Executes a sequence of steps<p>
+
+                   SYNTAX<br>
+
+                   <tt>__multiStep(kindOf, noOfSteps)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>kindOf</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                "OVER" - does not enter C/C++ 
+                                          functions or assembler
+                                          subroutines<br>
+
+                                 "INTO" - enters C/C++ functions
+                                          or assembler subroutines</ul><p>
+
+                   <tt><b>noOfSteps</b></tt><br><ul>     Number of steps to execute (integer)</ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__multiStep(12);</tt><p></ul>
+
+     <b>__autoStep</b><p><ul>    Steps continuously, with selectable time delay, 
+                   until a breakpoint or a program exit is detected.<p>
+
+                   SYNTAX<br>
+
+                   <tt>__autoStep(delay)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>delay</b></tt><br><ul>          Delay between steps in tenths
+                                  of a second (integer)</ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__autoStep(12);</tt><p></ul>
+
+     <b>__reset</b><p><ul>       Resets the target processor<p>
+
+                   SYNTAX<br>
+
+                   <tt>__reset()</tt><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__reset();</tt><p></ul>
+
+     <b>__calls</b><p><ul>       Toggles calls mode on or off<p>
+
+                   SYNTAX<br>
+
+                   <tt>__calls(what)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>what</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                 "ON"  - turns calls mode on<br>
+
+                                 "OFF" - turns calls mode off<br></ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__calls("ON");</tt><p></ul>
+
+     <b>__realtime</b><p><ul>    Toggles realtime mode on or off<p>
+
+                   SYNTAX<br>
+
+                   <tt>__realtime(what)</tt><p>
+
+                   PARAMETERS<br>
+
+                   <tt><b>what</b></tt><br><ul>        Predefined string, one of:<br>
+                               
+                                 "ON"  - turns calls mode on<br>
+
+                                 "OFF" - turns calls mode off<br></ul><p>
+
+                   RETURN VALUE<br>
+
+                   <tt>int 0</tt><p>
+
+                   EXAMPLE<br>
+
+                   <tt>__realtime("OFF");</tt><p></ul>
+
+<li> Toggling calls mode does not affect the program exit breakpoint.<br>
+     [C-SPY Reference, Control menu, Calls]</li><p>
+
+<li> Valid format specifiers in the current version are:<p><ul><tt>
+       %c    - character<br>
+       %o    - octal<br>
+       %x,%X - hexadecimal<br>
+       %s    - string</ul></tt><p>
+     Invalid or no specifier maps to the default format based on 
+     the expression type.<br>
+     [C-SPY Expressions, Format specifiers]</li><p>
+       
+<li> The return value of the '__setBreak()' system macro has been changed from<p>
+    
+       <ul><tt>int 0</tt></ul><br>
+    
+     to<br>
+
+       <ul><tt>Successful     int 0<br>
+       Unsuccessful   Non-zero error number</tt></ul><p>
+
+     [C-SPY macros, __setBreak]</li><p>
+
+<li> The definition of system macro __clearBreak() has been changed from<p>
+
+     <ul><tt>__clearBreak(address, segment)</tt></ul><br>
+
+     to<br>
+
+     <ul><tt>__clearBreak(address, segment, access)</tt></ul><p>
+
+     The meaning of the 'access' parameter is the same as in the corresponding
+     __setBreak() macro eg:<p>
+
+     <ul><tt>access</tt> -  the memory access type; concatenation of any of 'R', 'W',
+               'F', 'I' or 'O'.</li></ul><p>
+
+
+
+<li><h4> Debug session options</h4>
+
+To start a debugging session, a set of session options must be passed to C-SPY.
+You do this by specifying options on the command line or in the 
+dialog box shown when you load a file from the File menu.
+
+There are the following general session options:<p>
+
+<b>driver option: "-d"</b> followed by name of driver to be used. Currently supported
+               drivers are: <p>
+               <ul>spic16 - simulator for mid-range (14-bit) PICs<br>
+               spic17 - simulator for high-end (16-bit) PICs<br>
+               ipic16 - ICE2000 emulator for mid-range PICs<br>
+               ipic17 - ICE2000 emulator for high-end PICs</ul><p>
+
+               This option can only be used on the command line.
+
+               Example:<p>
+
+               <ul><tt>-d ipic16</tt></ul><p>
+
+<b>set-up option: "-f"</b> followed by file name containing set-up macro(s). All 
+               macros from the specified file will be registered automatically 
+               during the start up phase.<p>
+
+               <ul>Example:<br>
+
+               <tt>-f C:\IAR\EW23\PICmicro\CWPIC\SERIAL.MAC</tt></ul><p>
+
+<b>SFR debug window: "-p"</b> followed immediately by the SFR setup file. <p>
+               <ul>Example:<br>
+               <tt>-pPIC17C43.DDF</tt></ul><p>
+
+
+<h4>emulator options:</h4>
+               <b>"-ed MIXXX.DLL"</b><br><ul> Selects the emulator device driver in case C-SPY
+               fails to locate the appropriate one, e. g. "-ed MI17C42A.DLL".</ul><p>
+
+               <b>"-ef N"</b> Internal clock frequency<br><ul> E. g. "-ef 16000000" sets a 
+               16MHz clock. Cannot be combined with "-eoN".</ul><p>
+
+               <b>"-ep"</b> External power.<br><ul> Makes the emulator use target board power.
+               To use a target board clock (external clock), external power must 
+               be used.</ul><p>
+
+               <b>"-eoN"</b> External clock, where N=0,1,2,3,4,5,6,7.<br><ul>
+               Selects external oscillator type. The numerical value corresponds 
+               to the configuration word of the PIC. Requires "-ep". For example: 
+               "-eo2" sets HS oscillator on PIC16F84.</ul><p>
+
+               <b>"-ewe"</b> enables reset on watchdog timer (WDT) overflow.<p>
+
+               <b>"-ewb"</b> enables break on WDT overflow. Requires "-ewe".<p>
+
+               <b>"-ewpN"</b> (PIC17 only)<br> <ul>Sets the binary logarithm of the WDT prescaler, 
+               e. g. "-ewp1" sets the prescaler to 1, "-ewp5" sets the prescaler to 16, 
+               "-ewp9" sets the prescaler to 256. Requires "-ewe".</ul><p>
+</li>			
+
+
+<li><h4>Starting C-SPY from the command line</h4>
+
+If you specify a valid input file name and a driver (and any other session
+options) on the command line, C-SPY loads the input file automatically. Otherwise 
+if no driver is specified (and there is more than one installed) C-SPY asks you 
+to choose one and continues; if no input file is given, C-SPY goes into standby
+mode and you must load the input file from the File menu to continue.</li><p>
+
+<li><h4>Loading input file from the File menu</h4>
+
+When you choose a file to be loaded with the Open command on the File menu
+or from the list of recently used files, a dialog box is displayed showing 
+driver and session options to be used. You may modify them if a file to be 
+loaded needs another set of options.<p>
+
+NOTE: No driver option or input file name should be specified in the 
+"Options:" field.<p></li>
+
+
+<li><h4>Error handling in Macros</h4>
+
+Note that all error conditions encountered while processing system macros 
+are handled by the C-SPY error handler. This means that the execution 
+is stopped and a corresponding error message is displayed; the user cannot
+take care of these errors by testing macro return value.<p>
+</ul>
+<!-------------------------------------------------------------------------->
+<!-- PROGRAM CORRECTIONS                                                  -->
+<!-------------------------------------------------------------------------->
+<h3><a name="pcorr">Program corrections</a></h3>
+<ul>
+</ul><b>V2.21A</b><p><ul>
+<li>Switching between C and disassembly view could crash the debugger.</li>
+<li>Modifying a RAM location from the Watch or Memory window would write 0 to the following byte.<br>
+    [EW11763]</li>
+</ul><b>V2.20B</b><p><ul>
+<li>Executing the C-SPY macro __readMemoryByte with segment "CODE" would cause an internal error.<br>
+    [EW12371]</li>
+<li>Using the processor module PCM16XS1 would cause a fatal error.<br>
+    [EW12151]</li>
+<li>Using the processor module PCM16XK1 would cause a fatal error.<br>
+    [EW11967]</li>
+<li>Saving the contents of the Trace window would sometimes crash.<br>
+    [EW11966]</li>
+<li>The contents of the Trace window would sometimes be misaligned.<br>
+    [EW11965]</li>
+<li>Opening the Trace window could sometimes crash the debugger.<br>
+    [EW11964]</li>
+<li>Selecting the Trigger position 'User defined' in the Complex trigger settings dialog box would not enable the 'Cycles traced after trigger' edit control.<br>
+    [EW11963]</li>
+<li>Changing the SP register from the Register window would generate an internal error.<br>
+    [EW11764]</li>
+<li>Opening a EEPROM memory window or trying to display the value of an EEPROM variable would cause an internal error.<br>
+    [EW11155]</li>
+<p>
+</ul><b>V2.20A</b><p><ul>
+<li><a name="PICDTW0086"><b>PICDTW0086: </b>Some oscillator settings did not work with the new debug drivers from Microchip. This was corrected in patch 2.12B. </li><p>
+</ul><b>V2.12A</b><p><ul>
+<li>Resolved an issue where GIE of INTCON could not be set from the Memory window.</li><p>
+<li>Resolved an issue with external oscillator selections for the 16C745, 16C765, 16F627, and 16F628</li><p>
+<li>When changing code in the Memory window, bytes would be swapped. This problem has been solved.</li><p>
+<li><a name="PICDTW0078"><b>PICDTW0078: </b>When setting a breakpoint on an instruction modifying the BSR, the BSR failed to be updated. This problem has been resolved.</li><p>
+<li>An issue where the debugger would freeze if the assembler view was scrolled too fast was resolved.</li><p>
+</ul>
+
+<!-------------------------------------------------------------------------->
+<!-- MISCELLANEOUS                                                        -->
+<!-------------------------------------------------------------------------->
+<h3><a name="misc">Miscellaneous</a></h3>
+<ul><li>With new releases of MPLAB, there may be ICE2000 support for additional target processors. 
+Copy the corresponding MIxxx.DLL from the MPLAB installation to the Embedded Workbench \bin directory
+to emulate these processors in C-SPY. It might be a good idea to copy all MI*.DLL files to the Embedded Workbench
+since they may contain corrections.</li></ul>
+
+<!-------------------------------------------------------------------------->
+<!-- RELEASE HISTORY                                                      -->
+<!-------------------------------------------------------------------------->
+<h3><a name="history">Release history</a></h3>
+<ul>
+<li>V2.21A - Program corrections.</li>
+<li>V2.20B - Patch release, several corrections.</li>
+<li>V2.20A - Complex triggers.</li>
+<li>V2.12A - Updated release, mainly new derivatives and program corrections.</li>
+<li>V1.10A - Initial release.</li>
+</ul>
+
+<br>
+<font size=-1>
+Copyright 2001-2002 IAR Systems. All rights reserved.<br>
+</font> 
+
+</body>
+</html>
