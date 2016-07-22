@@ -1,0 +1,14 @@
+Book Review for Chapter 8
+
+Problem Decomposition
+    - Binary Search + Greedy/MCBM/SSSP/Max Flow
+    - SSSP + DP: SSSP to translate, DP to calculate
+More Avanced Search Tech
+    - Informed Search: A* -- a greedy search
+    - Depth Limited Search -- when we know the maximum depth
+    - Iterative Deepening Search -- BFS overall + DFS in shellow layers.
+
+Question / Unclear:
+    UVA 10816: 
+        it's classified as "Binary Search", but I don't understand where the "binary search" comes from.
+        to solve this question, one can do two dijkstra's. First time find the min allowed temperature, then second time build the map of distance, only put in those route with temperature < minT, and do a dijkstra's on Distance.

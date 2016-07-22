@@ -1,0 +1,36 @@
+% concat the list X with list Y, save the result in R
+declare
+proc {App X Y R}
+   case X
+   of nil then R = Y
+   [] H|T then R1 {App T Y R1} in R = H|R1
+   end
+end
+
+R Z W
+{App [1 2 3] [4 5 6] R}
+{Browse R}
+{App [1 2 3] Z [1 2 3 4 5 6]}
+{Browse Z}
+{App W [4 5 6] [1 2 3 4 5 6]}
+{Browse W}
+{Browse 123}
+
+% seems I have to redo everything again...
+declare
+fun {Factorial N}
+   P = {NewCell 1}
+   proc {Helper N}
+      if(N==0)
+      then skip
+      else
+	 P := @P * N
+	 {Helper N-1}
+      end
+   end
+in
+   {Helper N}
+   @P
+end
+
+{Browse {Factorial 5}}

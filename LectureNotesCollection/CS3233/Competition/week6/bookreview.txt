@@ -1,0 +1,11 @@
+NOTE: really sorry I'm spending all my time on another project these days during the recess week... therefore not much I've done for CS3233
+
+Exercise 8.4.1.1: Break is necessary. Because in the final state, every node has to be matched -- therefore there's no such a case that the first node is not used. Therefore after calculating the first node, just break there.
+
+
+Bug:
+1. (code in page 3, the eample code for UVA 10911, the use of memset) note that memset would assign the value of each byte in that range. Therefore one cannot use memset to assign value for a double array if one want to assign any value other than 0 (in the example code you're assigning -1)
+
+
+Tips:
+1. (also referring to code in Page3) note that in scanf, when a certain element is not needed, one can use * to escape. take the Page 3's problem for example, the input is in the format of "[name] [num1] [num2]", but we don't need the [name1] term. Therefore, when using a scanf, one can put "%*s%d%d" to avoid the first string

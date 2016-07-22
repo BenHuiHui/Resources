@@ -1,0 +1,72 @@
+Reading Notes:
+4.6 -- Max Flow
+- Ford Fulkerson's method: (time complexity: O(f*E), where f can be very large)
+    1. find a path from s to t on the residual graph, and the min flow "f" through this path
+    2. for all the edges on this path, flow += f, and for the reverse edge, flow -= f
+    3. go back to 1, until f = 0
+- Edmonds Karp's: (time complexity: O(V*E^2)
+    1. find a *shortest path* on the residual graph, and the flow "f" of the path
+    2,3: same as Ford Fulkerson's
+- Application:
+    - min cut:
+        1. run max flow;
+        2. run BFS from the source on the residual graph 
+            -- therefore separting the nodes into 2 parts: source part and sink part
+        3. all the edges between the nodes of these two parts are min-cut
+    - Multi-source / Multi-sink:
+        create a super node for the sources/sinks, as the new source/sink
+    - Max Flow with Vertex Capacities:
+        Split the vertex into 2, and set the path's capacity to be the vertex's c
+    - Max Independent Paths (passing each element at most once):
+        Assign vertex capacity and edge capacity to be 1, run Max flow
+    - Max Edge-Disjoint Paths:
+        Assign edge capacity to be 1, run Max Flow
+    - Min Cost Flow:
+        In the Edmonds Karp's, replace BFS with Bellman Ford's
+
+4.7 -- Special Graphs
+- DAG:
+    - SSSP/SSLP:
+        1. find topological order
+        2. relax the edges according to that order
+    - Counting Path:
+        use DP. num_paths[v] += num_paths[current] for all the nodes in topological order
+    - Convertig General Graph to DAG:
+        usually by adding one parameter (the current state), we can differenciate the nodes.
+- Tree:
+    - Traversal:
+        Pre-order: visit, f(v.left), f(v.right)
+        In order: f(v.left), visit, f(v.right)
+        Post-order: f(v.left), f(v.right), visit
+    - Articulation Point / Bridge in Tree:
+        all edges on tree are bridges
+        all internal vertices with degree > 1 are articulation points
+    - SSSP on Weighted Tree:
+        run BFS/DFS 
+    - APSP on Weighted Tree:
+        run BFS/DFS from each node of the tree
+    - Diameter of Tree:
+        1. run BFS to find the furthest node
+        2. from this node, run BFS again on the reversed graph
+- Eulerian Graph:
+    - Eulerian Graph Check:
+        Euler Tour on undirected graph: if all vertices have even degree
+        Euler path on undirected ..: if at most 2 vertices have odd degrees
+    - Printing Euler Tour:
+
+- Bipartite Graph:
+    - Max Cardinality Bipartite Matching:
+        1. split the graph into 2 parts, set the edge capacity to be 1
+        2. run max-fllow
+    - Max Independent Set
+        -- each edge of graph G has at least one ennpoint not in S,
+            and every vertex not in S has at least one neighbor in S
+        -- MIS = V - MCBM in bipartite graph
+    - Min Vertex Cover:
+        -- each edge of G is incident to at least one vertex in C
+        -- MVC = MCBM in bipartite graph
+    - Alternating Path Alg for Max Cardinality Bipartite Matching:
+        1. randomly assign edge to be matching
+        2. augment path: starting from a free vertex, alternate between free edge/matched edge until path arrive on free vertex on right site
+        3. flip the edges in the path
+        4. goto 2, repeat this process until cannot do.

@@ -1,0 +1,4947 @@
+ s = 0, -- get pp
+s = 0, i = 0, j=1, k=2, ns = 7
+s = 0, i = 0, j=1, k=3, ns = b
+s = 0, i = 0, j=1, k=4, ns = 13
+s = 0, i = 0, j=1, k=5, ns = 23
+s = 0, i = 0, j=1, k=6, ns = 43
+s = 0, i = 0, j=1, k=7, ns = 83
+s = 0, i = 0, j=1, k=8, ns = 103
+s = 0, i = 0, j=2, k=3, ns = d
+s = 0, i = 0, j=2, k=4, ns = 15
+s = 0, i = 0, j=2, k=5, ns = 25
+s = 0, i = 0, j=2, k=6, ns = 45
+s = 0, i = 0, j=2, k=7, ns = 85
+s = 0, i = 0, j=2, k=8, ns = 105
+s = 0, i = 0, j=3, k=4, ns = 19
+s = 0, i = 0, j=3, k=5, ns = 29
+s = 0, i = 0, j=3, k=6, ns = 49
+s = 0, i = 0, j=3, k=7, ns = 89
+s = 0, i = 0, j=3, k=8, ns = 109
+s = 0, i = 0, j=4, k=5, ns = 31
+s = 0, i = 0, j=4, k=6, ns = 51
+s = 0, i = 0, j=4, k=7, ns = 91
+s = 0, i = 0, j=4, k=8, ns = 111
+s = 0, i = 0, j=5, k=6, ns = 61
+s = 0, i = 0, j=5, k=7, ns = a1
+s = 0, i = 0, j=5, k=8, ns = 121
+s = 0, i = 0, j=6, k=7, ns = c1
+s = 0, i = 0, j=6, k=8, ns = 141
+s = 0, i = 0, j=7, k=8, ns = 181
+s = 0, i = 1, j=2, k=3, ns = e
+s = 0, i = 1, j=2, k=4, ns = 16
+s = 0, i = 1, j=2, k=5, ns = 26
+s = 0, i = 1, j=2, k=6, ns = 46
+s = 0, i = 1, j=2, k=7, ns = 86
+s = 0, i = 1, j=2, k=8, ns = 106
+s = 0, i = 1, j=3, k=4, ns = 1a
+s = 0, i = 1, j=3, k=5, ns = 2a
+s = 0, i = 1, j=3, k=6, ns = 4a
+s = 0, i = 1, j=3, k=7, ns = 8a
+s = 0, i = 1, j=3, k=8, ns = 10a
+s = 0, i = 1, j=4, k=5, ns = 32
+s = 0, i = 1, j=4, k=6, ns = 52
+s = 0, i = 1, j=4, k=7, ns = 92
+s = 0, i = 1, j=4, k=8, ns = 112
+s = 0, i = 1, j=5, k=6, ns = 62
+s = 0, i = 1, j=5, k=7, ns = a2
+s = 0, i = 1, j=5, k=8, ns = 122
+s = 0, i = 1, j=6, k=7, ns = c2
+s = 0, i = 1, j=6, k=8, ns = 142
+s = 0, i = 1, j=7, k=8, ns = 182
+s = 0, i = 2, j=3, k=4, ns = 1c
+s = 0, i = 2, j=3, k=5, ns = 2c
+s = 0, i = 2, j=3, k=6, ns = 4c
+s = 0, i = 2, j=3, k=7, ns = 8c
+s = 0, i = 2, j=3, k=8, ns = 10c
+s = 0, i = 2, j=4, k=5, ns = 34
+s = 0, i = 2, j=4, k=6, ns = 54
+s = 0, i = 2, j=4, k=7, ns = 94
+s = 0, i = 2, j=4, k=8, ns = 114
+s = 0, i = 2, j=5, k=6, ns = 64
+s = 0, i = 2, j=5, k=7, ns = a4
+s = 0, i = 2, j=5, k=8, ns = 124
+s = 0, i = 2, j=6, k=8, ns = 144
+s = 0, i = 2, j=7, k=8, ns = 184
+s = 0, i = 3, j=4, k=5, ns = 38
+s = 0, i = 3, j=4, k=6, ns = 58
+s = 0, i = 3, j=4, k=7, ns = 98
+s = 0, i = 3, j=4, k=8, ns = 118
+s = 0, i = 3, j=5, k=6, ns = 68
+s = 0, i = 3, j=5, k=7, ns = a8
+s = 0, i = 3, j=5, k=8, ns = 128
+s = 0, i = 3, j=6, k=8, ns = 148
+s = 0, i = 3, j=7, k=8, ns = 188
+s = 0, i = 4, j=5, k=6, ns = 70
+s = 0, i = 4, j=5, k=7, ns = b0
+s = 0, i = 4, j=5, k=8, ns = 130
+s = 0, i = 4, j=6, k=7, ns = d0
+s = 0, i = 4, j=6, k=8, ns = 150
+s = 0, i = 4, j=7, k=8, ns = 190
+s = 0, i = 5, j=6, k=7, ns = e0
+s = 0, i = 5, j=6, k=8, ns = 160
+s = 0, i = 5, j=7, k=8, ns = 1a0
+s = 0, i = 6, j=7, k=8, ns = 1c0
+end p ---- 
+s = 0
+ s = 7, -- get pp
+s = 7, i = 3, j=4, k=5, ns = 3f
+s = 7, i = 3, j=4, k=6, ns = 5f
+s = 7, i = 3, j=4, k=7, ns = 9f
+s = 7, i = 3, j=4, k=8, ns = 11f
+s = 7, i = 3, j=5, k=6, ns = 6f
+s = 7, i = 3, j=5, k=7, ns = af
+s = 7, i = 3, j=5, k=8, ns = 12f
+s = 7, i = 3, j=6, k=8, ns = 14f
+s = 7, i = 3, j=7, k=8, ns = 18f
+s = 7, i = 4, j=5, k=6, ns = 77
+s = 7, i = 4, j=5, k=7, ns = b7
+s = 7, i = 4, j=5, k=8, ns = 137
+s = 7, i = 4, j=6, k=7, ns = d7
+s = 7, i = 4, j=6, k=8, ns = 157
+s = 7, i = 4, j=7, k=8, ns = 197
+s = 7, i = 5, j=6, k=7, ns = e7
+s = 7, i = 5, j=6, k=8, ns = 167
+s = 7, i = 5, j=7, k=8, ns = 1a7
+s = 7, i = 6, j=7, k=8, ns = 1c7
+end p ---- 
+s = 7
+ s = 3f, -- get pp
+s = 3f, i = 6, j=7, k=8, ns = 1ff
+end p ---- 
+s = 3f
+ s = 1ff, -- get pp
+end p ---- 
+s = 1ff
+
+s = 3f, val = 1, ns = 1ff
+
+s = 3f, val = 1
+s = 7, val = 2, ns = 3f
+ s = 5f, -- get pp
+s = 5f, i = 5, j=7, k=8, ns = 1ff
+end p ---- 
+s = 5f
+s = 5f, val = 1, ns = 1ff
+
+s = 5f, val = 1
+s = 7, val = 2, ns = 5f
+ s = 9f, -- get pp
+s = 9f, i = 5, j=6, k=8, ns = 1ff
+end p ---- 
+s = 9f
+s = 9f, val = 1, ns = 1ff
+
+s = 9f, val = 1
+s = 7, val = 2, ns = 9f
+ s = 11f, -- get pp
+s = 11f, i = 5, j=6, k=7, ns = 1ff
+end p ---- 
+s = 11f
+s = 11f, val = 1, ns = 1ff
+
+s = 11f, val = 1
+s = 7, val = 2, ns = 11f
+ s = 6f, -- get pp
+s = 6f, i = 4, j=7, k=8, ns = 1ff
+end p ---- 
+s = 6f
+s = 6f, val = 1, ns = 1ff
+
+s = 6f, val = 1
+s = 7, val = 2, ns = 6f
+ s = af, -- get pp
+s = af, i = 4, j=6, k=8, ns = 1ff
+end p ---- 
+s = af
+s = af, val = 1, ns = 1ff
+
+s = af, val = 1
+s = 7, val = 2, ns = af
+ s = 12f, -- get pp
+s = 12f, i = 4, j=6, k=7, ns = 1ff
+end p ---- 
+s = 12f
+s = 12f, val = 1, ns = 1ff
+
+s = 12f, val = 1
+s = 7, val = 2, ns = 12f
+ s = 14f, -- get pp
+s = 14f, i = 4, j=5, k=7, ns = 1ff
+end p ---- 
+s = 14f
+s = 14f, val = 1, ns = 1ff
+
+s = 14f, val = 1
+s = 7, val = 2, ns = 14f
+ s = 18f, -- get pp
+s = 18f, i = 4, j=5, k=6, ns = 1ff
+end p ---- 
+s = 18f
+s = 18f, val = 1, ns = 1ff
+
+s = 18f, val = 1
+s = 7, val = 2, ns = 18f
+ s = 77, -- get pp
+s = 77, i = 3, j=7, k=8, ns = 1ff
+end p ---- 
+s = 77
+s = 77, val = 1, ns = 1ff
+
+s = 77, val = 1
+s = 7, val = 2, ns = 77
+ s = b7, -- get pp
+s = b7, i = 3, j=6, k=8, ns = 1ff
+end p ---- 
+s = b7
+s = b7, val = 1, ns = 1ff
+
+s = b7, val = 1
+s = 7, val = 2, ns = b7
+ s = 137, -- get pp
+end p ---- 
+s = 137
+
+s = 7, val = 2, ns = 137
+ s = d7, -- get pp
+s = d7, i = 3, j=5, k=8, ns = 1ff
+end p ---- 
+s = d7
+s = d7, val = 1, ns = 1ff
+
+s = d7, val = 1
+s = 7, val = 2, ns = d7
+ s = 157, -- get pp
+s = 157, i = 3, j=5, k=7, ns = 1ff
+end p ---- 
+s = 157
+s = 157, val = 1, ns = 1ff
+
+s = 157, val = 1
+s = 7, val = 2, ns = 157
+ s = 197, -- get pp
+s = 197, i = 3, j=5, k=6, ns = 1ff
+end p ---- 
+s = 197
+s = 197, val = 1, ns = 1ff
+
+s = 197, val = 1
+s = 7, val = 2, ns = 197
+ s = e7, -- get pp
+s = e7, i = 3, j=4, k=8, ns = 1ff
+end p ---- 
+s = e7
+s = e7, val = 1, ns = 1ff
+
+s = e7, val = 1
+s = 7, val = 2, ns = e7
+ s = 167, -- get pp
+s = 167, i = 3, j=4, k=7, ns = 1ff
+end p ---- 
+s = 167
+s = 167, val = 1, ns = 1ff
+
+s = 167, val = 1
+s = 7, val = 2, ns = 167
+ s = 1a7, -- get pp
+s = 1a7, i = 3, j=4, k=6, ns = 1ff
+end p ---- 
+s = 1a7
+s = 1a7, val = 1, ns = 1ff
+
+s = 1a7, val = 1
+s = 7, val = 2, ns = 1a7
+ s = 1c7, -- get pp
+s = 1c7, i = 3, j=4, k=5, ns = 1ff
+end p ---- 
+s = 1c7
+s = 1c7, val = 1, ns = 1ff
+
+s = 1c7, val = 1
+s = 7, val = 2, ns = 1c7
+
+s = 7, val = 2
+s = 0, val = 3, ns = 7
+ s = b, -- get pp
+s = b, i = 2, j=4, k=5, ns = 3f
+s = b, i = 2, j=4, k=6, ns = 5f
+s = b, i = 2, j=4, k=7, ns = 9f
+s = b, i = 2, j=4, k=8, ns = 11f
+s = b, i = 2, j=5, k=6, ns = 6f
+s = b, i = 2, j=5, k=7, ns = af
+s = b, i = 2, j=5, k=8, ns = 12f
+s = b, i = 2, j=6, k=8, ns = 14f
+s = b, i = 2, j=7, k=8, ns = 18f
+s = b, i = 4, j=5, k=6, ns = 7b
+s = b, i = 4, j=5, k=7, ns = bb
+s = b, i = 4, j=5, k=8, ns = 13b
+s = b, i = 4, j=6, k=7, ns = db
+s = b, i = 4, j=6, k=8, ns = 15b
+s = b, i = 4, j=7, k=8, ns = 19b
+s = b, i = 5, j=6, k=7, ns = eb
+s = b, i = 5, j=6, k=8, ns = 16b
+s = b, i = 5, j=7, k=8, ns = 1ab
+s = b, i = 6, j=7, k=8, ns = 1cb
+end p ---- 
+s = b
+s = b, val = 2, ns = 3f
+s = b, val = 2, ns = 5f
+s = b, val = 2, ns = 9f
+s = b, val = 2, ns = 11f
+s = b, val = 2, ns = 6f
+s = b, val = 2, ns = af
+s = b, val = 2, ns = 12f
+s = b, val = 2, ns = 14f
+s = b, val = 2, ns = 18f
+ s = 7b, -- get pp
+s = 7b, i = 2, j=7, k=8, ns = 1ff
+end p ---- 
+s = 7b
+s = 7b, val = 1, ns = 1ff
+
+s = 7b, val = 1
+s = b, val = 2, ns = 7b
+ s = bb, -- get pp
+s = bb, i = 2, j=6, k=8, ns = 1ff
+end p ---- 
+s = bb
+s = bb, val = 1, ns = 1ff
+
+s = bb, val = 1
+s = b, val = 2, ns = bb
+ s = 13b, -- get pp
+end p ---- 
+s = 13b
+
+s = b, val = 2, ns = 13b
+ s = db, -- get pp
+s = db, i = 2, j=5, k=8, ns = 1ff
+end p ---- 
+s = db
+s = db, val = 1, ns = 1ff
+
+s = db, val = 1
+s = b, val = 2, ns = db
+ s = 15b, -- get pp
+s = 15b, i = 2, j=5, k=7, ns = 1ff
+end p ---- 
+s = 15b
+s = 15b, val = 1, ns = 1ff
+
+s = 15b, val = 1
+s = b, val = 2, ns = 15b
+ s = 19b, -- get pp
+s = 19b, i = 2, j=5, k=6, ns = 1ff
+end p ---- 
+s = 19b
+s = 19b, val = 1, ns = 1ff
+
+s = 19b, val = 1
+s = b, val = 2, ns = 19b
+ s = eb, -- get pp
+s = eb, i = 2, j=4, k=8, ns = 1ff
+end p ---- 
+s = eb
+s = eb, val = 1, ns = 1ff
+
+s = eb, val = 1
+s = b, val = 2, ns = eb
+ s = 16b, -- get pp
+s = 16b, i = 2, j=4, k=7, ns = 1ff
+end p ---- 
+s = 16b
+s = 16b, val = 1, ns = 1ff
+
+s = 16b, val = 1
+s = b, val = 2, ns = 16b
+ s = 1ab, -- get pp
+s = 1ab, i = 2, j=4, k=6, ns = 1ff
+end p ---- 
+s = 1ab
+s = 1ab, val = 1, ns = 1ff
+
+s = 1ab, val = 1
+s = b, val = 2, ns = 1ab
+ s = 1cb, -- get pp
+s = 1cb, i = 2, j=4, k=5, ns = 1ff
+end p ---- 
+s = 1cb
+s = 1cb, val = 1, ns = 1ff
+
+s = 1cb, val = 1
+s = b, val = 2, ns = 1cb
+
+s = b, val = 2
+s = 0, val = 3, ns = b
+ s = 13, -- get pp
+s = 13, i = 2, j=3, k=5, ns = 3f
+s = 13, i = 2, j=3, k=6, ns = 5f
+s = 13, i = 2, j=3, k=7, ns = 9f
+s = 13, i = 2, j=3, k=8, ns = 11f
+s = 13, i = 2, j=5, k=6, ns = 77
+s = 13, i = 2, j=5, k=7, ns = b7
+s = 13, i = 2, j=5, k=8, ns = 137
+s = 13, i = 2, j=6, k=8, ns = 157
+s = 13, i = 2, j=7, k=8, ns = 197
+s = 13, i = 3, j=5, k=6, ns = 7b
+s = 13, i = 3, j=5, k=7, ns = bb
+s = 13, i = 3, j=5, k=8, ns = 13b
+s = 13, i = 3, j=6, k=8, ns = 15b
+s = 13, i = 3, j=7, k=8, ns = 19b
+s = 13, i = 5, j=6, k=7, ns = f3
+s = 13, i = 5, j=6, k=8, ns = 173
+s = 13, i = 5, j=7, k=8, ns = 1b3
+s = 13, i = 6, j=7, k=8, ns = 1d3
+end p ---- 
+s = 13
+s = 13, val = 2, ns = 3f
+s = 13, val = 2, ns = 5f
+s = 13, val = 2, ns = 9f
+s = 13, val = 2, ns = 11f
+s = 13, val = 2, ns = 77
+s = 13, val = 2, ns = b7
+s = 13, val = 2, ns = 137
+s = 13, val = 2, ns = 157
+s = 13, val = 2, ns = 197
+s = 13, val = 2, ns = 7b
+s = 13, val = 2, ns = bb
+s = 13, val = 2, ns = 13b
+s = 13, val = 2, ns = 15b
+s = 13, val = 2, ns = 19b
+ s = f3, -- get pp
+s = f3, i = 2, j=3, k=8, ns = 1ff
+end p ---- 
+s = f3
+s = f3, val = 1, ns = 1ff
+
+s = f3, val = 1
+s = 13, val = 2, ns = f3
+ s = 173, -- get pp
+s = 173, i = 2, j=3, k=7, ns = 1ff
+end p ---- 
+s = 173
+s = 173, val = 1, ns = 1ff
+
+s = 173, val = 1
+s = 13, val = 2, ns = 173
+ s = 1b3, -- get pp
+s = 1b3, i = 2, j=3, k=6, ns = 1ff
+end p ---- 
+s = 1b3
+s = 1b3, val = 1, ns = 1ff
+
+s = 1b3, val = 1
+s = 13, val = 2, ns = 1b3
+ s = 1d3, -- get pp
+s = 1d3, i = 2, j=3, k=5, ns = 1ff
+end p ---- 
+s = 1d3
+s = 1d3, val = 1, ns = 1ff
+
+s = 1d3, val = 1
+s = 13, val = 2, ns = 1d3
+
+s = 13, val = 2
+s = 0, val = 3, ns = 13
+ s = 23, -- get pp
+s = 23, i = 2, j=3, k=4, ns = 3f
+s = 23, i = 2, j=3, k=6, ns = 6f
+s = 23, i = 2, j=3, k=7, ns = af
+s = 23, i = 2, j=3, k=8, ns = 12f
+s = 23, i = 2, j=4, k=6, ns = 77
+s = 23, i = 2, j=4, k=7, ns = b7
+s = 23, i = 2, j=4, k=8, ns = 137
+s = 23, i = 2, j=6, k=8, ns = 167
+s = 23, i = 2, j=7, k=8, ns = 1a7
+s = 23, i = 3, j=4, k=6, ns = 7b
+s = 23, i = 3, j=4, k=7, ns = bb
+s = 23, i = 3, j=4, k=8, ns = 13b
+s = 23, i = 3, j=6, k=8, ns = 16b
+s = 23, i = 3, j=7, k=8, ns = 1ab
+s = 23, i = 4, j=6, k=7, ns = f3
+s = 23, i = 4, j=6, k=8, ns = 173
+s = 23, i = 4, j=7, k=8, ns = 1b3
+s = 23, i = 6, j=7, k=8, ns = 1e3
+end p ---- 
+s = 23
+s = 23, val = 2, ns = 3f
+s = 23, val = 2, ns = 6f
+s = 23, val = 2, ns = af
+s = 23, val = 2, ns = 12f
+s = 23, val = 2, ns = 77
+s = 23, val = 2, ns = b7
+s = 23, val = 2, ns = 137
+s = 23, val = 2, ns = 167
+s = 23, val = 2, ns = 1a7
+s = 23, val = 2, ns = 7b
+s = 23, val = 2, ns = bb
+s = 23, val = 2, ns = 13b
+s = 23, val = 2, ns = 16b
+s = 23, val = 2, ns = 1ab
+s = 23, val = 2, ns = f3
+s = 23, val = 2, ns = 173
+s = 23, val = 2, ns = 1b3
+ s = 1e3, -- get pp
+s = 1e3, i = 2, j=3, k=4, ns = 1ff
+end p ---- 
+s = 1e3
+s = 1e3, val = 1, ns = 1ff
+
+s = 1e3, val = 1
+s = 23, val = 2, ns = 1e3
+
+s = 23, val = 2
+s = 0, val = 3, ns = 23
+ s = 43, -- get pp
+s = 43, i = 2, j=3, k=4, ns = 5f
+s = 43, i = 2, j=3, k=5, ns = 6f
+s = 43, i = 2, j=3, k=7, ns = cf
+s = 43, i = 2, j=3, k=8, ns = 14f
+s = 43, i = 2, j=4, k=5, ns = 77
+s = 43, i = 2, j=4, k=7, ns = d7
+s = 43, i = 2, j=4, k=8, ns = 157
+s = 43, i = 2, j=5, k=7, ns = e7
+s = 43, i = 2, j=5, k=8, ns = 167
+s = 43, i = 2, j=7, k=8, ns = 1c7
+s = 43, i = 3, j=4, k=5, ns = 7b
+s = 43, i = 3, j=4, k=7, ns = db
+s = 43, i = 3, j=4, k=8, ns = 15b
+s = 43, i = 3, j=5, k=7, ns = eb
+s = 43, i = 3, j=5, k=8, ns = 16b
+s = 43, i = 3, j=7, k=8, ns = 1cb
+s = 43, i = 4, j=5, k=7, ns = f3
+s = 43, i = 4, j=5, k=8, ns = 173
+s = 43, i = 4, j=7, k=8, ns = 1d3
+s = 43, i = 5, j=7, k=8, ns = 1e3
+end p ---- 
+s = 43
+s = 43, val = 2, ns = 5f
+s = 43, val = 2, ns = 6f
+ s = cf, -- get pp
+s = cf, i = 4, j=5, k=8, ns = 1ff
+end p ---- 
+s = cf
+s = cf, val = 1, ns = 1ff
+
+s = cf, val = 1
+s = 43, val = 2, ns = cf
+s = 43, val = 2, ns = 14f
+s = 43, val = 2, ns = 77
+s = 43, val = 2, ns = d7
+s = 43, val = 2, ns = 157
+s = 43, val = 2, ns = e7
+s = 43, val = 2, ns = 167
+s = 43, val = 2, ns = 1c7
+s = 43, val = 2, ns = 7b
+s = 43, val = 2, ns = db
+s = 43, val = 2, ns = 15b
+s = 43, val = 2, ns = eb
+s = 43, val = 2, ns = 16b
+s = 43, val = 2, ns = 1cb
+s = 43, val = 2, ns = f3
+s = 43, val = 2, ns = 173
+s = 43, val = 2, ns = 1d3
+s = 43, val = 2, ns = 1e3
+
+s = 43, val = 2
+s = 0, val = 3, ns = 43
+ s = 83, -- get pp
+s = 83, i = 2, j=3, k=4, ns = 9f
+s = 83, i = 2, j=3, k=5, ns = af
+s = 83, i = 2, j=3, k=6, ns = cf
+s = 83, i = 2, j=3, k=8, ns = 18f
+s = 83, i = 2, j=4, k=5, ns = b7
+s = 83, i = 2, j=4, k=6, ns = d7
+s = 83, i = 2, j=4, k=8, ns = 197
+s = 83, i = 2, j=5, k=6, ns = e7
+s = 83, i = 2, j=5, k=8, ns = 1a7
+s = 83, i = 2, j=6, k=8, ns = 1c7
+s = 83, i = 3, j=4, k=5, ns = bb
+s = 83, i = 3, j=4, k=6, ns = db
+s = 83, i = 3, j=4, k=8, ns = 19b
+s = 83, i = 3, j=5, k=6, ns = eb
+s = 83, i = 3, j=5, k=8, ns = 1ab
+s = 83, i = 3, j=6, k=8, ns = 1cb
+s = 83, i = 4, j=5, k=6, ns = f3
+s = 83, i = 4, j=5, k=8, ns = 1b3
+s = 83, i = 4, j=6, k=8, ns = 1d3
+s = 83, i = 5, j=6, k=8, ns = 1e3
+end p ---- 
+s = 83
+s = 83, val = 2, ns = 9f
+s = 83, val = 2, ns = af
+s = 83, val = 2, ns = cf
+s = 83, val = 2, ns = 18f
+s = 83, val = 2, ns = b7
+s = 83, val = 2, ns = d7
+s = 83, val = 2, ns = 197
+s = 83, val = 2, ns = e7
+s = 83, val = 2, ns = 1a7
+s = 83, val = 2, ns = 1c7
+s = 83, val = 2, ns = bb
+s = 83, val = 2, ns = db
+s = 83, val = 2, ns = 19b
+s = 83, val = 2, ns = eb
+s = 83, val = 2, ns = 1ab
+s = 83, val = 2, ns = 1cb
+s = 83, val = 2, ns = f3
+s = 83, val = 2, ns = 1b3
+s = 83, val = 2, ns = 1d3
+s = 83, val = 2, ns = 1e3
+
+s = 83, val = 2
+s = 0, val = 3, ns = 83
+ s = 103, -- get pp
+s = 103, i = 2, j=3, k=4, ns = 11f
+s = 103, i = 2, j=3, k=5, ns = 12f
+s = 103, i = 2, j=3, k=6, ns = 14f
+s = 103, i = 2, j=3, k=7, ns = 18f
+s = 103, i = 2, j=4, k=5, ns = 137
+s = 103, i = 2, j=4, k=6, ns = 157
+s = 103, i = 2, j=4, k=7, ns = 197
+s = 103, i = 2, j=5, k=6, ns = 167
+s = 103, i = 2, j=5, k=7, ns = 1a7
+s = 103, i = 3, j=4, k=5, ns = 13b
+s = 103, i = 3, j=4, k=6, ns = 15b
+s = 103, i = 3, j=4, k=7, ns = 19b
+s = 103, i = 3, j=5, k=6, ns = 16b
+s = 103, i = 3, j=5, k=7, ns = 1ab
+s = 103, i = 4, j=5, k=6, ns = 173
+s = 103, i = 4, j=5, k=7, ns = 1b3
+s = 103, i = 4, j=6, k=7, ns = 1d3
+s = 103, i = 5, j=6, k=7, ns = 1e3
+end p ---- 
+s = 103
+s = 103, val = 2, ns = 11f
+s = 103, val = 2, ns = 12f
+s = 103, val = 2, ns = 14f
+s = 103, val = 2, ns = 18f
+s = 103, val = 2, ns = 137
+s = 103, val = 2, ns = 157
+s = 103, val = 2, ns = 197
+s = 103, val = 2, ns = 167
+s = 103, val = 2, ns = 1a7
+s = 103, val = 2, ns = 13b
+s = 103, val = 2, ns = 15b
+s = 103, val = 2, ns = 19b
+s = 103, val = 2, ns = 16b
+s = 103, val = 2, ns = 1ab
+s = 103, val = 2, ns = 173
+s = 103, val = 2, ns = 1b3
+s = 103, val = 2, ns = 1d3
+s = 103, val = 2, ns = 1e3
+
+s = 103, val = 2
+s = 0, val = 3, ns = 103
+ s = d, -- get pp
+s = d, i = 1, j=4, k=5, ns = 3f
+s = d, i = 1, j=4, k=6, ns = 5f
+s = d, i = 1, j=4, k=7, ns = 9f
+s = d, i = 1, j=4, k=8, ns = 11f
+s = d, i = 1, j=5, k=6, ns = 6f
+s = d, i = 1, j=5, k=7, ns = af
+s = d, i = 1, j=5, k=8, ns = 12f
+s = d, i = 1, j=6, k=7, ns = cf
+s = d, i = 1, j=6, k=8, ns = 14f
+s = d, i = 1, j=7, k=8, ns = 18f
+s = d, i = 4, j=5, k=6, ns = 7d
+s = d, i = 4, j=5, k=7, ns = bd
+s = d, i = 4, j=5, k=8, ns = 13d
+s = d, i = 4, j=6, k=7, ns = dd
+s = d, i = 4, j=6, k=8, ns = 15d
+s = d, i = 4, j=7, k=8, ns = 19d
+s = d, i = 5, j=6, k=7, ns = ed
+s = d, i = 5, j=6, k=8, ns = 16d
+s = d, i = 5, j=7, k=8, ns = 1ad
+s = d, i = 6, j=7, k=8, ns = 1cd
+end p ---- 
+s = d
+s = d, val = 2, ns = 3f
+s = d, val = 2, ns = 5f
+s = d, val = 2, ns = 9f
+s = d, val = 2, ns = 11f
+s = d, val = 2, ns = 6f
+s = d, val = 2, ns = af
+s = d, val = 2, ns = 12f
+s = d, val = 2, ns = cf
+s = d, val = 2, ns = 14f
+s = d, val = 2, ns = 18f
+ s = 7d, -- get pp
+s = 7d, i = 1, j=7, k=8, ns = 1ff
+end p ---- 
+s = 7d
+s = 7d, val = 1, ns = 1ff
+
+s = 7d, val = 1
+s = d, val = 2, ns = 7d
+ s = bd, -- get pp
+s = bd, i = 1, j=6, k=8, ns = 1ff
+end p ---- 
+s = bd
+s = bd, val = 1, ns = 1ff
+
+s = bd, val = 1
+s = d, val = 2, ns = bd
+ s = 13d, -- get pp
+s = 13d, i = 1, j=6, k=7, ns = 1ff
+end p ---- 
+s = 13d
+s = 13d, val = 1, ns = 1ff
+
+s = 13d, val = 1
+s = d, val = 2, ns = 13d
+ s = dd, -- get pp
+s = dd, i = 1, j=5, k=8, ns = 1ff
+end p ---- 
+s = dd
+s = dd, val = 1, ns = 1ff
+
+s = dd, val = 1
+s = d, val = 2, ns = dd
+ s = 15d, -- get pp
+s = 15d, i = 1, j=5, k=7, ns = 1ff
+end p ---- 
+s = 15d
+s = 15d, val = 1, ns = 1ff
+
+s = 15d, val = 1
+s = d, val = 2, ns = 15d
+ s = 19d, -- get pp
+s = 19d, i = 1, j=5, k=6, ns = 1ff
+end p ---- 
+s = 19d
+s = 19d, val = 1, ns = 1ff
+
+s = 19d, val = 1
+s = d, val = 2, ns = 19d
+ s = ed, -- get pp
+s = ed, i = 1, j=4, k=8, ns = 1ff
+end p ---- 
+s = ed
+s = ed, val = 1, ns = 1ff
+
+s = ed, val = 1
+s = d, val = 2, ns = ed
+ s = 16d, -- get pp
+s = 16d, i = 1, j=4, k=7, ns = 1ff
+end p ---- 
+s = 16d
+s = 16d, val = 1, ns = 1ff
+
+s = 16d, val = 1
+s = d, val = 2, ns = 16d
+ s = 1ad, -- get pp
+s = 1ad, i = 1, j=4, k=6, ns = 1ff
+end p ---- 
+s = 1ad
+s = 1ad, val = 1, ns = 1ff
+
+s = 1ad, val = 1
+s = d, val = 2, ns = 1ad
+ s = 1cd, -- get pp
+s = 1cd, i = 1, j=4, k=5, ns = 1ff
+end p ---- 
+s = 1cd
+s = 1cd, val = 1, ns = 1ff
+
+s = 1cd, val = 1
+s = d, val = 2, ns = 1cd
+
+s = d, val = 2
+s = 0, val = 3, ns = d
+ s = 15, -- get pp
+s = 15, i = 1, j=3, k=5, ns = 3f
+s = 15, i = 1, j=3, k=6, ns = 5f
+s = 15, i = 1, j=3, k=7, ns = 9f
+s = 15, i = 1, j=3, k=8, ns = 11f
+s = 15, i = 1, j=5, k=6, ns = 77
+s = 15, i = 1, j=5, k=7, ns = b7
+s = 15, i = 1, j=5, k=8, ns = 137
+s = 15, i = 1, j=6, k=7, ns = d7
+s = 15, i = 1, j=6, k=8, ns = 157
+s = 15, i = 1, j=7, k=8, ns = 197
+s = 15, i = 3, j=5, k=6, ns = 7d
+s = 15, i = 3, j=5, k=7, ns = bd
+s = 15, i = 3, j=5, k=8, ns = 13d
+s = 15, i = 3, j=6, k=8, ns = 15d
+s = 15, i = 3, j=7, k=8, ns = 19d
+s = 15, i = 5, j=6, k=7, ns = f5
+s = 15, i = 5, j=6, k=8, ns = 175
+s = 15, i = 5, j=7, k=8, ns = 1b5
+s = 15, i = 6, j=7, k=8, ns = 1d5
+end p ---- 
+s = 15
+s = 15, val = 2, ns = 3f
+s = 15, val = 2, ns = 5f
+s = 15, val = 2, ns = 9f
+s = 15, val = 2, ns = 11f
+s = 15, val = 2, ns = 77
+s = 15, val = 2, ns = b7
+s = 15, val = 2, ns = 137
+s = 15, val = 2, ns = d7
+s = 15, val = 2, ns = 157
+s = 15, val = 2, ns = 197
+s = 15, val = 2, ns = 7d
+s = 15, val = 2, ns = bd
+s = 15, val = 2, ns = 13d
+s = 15, val = 2, ns = 15d
+s = 15, val = 2, ns = 19d
+ s = f5, -- get pp
+s = f5, i = 1, j=3, k=8, ns = 1ff
+end p ---- 
+s = f5
+s = f5, val = 1, ns = 1ff
+
+s = f5, val = 1
+s = 15, val = 2, ns = f5
+ s = 175, -- get pp
+s = 175, i = 1, j=3, k=7, ns = 1ff
+end p ---- 
+s = 175
+s = 175, val = 1, ns = 1ff
+
+s = 175, val = 1
+s = 15, val = 2, ns = 175
+ s = 1b5, -- get pp
+s = 1b5, i = 1, j=3, k=6, ns = 1ff
+end p ---- 
+s = 1b5
+s = 1b5, val = 1, ns = 1ff
+
+s = 1b5, val = 1
+s = 15, val = 2, ns = 1b5
+ s = 1d5, -- get pp
+s = 1d5, i = 1, j=3, k=5, ns = 1ff
+end p ---- 
+s = 1d5
+s = 1d5, val = 1, ns = 1ff
+
+s = 1d5, val = 1
+s = 15, val = 2, ns = 1d5
+
+s = 15, val = 2
+s = 0, val = 3, ns = 15
+ s = 25, -- get pp
+s = 25, i = 1, j=3, k=4, ns = 3f
+s = 25, i = 1, j=3, k=6, ns = 6f
+s = 25, i = 1, j=3, k=7, ns = af
+s = 25, i = 1, j=3, k=8, ns = 12f
+s = 25, i = 1, j=4, k=6, ns = 77
+s = 25, i = 1, j=4, k=7, ns = b7
+s = 25, i = 1, j=4, k=8, ns = 137
+s = 25, i = 1, j=6, k=7, ns = e7
+s = 25, i = 1, j=6, k=8, ns = 167
+s = 25, i = 1, j=7, k=8, ns = 1a7
+s = 25, i = 3, j=4, k=6, ns = 7d
+s = 25, i = 3, j=4, k=7, ns = bd
+s = 25, i = 3, j=4, k=8, ns = 13d
+s = 25, i = 3, j=6, k=8, ns = 16d
+s = 25, i = 3, j=7, k=8, ns = 1ad
+s = 25, i = 4, j=6, k=7, ns = f5
+s = 25, i = 4, j=6, k=8, ns = 175
+s = 25, i = 4, j=7, k=8, ns = 1b5
+s = 25, i = 6, j=7, k=8, ns = 1e5
+end p ---- 
+s = 25
+s = 25, val = 2, ns = 3f
+s = 25, val = 2, ns = 6f
+s = 25, val = 2, ns = af
+s = 25, val = 2, ns = 12f
+s = 25, val = 2, ns = 77
+s = 25, val = 2, ns = b7
+s = 25, val = 2, ns = 137
+s = 25, val = 2, ns = e7
+s = 25, val = 2, ns = 167
+s = 25, val = 2, ns = 1a7
+s = 25, val = 2, ns = 7d
+s = 25, val = 2, ns = bd
+s = 25, val = 2, ns = 13d
+s = 25, val = 2, ns = 16d
+s = 25, val = 2, ns = 1ad
+s = 25, val = 2, ns = f5
+s = 25, val = 2, ns = 175
+s = 25, val = 2, ns = 1b5
+ s = 1e5, -- get pp
+s = 1e5, i = 1, j=3, k=4, ns = 1ff
+end p ---- 
+s = 1e5
+s = 1e5, val = 1, ns = 1ff
+
+s = 1e5, val = 1
+s = 25, val = 2, ns = 1e5
+
+s = 25, val = 2
+s = 0, val = 3, ns = 25
+ s = 45, -- get pp
+s = 45, i = 1, j=3, k=4, ns = 5f
+s = 45, i = 1, j=3, k=5, ns = 6f
+s = 45, i = 1, j=3, k=7, ns = cf
+s = 45, i = 1, j=3, k=8, ns = 14f
+s = 45, i = 1, j=4, k=5, ns = 77
+s = 45, i = 1, j=4, k=7, ns = d7
+s = 45, i = 1, j=4, k=8, ns = 157
+s = 45, i = 1, j=5, k=7, ns = e7
+s = 45, i = 1, j=5, k=8, ns = 167
+s = 45, i = 1, j=7, k=8, ns = 1c7
+s = 45, i = 3, j=4, k=5, ns = 7d
+s = 45, i = 3, j=4, k=7, ns = dd
+s = 45, i = 3, j=4, k=8, ns = 15d
+s = 45, i = 3, j=5, k=7, ns = ed
+s = 45, i = 3, j=5, k=8, ns = 16d
+s = 45, i = 3, j=7, k=8, ns = 1cd
+s = 45, i = 4, j=5, k=7, ns = f5
+s = 45, i = 4, j=5, k=8, ns = 175
+s = 45, i = 4, j=7, k=8, ns = 1d5
+s = 45, i = 5, j=7, k=8, ns = 1e5
+end p ---- 
+s = 45
+s = 45, val = 2, ns = 5f
+s = 45, val = 2, ns = 6f
+s = 45, val = 2, ns = cf
+s = 45, val = 2, ns = 14f
+s = 45, val = 2, ns = 77
+s = 45, val = 2, ns = d7
+s = 45, val = 2, ns = 157
+s = 45, val = 2, ns = e7
+s = 45, val = 2, ns = 167
+s = 45, val = 2, ns = 1c7
+s = 45, val = 2, ns = 7d
+s = 45, val = 2, ns = dd
+s = 45, val = 2, ns = 15d
+s = 45, val = 2, ns = ed
+s = 45, val = 2, ns = 16d
+s = 45, val = 2, ns = 1cd
+s = 45, val = 2, ns = f5
+s = 45, val = 2, ns = 175
+s = 45, val = 2, ns = 1d5
+s = 45, val = 2, ns = 1e5
+
+s = 45, val = 2
+s = 0, val = 3, ns = 45
+ s = 85, -- get pp
+s = 85, i = 1, j=3, k=4, ns = 9f
+s = 85, i = 1, j=3, k=5, ns = af
+s = 85, i = 1, j=3, k=6, ns = cf
+s = 85, i = 1, j=3, k=8, ns = 18f
+s = 85, i = 1, j=4, k=5, ns = b7
+s = 85, i = 1, j=4, k=6, ns = d7
+s = 85, i = 1, j=4, k=8, ns = 197
+s = 85, i = 1, j=5, k=6, ns = e7
+s = 85, i = 1, j=5, k=8, ns = 1a7
+s = 85, i = 1, j=6, k=8, ns = 1c7
+s = 85, i = 3, j=4, k=5, ns = bd
+s = 85, i = 3, j=4, k=6, ns = dd
+s = 85, i = 3, j=4, k=8, ns = 19d
+s = 85, i = 3, j=5, k=6, ns = ed
+s = 85, i = 3, j=5, k=8, ns = 1ad
+s = 85, i = 3, j=6, k=8, ns = 1cd
+s = 85, i = 4, j=5, k=6, ns = f5
+s = 85, i = 4, j=5, k=8, ns = 1b5
+s = 85, i = 4, j=6, k=8, ns = 1d5
+s = 85, i = 5, j=6, k=8, ns = 1e5
+end p ---- 
+s = 85
+s = 85, val = 2, ns = 9f
+s = 85, val = 2, ns = af
+s = 85, val = 2, ns = cf
+s = 85, val = 2, ns = 18f
+s = 85, val = 2, ns = b7
+s = 85, val = 2, ns = d7
+s = 85, val = 2, ns = 197
+s = 85, val = 2, ns = e7
+s = 85, val = 2, ns = 1a7
+s = 85, val = 2, ns = 1c7
+s = 85, val = 2, ns = bd
+s = 85, val = 2, ns = dd
+s = 85, val = 2, ns = 19d
+s = 85, val = 2, ns = ed
+s = 85, val = 2, ns = 1ad
+s = 85, val = 2, ns = 1cd
+s = 85, val = 2, ns = f5
+s = 85, val = 2, ns = 1b5
+s = 85, val = 2, ns = 1d5
+s = 85, val = 2, ns = 1e5
+
+s = 85, val = 2
+s = 0, val = 3, ns = 85
+ s = 105, -- get pp
+s = 105, i = 1, j=3, k=4, ns = 11f
+s = 105, i = 1, j=3, k=5, ns = 12f
+s = 105, i = 1, j=3, k=6, ns = 14f
+s = 105, i = 1, j=3, k=7, ns = 18f
+s = 105, i = 1, j=4, k=5, ns = 137
+s = 105, i = 1, j=4, k=6, ns = 157
+s = 105, i = 1, j=4, k=7, ns = 197
+s = 105, i = 1, j=5, k=6, ns = 167
+s = 105, i = 1, j=5, k=7, ns = 1a7
+s = 105, i = 1, j=6, k=7, ns = 1c7
+s = 105, i = 3, j=4, k=5, ns = 13d
+s = 105, i = 3, j=4, k=6, ns = 15d
+s = 105, i = 3, j=4, k=7, ns = 19d
+s = 105, i = 3, j=5, k=6, ns = 16d
+s = 105, i = 3, j=5, k=7, ns = 1ad
+s = 105, i = 4, j=5, k=6, ns = 175
+s = 105, i = 4, j=5, k=7, ns = 1b5
+s = 105, i = 4, j=6, k=7, ns = 1d5
+s = 105, i = 5, j=6, k=7, ns = 1e5
+end p ---- 
+s = 105
+s = 105, val = 2, ns = 11f
+s = 105, val = 2, ns = 12f
+s = 105, val = 2, ns = 14f
+s = 105, val = 2, ns = 18f
+s = 105, val = 2, ns = 137
+s = 105, val = 2, ns = 157
+s = 105, val = 2, ns = 197
+s = 105, val = 2, ns = 167
+s = 105, val = 2, ns = 1a7
+s = 105, val = 2, ns = 1c7
+s = 105, val = 2, ns = 13d
+s = 105, val = 2, ns = 15d
+s = 105, val = 2, ns = 19d
+s = 105, val = 2, ns = 16d
+s = 105, val = 2, ns = 1ad
+s = 105, val = 2, ns = 175
+s = 105, val = 2, ns = 1b5
+s = 105, val = 2, ns = 1d5
+s = 105, val = 2, ns = 1e5
+
+s = 105, val = 2
+s = 0, val = 3, ns = 105
+ s = 19, -- get pp
+s = 19, i = 1, j=2, k=5, ns = 3f
+s = 19, i = 1, j=2, k=6, ns = 5f
+s = 19, i = 1, j=2, k=7, ns = 9f
+s = 19, i = 1, j=2, k=8, ns = 11f
+s = 19, i = 1, j=5, k=6, ns = 7b
+s = 19, i = 1, j=5, k=7, ns = bb
+s = 19, i = 1, j=5, k=8, ns = 13b
+s = 19, i = 1, j=6, k=7, ns = db
+s = 19, i = 1, j=6, k=8, ns = 15b
+s = 19, i = 1, j=7, k=8, ns = 19b
+s = 19, i = 2, j=5, k=6, ns = 7d
+s = 19, i = 2, j=5, k=7, ns = bd
+s = 19, i = 2, j=5, k=8, ns = 13d
+s = 19, i = 2, j=6, k=8, ns = 15d
+s = 19, i = 2, j=7, k=8, ns = 19d
+s = 19, i = 5, j=6, k=7, ns = f9
+s = 19, i = 5, j=6, k=8, ns = 179
+s = 19, i = 5, j=7, k=8, ns = 1b9
+s = 19, i = 6, j=7, k=8, ns = 1d9
+end p ---- 
+s = 19
+s = 19, val = 2, ns = 3f
+s = 19, val = 2, ns = 5f
+s = 19, val = 2, ns = 9f
+s = 19, val = 2, ns = 11f
+s = 19, val = 2, ns = 7b
+s = 19, val = 2, ns = bb
+s = 19, val = 2, ns = 13b
+s = 19, val = 2, ns = db
+s = 19, val = 2, ns = 15b
+s = 19, val = 2, ns = 19b
+s = 19, val = 2, ns = 7d
+s = 19, val = 2, ns = bd
+s = 19, val = 2, ns = 13d
+s = 19, val = 2, ns = 15d
+s = 19, val = 2, ns = 19d
+ s = f9, -- get pp
+s = f9, i = 1, j=2, k=8, ns = 1ff
+end p ---- 
+s = f9
+s = f9, val = 1, ns = 1ff
+
+s = f9, val = 1
+s = 19, val = 2, ns = f9
+ s = 179, -- get pp
+s = 179, i = 1, j=2, k=7, ns = 1ff
+end p ---- 
+s = 179
+s = 179, val = 1, ns = 1ff
+
+s = 179, val = 1
+s = 19, val = 2, ns = 179
+ s = 1b9, -- get pp
+s = 1b9, i = 1, j=2, k=6, ns = 1ff
+end p ---- 
+s = 1b9
+s = 1b9, val = 1, ns = 1ff
+
+s = 1b9, val = 1
+s = 19, val = 2, ns = 1b9
+ s = 1d9, -- get pp
+s = 1d9, i = 1, j=2, k=5, ns = 1ff
+end p ---- 
+s = 1d9
+s = 1d9, val = 1, ns = 1ff
+
+s = 1d9, val = 1
+s = 19, val = 2, ns = 1d9
+
+s = 19, val = 2
+s = 0, val = 3, ns = 19
+ s = 29, -- get pp
+s = 29, i = 1, j=2, k=4, ns = 3f
+s = 29, i = 1, j=2, k=6, ns = 6f
+s = 29, i = 1, j=2, k=7, ns = af
+s = 29, i = 1, j=2, k=8, ns = 12f
+s = 29, i = 1, j=4, k=6, ns = 7b
+s = 29, i = 1, j=4, k=7, ns = bb
+s = 29, i = 1, j=4, k=8, ns = 13b
+s = 29, i = 1, j=6, k=7, ns = eb
+s = 29, i = 1, j=6, k=8, ns = 16b
+s = 29, i = 1, j=7, k=8, ns = 1ab
+s = 29, i = 2, j=4, k=6, ns = 7d
+s = 29, i = 2, j=4, k=7, ns = bd
+s = 29, i = 2, j=4, k=8, ns = 13d
+s = 29, i = 2, j=6, k=8, ns = 16d
+s = 29, i = 2, j=7, k=8, ns = 1ad
+s = 29, i = 4, j=6, k=7, ns = f9
+s = 29, i = 4, j=6, k=8, ns = 179
+s = 29, i = 4, j=7, k=8, ns = 1b9
+s = 29, i = 6, j=7, k=8, ns = 1e9
+end p ---- 
+s = 29
+s = 29, val = 2, ns = 3f
+s = 29, val = 2, ns = 6f
+s = 29, val = 2, ns = af
+s = 29, val = 2, ns = 12f
+s = 29, val = 2, ns = 7b
+s = 29, val = 2, ns = bb
+s = 29, val = 2, ns = 13b
+s = 29, val = 2, ns = eb
+s = 29, val = 2, ns = 16b
+s = 29, val = 2, ns = 1ab
+s = 29, val = 2, ns = 7d
+s = 29, val = 2, ns = bd
+s = 29, val = 2, ns = 13d
+s = 29, val = 2, ns = 16d
+s = 29, val = 2, ns = 1ad
+s = 29, val = 2, ns = f9
+s = 29, val = 2, ns = 179
+s = 29, val = 2, ns = 1b9
+ s = 1e9, -- get pp
+s = 1e9, i = 1, j=2, k=4, ns = 1ff
+end p ---- 
+s = 1e9
+s = 1e9, val = 1, ns = 1ff
+
+s = 1e9, val = 1
+s = 29, val = 2, ns = 1e9
+
+s = 29, val = 2
+s = 0, val = 3, ns = 29
+ s = 49, -- get pp
+s = 49, i = 1, j=2, k=4, ns = 5f
+s = 49, i = 1, j=2, k=5, ns = 6f
+s = 49, i = 1, j=2, k=7, ns = cf
+s = 49, i = 1, j=2, k=8, ns = 14f
+s = 49, i = 1, j=4, k=5, ns = 7b
+s = 49, i = 1, j=4, k=7, ns = db
+s = 49, i = 1, j=4, k=8, ns = 15b
+s = 49, i = 1, j=5, k=7, ns = eb
+s = 49, i = 1, j=5, k=8, ns = 16b
+s = 49, i = 1, j=7, k=8, ns = 1cb
+s = 49, i = 2, j=4, k=5, ns = 7d
+s = 49, i = 2, j=4, k=7, ns = dd
+s = 49, i = 2, j=4, k=8, ns = 15d
+s = 49, i = 2, j=5, k=7, ns = ed
+s = 49, i = 2, j=5, k=8, ns = 16d
+s = 49, i = 2, j=7, k=8, ns = 1cd
+s = 49, i = 4, j=5, k=7, ns = f9
+s = 49, i = 4, j=5, k=8, ns = 179
+s = 49, i = 4, j=7, k=8, ns = 1d9
+s = 49, i = 5, j=7, k=8, ns = 1e9
+end p ---- 
+s = 49
+s = 49, val = 2, ns = 5f
+s = 49, val = 2, ns = 6f
+s = 49, val = 2, ns = cf
+s = 49, val = 2, ns = 14f
+s = 49, val = 2, ns = 7b
+s = 49, val = 2, ns = db
+s = 49, val = 2, ns = 15b
+s = 49, val = 2, ns = eb
+s = 49, val = 2, ns = 16b
+s = 49, val = 2, ns = 1cb
+s = 49, val = 2, ns = 7d
+s = 49, val = 2, ns = dd
+s = 49, val = 2, ns = 15d
+s = 49, val = 2, ns = ed
+s = 49, val = 2, ns = 16d
+s = 49, val = 2, ns = 1cd
+s = 49, val = 2, ns = f9
+s = 49, val = 2, ns = 179
+s = 49, val = 2, ns = 1d9
+s = 49, val = 2, ns = 1e9
+
+s = 49, val = 2
+s = 0, val = 3, ns = 49
+ s = 89, -- get pp
+s = 89, i = 1, j=2, k=4, ns = 9f
+s = 89, i = 1, j=2, k=5, ns = af
+s = 89, i = 1, j=2, k=6, ns = cf
+s = 89, i = 1, j=2, k=8, ns = 18f
+s = 89, i = 1, j=4, k=5, ns = bb
+s = 89, i = 1, j=4, k=6, ns = db
+s = 89, i = 1, j=4, k=8, ns = 19b
+s = 89, i = 1, j=5, k=6, ns = eb
+s = 89, i = 1, j=5, k=8, ns = 1ab
+s = 89, i = 1, j=6, k=8, ns = 1cb
+s = 89, i = 2, j=4, k=5, ns = bd
+s = 89, i = 2, j=4, k=6, ns = dd
+s = 89, i = 2, j=4, k=8, ns = 19d
+s = 89, i = 2, j=5, k=6, ns = ed
+s = 89, i = 2, j=5, k=8, ns = 1ad
+s = 89, i = 2, j=6, k=8, ns = 1cd
+s = 89, i = 4, j=5, k=6, ns = f9
+s = 89, i = 4, j=5, k=8, ns = 1b9
+s = 89, i = 4, j=6, k=8, ns = 1d9
+s = 89, i = 5, j=6, k=8, ns = 1e9
+end p ---- 
+s = 89
+s = 89, val = 2, ns = 9f
+s = 89, val = 2, ns = af
+s = 89, val = 2, ns = cf
+s = 89, val = 2, ns = 18f
+s = 89, val = 2, ns = bb
+s = 89, val = 2, ns = db
+s = 89, val = 2, ns = 19b
+s = 89, val = 2, ns = eb
+s = 89, val = 2, ns = 1ab
+s = 89, val = 2, ns = 1cb
+s = 89, val = 2, ns = bd
+s = 89, val = 2, ns = dd
+s = 89, val = 2, ns = 19d
+s = 89, val = 2, ns = ed
+s = 89, val = 2, ns = 1ad
+s = 89, val = 2, ns = 1cd
+s = 89, val = 2, ns = f9
+s = 89, val = 2, ns = 1b9
+s = 89, val = 2, ns = 1d9
+s = 89, val = 2, ns = 1e9
+
+s = 89, val = 2
+s = 0, val = 3, ns = 89
+ s = 109, -- get pp
+s = 109, i = 1, j=2, k=4, ns = 11f
+s = 109, i = 1, j=2, k=5, ns = 12f
+s = 109, i = 1, j=2, k=6, ns = 14f
+s = 109, i = 1, j=2, k=7, ns = 18f
+s = 109, i = 1, j=4, k=5, ns = 13b
+s = 109, i = 1, j=4, k=6, ns = 15b
+s = 109, i = 1, j=4, k=7, ns = 19b
+s = 109, i = 1, j=5, k=6, ns = 16b
+s = 109, i = 1, j=5, k=7, ns = 1ab
+s = 109, i = 1, j=6, k=7, ns = 1cb
+s = 109, i = 2, j=4, k=5, ns = 13d
+s = 109, i = 2, j=4, k=6, ns = 15d
+s = 109, i = 2, j=4, k=7, ns = 19d
+s = 109, i = 2, j=5, k=6, ns = 16d
+s = 109, i = 2, j=5, k=7, ns = 1ad
+s = 109, i = 4, j=5, k=6, ns = 179
+s = 109, i = 4, j=5, k=7, ns = 1b9
+s = 109, i = 4, j=6, k=7, ns = 1d9
+s = 109, i = 5, j=6, k=7, ns = 1e9
+end p ---- 
+s = 109
+s = 109, val = 2, ns = 11f
+s = 109, val = 2, ns = 12f
+s = 109, val = 2, ns = 14f
+s = 109, val = 2, ns = 18f
+s = 109, val = 2, ns = 13b
+s = 109, val = 2, ns = 15b
+s = 109, val = 2, ns = 19b
+s = 109, val = 2, ns = 16b
+s = 109, val = 2, ns = 1ab
+s = 109, val = 2, ns = 1cb
+s = 109, val = 2, ns = 13d
+s = 109, val = 2, ns = 15d
+s = 109, val = 2, ns = 19d
+s = 109, val = 2, ns = 16d
+s = 109, val = 2, ns = 1ad
+s = 109, val = 2, ns = 179
+s = 109, val = 2, ns = 1b9
+s = 109, val = 2, ns = 1d9
+s = 109, val = 2, ns = 1e9
+
+s = 109, val = 2
+s = 0, val = 3, ns = 109
+ s = 31, -- get pp
+s = 31, i = 1, j=2, k=3, ns = 3f
+s = 31, i = 1, j=2, k=6, ns = 77
+s = 31, i = 1, j=2, k=7, ns = b7
+s = 31, i = 1, j=2, k=8, ns = 137
+s = 31, i = 1, j=3, k=6, ns = 7b
+s = 31, i = 1, j=3, k=7, ns = bb
+s = 31, i = 1, j=3, k=8, ns = 13b
+s = 31, i = 1, j=6, k=7, ns = f3
+s = 31, i = 1, j=6, k=8, ns = 173
+s = 31, i = 1, j=7, k=8, ns = 1b3
+s = 31, i = 2, j=3, k=6, ns = 7d
+s = 31, i = 2, j=3, k=7, ns = bd
+s = 31, i = 2, j=3, k=8, ns = 13d
+s = 31, i = 2, j=6, k=8, ns = 175
+s = 31, i = 2, j=7, k=8, ns = 1b5
+s = 31, i = 3, j=6, k=8, ns = 179
+s = 31, i = 3, j=7, k=8, ns = 1b9
+s = 31, i = 6, j=7, k=8, ns = 1f1
+end p ---- 
+s = 31
+s = 31, val = 2, ns = 3f
+s = 31, val = 2, ns = 77
+s = 31, val = 2, ns = b7
+s = 31, val = 2, ns = 137
+s = 31, val = 2, ns = 7b
+s = 31, val = 2, ns = bb
+s = 31, val = 2, ns = 13b
+s = 31, val = 2, ns = f3
+s = 31, val = 2, ns = 173
+s = 31, val = 2, ns = 1b3
+s = 31, val = 2, ns = 7d
+s = 31, val = 2, ns = bd
+s = 31, val = 2, ns = 13d
+s = 31, val = 2, ns = 175
+s = 31, val = 2, ns = 1b5
+s = 31, val = 2, ns = 179
+s = 31, val = 2, ns = 1b9
+ s = 1f1, -- get pp
+s = 1f1, i = 1, j=2, k=3, ns = 1ff
+end p ---- 
+s = 1f1
+s = 1f1, val = 1, ns = 1ff
+
+s = 1f1, val = 1
+s = 31, val = 2, ns = 1f1
+
+s = 31, val = 2
+s = 0, val = 3, ns = 31
+ s = 51, -- get pp
+s = 51, i = 1, j=2, k=3, ns = 5f
+s = 51, i = 1, j=2, k=5, ns = 77
+s = 51, i = 1, j=2, k=7, ns = d7
+s = 51, i = 1, j=2, k=8, ns = 157
+s = 51, i = 1, j=3, k=5, ns = 7b
+s = 51, i = 1, j=3, k=7, ns = db
+s = 51, i = 1, j=3, k=8, ns = 15b
+s = 51, i = 1, j=5, k=7, ns = f3
+s = 51, i = 1, j=5, k=8, ns = 173
+s = 51, i = 1, j=7, k=8, ns = 1d3
+s = 51, i = 2, j=3, k=5, ns = 7d
+s = 51, i = 2, j=3, k=7, ns = dd
+s = 51, i = 2, j=3, k=8, ns = 15d
+s = 51, i = 2, j=5, k=7, ns = f5
+s = 51, i = 2, j=5, k=8, ns = 175
+s = 51, i = 2, j=7, k=8, ns = 1d5
+s = 51, i = 3, j=5, k=7, ns = f9
+s = 51, i = 3, j=5, k=8, ns = 179
+s = 51, i = 3, j=7, k=8, ns = 1d9
+s = 51, i = 5, j=7, k=8, ns = 1f1
+end p ---- 
+s = 51
+s = 51, val = 2, ns = 5f
+s = 51, val = 2, ns = 77
+s = 51, val = 2, ns = d7
+s = 51, val = 2, ns = 157
+s = 51, val = 2, ns = 7b
+s = 51, val = 2, ns = db
+s = 51, val = 2, ns = 15b
+s = 51, val = 2, ns = f3
+s = 51, val = 2, ns = 173
+s = 51, val = 2, ns = 1d3
+s = 51, val = 2, ns = 7d
+s = 51, val = 2, ns = dd
+s = 51, val = 2, ns = 15d
+s = 51, val = 2, ns = f5
+s = 51, val = 2, ns = 175
+s = 51, val = 2, ns = 1d5
+s = 51, val = 2, ns = f9
+s = 51, val = 2, ns = 179
+s = 51, val = 2, ns = 1d9
+s = 51, val = 2, ns = 1f1
+
+s = 51, val = 2
+s = 0, val = 3, ns = 51
+ s = 91, -- get pp
+s = 91, i = 1, j=2, k=3, ns = 9f
+s = 91, i = 1, j=2, k=5, ns = b7
+s = 91, i = 1, j=2, k=6, ns = d7
+s = 91, i = 1, j=2, k=8, ns = 197
+s = 91, i = 1, j=3, k=5, ns = bb
+s = 91, i = 1, j=3, k=6, ns = db
+s = 91, i = 1, j=3, k=8, ns = 19b
+s = 91, i = 1, j=5, k=6, ns = f3
+s = 91, i = 1, j=5, k=8, ns = 1b3
+s = 91, i = 1, j=6, k=8, ns = 1d3
+s = 91, i = 2, j=3, k=5, ns = bd
+s = 91, i = 2, j=3, k=6, ns = dd
+s = 91, i = 2, j=3, k=8, ns = 19d
+s = 91, i = 2, j=5, k=6, ns = f5
+s = 91, i = 2, j=5, k=8, ns = 1b5
+s = 91, i = 2, j=6, k=8, ns = 1d5
+s = 91, i = 3, j=5, k=6, ns = f9
+s = 91, i = 3, j=5, k=8, ns = 1b9
+s = 91, i = 3, j=6, k=8, ns = 1d9
+s = 91, i = 5, j=6, k=8, ns = 1f1
+end p ---- 
+s = 91
+s = 91, val = 2, ns = 9f
+s = 91, val = 2, ns = b7
+s = 91, val = 2, ns = d7
+s = 91, val = 2, ns = 197
+s = 91, val = 2, ns = bb
+s = 91, val = 2, ns = db
+s = 91, val = 2, ns = 19b
+s = 91, val = 2, ns = f3
+s = 91, val = 2, ns = 1b3
+s = 91, val = 2, ns = 1d3
+s = 91, val = 2, ns = bd
+s = 91, val = 2, ns = dd
+s = 91, val = 2, ns = 19d
+s = 91, val = 2, ns = f5
+s = 91, val = 2, ns = 1b5
+s = 91, val = 2, ns = 1d5
+s = 91, val = 2, ns = f9
+s = 91, val = 2, ns = 1b9
+s = 91, val = 2, ns = 1d9
+s = 91, val = 2, ns = 1f1
+
+s = 91, val = 2
+s = 0, val = 3, ns = 91
+ s = 111, -- get pp
+s = 111, i = 1, j=2, k=3, ns = 11f
+s = 111, i = 1, j=2, k=5, ns = 137
+s = 111, i = 1, j=2, k=6, ns = 157
+s = 111, i = 1, j=2, k=7, ns = 197
+s = 111, i = 1, j=3, k=5, ns = 13b
+s = 111, i = 1, j=3, k=6, ns = 15b
+s = 111, i = 1, j=3, k=7, ns = 19b
+s = 111, i = 1, j=5, k=6, ns = 173
+s = 111, i = 1, j=5, k=7, ns = 1b3
+s = 111, i = 1, j=6, k=7, ns = 1d3
+s = 111, i = 2, j=3, k=5, ns = 13d
+s = 111, i = 2, j=3, k=6, ns = 15d
+s = 111, i = 2, j=3, k=7, ns = 19d
+s = 111, i = 2, j=5, k=6, ns = 175
+s = 111, i = 2, j=5, k=7, ns = 1b5
+s = 111, i = 3, j=5, k=6, ns = 179
+s = 111, i = 3, j=5, k=7, ns = 1b9
+s = 111, i = 5, j=6, k=7, ns = 1f1
+end p ---- 
+s = 111
+s = 111, val = 2, ns = 11f
+s = 111, val = 2, ns = 137
+s = 111, val = 2, ns = 157
+s = 111, val = 2, ns = 197
+s = 111, val = 2, ns = 13b
+s = 111, val = 2, ns = 15b
+s = 111, val = 2, ns = 19b
+s = 111, val = 2, ns = 173
+s = 111, val = 2, ns = 1b3
+s = 111, val = 2, ns = 1d3
+s = 111, val = 2, ns = 13d
+s = 111, val = 2, ns = 15d
+s = 111, val = 2, ns = 19d
+s = 111, val = 2, ns = 175
+s = 111, val = 2, ns = 1b5
+s = 111, val = 2, ns = 179
+s = 111, val = 2, ns = 1b9
+s = 111, val = 2, ns = 1f1
+
+s = 111, val = 2
+s = 0, val = 3, ns = 111
+ s = 61, -- get pp
+s = 61, i = 1, j=2, k=3, ns = 6f
+s = 61, i = 1, j=2, k=4, ns = 77
+s = 61, i = 1, j=2, k=7, ns = e7
+s = 61, i = 1, j=2, k=8, ns = 167
+s = 61, i = 1, j=3, k=4, ns = 7b
+s = 61, i = 1, j=3, k=7, ns = eb
+s = 61, i = 1, j=3, k=8, ns = 16b
+s = 61, i = 1, j=4, k=7, ns = f3
+s = 61, i = 1, j=4, k=8, ns = 173
+s = 61, i = 1, j=7, k=8, ns = 1e3
+s = 61, i = 2, j=3, k=4, ns = 7d
+s = 61, i = 2, j=3, k=7, ns = ed
+s = 61, i = 2, j=3, k=8, ns = 16d
+s = 61, i = 2, j=4, k=7, ns = f5
+s = 61, i = 2, j=4, k=8, ns = 175
+s = 61, i = 2, j=7, k=8, ns = 1e5
+s = 61, i = 3, j=4, k=7, ns = f9
+s = 61, i = 3, j=4, k=8, ns = 179
+s = 61, i = 3, j=7, k=8, ns = 1e9
+s = 61, i = 4, j=7, k=8, ns = 1f1
+end p ---- 
+s = 61
+s = 61, val = 2, ns = 6f
+s = 61, val = 2, ns = 77
+s = 61, val = 2, ns = e7
+s = 61, val = 2, ns = 167
+s = 61, val = 2, ns = 7b
+s = 61, val = 2, ns = eb
+s = 61, val = 2, ns = 16b
+s = 61, val = 2, ns = f3
+s = 61, val = 2, ns = 173
+s = 61, val = 2, ns = 1e3
+s = 61, val = 2, ns = 7d
+s = 61, val = 2, ns = ed
+s = 61, val = 2, ns = 16d
+s = 61, val = 2, ns = f5
+s = 61, val = 2, ns = 175
+s = 61, val = 2, ns = 1e5
+s = 61, val = 2, ns = f9
+s = 61, val = 2, ns = 179
+s = 61, val = 2, ns = 1e9
+s = 61, val = 2, ns = 1f1
+
+s = 61, val = 2
+s = 0, val = 3, ns = 61
+ s = a1, -- get pp
+s = a1, i = 1, j=2, k=3, ns = af
+s = a1, i = 1, j=2, k=4, ns = b7
+s = a1, i = 1, j=2, k=6, ns = e7
+s = a1, i = 1, j=2, k=8, ns = 1a7
+s = a1, i = 1, j=3, k=4, ns = bb
+s = a1, i = 1, j=3, k=6, ns = eb
+s = a1, i = 1, j=3, k=8, ns = 1ab
+s = a1, i = 1, j=4, k=6, ns = f3
+s = a1, i = 1, j=4, k=8, ns = 1b3
+s = a1, i = 1, j=6, k=8, ns = 1e3
+s = a1, i = 2, j=3, k=4, ns = bd
+s = a1, i = 2, j=3, k=6, ns = ed
+s = a1, i = 2, j=3, k=8, ns = 1ad
+s = a1, i = 2, j=4, k=6, ns = f5
+s = a1, i = 2, j=4, k=8, ns = 1b5
+s = a1, i = 2, j=6, k=8, ns = 1e5
+s = a1, i = 3, j=4, k=6, ns = f9
+s = a1, i = 3, j=4, k=8, ns = 1b9
+s = a1, i = 3, j=6, k=8, ns = 1e9
+s = a1, i = 4, j=6, k=8, ns = 1f1
+end p ---- 
+s = a1
+s = a1, val = 2, ns = af
+s = a1, val = 2, ns = b7
+s = a1, val = 2, ns = e7
+s = a1, val = 2, ns = 1a7
+s = a1, val = 2, ns = bb
+s = a1, val = 2, ns = eb
+s = a1, val = 2, ns = 1ab
+s = a1, val = 2, ns = f3
+s = a1, val = 2, ns = 1b3
+s = a1, val = 2, ns = 1e3
+s = a1, val = 2, ns = bd
+s = a1, val = 2, ns = ed
+s = a1, val = 2, ns = 1ad
+s = a1, val = 2, ns = f5
+s = a1, val = 2, ns = 1b5
+s = a1, val = 2, ns = 1e5
+s = a1, val = 2, ns = f9
+s = a1, val = 2, ns = 1b9
+s = a1, val = 2, ns = 1e9
+s = a1, val = 2, ns = 1f1
+
+s = a1, val = 2
+s = 0, val = 3, ns = a1
+ s = 121, -- get pp
+s = 121, i = 1, j=2, k=3, ns = 12f
+s = 121, i = 1, j=2, k=4, ns = 137
+s = 121, i = 1, j=2, k=6, ns = 167
+s = 121, i = 1, j=2, k=7, ns = 1a7
+s = 121, i = 1, j=3, k=4, ns = 13b
+s = 121, i = 1, j=3, k=6, ns = 16b
+s = 121, i = 1, j=3, k=7, ns = 1ab
+s = 121, i = 1, j=4, k=6, ns = 173
+s = 121, i = 1, j=4, k=7, ns = 1b3
+s = 121, i = 1, j=6, k=7, ns = 1e3
+s = 121, i = 2, j=3, k=4, ns = 13d
+s = 121, i = 2, j=3, k=6, ns = 16d
+s = 121, i = 2, j=3, k=7, ns = 1ad
+s = 121, i = 2, j=4, k=6, ns = 175
+s = 121, i = 2, j=4, k=7, ns = 1b5
+s = 121, i = 3, j=4, k=6, ns = 179
+s = 121, i = 3, j=4, k=7, ns = 1b9
+s = 121, i = 4, j=6, k=7, ns = 1f1
+end p ---- 
+s = 121
+s = 121, val = 2, ns = 12f
+s = 121, val = 2, ns = 137
+s = 121, val = 2, ns = 167
+s = 121, val = 2, ns = 1a7
+s = 121, val = 2, ns = 13b
+s = 121, val = 2, ns = 16b
+s = 121, val = 2, ns = 1ab
+s = 121, val = 2, ns = 173
+s = 121, val = 2, ns = 1b3
+s = 121, val = 2, ns = 1e3
+s = 121, val = 2, ns = 13d
+s = 121, val = 2, ns = 16d
+s = 121, val = 2, ns = 1ad
+s = 121, val = 2, ns = 175
+s = 121, val = 2, ns = 1b5
+s = 121, val = 2, ns = 179
+s = 121, val = 2, ns = 1b9
+s = 121, val = 2, ns = 1f1
+
+s = 121, val = 2
+s = 0, val = 3, ns = 121
+ s = c1, -- get pp
+s = c1, i = 1, j=2, k=3, ns = cf
+s = c1, i = 1, j=2, k=4, ns = d7
+s = c1, i = 1, j=2, k=5, ns = e7
+s = c1, i = 1, j=2, k=8, ns = 1c7
+s = c1, i = 1, j=3, k=4, ns = db
+s = c1, i = 1, j=3, k=5, ns = eb
+s = c1, i = 1, j=3, k=8, ns = 1cb
+s = c1, i = 1, j=4, k=5, ns = f3
+s = c1, i = 1, j=4, k=8, ns = 1d3
+s = c1, i = 1, j=5, k=8, ns = 1e3
+s = c1, i = 2, j=3, k=4, ns = dd
+s = c1, i = 2, j=3, k=5, ns = ed
+s = c1, i = 2, j=3, k=8, ns = 1cd
+s = c1, i = 2, j=4, k=5, ns = f5
+s = c1, i = 2, j=4, k=8, ns = 1d5
+s = c1, i = 2, j=5, k=8, ns = 1e5
+s = c1, i = 3, j=4, k=5, ns = f9
+s = c1, i = 3, j=4, k=8, ns = 1d9
+s = c1, i = 3, j=5, k=8, ns = 1e9
+s = c1, i = 4, j=5, k=8, ns = 1f1
+end p ---- 
+s = c1
+s = c1, val = 2, ns = cf
+s = c1, val = 2, ns = d7
+s = c1, val = 2, ns = e7
+s = c1, val = 2, ns = 1c7
+s = c1, val = 2, ns = db
+s = c1, val = 2, ns = eb
+s = c1, val = 2, ns = 1cb
+s = c1, val = 2, ns = f3
+s = c1, val = 2, ns = 1d3
+s = c1, val = 2, ns = 1e3
+s = c1, val = 2, ns = dd
+s = c1, val = 2, ns = ed
+s = c1, val = 2, ns = 1cd
+s = c1, val = 2, ns = f5
+s = c1, val = 2, ns = 1d5
+s = c1, val = 2, ns = 1e5
+s = c1, val = 2, ns = f9
+s = c1, val = 2, ns = 1d9
+s = c1, val = 2, ns = 1e9
+s = c1, val = 2, ns = 1f1
+
+s = c1, val = 2
+s = 0, val = 3, ns = c1
+ s = 141, -- get pp
+s = 141, i = 1, j=2, k=3, ns = 14f
+s = 141, i = 1, j=2, k=4, ns = 157
+s = 141, i = 1, j=2, k=5, ns = 167
+s = 141, i = 1, j=2, k=7, ns = 1c7
+s = 141, i = 1, j=3, k=4, ns = 15b
+s = 141, i = 1, j=3, k=5, ns = 16b
+s = 141, i = 1, j=3, k=7, ns = 1cb
+s = 141, i = 1, j=4, k=5, ns = 173
+s = 141, i = 1, j=4, k=7, ns = 1d3
+s = 141, i = 1, j=5, k=7, ns = 1e3
+s = 141, i = 2, j=3, k=4, ns = 15d
+s = 141, i = 2, j=3, k=5, ns = 16d
+s = 141, i = 2, j=3, k=7, ns = 1cd
+s = 141, i = 2, j=4, k=5, ns = 175
+s = 141, i = 2, j=4, k=7, ns = 1d5
+s = 141, i = 2, j=5, k=7, ns = 1e5
+s = 141, i = 3, j=4, k=5, ns = 179
+s = 141, i = 3, j=4, k=7, ns = 1d9
+s = 141, i = 3, j=5, k=7, ns = 1e9
+s = 141, i = 4, j=5, k=7, ns = 1f1
+end p ---- 
+s = 141
+s = 141, val = 2, ns = 14f
+s = 141, val = 2, ns = 157
+s = 141, val = 2, ns = 167
+s = 141, val = 2, ns = 1c7
+s = 141, val = 2, ns = 15b
+s = 141, val = 2, ns = 16b
+s = 141, val = 2, ns = 1cb
+s = 141, val = 2, ns = 173
+s = 141, val = 2, ns = 1d3
+s = 141, val = 2, ns = 1e3
+s = 141, val = 2, ns = 15d
+s = 141, val = 2, ns = 16d
+s = 141, val = 2, ns = 1cd
+s = 141, val = 2, ns = 175
+s = 141, val = 2, ns = 1d5
+s = 141, val = 2, ns = 1e5
+s = 141, val = 2, ns = 179
+s = 141, val = 2, ns = 1d9
+s = 141, val = 2, ns = 1e9
+s = 141, val = 2, ns = 1f1
+
+s = 141, val = 2
+s = 0, val = 3, ns = 141
+ s = 181, -- get pp
+s = 181, i = 1, j=2, k=3, ns = 18f
+s = 181, i = 1, j=2, k=4, ns = 197
+s = 181, i = 1, j=2, k=5, ns = 1a7
+s = 181, i = 1, j=2, k=6, ns = 1c7
+s = 181, i = 1, j=3, k=4, ns = 19b
+s = 181, i = 1, j=3, k=5, ns = 1ab
+s = 181, i = 1, j=3, k=6, ns = 1cb
+s = 181, i = 1, j=4, k=5, ns = 1b3
+s = 181, i = 1, j=4, k=6, ns = 1d3
+s = 181, i = 1, j=5, k=6, ns = 1e3
+s = 181, i = 2, j=3, k=4, ns = 19d
+s = 181, i = 2, j=3, k=5, ns = 1ad
+s = 181, i = 2, j=3, k=6, ns = 1cd
+s = 181, i = 2, j=4, k=5, ns = 1b5
+s = 181, i = 2, j=4, k=6, ns = 1d5
+s = 181, i = 2, j=5, k=6, ns = 1e5
+s = 181, i = 3, j=4, k=5, ns = 1b9
+s = 181, i = 3, j=4, k=6, ns = 1d9
+s = 181, i = 3, j=5, k=6, ns = 1e9
+s = 181, i = 4, j=5, k=6, ns = 1f1
+end p ---- 
+s = 181
+s = 181, val = 2, ns = 18f
+s = 181, val = 2, ns = 197
+s = 181, val = 2, ns = 1a7
+s = 181, val = 2, ns = 1c7
+s = 181, val = 2, ns = 19b
+s = 181, val = 2, ns = 1ab
+s = 181, val = 2, ns = 1cb
+s = 181, val = 2, ns = 1b3
+s = 181, val = 2, ns = 1d3
+s = 181, val = 2, ns = 1e3
+s = 181, val = 2, ns = 19d
+s = 181, val = 2, ns = 1ad
+s = 181, val = 2, ns = 1cd
+s = 181, val = 2, ns = 1b5
+s = 181, val = 2, ns = 1d5
+s = 181, val = 2, ns = 1e5
+s = 181, val = 2, ns = 1b9
+s = 181, val = 2, ns = 1d9
+s = 181, val = 2, ns = 1e9
+s = 181, val = 2, ns = 1f1
+
+s = 181, val = 2
+s = 0, val = 3, ns = 181
+ s = e, -- get pp
+s = e, i = 0, j=4, k=5, ns = 3f
+s = e, i = 0, j=4, k=6, ns = 5f
+s = e, i = 0, j=4, k=7, ns = 9f
+s = e, i = 0, j=4, k=8, ns = 11f
+s = e, i = 0, j=5, k=6, ns = 6f
+s = e, i = 0, j=5, k=7, ns = af
+s = e, i = 0, j=5, k=8, ns = 12f
+s = e, i = 0, j=6, k=7, ns = cf
+s = e, i = 0, j=6, k=8, ns = 14f
+s = e, i = 0, j=7, k=8, ns = 18f
+s = e, i = 4, j=5, k=6, ns = 7e
+s = e, i = 4, j=5, k=7, ns = be
+s = e, i = 4, j=5, k=8, ns = 13e
+s = e, i = 4, j=6, k=7, ns = de
+s = e, i = 4, j=6, k=8, ns = 15e
+s = e, i = 4, j=7, k=8, ns = 19e
+s = e, i = 5, j=6, k=7, ns = ee
+s = e, i = 5, j=6, k=8, ns = 16e
+s = e, i = 5, j=7, k=8, ns = 1ae
+s = e, i = 6, j=7, k=8, ns = 1ce
+end p ---- 
+s = e
+s = e, val = 2, ns = 3f
+s = e, val = 2, ns = 5f
+s = e, val = 2, ns = 9f
+s = e, val = 2, ns = 11f
+s = e, val = 2, ns = 6f
+s = e, val = 2, ns = af
+s = e, val = 2, ns = 12f
+s = e, val = 2, ns = cf
+s = e, val = 2, ns = 14f
+s = e, val = 2, ns = 18f
+ s = 7e, -- get pp
+s = 7e, i = 0, j=7, k=8, ns = 1ff
+end p ---- 
+s = 7e
+s = 7e, val = 1, ns = 1ff
+
+s = 7e, val = 1
+s = e, val = 2, ns = 7e
+ s = be, -- get pp
+s = be, i = 0, j=6, k=8, ns = 1ff
+end p ---- 
+s = be
+s = be, val = 1, ns = 1ff
+
+s = be, val = 1
+s = e, val = 2, ns = be
+ s = 13e, -- get pp
+s = 13e, i = 0, j=6, k=7, ns = 1ff
+end p ---- 
+s = 13e
+s = 13e, val = 1, ns = 1ff
+
+s = 13e, val = 1
+s = e, val = 2, ns = 13e
+ s = de, -- get pp
+s = de, i = 0, j=5, k=8, ns = 1ff
+end p ---- 
+s = de
+s = de, val = 1, ns = 1ff
+
+s = de, val = 1
+s = e, val = 2, ns = de
+ s = 15e, -- get pp
+s = 15e, i = 0, j=5, k=7, ns = 1ff
+end p ---- 
+s = 15e
+s = 15e, val = 1, ns = 1ff
+
+s = 15e, val = 1
+s = e, val = 2, ns = 15e
+ s = 19e, -- get pp
+s = 19e, i = 0, j=5, k=6, ns = 1ff
+end p ---- 
+s = 19e
+s = 19e, val = 1, ns = 1ff
+
+s = 19e, val = 1
+s = e, val = 2, ns = 19e
+ s = ee, -- get pp
+s = ee, i = 0, j=4, k=8, ns = 1ff
+end p ---- 
+s = ee
+s = ee, val = 1, ns = 1ff
+
+s = ee, val = 1
+s = e, val = 2, ns = ee
+ s = 16e, -- get pp
+s = 16e, i = 0, j=4, k=7, ns = 1ff
+end p ---- 
+s = 16e
+s = 16e, val = 1, ns = 1ff
+
+s = 16e, val = 1
+s = e, val = 2, ns = 16e
+ s = 1ae, -- get pp
+s = 1ae, i = 0, j=4, k=6, ns = 1ff
+end p ---- 
+s = 1ae
+s = 1ae, val = 1, ns = 1ff
+
+s = 1ae, val = 1
+s = e, val = 2, ns = 1ae
+ s = 1ce, -- get pp
+s = 1ce, i = 0, j=4, k=5, ns = 1ff
+end p ---- 
+s = 1ce
+s = 1ce, val = 1, ns = 1ff
+
+s = 1ce, val = 1
+s = e, val = 2, ns = 1ce
+
+s = e, val = 2
+s = 0, val = 3, ns = e
+ s = 16, -- get pp
+s = 16, i = 0, j=3, k=5, ns = 3f
+s = 16, i = 0, j=3, k=6, ns = 5f
+s = 16, i = 0, j=3, k=7, ns = 9f
+s = 16, i = 0, j=3, k=8, ns = 11f
+s = 16, i = 0, j=5, k=6, ns = 77
+s = 16, i = 0, j=5, k=7, ns = b7
+s = 16, i = 0, j=5, k=8, ns = 137
+s = 16, i = 0, j=6, k=7, ns = d7
+s = 16, i = 0, j=6, k=8, ns = 157
+s = 16, i = 0, j=7, k=8, ns = 197
+s = 16, i = 3, j=5, k=6, ns = 7e
+s = 16, i = 3, j=5, k=7, ns = be
+s = 16, i = 3, j=5, k=8, ns = 13e
+s = 16, i = 3, j=6, k=8, ns = 15e
+s = 16, i = 3, j=7, k=8, ns = 19e
+s = 16, i = 5, j=6, k=7, ns = f6
+s = 16, i = 5, j=6, k=8, ns = 176
+s = 16, i = 5, j=7, k=8, ns = 1b6
+s = 16, i = 6, j=7, k=8, ns = 1d6
+end p ---- 
+s = 16
+s = 16, val = 2, ns = 3f
+s = 16, val = 2, ns = 5f
+s = 16, val = 2, ns = 9f
+s = 16, val = 2, ns = 11f
+s = 16, val = 2, ns = 77
+s = 16, val = 2, ns = b7
+s = 16, val = 2, ns = 137
+s = 16, val = 2, ns = d7
+s = 16, val = 2, ns = 157
+s = 16, val = 2, ns = 197
+s = 16, val = 2, ns = 7e
+s = 16, val = 2, ns = be
+s = 16, val = 2, ns = 13e
+s = 16, val = 2, ns = 15e
+s = 16, val = 2, ns = 19e
+ s = f6, -- get pp
+s = f6, i = 0, j=3, k=8, ns = 1ff
+end p ---- 
+s = f6
+s = f6, val = 1, ns = 1ff
+
+s = f6, val = 1
+s = 16, val = 2, ns = f6
+ s = 176, -- get pp
+s = 176, i = 0, j=3, k=7, ns = 1ff
+end p ---- 
+s = 176
+s = 176, val = 1, ns = 1ff
+
+s = 176, val = 1
+s = 16, val = 2, ns = 176
+ s = 1b6, -- get pp
+s = 1b6, i = 0, j=3, k=6, ns = 1ff
+end p ---- 
+s = 1b6
+s = 1b6, val = 1, ns = 1ff
+
+s = 1b6, val = 1
+s = 16, val = 2, ns = 1b6
+ s = 1d6, -- get pp
+s = 1d6, i = 0, j=3, k=5, ns = 1ff
+end p ---- 
+s = 1d6
+s = 1d6, val = 1, ns = 1ff
+
+s = 1d6, val = 1
+s = 16, val = 2, ns = 1d6
+
+s = 16, val = 2
+s = 0, val = 3, ns = 16
+ s = 26, -- get pp
+s = 26, i = 0, j=3, k=4, ns = 3f
+s = 26, i = 0, j=3, k=6, ns = 6f
+s = 26, i = 0, j=3, k=7, ns = af
+s = 26, i = 0, j=3, k=8, ns = 12f
+s = 26, i = 0, j=4, k=6, ns = 77
+s = 26, i = 0, j=4, k=7, ns = b7
+s = 26, i = 0, j=4, k=8, ns = 137
+s = 26, i = 0, j=6, k=7, ns = e7
+s = 26, i = 0, j=6, k=8, ns = 167
+s = 26, i = 0, j=7, k=8, ns = 1a7
+s = 26, i = 3, j=4, k=6, ns = 7e
+s = 26, i = 3, j=4, k=7, ns = be
+s = 26, i = 3, j=4, k=8, ns = 13e
+s = 26, i = 3, j=6, k=8, ns = 16e
+s = 26, i = 3, j=7, k=8, ns = 1ae
+s = 26, i = 4, j=6, k=7, ns = f6
+s = 26, i = 4, j=6, k=8, ns = 176
+s = 26, i = 4, j=7, k=8, ns = 1b6
+s = 26, i = 6, j=7, k=8, ns = 1e6
+end p ---- 
+s = 26
+s = 26, val = 2, ns = 3f
+s = 26, val = 2, ns = 6f
+s = 26, val = 2, ns = af
+s = 26, val = 2, ns = 12f
+s = 26, val = 2, ns = 77
+s = 26, val = 2, ns = b7
+s = 26, val = 2, ns = 137
+s = 26, val = 2, ns = e7
+s = 26, val = 2, ns = 167
+s = 26, val = 2, ns = 1a7
+s = 26, val = 2, ns = 7e
+s = 26, val = 2, ns = be
+s = 26, val = 2, ns = 13e
+s = 26, val = 2, ns = 16e
+s = 26, val = 2, ns = 1ae
+s = 26, val = 2, ns = f6
+s = 26, val = 2, ns = 176
+s = 26, val = 2, ns = 1b6
+ s = 1e6, -- get pp
+s = 1e6, i = 0, j=3, k=4, ns = 1ff
+end p ---- 
+s = 1e6
+s = 1e6, val = 1, ns = 1ff
+
+s = 1e6, val = 1
+s = 26, val = 2, ns = 1e6
+
+s = 26, val = 2
+s = 0, val = 3, ns = 26
+ s = 46, -- get pp
+s = 46, i = 0, j=3, k=4, ns = 5f
+s = 46, i = 0, j=3, k=5, ns = 6f
+s = 46, i = 0, j=3, k=7, ns = cf
+s = 46, i = 0, j=3, k=8, ns = 14f
+s = 46, i = 0, j=4, k=5, ns = 77
+s = 46, i = 0, j=4, k=7, ns = d7
+s = 46, i = 0, j=4, k=8, ns = 157
+s = 46, i = 0, j=5, k=7, ns = e7
+s = 46, i = 0, j=5, k=8, ns = 167
+s = 46, i = 0, j=7, k=8, ns = 1c7
+s = 46, i = 3, j=4, k=5, ns = 7e
+s = 46, i = 3, j=4, k=7, ns = de
+s = 46, i = 3, j=4, k=8, ns = 15e
+s = 46, i = 3, j=5, k=7, ns = ee
+s = 46, i = 3, j=5, k=8, ns = 16e
+s = 46, i = 3, j=7, k=8, ns = 1ce
+s = 46, i = 4, j=5, k=7, ns = f6
+s = 46, i = 4, j=5, k=8, ns = 176
+s = 46, i = 4, j=7, k=8, ns = 1d6
+s = 46, i = 5, j=7, k=8, ns = 1e6
+end p ---- 
+s = 46
+s = 46, val = 2, ns = 5f
+s = 46, val = 2, ns = 6f
+s = 46, val = 2, ns = cf
+s = 46, val = 2, ns = 14f
+s = 46, val = 2, ns = 77
+s = 46, val = 2, ns = d7
+s = 46, val = 2, ns = 157
+s = 46, val = 2, ns = e7
+s = 46, val = 2, ns = 167
+s = 46, val = 2, ns = 1c7
+s = 46, val = 2, ns = 7e
+s = 46, val = 2, ns = de
+s = 46, val = 2, ns = 15e
+s = 46, val = 2, ns = ee
+s = 46, val = 2, ns = 16e
+s = 46, val = 2, ns = 1ce
+s = 46, val = 2, ns = f6
+s = 46, val = 2, ns = 176
+s = 46, val = 2, ns = 1d6
+s = 46, val = 2, ns = 1e6
+
+s = 46, val = 2
+s = 0, val = 3, ns = 46
+ s = 86, -- get pp
+s = 86, i = 0, j=3, k=4, ns = 9f
+s = 86, i = 0, j=3, k=5, ns = af
+s = 86, i = 0, j=3, k=6, ns = cf
+s = 86, i = 0, j=3, k=8, ns = 18f
+s = 86, i = 0, j=4, k=5, ns = b7
+s = 86, i = 0, j=4, k=6, ns = d7
+s = 86, i = 0, j=4, k=8, ns = 197
+s = 86, i = 0, j=5, k=6, ns = e7
+s = 86, i = 0, j=5, k=8, ns = 1a7
+s = 86, i = 0, j=6, k=8, ns = 1c7
+s = 86, i = 3, j=4, k=5, ns = be
+s = 86, i = 3, j=4, k=6, ns = de
+s = 86, i = 3, j=4, k=8, ns = 19e
+s = 86, i = 3, j=5, k=6, ns = ee
+s = 86, i = 3, j=5, k=8, ns = 1ae
+s = 86, i = 3, j=6, k=8, ns = 1ce
+s = 86, i = 4, j=5, k=6, ns = f6
+s = 86, i = 4, j=5, k=8, ns = 1b6
+s = 86, i = 4, j=6, k=8, ns = 1d6
+s = 86, i = 5, j=6, k=8, ns = 1e6
+end p ---- 
+s = 86
+s = 86, val = 2, ns = 9f
+s = 86, val = 2, ns = af
+s = 86, val = 2, ns = cf
+s = 86, val = 2, ns = 18f
+s = 86, val = 2, ns = b7
+s = 86, val = 2, ns = d7
+s = 86, val = 2, ns = 197
+s = 86, val = 2, ns = e7
+s = 86, val = 2, ns = 1a7
+s = 86, val = 2, ns = 1c7
+s = 86, val = 2, ns = be
+s = 86, val = 2, ns = de
+s = 86, val = 2, ns = 19e
+s = 86, val = 2, ns = ee
+s = 86, val = 2, ns = 1ae
+s = 86, val = 2, ns = 1ce
+s = 86, val = 2, ns = f6
+s = 86, val = 2, ns = 1b6
+s = 86, val = 2, ns = 1d6
+s = 86, val = 2, ns = 1e6
+
+s = 86, val = 2
+s = 0, val = 3, ns = 86
+ s = 106, -- get pp
+s = 106, i = 0, j=3, k=4, ns = 11f
+s = 106, i = 0, j=3, k=5, ns = 12f
+s = 106, i = 0, j=3, k=6, ns = 14f
+s = 106, i = 0, j=3, k=7, ns = 18f
+s = 106, i = 0, j=4, k=5, ns = 137
+s = 106, i = 0, j=4, k=6, ns = 157
+s = 106, i = 0, j=4, k=7, ns = 197
+s = 106, i = 0, j=5, k=6, ns = 167
+s = 106, i = 0, j=5, k=7, ns = 1a7
+s = 106, i = 0, j=6, k=7, ns = 1c7
+s = 106, i = 3, j=4, k=5, ns = 13e
+s = 106, i = 3, j=4, k=6, ns = 15e
+s = 106, i = 3, j=4, k=7, ns = 19e
+s = 106, i = 3, j=5, k=6, ns = 16e
+s = 106, i = 3, j=5, k=7, ns = 1ae
+s = 106, i = 4, j=5, k=6, ns = 176
+s = 106, i = 4, j=5, k=7, ns = 1b6
+s = 106, i = 4, j=6, k=7, ns = 1d6
+s = 106, i = 5, j=6, k=7, ns = 1e6
+end p ---- 
+s = 106
+s = 106, val = 2, ns = 11f
+s = 106, val = 2, ns = 12f
+s = 106, val = 2, ns = 14f
+s = 106, val = 2, ns = 18f
+s = 106, val = 2, ns = 137
+s = 106, val = 2, ns = 157
+s = 106, val = 2, ns = 197
+s = 106, val = 2, ns = 167
+s = 106, val = 2, ns = 1a7
+s = 106, val = 2, ns = 1c7
+s = 106, val = 2, ns = 13e
+s = 106, val = 2, ns = 15e
+s = 106, val = 2, ns = 19e
+s = 106, val = 2, ns = 16e
+s = 106, val = 2, ns = 1ae
+s = 106, val = 2, ns = 176
+s = 106, val = 2, ns = 1b6
+s = 106, val = 2, ns = 1d6
+s = 106, val = 2, ns = 1e6
+
+s = 106, val = 2
+s = 0, val = 3, ns = 106
+ s = 1a, -- get pp
+s = 1a, i = 0, j=2, k=5, ns = 3f
+s = 1a, i = 0, j=2, k=6, ns = 5f
+s = 1a, i = 0, j=2, k=7, ns = 9f
+s = 1a, i = 0, j=2, k=8, ns = 11f
+s = 1a, i = 0, j=5, k=6, ns = 7b
+s = 1a, i = 0, j=5, k=7, ns = bb
+s = 1a, i = 0, j=5, k=8, ns = 13b
+s = 1a, i = 0, j=6, k=7, ns = db
+s = 1a, i = 0, j=6, k=8, ns = 15b
+s = 1a, i = 0, j=7, k=8, ns = 19b
+s = 1a, i = 2, j=5, k=6, ns = 7e
+s = 1a, i = 2, j=5, k=7, ns = be
+s = 1a, i = 2, j=5, k=8, ns = 13e
+s = 1a, i = 2, j=6, k=8, ns = 15e
+s = 1a, i = 2, j=7, k=8, ns = 19e
+s = 1a, i = 5, j=6, k=7, ns = fa
+s = 1a, i = 5, j=6, k=8, ns = 17a
+s = 1a, i = 5, j=7, k=8, ns = 1ba
+s = 1a, i = 6, j=7, k=8, ns = 1da
+end p ---- 
+s = 1a
+s = 1a, val = 2, ns = 3f
+s = 1a, val = 2, ns = 5f
+s = 1a, val = 2, ns = 9f
+s = 1a, val = 2, ns = 11f
+s = 1a, val = 2, ns = 7b
+s = 1a, val = 2, ns = bb
+s = 1a, val = 2, ns = 13b
+s = 1a, val = 2, ns = db
+s = 1a, val = 2, ns = 15b
+s = 1a, val = 2, ns = 19b
+s = 1a, val = 2, ns = 7e
+s = 1a, val = 2, ns = be
+s = 1a, val = 2, ns = 13e
+s = 1a, val = 2, ns = 15e
+s = 1a, val = 2, ns = 19e
+ s = fa, -- get pp
+s = fa, i = 0, j=2, k=8, ns = 1ff
+end p ---- 
+s = fa
+s = fa, val = 1, ns = 1ff
+
+s = fa, val = 1
+s = 1a, val = 2, ns = fa
+ s = 17a, -- get pp
+s = 17a, i = 0, j=2, k=7, ns = 1ff
+end p ---- 
+s = 17a
+s = 17a, val = 1, ns = 1ff
+
+s = 17a, val = 1
+s = 1a, val = 2, ns = 17a
+ s = 1ba, -- get pp
+s = 1ba, i = 0, j=2, k=6, ns = 1ff
+end p ---- 
+s = 1ba
+s = 1ba, val = 1, ns = 1ff
+
+s = 1ba, val = 1
+s = 1a, val = 2, ns = 1ba
+ s = 1da, -- get pp
+s = 1da, i = 0, j=2, k=5, ns = 1ff
+end p ---- 
+s = 1da
+s = 1da, val = 1, ns = 1ff
+
+s = 1da, val = 1
+s = 1a, val = 2, ns = 1da
+
+s = 1a, val = 2
+s = 0, val = 3, ns = 1a
+ s = 2a, -- get pp
+s = 2a, i = 0, j=2, k=4, ns = 3f
+s = 2a, i = 0, j=2, k=6, ns = 6f
+s = 2a, i = 0, j=2, k=7, ns = af
+s = 2a, i = 0, j=2, k=8, ns = 12f
+s = 2a, i = 0, j=4, k=6, ns = 7b
+s = 2a, i = 0, j=4, k=7, ns = bb
+s = 2a, i = 0, j=4, k=8, ns = 13b
+s = 2a, i = 0, j=6, k=7, ns = eb
+s = 2a, i = 0, j=6, k=8, ns = 16b
+s = 2a, i = 0, j=7, k=8, ns = 1ab
+s = 2a, i = 2, j=4, k=6, ns = 7e
+s = 2a, i = 2, j=4, k=7, ns = be
+s = 2a, i = 2, j=4, k=8, ns = 13e
+s = 2a, i = 2, j=6, k=8, ns = 16e
+s = 2a, i = 2, j=7, k=8, ns = 1ae
+s = 2a, i = 4, j=6, k=7, ns = fa
+s = 2a, i = 4, j=6, k=8, ns = 17a
+s = 2a, i = 4, j=7, k=8, ns = 1ba
+s = 2a, i = 6, j=7, k=8, ns = 1ea
+end p ---- 
+s = 2a
+s = 2a, val = 2, ns = 3f
+s = 2a, val = 2, ns = 6f
+s = 2a, val = 2, ns = af
+s = 2a, val = 2, ns = 12f
+s = 2a, val = 2, ns = 7b
+s = 2a, val = 2, ns = bb
+s = 2a, val = 2, ns = 13b
+s = 2a, val = 2, ns = eb
+s = 2a, val = 2, ns = 16b
+s = 2a, val = 2, ns = 1ab
+s = 2a, val = 2, ns = 7e
+s = 2a, val = 2, ns = be
+s = 2a, val = 2, ns = 13e
+s = 2a, val = 2, ns = 16e
+s = 2a, val = 2, ns = 1ae
+s = 2a, val = 2, ns = fa
+s = 2a, val = 2, ns = 17a
+s = 2a, val = 2, ns = 1ba
+ s = 1ea, -- get pp
+s = 1ea, i = 0, j=2, k=4, ns = 1ff
+end p ---- 
+s = 1ea
+s = 1ea, val = 1, ns = 1ff
+
+s = 1ea, val = 1
+s = 2a, val = 2, ns = 1ea
+
+s = 2a, val = 2
+s = 0, val = 3, ns = 2a
+ s = 4a, -- get pp
+s = 4a, i = 0, j=2, k=4, ns = 5f
+s = 4a, i = 0, j=2, k=5, ns = 6f
+s = 4a, i = 0, j=2, k=7, ns = cf
+s = 4a, i = 0, j=2, k=8, ns = 14f
+s = 4a, i = 0, j=4, k=5, ns = 7b
+s = 4a, i = 0, j=4, k=7, ns = db
+s = 4a, i = 0, j=4, k=8, ns = 15b
+s = 4a, i = 0, j=5, k=7, ns = eb
+s = 4a, i = 0, j=5, k=8, ns = 16b
+s = 4a, i = 0, j=7, k=8, ns = 1cb
+s = 4a, i = 2, j=4, k=5, ns = 7e
+s = 4a, i = 2, j=4, k=7, ns = de
+s = 4a, i = 2, j=4, k=8, ns = 15e
+s = 4a, i = 2, j=5, k=7, ns = ee
+s = 4a, i = 2, j=5, k=8, ns = 16e
+s = 4a, i = 2, j=7, k=8, ns = 1ce
+s = 4a, i = 4, j=5, k=7, ns = fa
+s = 4a, i = 4, j=5, k=8, ns = 17a
+s = 4a, i = 4, j=7, k=8, ns = 1da
+s = 4a, i = 5, j=7, k=8, ns = 1ea
+end p ---- 
+s = 4a
+s = 4a, val = 2, ns = 5f
+s = 4a, val = 2, ns = 6f
+s = 4a, val = 2, ns = cf
+s = 4a, val = 2, ns = 14f
+s = 4a, val = 2, ns = 7b
+s = 4a, val = 2, ns = db
+s = 4a, val = 2, ns = 15b
+s = 4a, val = 2, ns = eb
+s = 4a, val = 2, ns = 16b
+s = 4a, val = 2, ns = 1cb
+s = 4a, val = 2, ns = 7e
+s = 4a, val = 2, ns = de
+s = 4a, val = 2, ns = 15e
+s = 4a, val = 2, ns = ee
+s = 4a, val = 2, ns = 16e
+s = 4a, val = 2, ns = 1ce
+s = 4a, val = 2, ns = fa
+s = 4a, val = 2, ns = 17a
+s = 4a, val = 2, ns = 1da
+s = 4a, val = 2, ns = 1ea
+
+s = 4a, val = 2
+s = 0, val = 3, ns = 4a
+ s = 8a, -- get pp
+s = 8a, i = 0, j=2, k=4, ns = 9f
+s = 8a, i = 0, j=2, k=5, ns = af
+s = 8a, i = 0, j=2, k=6, ns = cf
+s = 8a, i = 0, j=2, k=8, ns = 18f
+s = 8a, i = 0, j=4, k=5, ns = bb
+s = 8a, i = 0, j=4, k=6, ns = db
+s = 8a, i = 0, j=4, k=8, ns = 19b
+s = 8a, i = 0, j=5, k=6, ns = eb
+s = 8a, i = 0, j=5, k=8, ns = 1ab
+s = 8a, i = 0, j=6, k=8, ns = 1cb
+s = 8a, i = 2, j=4, k=5, ns = be
+s = 8a, i = 2, j=4, k=6, ns = de
+s = 8a, i = 2, j=4, k=8, ns = 19e
+s = 8a, i = 2, j=5, k=6, ns = ee
+s = 8a, i = 2, j=5, k=8, ns = 1ae
+s = 8a, i = 2, j=6, k=8, ns = 1ce
+s = 8a, i = 4, j=5, k=6, ns = fa
+s = 8a, i = 4, j=5, k=8, ns = 1ba
+s = 8a, i = 4, j=6, k=8, ns = 1da
+s = 8a, i = 5, j=6, k=8, ns = 1ea
+end p ---- 
+s = 8a
+s = 8a, val = 2, ns = 9f
+s = 8a, val = 2, ns = af
+s = 8a, val = 2, ns = cf
+s = 8a, val = 2, ns = 18f
+s = 8a, val = 2, ns = bb
+s = 8a, val = 2, ns = db
+s = 8a, val = 2, ns = 19b
+s = 8a, val = 2, ns = eb
+s = 8a, val = 2, ns = 1ab
+s = 8a, val = 2, ns = 1cb
+s = 8a, val = 2, ns = be
+s = 8a, val = 2, ns = de
+s = 8a, val = 2, ns = 19e
+s = 8a, val = 2, ns = ee
+s = 8a, val = 2, ns = 1ae
+s = 8a, val = 2, ns = 1ce
+s = 8a, val = 2, ns = fa
+s = 8a, val = 2, ns = 1ba
+s = 8a, val = 2, ns = 1da
+s = 8a, val = 2, ns = 1ea
+
+s = 8a, val = 2
+s = 0, val = 3, ns = 8a
+ s = 10a, -- get pp
+s = 10a, i = 0, j=2, k=4, ns = 11f
+s = 10a, i = 0, j=2, k=5, ns = 12f
+s = 10a, i = 0, j=2, k=6, ns = 14f
+s = 10a, i = 0, j=2, k=7, ns = 18f
+s = 10a, i = 0, j=4, k=5, ns = 13b
+s = 10a, i = 0, j=4, k=6, ns = 15b
+s = 10a, i = 0, j=4, k=7, ns = 19b
+s = 10a, i = 0, j=5, k=6, ns = 16b
+s = 10a, i = 0, j=5, k=7, ns = 1ab
+s = 10a, i = 0, j=6, k=7, ns = 1cb
+s = 10a, i = 2, j=4, k=5, ns = 13e
+s = 10a, i = 2, j=4, k=6, ns = 15e
+s = 10a, i = 2, j=4, k=7, ns = 19e
+s = 10a, i = 2, j=5, k=6, ns = 16e
+s = 10a, i = 2, j=5, k=7, ns = 1ae
+s = 10a, i = 4, j=5, k=6, ns = 17a
+s = 10a, i = 4, j=5, k=7, ns = 1ba
+s = 10a, i = 4, j=6, k=7, ns = 1da
+s = 10a, i = 5, j=6, k=7, ns = 1ea
+end p ---- 
+s = 10a
+s = 10a, val = 2, ns = 11f
+s = 10a, val = 2, ns = 12f
+s = 10a, val = 2, ns = 14f
+s = 10a, val = 2, ns = 18f
+s = 10a, val = 2, ns = 13b
+s = 10a, val = 2, ns = 15b
+s = 10a, val = 2, ns = 19b
+s = 10a, val = 2, ns = 16b
+s = 10a, val = 2, ns = 1ab
+s = 10a, val = 2, ns = 1cb
+s = 10a, val = 2, ns = 13e
+s = 10a, val = 2, ns = 15e
+s = 10a, val = 2, ns = 19e
+s = 10a, val = 2, ns = 16e
+s = 10a, val = 2, ns = 1ae
+s = 10a, val = 2, ns = 17a
+s = 10a, val = 2, ns = 1ba
+s = 10a, val = 2, ns = 1da
+s = 10a, val = 2, ns = 1ea
+
+s = 10a, val = 2
+s = 0, val = 3, ns = 10a
+ s = 32, -- get pp
+s = 32, i = 0, j=2, k=3, ns = 3f
+s = 32, i = 0, j=2, k=6, ns = 77
+s = 32, i = 0, j=2, k=7, ns = b7
+s = 32, i = 0, j=2, k=8, ns = 137
+s = 32, i = 0, j=3, k=6, ns = 7b
+s = 32, i = 0, j=3, k=7, ns = bb
+s = 32, i = 0, j=3, k=8, ns = 13b
+s = 32, i = 0, j=6, k=7, ns = f3
+s = 32, i = 0, j=6, k=8, ns = 173
+s = 32, i = 0, j=7, k=8, ns = 1b3
+s = 32, i = 2, j=3, k=6, ns = 7e
+s = 32, i = 2, j=3, k=7, ns = be
+s = 32, i = 2, j=3, k=8, ns = 13e
+s = 32, i = 2, j=6, k=8, ns = 176
+s = 32, i = 2, j=7, k=8, ns = 1b6
+s = 32, i = 3, j=6, k=8, ns = 17a
+s = 32, i = 3, j=7, k=8, ns = 1ba
+s = 32, i = 6, j=7, k=8, ns = 1f2
+end p ---- 
+s = 32
+s = 32, val = 2, ns = 3f
+s = 32, val = 2, ns = 77
+s = 32, val = 2, ns = b7
+s = 32, val = 2, ns = 137
+s = 32, val = 2, ns = 7b
+s = 32, val = 2, ns = bb
+s = 32, val = 2, ns = 13b
+s = 32, val = 2, ns = f3
+s = 32, val = 2, ns = 173
+s = 32, val = 2, ns = 1b3
+s = 32, val = 2, ns = 7e
+s = 32, val = 2, ns = be
+s = 32, val = 2, ns = 13e
+s = 32, val = 2, ns = 176
+s = 32, val = 2, ns = 1b6
+s = 32, val = 2, ns = 17a
+s = 32, val = 2, ns = 1ba
+ s = 1f2, -- get pp
+s = 1f2, i = 0, j=2, k=3, ns = 1ff
+end p ---- 
+s = 1f2
+s = 1f2, val = 1, ns = 1ff
+
+s = 1f2, val = 1
+s = 32, val = 2, ns = 1f2
+
+s = 32, val = 2
+s = 0, val = 3, ns = 32
+ s = 52, -- get pp
+s = 52, i = 0, j=2, k=3, ns = 5f
+s = 52, i = 0, j=2, k=5, ns = 77
+s = 52, i = 0, j=2, k=7, ns = d7
+s = 52, i = 0, j=2, k=8, ns = 157
+s = 52, i = 0, j=3, k=5, ns = 7b
+s = 52, i = 0, j=3, k=7, ns = db
+s = 52, i = 0, j=3, k=8, ns = 15b
+s = 52, i = 0, j=5, k=7, ns = f3
+s = 52, i = 0, j=5, k=8, ns = 173
+s = 52, i = 0, j=7, k=8, ns = 1d3
+s = 52, i = 2, j=3, k=5, ns = 7e
+s = 52, i = 2, j=3, k=7, ns = de
+s = 52, i = 2, j=3, k=8, ns = 15e
+s = 52, i = 2, j=5, k=7, ns = f6
+s = 52, i = 2, j=5, k=8, ns = 176
+s = 52, i = 2, j=7, k=8, ns = 1d6
+s = 52, i = 3, j=5, k=7, ns = fa
+s = 52, i = 3, j=5, k=8, ns = 17a
+s = 52, i = 3, j=7, k=8, ns = 1da
+s = 52, i = 5, j=7, k=8, ns = 1f2
+end p ---- 
+s = 52
+s = 52, val = 2, ns = 5f
+s = 52, val = 2, ns = 77
+s = 52, val = 2, ns = d7
+s = 52, val = 2, ns = 157
+s = 52, val = 2, ns = 7b
+s = 52, val = 2, ns = db
+s = 52, val = 2, ns = 15b
+s = 52, val = 2, ns = f3
+s = 52, val = 2, ns = 173
+s = 52, val = 2, ns = 1d3
+s = 52, val = 2, ns = 7e
+s = 52, val = 2, ns = de
+s = 52, val = 2, ns = 15e
+s = 52, val = 2, ns = f6
+s = 52, val = 2, ns = 176
+s = 52, val = 2, ns = 1d6
+s = 52, val = 2, ns = fa
+s = 52, val = 2, ns = 17a
+s = 52, val = 2, ns = 1da
+s = 52, val = 2, ns = 1f2
+
+s = 52, val = 2
+s = 0, val = 3, ns = 52
+ s = 92, -- get pp
+s = 92, i = 0, j=2, k=3, ns = 9f
+s = 92, i = 0, j=2, k=5, ns = b7
+s = 92, i = 0, j=2, k=6, ns = d7
+s = 92, i = 0, j=2, k=8, ns = 197
+s = 92, i = 0, j=3, k=5, ns = bb
+s = 92, i = 0, j=3, k=6, ns = db
+s = 92, i = 0, j=3, k=8, ns = 19b
+s = 92, i = 0, j=5, k=6, ns = f3
+s = 92, i = 0, j=5, k=8, ns = 1b3
+s = 92, i = 0, j=6, k=8, ns = 1d3
+s = 92, i = 2, j=3, k=5, ns = be
+s = 92, i = 2, j=3, k=6, ns = de
+s = 92, i = 2, j=3, k=8, ns = 19e
+s = 92, i = 2, j=5, k=6, ns = f6
+s = 92, i = 2, j=5, k=8, ns = 1b6
+s = 92, i = 2, j=6, k=8, ns = 1d6
+s = 92, i = 3, j=5, k=6, ns = fa
+s = 92, i = 3, j=5, k=8, ns = 1ba
+s = 92, i = 3, j=6, k=8, ns = 1da
+s = 92, i = 5, j=6, k=8, ns = 1f2
+end p ---- 
+s = 92
+s = 92, val = 2, ns = 9f
+s = 92, val = 2, ns = b7
+s = 92, val = 2, ns = d7
+s = 92, val = 2, ns = 197
+s = 92, val = 2, ns = bb
+s = 92, val = 2, ns = db
+s = 92, val = 2, ns = 19b
+s = 92, val = 2, ns = f3
+s = 92, val = 2, ns = 1b3
+s = 92, val = 2, ns = 1d3
+s = 92, val = 2, ns = be
+s = 92, val = 2, ns = de
+s = 92, val = 2, ns = 19e
+s = 92, val = 2, ns = f6
+s = 92, val = 2, ns = 1b6
+s = 92, val = 2, ns = 1d6
+s = 92, val = 2, ns = fa
+s = 92, val = 2, ns = 1ba
+s = 92, val = 2, ns = 1da
+s = 92, val = 2, ns = 1f2
+
+s = 92, val = 2
+s = 0, val = 3, ns = 92
+ s = 112, -- get pp
+s = 112, i = 0, j=2, k=3, ns = 11f
+s = 112, i = 0, j=2, k=5, ns = 137
+s = 112, i = 0, j=2, k=6, ns = 157
+s = 112, i = 0, j=2, k=7, ns = 197
+s = 112, i = 0, j=3, k=5, ns = 13b
+s = 112, i = 0, j=3, k=6, ns = 15b
+s = 112, i = 0, j=3, k=7, ns = 19b
+s = 112, i = 0, j=5, k=6, ns = 173
+s = 112, i = 0, j=5, k=7, ns = 1b3
+s = 112, i = 0, j=6, k=7, ns = 1d3
+s = 112, i = 2, j=3, k=5, ns = 13e
+s = 112, i = 2, j=3, k=6, ns = 15e
+s = 112, i = 2, j=3, k=7, ns = 19e
+s = 112, i = 2, j=5, k=6, ns = 176
+s = 112, i = 2, j=5, k=7, ns = 1b6
+s = 112, i = 3, j=5, k=6, ns = 17a
+s = 112, i = 3, j=5, k=7, ns = 1ba
+s = 112, i = 5, j=6, k=7, ns = 1f2
+end p ---- 
+s = 112
+s = 112, val = 2, ns = 11f
+s = 112, val = 2, ns = 137
+s = 112, val = 2, ns = 157
+s = 112, val = 2, ns = 197
+s = 112, val = 2, ns = 13b
+s = 112, val = 2, ns = 15b
+s = 112, val = 2, ns = 19b
+s = 112, val = 2, ns = 173
+s = 112, val = 2, ns = 1b3
+s = 112, val = 2, ns = 1d3
+s = 112, val = 2, ns = 13e
+s = 112, val = 2, ns = 15e
+s = 112, val = 2, ns = 19e
+s = 112, val = 2, ns = 176
+s = 112, val = 2, ns = 1b6
+s = 112, val = 2, ns = 17a
+s = 112, val = 2, ns = 1ba
+s = 112, val = 2, ns = 1f2
+
+s = 112, val = 2
+s = 0, val = 3, ns = 112
+ s = 62, -- get pp
+s = 62, i = 0, j=2, k=3, ns = 6f
+s = 62, i = 0, j=2, k=4, ns = 77
+s = 62, i = 0, j=2, k=7, ns = e7
+s = 62, i = 0, j=2, k=8, ns = 167
+s = 62, i = 0, j=3, k=4, ns = 7b
+s = 62, i = 0, j=3, k=7, ns = eb
+s = 62, i = 0, j=3, k=8, ns = 16b
+s = 62, i = 0, j=4, k=7, ns = f3
+s = 62, i = 0, j=4, k=8, ns = 173
+s = 62, i = 0, j=7, k=8, ns = 1e3
+s = 62, i = 2, j=3, k=4, ns = 7e
+s = 62, i = 2, j=3, k=7, ns = ee
+s = 62, i = 2, j=3, k=8, ns = 16e
+s = 62, i = 2, j=4, k=7, ns = f6
+s = 62, i = 2, j=4, k=8, ns = 176
+s = 62, i = 2, j=7, k=8, ns = 1e6
+s = 62, i = 3, j=4, k=7, ns = fa
+s = 62, i = 3, j=4, k=8, ns = 17a
+s = 62, i = 3, j=7, k=8, ns = 1ea
+s = 62, i = 4, j=7, k=8, ns = 1f2
+end p ---- 
+s = 62
+s = 62, val = 2, ns = 6f
+s = 62, val = 2, ns = 77
+s = 62, val = 2, ns = e7
+s = 62, val = 2, ns = 167
+s = 62, val = 2, ns = 7b
+s = 62, val = 2, ns = eb
+s = 62, val = 2, ns = 16b
+s = 62, val = 2, ns = f3
+s = 62, val = 2, ns = 173
+s = 62, val = 2, ns = 1e3
+s = 62, val = 2, ns = 7e
+s = 62, val = 2, ns = ee
+s = 62, val = 2, ns = 16e
+s = 62, val = 2, ns = f6
+s = 62, val = 2, ns = 176
+s = 62, val = 2, ns = 1e6
+s = 62, val = 2, ns = fa
+s = 62, val = 2, ns = 17a
+s = 62, val = 2, ns = 1ea
+s = 62, val = 2, ns = 1f2
+
+s = 62, val = 2
+s = 0, val = 3, ns = 62
+ s = a2, -- get pp
+s = a2, i = 0, j=2, k=3, ns = af
+s = a2, i = 0, j=2, k=4, ns = b7
+s = a2, i = 0, j=2, k=6, ns = e7
+s = a2, i = 0, j=2, k=8, ns = 1a7
+s = a2, i = 0, j=3, k=4, ns = bb
+s = a2, i = 0, j=3, k=6, ns = eb
+s = a2, i = 0, j=3, k=8, ns = 1ab
+s = a2, i = 0, j=4, k=6, ns = f3
+s = a2, i = 0, j=4, k=8, ns = 1b3
+s = a2, i = 0, j=6, k=8, ns = 1e3
+s = a2, i = 2, j=3, k=4, ns = be
+s = a2, i = 2, j=3, k=6, ns = ee
+s = a2, i = 2, j=3, k=8, ns = 1ae
+s = a2, i = 2, j=4, k=6, ns = f6
+s = a2, i = 2, j=4, k=8, ns = 1b6
+s = a2, i = 2, j=6, k=8, ns = 1e6
+s = a2, i = 3, j=4, k=6, ns = fa
+s = a2, i = 3, j=4, k=8, ns = 1ba
+s = a2, i = 3, j=6, k=8, ns = 1ea
+s = a2, i = 4, j=6, k=8, ns = 1f2
+end p ---- 
+s = a2
+s = a2, val = 2, ns = af
+s = a2, val = 2, ns = b7
+s = a2, val = 2, ns = e7
+s = a2, val = 2, ns = 1a7
+s = a2, val = 2, ns = bb
+s = a2, val = 2, ns = eb
+s = a2, val = 2, ns = 1ab
+s = a2, val = 2, ns = f3
+s = a2, val = 2, ns = 1b3
+s = a2, val = 2, ns = 1e3
+s = a2, val = 2, ns = be
+s = a2, val = 2, ns = ee
+s = a2, val = 2, ns = 1ae
+s = a2, val = 2, ns = f6
+s = a2, val = 2, ns = 1b6
+s = a2, val = 2, ns = 1e6
+s = a2, val = 2, ns = fa
+s = a2, val = 2, ns = 1ba
+s = a2, val = 2, ns = 1ea
+s = a2, val = 2, ns = 1f2
+
+s = a2, val = 2
+s = 0, val = 3, ns = a2
+ s = 122, -- get pp
+s = 122, i = 0, j=2, k=3, ns = 12f
+s = 122, i = 0, j=2, k=4, ns = 137
+s = 122, i = 0, j=2, k=6, ns = 167
+s = 122, i = 0, j=2, k=7, ns = 1a7
+s = 122, i = 0, j=3, k=4, ns = 13b
+s = 122, i = 0, j=3, k=6, ns = 16b
+s = 122, i = 0, j=3, k=7, ns = 1ab
+s = 122, i = 0, j=4, k=6, ns = 173
+s = 122, i = 0, j=4, k=7, ns = 1b3
+s = 122, i = 0, j=6, k=7, ns = 1e3
+s = 122, i = 2, j=3, k=4, ns = 13e
+s = 122, i = 2, j=3, k=6, ns = 16e
+s = 122, i = 2, j=3, k=7, ns = 1ae
+s = 122, i = 2, j=4, k=6, ns = 176
+s = 122, i = 2, j=4, k=7, ns = 1b6
+s = 122, i = 3, j=4, k=6, ns = 17a
+s = 122, i = 3, j=4, k=7, ns = 1ba
+s = 122, i = 4, j=6, k=7, ns = 1f2
+end p ---- 
+s = 122
+s = 122, val = 2, ns = 12f
+s = 122, val = 2, ns = 137
+s = 122, val = 2, ns = 167
+s = 122, val = 2, ns = 1a7
+s = 122, val = 2, ns = 13b
+s = 122, val = 2, ns = 16b
+s = 122, val = 2, ns = 1ab
+s = 122, val = 2, ns = 173
+s = 122, val = 2, ns = 1b3
+s = 122, val = 2, ns = 1e3
+s = 122, val = 2, ns = 13e
+s = 122, val = 2, ns = 16e
+s = 122, val = 2, ns = 1ae
+s = 122, val = 2, ns = 176
+s = 122, val = 2, ns = 1b6
+s = 122, val = 2, ns = 17a
+s = 122, val = 2, ns = 1ba
+s = 122, val = 2, ns = 1f2
+
+s = 122, val = 2
+s = 0, val = 3, ns = 122
+ s = c2, -- get pp
+s = c2, i = 0, j=2, k=3, ns = cf
+s = c2, i = 0, j=2, k=4, ns = d7
+s = c2, i = 0, j=2, k=5, ns = e7
+s = c2, i = 0, j=2, k=8, ns = 1c7
+s = c2, i = 0, j=3, k=4, ns = db
+s = c2, i = 0, j=3, k=5, ns = eb
+s = c2, i = 0, j=3, k=8, ns = 1cb
+s = c2, i = 0, j=4, k=5, ns = f3
+s = c2, i = 0, j=4, k=8, ns = 1d3
+s = c2, i = 0, j=5, k=8, ns = 1e3
+s = c2, i = 2, j=3, k=4, ns = de
+s = c2, i = 2, j=3, k=5, ns = ee
+s = c2, i = 2, j=3, k=8, ns = 1ce
+s = c2, i = 2, j=4, k=5, ns = f6
+s = c2, i = 2, j=4, k=8, ns = 1d6
+s = c2, i = 2, j=5, k=8, ns = 1e6
+s = c2, i = 3, j=4, k=5, ns = fa
+s = c2, i = 3, j=4, k=8, ns = 1da
+s = c2, i = 3, j=5, k=8, ns = 1ea
+s = c2, i = 4, j=5, k=8, ns = 1f2
+end p ---- 
+s = c2
+s = c2, val = 2, ns = cf
+s = c2, val = 2, ns = d7
+s = c2, val = 2, ns = e7
+s = c2, val = 2, ns = 1c7
+s = c2, val = 2, ns = db
+s = c2, val = 2, ns = eb
+s = c2, val = 2, ns = 1cb
+s = c2, val = 2, ns = f3
+s = c2, val = 2, ns = 1d3
+s = c2, val = 2, ns = 1e3
+s = c2, val = 2, ns = de
+s = c2, val = 2, ns = ee
+s = c2, val = 2, ns = 1ce
+s = c2, val = 2, ns = f6
+s = c2, val = 2, ns = 1d6
+s = c2, val = 2, ns = 1e6
+s = c2, val = 2, ns = fa
+s = c2, val = 2, ns = 1da
+s = c2, val = 2, ns = 1ea
+s = c2, val = 2, ns = 1f2
+
+s = c2, val = 2
+s = 0, val = 3, ns = c2
+ s = 142, -- get pp
+s = 142, i = 0, j=2, k=3, ns = 14f
+s = 142, i = 0, j=2, k=4, ns = 157
+s = 142, i = 0, j=2, k=5, ns = 167
+s = 142, i = 0, j=2, k=7, ns = 1c7
+s = 142, i = 0, j=3, k=4, ns = 15b
+s = 142, i = 0, j=3, k=5, ns = 16b
+s = 142, i = 0, j=3, k=7, ns = 1cb
+s = 142, i = 0, j=4, k=5, ns = 173
+s = 142, i = 0, j=4, k=7, ns = 1d3
+s = 142, i = 0, j=5, k=7, ns = 1e3
+s = 142, i = 2, j=3, k=4, ns = 15e
+s = 142, i = 2, j=3, k=5, ns = 16e
+s = 142, i = 2, j=3, k=7, ns = 1ce
+s = 142, i = 2, j=4, k=5, ns = 176
+s = 142, i = 2, j=4, k=7, ns = 1d6
+s = 142, i = 2, j=5, k=7, ns = 1e6
+s = 142, i = 3, j=4, k=5, ns = 17a
+s = 142, i = 3, j=4, k=7, ns = 1da
+s = 142, i = 3, j=5, k=7, ns = 1ea
+s = 142, i = 4, j=5, k=7, ns = 1f2
+end p ---- 
+s = 142
+s = 142, val = 2, ns = 14f
+s = 142, val = 2, ns = 157
+s = 142, val = 2, ns = 167
+s = 142, val = 2, ns = 1c7
+s = 142, val = 2, ns = 15b
+s = 142, val = 2, ns = 16b
+s = 142, val = 2, ns = 1cb
+s = 142, val = 2, ns = 173
+s = 142, val = 2, ns = 1d3
+s = 142, val = 2, ns = 1e3
+s = 142, val = 2, ns = 15e
+s = 142, val = 2, ns = 16e
+s = 142, val = 2, ns = 1ce
+s = 142, val = 2, ns = 176
+s = 142, val = 2, ns = 1d6
+s = 142, val = 2, ns = 1e6
+s = 142, val = 2, ns = 17a
+s = 142, val = 2, ns = 1da
+s = 142, val = 2, ns = 1ea
+s = 142, val = 2, ns = 1f2
+
+s = 142, val = 2
+s = 0, val = 3, ns = 142
+ s = 182, -- get pp
+s = 182, i = 0, j=2, k=3, ns = 18f
+s = 182, i = 0, j=2, k=4, ns = 197
+s = 182, i = 0, j=2, k=5, ns = 1a7
+s = 182, i = 0, j=2, k=6, ns = 1c7
+s = 182, i = 0, j=3, k=4, ns = 19b
+s = 182, i = 0, j=3, k=5, ns = 1ab
+s = 182, i = 0, j=3, k=6, ns = 1cb
+s = 182, i = 0, j=4, k=5, ns = 1b3
+s = 182, i = 0, j=4, k=6, ns = 1d3
+s = 182, i = 0, j=5, k=6, ns = 1e3
+s = 182, i = 2, j=3, k=4, ns = 19e
+s = 182, i = 2, j=3, k=5, ns = 1ae
+s = 182, i = 2, j=3, k=6, ns = 1ce
+s = 182, i = 2, j=4, k=5, ns = 1b6
+s = 182, i = 2, j=4, k=6, ns = 1d6
+s = 182, i = 2, j=5, k=6, ns = 1e6
+s = 182, i = 3, j=4, k=5, ns = 1ba
+s = 182, i = 3, j=4, k=6, ns = 1da
+s = 182, i = 3, j=5, k=6, ns = 1ea
+s = 182, i = 4, j=5, k=6, ns = 1f2
+end p ---- 
+s = 182
+s = 182, val = 2, ns = 18f
+s = 182, val = 2, ns = 197
+s = 182, val = 2, ns = 1a7
+s = 182, val = 2, ns = 1c7
+s = 182, val = 2, ns = 19b
+s = 182, val = 2, ns = 1ab
+s = 182, val = 2, ns = 1cb
+s = 182, val = 2, ns = 1b3
+s = 182, val = 2, ns = 1d3
+s = 182, val = 2, ns = 1e3
+s = 182, val = 2, ns = 19e
+s = 182, val = 2, ns = 1ae
+s = 182, val = 2, ns = 1ce
+s = 182, val = 2, ns = 1b6
+s = 182, val = 2, ns = 1d6
+s = 182, val = 2, ns = 1e6
+s = 182, val = 2, ns = 1ba
+s = 182, val = 2, ns = 1da
+s = 182, val = 2, ns = 1ea
+s = 182, val = 2, ns = 1f2
+
+s = 182, val = 2
+s = 0, val = 3, ns = 182
+ s = 1c, -- get pp
+s = 1c, i = 0, j=1, k=5, ns = 3f
+s = 1c, i = 0, j=1, k=6, ns = 5f
+s = 1c, i = 0, j=1, k=7, ns = 9f
+s = 1c, i = 0, j=1, k=8, ns = 11f
+s = 1c, i = 0, j=5, k=6, ns = 7d
+s = 1c, i = 0, j=5, k=7, ns = bd
+s = 1c, i = 0, j=5, k=8, ns = 13d
+s = 1c, i = 0, j=6, k=7, ns = dd
+s = 1c, i = 0, j=6, k=8, ns = 15d
+s = 1c, i = 0, j=7, k=8, ns = 19d
+s = 1c, i = 1, j=5, k=6, ns = 7e
+s = 1c, i = 1, j=5, k=7, ns = be
+s = 1c, i = 1, j=5, k=8, ns = 13e
+s = 1c, i = 1, j=6, k=7, ns = de
+s = 1c, i = 1, j=6, k=8, ns = 15e
+s = 1c, i = 1, j=7, k=8, ns = 19e
+s = 1c, i = 5, j=6, k=7, ns = fc
+s = 1c, i = 5, j=6, k=8, ns = 17c
+s = 1c, i = 5, j=7, k=8, ns = 1bc
+s = 1c, i = 6, j=7, k=8, ns = 1dc
+end p ---- 
+s = 1c
+s = 1c, val = 2, ns = 3f
+s = 1c, val = 2, ns = 5f
+s = 1c, val = 2, ns = 9f
+s = 1c, val = 2, ns = 11f
+s = 1c, val = 2, ns = 7d
+s = 1c, val = 2, ns = bd
+s = 1c, val = 2, ns = 13d
+s = 1c, val = 2, ns = dd
+s = 1c, val = 2, ns = 15d
+s = 1c, val = 2, ns = 19d
+s = 1c, val = 2, ns = 7e
+s = 1c, val = 2, ns = be
+s = 1c, val = 2, ns = 13e
+s = 1c, val = 2, ns = de
+s = 1c, val = 2, ns = 15e
+s = 1c, val = 2, ns = 19e
+ s = fc, -- get pp
+s = fc, i = 0, j=1, k=8, ns = 1ff
+end p ---- 
+s = fc
+s = fc, val = 1, ns = 1ff
+
+s = fc, val = 1
+s = 1c, val = 2, ns = fc
+ s = 17c, -- get pp
+s = 17c, i = 0, j=1, k=7, ns = 1ff
+end p ---- 
+s = 17c
+s = 17c, val = 1, ns = 1ff
+
+s = 17c, val = 1
+s = 1c, val = 2, ns = 17c
+ s = 1bc, -- get pp
+s = 1bc, i = 0, j=1, k=6, ns = 1ff
+end p ---- 
+s = 1bc
+s = 1bc, val = 1, ns = 1ff
+
+s = 1bc, val = 1
+s = 1c, val = 2, ns = 1bc
+ s = 1dc, -- get pp
+s = 1dc, i = 0, j=1, k=5, ns = 1ff
+end p ---- 
+s = 1dc
+s = 1dc, val = 1, ns = 1ff
+
+s = 1dc, val = 1
+s = 1c, val = 2, ns = 1dc
+
+s = 1c, val = 2
+s = 0, val = 3, ns = 1c
+ s = 2c, -- get pp
+s = 2c, i = 0, j=1, k=4, ns = 3f
+s = 2c, i = 0, j=1, k=6, ns = 6f
+s = 2c, i = 0, j=1, k=7, ns = af
+s = 2c, i = 0, j=1, k=8, ns = 12f
+s = 2c, i = 0, j=4, k=6, ns = 7d
+s = 2c, i = 0, j=4, k=7, ns = bd
+s = 2c, i = 0, j=4, k=8, ns = 13d
+s = 2c, i = 0, j=6, k=7, ns = ed
+s = 2c, i = 0, j=6, k=8, ns = 16d
+s = 2c, i = 0, j=7, k=8, ns = 1ad
+s = 2c, i = 1, j=4, k=6, ns = 7e
+s = 2c, i = 1, j=4, k=7, ns = be
+s = 2c, i = 1, j=4, k=8, ns = 13e
+s = 2c, i = 1, j=6, k=7, ns = ee
+s = 2c, i = 1, j=6, k=8, ns = 16e
+s = 2c, i = 1, j=7, k=8, ns = 1ae
+s = 2c, i = 4, j=6, k=7, ns = fc
+s = 2c, i = 4, j=6, k=8, ns = 17c
+s = 2c, i = 4, j=7, k=8, ns = 1bc
+s = 2c, i = 6, j=7, k=8, ns = 1ec
+end p ---- 
+s = 2c
+s = 2c, val = 2, ns = 3f
+s = 2c, val = 2, ns = 6f
+s = 2c, val = 2, ns = af
+s = 2c, val = 2, ns = 12f
+s = 2c, val = 2, ns = 7d
+s = 2c, val = 2, ns = bd
+s = 2c, val = 2, ns = 13d
+s = 2c, val = 2, ns = ed
+s = 2c, val = 2, ns = 16d
+s = 2c, val = 2, ns = 1ad
+s = 2c, val = 2, ns = 7e
+s = 2c, val = 2, ns = be
+s = 2c, val = 2, ns = 13e
+s = 2c, val = 2, ns = ee
+s = 2c, val = 2, ns = 16e
+s = 2c, val = 2, ns = 1ae
+s = 2c, val = 2, ns = fc
+s = 2c, val = 2, ns = 17c
+s = 2c, val = 2, ns = 1bc
+ s = 1ec, -- get pp
+s = 1ec, i = 0, j=1, k=4, ns = 1ff
+end p ---- 
+s = 1ec
+s = 1ec, val = 1, ns = 1ff
+
+s = 1ec, val = 1
+s = 2c, val = 2, ns = 1ec
+
+s = 2c, val = 2
+s = 0, val = 3, ns = 2c
+ s = 4c, -- get pp
+s = 4c, i = 0, j=1, k=4, ns = 5f
+s = 4c, i = 0, j=1, k=5, ns = 6f
+s = 4c, i = 0, j=1, k=7, ns = cf
+s = 4c, i = 0, j=1, k=8, ns = 14f
+s = 4c, i = 0, j=4, k=5, ns = 7d
+s = 4c, i = 0, j=4, k=7, ns = dd
+s = 4c, i = 0, j=4, k=8, ns = 15d
+s = 4c, i = 0, j=5, k=7, ns = ed
+s = 4c, i = 0, j=5, k=8, ns = 16d
+s = 4c, i = 0, j=7, k=8, ns = 1cd
+s = 4c, i = 1, j=4, k=5, ns = 7e
+s = 4c, i = 1, j=4, k=7, ns = de
+s = 4c, i = 1, j=4, k=8, ns = 15e
+s = 4c, i = 1, j=5, k=7, ns = ee
+s = 4c, i = 1, j=5, k=8, ns = 16e
+s = 4c, i = 1, j=7, k=8, ns = 1ce
+s = 4c, i = 4, j=5, k=7, ns = fc
+s = 4c, i = 4, j=5, k=8, ns = 17c
+s = 4c, i = 4, j=7, k=8, ns = 1dc
+s = 4c, i = 5, j=7, k=8, ns = 1ec
+end p ---- 
+s = 4c
+s = 4c, val = 2, ns = 5f
+s = 4c, val = 2, ns = 6f
+s = 4c, val = 2, ns = cf
+s = 4c, val = 2, ns = 14f
+s = 4c, val = 2, ns = 7d
+s = 4c, val = 2, ns = dd
+s = 4c, val = 2, ns = 15d
+s = 4c, val = 2, ns = ed
+s = 4c, val = 2, ns = 16d
+s = 4c, val = 2, ns = 1cd
+s = 4c, val = 2, ns = 7e
+s = 4c, val = 2, ns = de
+s = 4c, val = 2, ns = 15e
+s = 4c, val = 2, ns = ee
+s = 4c, val = 2, ns = 16e
+s = 4c, val = 2, ns = 1ce
+s = 4c, val = 2, ns = fc
+s = 4c, val = 2, ns = 17c
+s = 4c, val = 2, ns = 1dc
+s = 4c, val = 2, ns = 1ec
+
+s = 4c, val = 2
+s = 0, val = 3, ns = 4c
+ s = 8c, -- get pp
+s = 8c, i = 0, j=1, k=4, ns = 9f
+s = 8c, i = 0, j=1, k=5, ns = af
+s = 8c, i = 0, j=1, k=6, ns = cf
+s = 8c, i = 0, j=1, k=8, ns = 18f
+s = 8c, i = 0, j=4, k=5, ns = bd
+s = 8c, i = 0, j=4, k=6, ns = dd
+s = 8c, i = 0, j=4, k=8, ns = 19d
+s = 8c, i = 0, j=5, k=6, ns = ed
+s = 8c, i = 0, j=5, k=8, ns = 1ad
+s = 8c, i = 0, j=6, k=8, ns = 1cd
+s = 8c, i = 1, j=4, k=5, ns = be
+s = 8c, i = 1, j=4, k=6, ns = de
+s = 8c, i = 1, j=4, k=8, ns = 19e
+s = 8c, i = 1, j=5, k=6, ns = ee
+s = 8c, i = 1, j=5, k=8, ns = 1ae
+s = 8c, i = 1, j=6, k=8, ns = 1ce
+s = 8c, i = 4, j=5, k=6, ns = fc
+s = 8c, i = 4, j=5, k=8, ns = 1bc
+s = 8c, i = 4, j=6, k=8, ns = 1dc
+s = 8c, i = 5, j=6, k=8, ns = 1ec
+end p ---- 
+s = 8c
+s = 8c, val = 2, ns = 9f
+s = 8c, val = 2, ns = af
+s = 8c, val = 2, ns = cf
+s = 8c, val = 2, ns = 18f
+s = 8c, val = 2, ns = bd
+s = 8c, val = 2, ns = dd
+s = 8c, val = 2, ns = 19d
+s = 8c, val = 2, ns = ed
+s = 8c, val = 2, ns = 1ad
+s = 8c, val = 2, ns = 1cd
+s = 8c, val = 2, ns = be
+s = 8c, val = 2, ns = de
+s = 8c, val = 2, ns = 19e
+s = 8c, val = 2, ns = ee
+s = 8c, val = 2, ns = 1ae
+s = 8c, val = 2, ns = 1ce
+s = 8c, val = 2, ns = fc
+s = 8c, val = 2, ns = 1bc
+s = 8c, val = 2, ns = 1dc
+s = 8c, val = 2, ns = 1ec
+
+s = 8c, val = 2
+s = 0, val = 3, ns = 8c
+ s = 10c, -- get pp
+s = 10c, i = 0, j=1, k=4, ns = 11f
+s = 10c, i = 0, j=1, k=5, ns = 12f
+s = 10c, i = 0, j=1, k=6, ns = 14f
+s = 10c, i = 0, j=1, k=7, ns = 18f
+s = 10c, i = 0, j=4, k=5, ns = 13d
+s = 10c, i = 0, j=4, k=6, ns = 15d
+s = 10c, i = 0, j=4, k=7, ns = 19d
+s = 10c, i = 0, j=5, k=6, ns = 16d
+s = 10c, i = 0, j=5, k=7, ns = 1ad
+s = 10c, i = 0, j=6, k=7, ns = 1cd
+s = 10c, i = 1, j=4, k=5, ns = 13e
+s = 10c, i = 1, j=4, k=6, ns = 15e
+s = 10c, i = 1, j=4, k=7, ns = 19e
+s = 10c, i = 1, j=5, k=6, ns = 16e
+s = 10c, i = 1, j=5, k=7, ns = 1ae
+s = 10c, i = 1, j=6, k=7, ns = 1ce
+s = 10c, i = 4, j=5, k=6, ns = 17c
+s = 10c, i = 4, j=5, k=7, ns = 1bc
+s = 10c, i = 4, j=6, k=7, ns = 1dc
+s = 10c, i = 5, j=6, k=7, ns = 1ec
+end p ---- 
+s = 10c
+s = 10c, val = 2, ns = 11f
+s = 10c, val = 2, ns = 12f
+s = 10c, val = 2, ns = 14f
+s = 10c, val = 2, ns = 18f
+s = 10c, val = 2, ns = 13d
+s = 10c, val = 2, ns = 15d
+s = 10c, val = 2, ns = 19d
+s = 10c, val = 2, ns = 16d
+s = 10c, val = 2, ns = 1ad
+s = 10c, val = 2, ns = 1cd
+s = 10c, val = 2, ns = 13e
+s = 10c, val = 2, ns = 15e
+s = 10c, val = 2, ns = 19e
+s = 10c, val = 2, ns = 16e
+s = 10c, val = 2, ns = 1ae
+s = 10c, val = 2, ns = 1ce
+s = 10c, val = 2, ns = 17c
+s = 10c, val = 2, ns = 1bc
+s = 10c, val = 2, ns = 1dc
+s = 10c, val = 2, ns = 1ec
+
+s = 10c, val = 2
+s = 0, val = 3, ns = 10c
+ s = 34, -- get pp
+s = 34, i = 0, j=1, k=3, ns = 3f
+s = 34, i = 0, j=1, k=6, ns = 77
+s = 34, i = 0, j=1, k=7, ns = b7
+s = 34, i = 0, j=1, k=8, ns = 137
+s = 34, i = 0, j=3, k=6, ns = 7d
+s = 34, i = 0, j=3, k=7, ns = bd
+s = 34, i = 0, j=3, k=8, ns = 13d
+s = 34, i = 0, j=6, k=7, ns = f5
+s = 34, i = 0, j=6, k=8, ns = 175
+s = 34, i = 0, j=7, k=8, ns = 1b5
+s = 34, i = 1, j=3, k=6, ns = 7e
+s = 34, i = 1, j=3, k=7, ns = be
+s = 34, i = 1, j=3, k=8, ns = 13e
+s = 34, i = 1, j=6, k=7, ns = f6
+s = 34, i = 1, j=6, k=8, ns = 176
+s = 34, i = 1, j=7, k=8, ns = 1b6
+s = 34, i = 3, j=6, k=8, ns = 17c
+s = 34, i = 3, j=7, k=8, ns = 1bc
+s = 34, i = 6, j=7, k=8, ns = 1f4
+end p ---- 
+s = 34
+s = 34, val = 2, ns = 3f
+s = 34, val = 2, ns = 77
+s = 34, val = 2, ns = b7
+s = 34, val = 2, ns = 137
+s = 34, val = 2, ns = 7d
+s = 34, val = 2, ns = bd
+s = 34, val = 2, ns = 13d
+s = 34, val = 2, ns = f5
+s = 34, val = 2, ns = 175
+s = 34, val = 2, ns = 1b5
+s = 34, val = 2, ns = 7e
+s = 34, val = 2, ns = be
+s = 34, val = 2, ns = 13e
+s = 34, val = 2, ns = f6
+s = 34, val = 2, ns = 176
+s = 34, val = 2, ns = 1b6
+s = 34, val = 2, ns = 17c
+s = 34, val = 2, ns = 1bc
+ s = 1f4, -- get pp
+s = 1f4, i = 0, j=1, k=3, ns = 1ff
+end p ---- 
+s = 1f4
+s = 1f4, val = 1, ns = 1ff
+
+s = 1f4, val = 1
+s = 34, val = 2, ns = 1f4
+
+s = 34, val = 2
+s = 0, val = 3, ns = 34
+ s = 54, -- get pp
+s = 54, i = 0, j=1, k=3, ns = 5f
+s = 54, i = 0, j=1, k=5, ns = 77
+s = 54, i = 0, j=1, k=7, ns = d7
+s = 54, i = 0, j=1, k=8, ns = 157
+s = 54, i = 0, j=3, k=5, ns = 7d
+s = 54, i = 0, j=3, k=7, ns = dd
+s = 54, i = 0, j=3, k=8, ns = 15d
+s = 54, i = 0, j=5, k=7, ns = f5
+s = 54, i = 0, j=5, k=8, ns = 175
+s = 54, i = 0, j=7, k=8, ns = 1d5
+s = 54, i = 1, j=3, k=5, ns = 7e
+s = 54, i = 1, j=3, k=7, ns = de
+s = 54, i = 1, j=3, k=8, ns = 15e
+s = 54, i = 1, j=5, k=7, ns = f6
+s = 54, i = 1, j=5, k=8, ns = 176
+s = 54, i = 1, j=7, k=8, ns = 1d6
+s = 54, i = 3, j=5, k=7, ns = fc
+s = 54, i = 3, j=5, k=8, ns = 17c
+s = 54, i = 3, j=7, k=8, ns = 1dc
+s = 54, i = 5, j=7, k=8, ns = 1f4
+end p ---- 
+s = 54
+s = 54, val = 2, ns = 5f
+s = 54, val = 2, ns = 77
+s = 54, val = 2, ns = d7
+s = 54, val = 2, ns = 157
+s = 54, val = 2, ns = 7d
+s = 54, val = 2, ns = dd
+s = 54, val = 2, ns = 15d
+s = 54, val = 2, ns = f5
+s = 54, val = 2, ns = 175
+s = 54, val = 2, ns = 1d5
+s = 54, val = 2, ns = 7e
+s = 54, val = 2, ns = de
+s = 54, val = 2, ns = 15e
+s = 54, val = 2, ns = f6
+s = 54, val = 2, ns = 176
+s = 54, val = 2, ns = 1d6
+s = 54, val = 2, ns = fc
+s = 54, val = 2, ns = 17c
+s = 54, val = 2, ns = 1dc
+s = 54, val = 2, ns = 1f4
+
+s = 54, val = 2
+s = 0, val = 3, ns = 54
+ s = 94, -- get pp
+s = 94, i = 0, j=1, k=3, ns = 9f
+s = 94, i = 0, j=1, k=5, ns = b7
+s = 94, i = 0, j=1, k=6, ns = d7
+s = 94, i = 0, j=1, k=8, ns = 197
+s = 94, i = 0, j=3, k=5, ns = bd
+s = 94, i = 0, j=3, k=6, ns = dd
+s = 94, i = 0, j=3, k=8, ns = 19d
+s = 94, i = 0, j=5, k=6, ns = f5
+s = 94, i = 0, j=5, k=8, ns = 1b5
+s = 94, i = 0, j=6, k=8, ns = 1d5
+s = 94, i = 1, j=3, k=5, ns = be
+s = 94, i = 1, j=3, k=6, ns = de
+s = 94, i = 1, j=3, k=8, ns = 19e
+s = 94, i = 1, j=5, k=6, ns = f6
+s = 94, i = 1, j=5, k=8, ns = 1b6
+s = 94, i = 1, j=6, k=8, ns = 1d6
+s = 94, i = 3, j=5, k=6, ns = fc
+s = 94, i = 3, j=5, k=8, ns = 1bc
+s = 94, i = 3, j=6, k=8, ns = 1dc
+s = 94, i = 5, j=6, k=8, ns = 1f4
+end p ---- 
+s = 94
+s = 94, val = 2, ns = 9f
+s = 94, val = 2, ns = b7
+s = 94, val = 2, ns = d7
+s = 94, val = 2, ns = 197
+s = 94, val = 2, ns = bd
+s = 94, val = 2, ns = dd
+s = 94, val = 2, ns = 19d
+s = 94, val = 2, ns = f5
+s = 94, val = 2, ns = 1b5
+s = 94, val = 2, ns = 1d5
+s = 94, val = 2, ns = be
+s = 94, val = 2, ns = de
+s = 94, val = 2, ns = 19e
+s = 94, val = 2, ns = f6
+s = 94, val = 2, ns = 1b6
+s = 94, val = 2, ns = 1d6
+s = 94, val = 2, ns = fc
+s = 94, val = 2, ns = 1bc
+s = 94, val = 2, ns = 1dc
+s = 94, val = 2, ns = 1f4
+
+s = 94, val = 2
+s = 0, val = 3, ns = 94
+ s = 114, -- get pp
+s = 114, i = 0, j=1, k=3, ns = 11f
+s = 114, i = 0, j=1, k=5, ns = 137
+s = 114, i = 0, j=1, k=6, ns = 157
+s = 114, i = 0, j=1, k=7, ns = 197
+s = 114, i = 0, j=3, k=5, ns = 13d
+s = 114, i = 0, j=3, k=6, ns = 15d
+s = 114, i = 0, j=3, k=7, ns = 19d
+s = 114, i = 0, j=5, k=6, ns = 175
+s = 114, i = 0, j=5, k=7, ns = 1b5
+s = 114, i = 0, j=6, k=7, ns = 1d5
+s = 114, i = 1, j=3, k=5, ns = 13e
+s = 114, i = 1, j=3, k=6, ns = 15e
+s = 114, i = 1, j=3, k=7, ns = 19e
+s = 114, i = 1, j=5, k=6, ns = 176
+s = 114, i = 1, j=5, k=7, ns = 1b6
+s = 114, i = 1, j=6, k=7, ns = 1d6
+s = 114, i = 3, j=5, k=6, ns = 17c
+s = 114, i = 3, j=5, k=7, ns = 1bc
+s = 114, i = 5, j=6, k=7, ns = 1f4
+end p ---- 
+s = 114
+s = 114, val = 2, ns = 11f
+s = 114, val = 2, ns = 137
+s = 114, val = 2, ns = 157
+s = 114, val = 2, ns = 197
+s = 114, val = 2, ns = 13d
+s = 114, val = 2, ns = 15d
+s = 114, val = 2, ns = 19d
+s = 114, val = 2, ns = 175
+s = 114, val = 2, ns = 1b5
+s = 114, val = 2, ns = 1d5
+s = 114, val = 2, ns = 13e
+s = 114, val = 2, ns = 15e
+s = 114, val = 2, ns = 19e
+s = 114, val = 2, ns = 176
+s = 114, val = 2, ns = 1b6
+s = 114, val = 2, ns = 1d6
+s = 114, val = 2, ns = 17c
+s = 114, val = 2, ns = 1bc
+s = 114, val = 2, ns = 1f4
+
+s = 114, val = 2
+s = 0, val = 3, ns = 114
+ s = 64, -- get pp
+s = 64, i = 0, j=1, k=3, ns = 6f
+s = 64, i = 0, j=1, k=4, ns = 77
+s = 64, i = 0, j=1, k=7, ns = e7
+s = 64, i = 0, j=1, k=8, ns = 167
+s = 64, i = 0, j=3, k=4, ns = 7d
+s = 64, i = 0, j=3, k=7, ns = ed
+s = 64, i = 0, j=3, k=8, ns = 16d
+s = 64, i = 0, j=4, k=7, ns = f5
+s = 64, i = 0, j=4, k=8, ns = 175
+s = 64, i = 0, j=7, k=8, ns = 1e5
+s = 64, i = 1, j=3, k=4, ns = 7e
+s = 64, i = 1, j=3, k=7, ns = ee
+s = 64, i = 1, j=3, k=8, ns = 16e
+s = 64, i = 1, j=4, k=7, ns = f6
+s = 64, i = 1, j=4, k=8, ns = 176
+s = 64, i = 1, j=7, k=8, ns = 1e6
+s = 64, i = 3, j=4, k=7, ns = fc
+s = 64, i = 3, j=4, k=8, ns = 17c
+s = 64, i = 3, j=7, k=8, ns = 1ec
+s = 64, i = 4, j=7, k=8, ns = 1f4
+end p ---- 
+s = 64
+s = 64, val = 2, ns = 6f
+s = 64, val = 2, ns = 77
+s = 64, val = 2, ns = e7
+s = 64, val = 2, ns = 167
+s = 64, val = 2, ns = 7d
+s = 64, val = 2, ns = ed
+s = 64, val = 2, ns = 16d
+s = 64, val = 2, ns = f5
+s = 64, val = 2, ns = 175
+s = 64, val = 2, ns = 1e5
+s = 64, val = 2, ns = 7e
+s = 64, val = 2, ns = ee
+s = 64, val = 2, ns = 16e
+s = 64, val = 2, ns = f6
+s = 64, val = 2, ns = 176
+s = 64, val = 2, ns = 1e6
+s = 64, val = 2, ns = fc
+s = 64, val = 2, ns = 17c
+s = 64, val = 2, ns = 1ec
+s = 64, val = 2, ns = 1f4
+
+s = 64, val = 2
+s = 0, val = 3, ns = 64
+ s = a4, -- get pp
+s = a4, i = 0, j=1, k=3, ns = af
+s = a4, i = 0, j=1, k=4, ns = b7
+s = a4, i = 0, j=1, k=6, ns = e7
+s = a4, i = 0, j=1, k=8, ns = 1a7
+s = a4, i = 0, j=3, k=4, ns = bd
+s = a4, i = 0, j=3, k=6, ns = ed
+s = a4, i = 0, j=3, k=8, ns = 1ad
+s = a4, i = 0, j=4, k=6, ns = f5
+s = a4, i = 0, j=4, k=8, ns = 1b5
+s = a4, i = 0, j=6, k=8, ns = 1e5
+s = a4, i = 1, j=3, k=4, ns = be
+s = a4, i = 1, j=3, k=6, ns = ee
+s = a4, i = 1, j=3, k=8, ns = 1ae
+s = a4, i = 1, j=4, k=6, ns = f6
+s = a4, i = 1, j=4, k=8, ns = 1b6
+s = a4, i = 1, j=6, k=8, ns = 1e6
+s = a4, i = 3, j=4, k=6, ns = fc
+s = a4, i = 3, j=4, k=8, ns = 1bc
+s = a4, i = 3, j=6, k=8, ns = 1ec
+s = a4, i = 4, j=6, k=8, ns = 1f4
+end p ---- 
+s = a4
+s = a4, val = 2, ns = af
+s = a4, val = 2, ns = b7
+s = a4, val = 2, ns = e7
+s = a4, val = 2, ns = 1a7
+s = a4, val = 2, ns = bd
+s = a4, val = 2, ns = ed
+s = a4, val = 2, ns = 1ad
+s = a4, val = 2, ns = f5
+s = a4, val = 2, ns = 1b5
+s = a4, val = 2, ns = 1e5
+s = a4, val = 2, ns = be
+s = a4, val = 2, ns = ee
+s = a4, val = 2, ns = 1ae
+s = a4, val = 2, ns = f6
+s = a4, val = 2, ns = 1b6
+s = a4, val = 2, ns = 1e6
+s = a4, val = 2, ns = fc
+s = a4, val = 2, ns = 1bc
+s = a4, val = 2, ns = 1ec
+s = a4, val = 2, ns = 1f4
+
+s = a4, val = 2
+s = 0, val = 3, ns = a4
+ s = 124, -- get pp
+s = 124, i = 0, j=1, k=3, ns = 12f
+s = 124, i = 0, j=1, k=4, ns = 137
+s = 124, i = 0, j=1, k=6, ns = 167
+s = 124, i = 0, j=1, k=7, ns = 1a7
+s = 124, i = 0, j=3, k=4, ns = 13d
+s = 124, i = 0, j=3, k=6, ns = 16d
+s = 124, i = 0, j=3, k=7, ns = 1ad
+s = 124, i = 0, j=4, k=6, ns = 175
+s = 124, i = 0, j=4, k=7, ns = 1b5
+s = 124, i = 0, j=6, k=7, ns = 1e5
+s = 124, i = 1, j=3, k=4, ns = 13e
+s = 124, i = 1, j=3, k=6, ns = 16e
+s = 124, i = 1, j=3, k=7, ns = 1ae
+s = 124, i = 1, j=4, k=6, ns = 176
+s = 124, i = 1, j=4, k=7, ns = 1b6
+s = 124, i = 1, j=6, k=7, ns = 1e6
+s = 124, i = 3, j=4, k=6, ns = 17c
+s = 124, i = 3, j=4, k=7, ns = 1bc
+s = 124, i = 4, j=6, k=7, ns = 1f4
+end p ---- 
+s = 124
+s = 124, val = 2, ns = 12f
+s = 124, val = 2, ns = 137
+s = 124, val = 2, ns = 167
+s = 124, val = 2, ns = 1a7
+s = 124, val = 2, ns = 13d
+s = 124, val = 2, ns = 16d
+s = 124, val = 2, ns = 1ad
+s = 124, val = 2, ns = 175
+s = 124, val = 2, ns = 1b5
+s = 124, val = 2, ns = 1e5
+s = 124, val = 2, ns = 13e
+s = 124, val = 2, ns = 16e
+s = 124, val = 2, ns = 1ae
+s = 124, val = 2, ns = 176
+s = 124, val = 2, ns = 1b6
+s = 124, val = 2, ns = 1e6
+s = 124, val = 2, ns = 17c
+s = 124, val = 2, ns = 1bc
+s = 124, val = 2, ns = 1f4
+
+s = 124, val = 2
+s = 0, val = 3, ns = 124
+ s = 144, -- get pp
+s = 144, i = 0, j=1, k=3, ns = 14f
+s = 144, i = 0, j=1, k=4, ns = 157
+s = 144, i = 0, j=1, k=5, ns = 167
+s = 144, i = 0, j=1, k=7, ns = 1c7
+s = 144, i = 0, j=3, k=4, ns = 15d
+s = 144, i = 0, j=3, k=5, ns = 16d
+s = 144, i = 0, j=3, k=7, ns = 1cd
+s = 144, i = 0, j=4, k=5, ns = 175
+s = 144, i = 0, j=4, k=7, ns = 1d5
+s = 144, i = 0, j=5, k=7, ns = 1e5
+s = 144, i = 1, j=3, k=4, ns = 15e
+s = 144, i = 1, j=3, k=5, ns = 16e
+s = 144, i = 1, j=3, k=7, ns = 1ce
+s = 144, i = 1, j=4, k=5, ns = 176
+s = 144, i = 1, j=4, k=7, ns = 1d6
+s = 144, i = 1, j=5, k=7, ns = 1e6
+s = 144, i = 3, j=4, k=5, ns = 17c
+s = 144, i = 3, j=4, k=7, ns = 1dc
+s = 144, i = 3, j=5, k=7, ns = 1ec
+s = 144, i = 4, j=5, k=7, ns = 1f4
+end p ---- 
+s = 144
+s = 144, val = 2, ns = 14f
+s = 144, val = 2, ns = 157
+s = 144, val = 2, ns = 167
+s = 144, val = 2, ns = 1c7
+s = 144, val = 2, ns = 15d
+s = 144, val = 2, ns = 16d
+s = 144, val = 2, ns = 1cd
+s = 144, val = 2, ns = 175
+s = 144, val = 2, ns = 1d5
+s = 144, val = 2, ns = 1e5
+s = 144, val = 2, ns = 15e
+s = 144, val = 2, ns = 16e
+s = 144, val = 2, ns = 1ce
+s = 144, val = 2, ns = 176
+s = 144, val = 2, ns = 1d6
+s = 144, val = 2, ns = 1e6
+s = 144, val = 2, ns = 17c
+s = 144, val = 2, ns = 1dc
+s = 144, val = 2, ns = 1ec
+s = 144, val = 2, ns = 1f4
+
+s = 144, val = 2
+s = 0, val = 3, ns = 144
+ s = 184, -- get pp
+s = 184, i = 0, j=1, k=3, ns = 18f
+s = 184, i = 0, j=1, k=4, ns = 197
+s = 184, i = 0, j=1, k=5, ns = 1a7
+s = 184, i = 0, j=1, k=6, ns = 1c7
+s = 184, i = 0, j=3, k=4, ns = 19d
+s = 184, i = 0, j=3, k=5, ns = 1ad
+s = 184, i = 0, j=3, k=6, ns = 1cd
+s = 184, i = 0, j=4, k=5, ns = 1b5
+s = 184, i = 0, j=4, k=6, ns = 1d5
+s = 184, i = 0, j=5, k=6, ns = 1e5
+s = 184, i = 1, j=3, k=4, ns = 19e
+s = 184, i = 1, j=3, k=5, ns = 1ae
+s = 184, i = 1, j=3, k=6, ns = 1ce
+s = 184, i = 1, j=4, k=5, ns = 1b6
+s = 184, i = 1, j=4, k=6, ns = 1d6
+s = 184, i = 1, j=5, k=6, ns = 1e6
+s = 184, i = 3, j=4, k=5, ns = 1bc
+s = 184, i = 3, j=4, k=6, ns = 1dc
+s = 184, i = 3, j=5, k=6, ns = 1ec
+s = 184, i = 4, j=5, k=6, ns = 1f4
+end p ---- 
+s = 184
+s = 184, val = 2, ns = 18f
+s = 184, val = 2, ns = 197
+s = 184, val = 2, ns = 1a7
+s = 184, val = 2, ns = 1c7
+s = 184, val = 2, ns = 19d
+s = 184, val = 2, ns = 1ad
+s = 184, val = 2, ns = 1cd
+s = 184, val = 2, ns = 1b5
+s = 184, val = 2, ns = 1d5
+s = 184, val = 2, ns = 1e5
+s = 184, val = 2, ns = 19e
+s = 184, val = 2, ns = 1ae
+s = 184, val = 2, ns = 1ce
+s = 184, val = 2, ns = 1b6
+s = 184, val = 2, ns = 1d6
+s = 184, val = 2, ns = 1e6
+s = 184, val = 2, ns = 1bc
+s = 184, val = 2, ns = 1dc
+s = 184, val = 2, ns = 1ec
+s = 184, val = 2, ns = 1f4
+
+s = 184, val = 2
+s = 0, val = 3, ns = 184
+ s = 38, -- get pp
+s = 38, i = 0, j=1, k=2, ns = 3f
+s = 38, i = 0, j=1, k=6, ns = 7b
+s = 38, i = 0, j=1, k=7, ns = bb
+s = 38, i = 0, j=1, k=8, ns = 13b
+s = 38, i = 0, j=2, k=6, ns = 7d
+s = 38, i = 0, j=2, k=7, ns = bd
+s = 38, i = 0, j=2, k=8, ns = 13d
+s = 38, i = 0, j=6, k=7, ns = f9
+s = 38, i = 0, j=6, k=8, ns = 179
+s = 38, i = 0, j=7, k=8, ns = 1b9
+s = 38, i = 1, j=2, k=6, ns = 7e
+s = 38, i = 1, j=2, k=7, ns = be
+s = 38, i = 1, j=2, k=8, ns = 13e
+s = 38, i = 1, j=6, k=7, ns = fa
+s = 38, i = 1, j=6, k=8, ns = 17a
+s = 38, i = 1, j=7, k=8, ns = 1ba
+s = 38, i = 2, j=6, k=8, ns = 17c
+s = 38, i = 2, j=7, k=8, ns = 1bc
+s = 38, i = 6, j=7, k=8, ns = 1f8
+end p ---- 
+s = 38
+s = 38, val = 2, ns = 3f
+s = 38, val = 2, ns = 7b
+s = 38, val = 2, ns = bb
+s = 38, val = 2, ns = 13b
+s = 38, val = 2, ns = 7d
+s = 38, val = 2, ns = bd
+s = 38, val = 2, ns = 13d
+s = 38, val = 2, ns = f9
+s = 38, val = 2, ns = 179
+s = 38, val = 2, ns = 1b9
+s = 38, val = 2, ns = 7e
+s = 38, val = 2, ns = be
+s = 38, val = 2, ns = 13e
+s = 38, val = 2, ns = fa
+s = 38, val = 2, ns = 17a
+s = 38, val = 2, ns = 1ba
+s = 38, val = 2, ns = 17c
+s = 38, val = 2, ns = 1bc
+ s = 1f8, -- get pp
+s = 1f8, i = 0, j=1, k=2, ns = 1ff
+end p ---- 
+s = 1f8
+s = 1f8, val = 1, ns = 1ff
+
+s = 1f8, val = 1
+s = 38, val = 2, ns = 1f8
+
+s = 38, val = 2
+s = 0, val = 3, ns = 38
+ s = 58, -- get pp
+s = 58, i = 0, j=1, k=2, ns = 5f
+s = 58, i = 0, j=1, k=5, ns = 7b
+s = 58, i = 0, j=1, k=7, ns = db
+s = 58, i = 0, j=1, k=8, ns = 15b
+s = 58, i = 0, j=2, k=5, ns = 7d
+s = 58, i = 0, j=2, k=7, ns = dd
+s = 58, i = 0, j=2, k=8, ns = 15d
+s = 58, i = 0, j=5, k=7, ns = f9
+s = 58, i = 0, j=5, k=8, ns = 179
+s = 58, i = 0, j=7, k=8, ns = 1d9
+s = 58, i = 1, j=2, k=5, ns = 7e
+s = 58, i = 1, j=2, k=7, ns = de
+s = 58, i = 1, j=2, k=8, ns = 15e
+s = 58, i = 1, j=5, k=7, ns = fa
+s = 58, i = 1, j=5, k=8, ns = 17a
+s = 58, i = 1, j=7, k=8, ns = 1da
+s = 58, i = 2, j=5, k=7, ns = fc
+s = 58, i = 2, j=5, k=8, ns = 17c
+s = 58, i = 2, j=7, k=8, ns = 1dc
+s = 58, i = 5, j=7, k=8, ns = 1f8
+end p ---- 
+s = 58
+s = 58, val = 2, ns = 5f
+s = 58, val = 2, ns = 7b
+s = 58, val = 2, ns = db
+s = 58, val = 2, ns = 15b
+s = 58, val = 2, ns = 7d
+s = 58, val = 2, ns = dd
+s = 58, val = 2, ns = 15d
+s = 58, val = 2, ns = f9
+s = 58, val = 2, ns = 179
+s = 58, val = 2, ns = 1d9
+s = 58, val = 2, ns = 7e
+s = 58, val = 2, ns = de
+s = 58, val = 2, ns = 15e
+s = 58, val = 2, ns = fa
+s = 58, val = 2, ns = 17a
+s = 58, val = 2, ns = 1da
+s = 58, val = 2, ns = fc
+s = 58, val = 2, ns = 17c
+s = 58, val = 2, ns = 1dc
+s = 58, val = 2, ns = 1f8
+
+s = 58, val = 2
+s = 0, val = 3, ns = 58
+ s = 98, -- get pp
+s = 98, i = 0, j=1, k=2, ns = 9f
+s = 98, i = 0, j=1, k=5, ns = bb
+s = 98, i = 0, j=1, k=6, ns = db
+s = 98, i = 0, j=1, k=8, ns = 19b
+s = 98, i = 0, j=2, k=5, ns = bd
+s = 98, i = 0, j=2, k=6, ns = dd
+s = 98, i = 0, j=2, k=8, ns = 19d
+s = 98, i = 0, j=5, k=6, ns = f9
+s = 98, i = 0, j=5, k=8, ns = 1b9
+s = 98, i = 0, j=6, k=8, ns = 1d9
+s = 98, i = 1, j=2, k=5, ns = be
+s = 98, i = 1, j=2, k=6, ns = de
+s = 98, i = 1, j=2, k=8, ns = 19e
+s = 98, i = 1, j=5, k=6, ns = fa
+s = 98, i = 1, j=5, k=8, ns = 1ba
+s = 98, i = 1, j=6, k=8, ns = 1da
+s = 98, i = 2, j=5, k=6, ns = fc
+s = 98, i = 2, j=5, k=8, ns = 1bc
+s = 98, i = 2, j=6, k=8, ns = 1dc
+s = 98, i = 5, j=6, k=8, ns = 1f8
+end p ---- 
+s = 98
+s = 98, val = 2, ns = 9f
+s = 98, val = 2, ns = bb
+s = 98, val = 2, ns = db
+s = 98, val = 2, ns = 19b
+s = 98, val = 2, ns = bd
+s = 98, val = 2, ns = dd
+s = 98, val = 2, ns = 19d
+s = 98, val = 2, ns = f9
+s = 98, val = 2, ns = 1b9
+s = 98, val = 2, ns = 1d9
+s = 98, val = 2, ns = be
+s = 98, val = 2, ns = de
+s = 98, val = 2, ns = 19e
+s = 98, val = 2, ns = fa
+s = 98, val = 2, ns = 1ba
+s = 98, val = 2, ns = 1da
+s = 98, val = 2, ns = fc
+s = 98, val = 2, ns = 1bc
+s = 98, val = 2, ns = 1dc
+s = 98, val = 2, ns = 1f8
+
+s = 98, val = 2
+s = 0, val = 3, ns = 98
+ s = 118, -- get pp
+s = 118, i = 0, j=1, k=2, ns = 11f
+s = 118, i = 0, j=1, k=5, ns = 13b
+s = 118, i = 0, j=1, k=6, ns = 15b
+s = 118, i = 0, j=1, k=7, ns = 19b
+s = 118, i = 0, j=2, k=5, ns = 13d
+s = 118, i = 0, j=2, k=6, ns = 15d
+s = 118, i = 0, j=2, k=7, ns = 19d
+s = 118, i = 0, j=5, k=6, ns = 179
+s = 118, i = 0, j=5, k=7, ns = 1b9
+s = 118, i = 0, j=6, k=7, ns = 1d9
+s = 118, i = 1, j=2, k=5, ns = 13e
+s = 118, i = 1, j=2, k=6, ns = 15e
+s = 118, i = 1, j=2, k=7, ns = 19e
+s = 118, i = 1, j=5, k=6, ns = 17a
+s = 118, i = 1, j=5, k=7, ns = 1ba
+s = 118, i = 1, j=6, k=7, ns = 1da
+s = 118, i = 2, j=5, k=6, ns = 17c
+s = 118, i = 2, j=5, k=7, ns = 1bc
+s = 118, i = 5, j=6, k=7, ns = 1f8
+end p ---- 
+s = 118
+s = 118, val = 2, ns = 11f
+s = 118, val = 2, ns = 13b
+s = 118, val = 2, ns = 15b
+s = 118, val = 2, ns = 19b
+s = 118, val = 2, ns = 13d
+s = 118, val = 2, ns = 15d
+s = 118, val = 2, ns = 19d
+s = 118, val = 2, ns = 179
+s = 118, val = 2, ns = 1b9
+s = 118, val = 2, ns = 1d9
+s = 118, val = 2, ns = 13e
+s = 118, val = 2, ns = 15e
+s = 118, val = 2, ns = 19e
+s = 118, val = 2, ns = 17a
+s = 118, val = 2, ns = 1ba
+s = 118, val = 2, ns = 1da
+s = 118, val = 2, ns = 17c
+s = 118, val = 2, ns = 1bc
+s = 118, val = 2, ns = 1f8
+
+s = 118, val = 2
+s = 0, val = 3, ns = 118
+ s = 68, -- get pp
+s = 68, i = 0, j=1, k=2, ns = 6f
+s = 68, i = 0, j=1, k=4, ns = 7b
+s = 68, i = 0, j=1, k=7, ns = eb
+s = 68, i = 0, j=1, k=8, ns = 16b
+s = 68, i = 0, j=2, k=4, ns = 7d
+s = 68, i = 0, j=2, k=7, ns = ed
+s = 68, i = 0, j=2, k=8, ns = 16d
+s = 68, i = 0, j=4, k=7, ns = f9
+s = 68, i = 0, j=4, k=8, ns = 179
+s = 68, i = 0, j=7, k=8, ns = 1e9
+s = 68, i = 1, j=2, k=4, ns = 7e
+s = 68, i = 1, j=2, k=7, ns = ee
+s = 68, i = 1, j=2, k=8, ns = 16e
+s = 68, i = 1, j=4, k=7, ns = fa
+s = 68, i = 1, j=4, k=8, ns = 17a
+s = 68, i = 1, j=7, k=8, ns = 1ea
+s = 68, i = 2, j=4, k=7, ns = fc
+s = 68, i = 2, j=4, k=8, ns = 17c
+s = 68, i = 2, j=7, k=8, ns = 1ec
+s = 68, i = 4, j=7, k=8, ns = 1f8
+end p ---- 
+s = 68
+s = 68, val = 2, ns = 6f
+s = 68, val = 2, ns = 7b
+s = 68, val = 2, ns = eb
+s = 68, val = 2, ns = 16b
+s = 68, val = 2, ns = 7d
+s = 68, val = 2, ns = ed
+s = 68, val = 2, ns = 16d
+s = 68, val = 2, ns = f9
+s = 68, val = 2, ns = 179
+s = 68, val = 2, ns = 1e9
+s = 68, val = 2, ns = 7e
+s = 68, val = 2, ns = ee
+s = 68, val = 2, ns = 16e
+s = 68, val = 2, ns = fa
+s = 68, val = 2, ns = 17a
+s = 68, val = 2, ns = 1ea
+s = 68, val = 2, ns = fc
+s = 68, val = 2, ns = 17c
+s = 68, val = 2, ns = 1ec
+s = 68, val = 2, ns = 1f8
+
+s = 68, val = 2
+s = 0, val = 3, ns = 68
+ s = a8, -- get pp
+s = a8, i = 0, j=1, k=2, ns = af
+s = a8, i = 0, j=1, k=4, ns = bb
+s = a8, i = 0, j=1, k=6, ns = eb
+s = a8, i = 0, j=1, k=8, ns = 1ab
+s = a8, i = 0, j=2, k=4, ns = bd
+s = a8, i = 0, j=2, k=6, ns = ed
+s = a8, i = 0, j=2, k=8, ns = 1ad
+s = a8, i = 0, j=4, k=6, ns = f9
+s = a8, i = 0, j=4, k=8, ns = 1b9
+s = a8, i = 0, j=6, k=8, ns = 1e9
+s = a8, i = 1, j=2, k=4, ns = be
+s = a8, i = 1, j=2, k=6, ns = ee
+s = a8, i = 1, j=2, k=8, ns = 1ae
+s = a8, i = 1, j=4, k=6, ns = fa
+s = a8, i = 1, j=4, k=8, ns = 1ba
+s = a8, i = 1, j=6, k=8, ns = 1ea
+s = a8, i = 2, j=4, k=6, ns = fc
+s = a8, i = 2, j=4, k=8, ns = 1bc
+s = a8, i = 2, j=6, k=8, ns = 1ec
+s = a8, i = 4, j=6, k=8, ns = 1f8
+end p ---- 
+s = a8
+s = a8, val = 2, ns = af
+s = a8, val = 2, ns = bb
+s = a8, val = 2, ns = eb
+s = a8, val = 2, ns = 1ab
+s = a8, val = 2, ns = bd
+s = a8, val = 2, ns = ed
+s = a8, val = 2, ns = 1ad
+s = a8, val = 2, ns = f9
+s = a8, val = 2, ns = 1b9
+s = a8, val = 2, ns = 1e9
+s = a8, val = 2, ns = be
+s = a8, val = 2, ns = ee
+s = a8, val = 2, ns = 1ae
+s = a8, val = 2, ns = fa
+s = a8, val = 2, ns = 1ba
+s = a8, val = 2, ns = 1ea
+s = a8, val = 2, ns = fc
+s = a8, val = 2, ns = 1bc
+s = a8, val = 2, ns = 1ec
+s = a8, val = 2, ns = 1f8
+
+s = a8, val = 2
+s = 0, val = 3, ns = a8
+ s = 128, -- get pp
+s = 128, i = 0, j=1, k=2, ns = 12f
+s = 128, i = 0, j=1, k=4, ns = 13b
+s = 128, i = 0, j=1, k=6, ns = 16b
+s = 128, i = 0, j=1, k=7, ns = 1ab
+s = 128, i = 0, j=2, k=4, ns = 13d
+s = 128, i = 0, j=2, k=6, ns = 16d
+s = 128, i = 0, j=2, k=7, ns = 1ad
+s = 128, i = 0, j=4, k=6, ns = 179
+s = 128, i = 0, j=4, k=7, ns = 1b9
+s = 128, i = 0, j=6, k=7, ns = 1e9
+s = 128, i = 1, j=2, k=4, ns = 13e
+s = 128, i = 1, j=2, k=6, ns = 16e
+s = 128, i = 1, j=2, k=7, ns = 1ae
+s = 128, i = 1, j=4, k=6, ns = 17a
+s = 128, i = 1, j=4, k=7, ns = 1ba
+s = 128, i = 1, j=6, k=7, ns = 1ea
+s = 128, i = 2, j=4, k=6, ns = 17c
+s = 128, i = 2, j=4, k=7, ns = 1bc
+s = 128, i = 4, j=6, k=7, ns = 1f8
+end p ---- 
+s = 128
+s = 128, val = 2, ns = 12f
+s = 128, val = 2, ns = 13b
+s = 128, val = 2, ns = 16b
+s = 128, val = 2, ns = 1ab
+s = 128, val = 2, ns = 13d
+s = 128, val = 2, ns = 16d
+s = 128, val = 2, ns = 1ad
+s = 128, val = 2, ns = 179
+s = 128, val = 2, ns = 1b9
+s = 128, val = 2, ns = 1e9
+s = 128, val = 2, ns = 13e
+s = 128, val = 2, ns = 16e
+s = 128, val = 2, ns = 1ae
+s = 128, val = 2, ns = 17a
+s = 128, val = 2, ns = 1ba
+s = 128, val = 2, ns = 1ea
+s = 128, val = 2, ns = 17c
+s = 128, val = 2, ns = 1bc
+s = 128, val = 2, ns = 1f8
+
+s = 128, val = 2
+s = 0, val = 3, ns = 128
+ s = 148, -- get pp
+s = 148, i = 0, j=1, k=2, ns = 14f
+s = 148, i = 0, j=1, k=4, ns = 15b
+s = 148, i = 0, j=1, k=5, ns = 16b
+s = 148, i = 0, j=1, k=7, ns = 1cb
+s = 148, i = 0, j=2, k=4, ns = 15d
+s = 148, i = 0, j=2, k=5, ns = 16d
+s = 148, i = 0, j=2, k=7, ns = 1cd
+s = 148, i = 0, j=4, k=5, ns = 179
+s = 148, i = 0, j=4, k=7, ns = 1d9
+s = 148, i = 0, j=5, k=7, ns = 1e9
+s = 148, i = 1, j=2, k=4, ns = 15e
+s = 148, i = 1, j=2, k=5, ns = 16e
+s = 148, i = 1, j=2, k=7, ns = 1ce
+s = 148, i = 1, j=4, k=5, ns = 17a
+s = 148, i = 1, j=4, k=7, ns = 1da
+s = 148, i = 1, j=5, k=7, ns = 1ea
+s = 148, i = 2, j=4, k=5, ns = 17c
+s = 148, i = 2, j=4, k=7, ns = 1dc
+s = 148, i = 2, j=5, k=7, ns = 1ec
+s = 148, i = 4, j=5, k=7, ns = 1f8
+end p ---- 
+s = 148
+s = 148, val = 2, ns = 14f
+s = 148, val = 2, ns = 15b
+s = 148, val = 2, ns = 16b
+s = 148, val = 2, ns = 1cb
+s = 148, val = 2, ns = 15d
+s = 148, val = 2, ns = 16d
+s = 148, val = 2, ns = 1cd
+s = 148, val = 2, ns = 179
+s = 148, val = 2, ns = 1d9
+s = 148, val = 2, ns = 1e9
+s = 148, val = 2, ns = 15e
+s = 148, val = 2, ns = 16e
+s = 148, val = 2, ns = 1ce
+s = 148, val = 2, ns = 17a
+s = 148, val = 2, ns = 1da
+s = 148, val = 2, ns = 1ea
+s = 148, val = 2, ns = 17c
+s = 148, val = 2, ns = 1dc
+s = 148, val = 2, ns = 1ec
+s = 148, val = 2, ns = 1f8
+
+s = 148, val = 2
+s = 0, val = 3, ns = 148
+ s = 188, -- get pp
+s = 188, i = 0, j=1, k=2, ns = 18f
+s = 188, i = 0, j=1, k=4, ns = 19b
+s = 188, i = 0, j=1, k=5, ns = 1ab
+s = 188, i = 0, j=1, k=6, ns = 1cb
+s = 188, i = 0, j=2, k=4, ns = 19d
+s = 188, i = 0, j=2, k=5, ns = 1ad
+s = 188, i = 0, j=2, k=6, ns = 1cd
+s = 188, i = 0, j=4, k=5, ns = 1b9
+s = 188, i = 0, j=4, k=6, ns = 1d9
+s = 188, i = 0, j=5, k=6, ns = 1e9
+s = 188, i = 1, j=2, k=4, ns = 19e
+s = 188, i = 1, j=2, k=5, ns = 1ae
+s = 188, i = 1, j=2, k=6, ns = 1ce
+s = 188, i = 1, j=4, k=5, ns = 1ba
+s = 188, i = 1, j=4, k=6, ns = 1da
+s = 188, i = 1, j=5, k=6, ns = 1ea
+s = 188, i = 2, j=4, k=5, ns = 1bc
+s = 188, i = 2, j=4, k=6, ns = 1dc
+s = 188, i = 2, j=5, k=6, ns = 1ec
+s = 188, i = 4, j=5, k=6, ns = 1f8
+end p ---- 
+s = 188
+s = 188, val = 2, ns = 18f
+s = 188, val = 2, ns = 19b
+s = 188, val = 2, ns = 1ab
+s = 188, val = 2, ns = 1cb
+s = 188, val = 2, ns = 19d
+s = 188, val = 2, ns = 1ad
+s = 188, val = 2, ns = 1cd
+s = 188, val = 2, ns = 1b9
+s = 188, val = 2, ns = 1d9
+s = 188, val = 2, ns = 1e9
+s = 188, val = 2, ns = 19e
+s = 188, val = 2, ns = 1ae
+s = 188, val = 2, ns = 1ce
+s = 188, val = 2, ns = 1ba
+s = 188, val = 2, ns = 1da
+s = 188, val = 2, ns = 1ea
+s = 188, val = 2, ns = 1bc
+s = 188, val = 2, ns = 1dc
+s = 188, val = 2, ns = 1ec
+s = 188, val = 2, ns = 1f8
+
+s = 188, val = 2
+s = 0, val = 3, ns = 188
+ s = 70, -- get pp
+s = 70, i = 0, j=1, k=2, ns = 77
+s = 70, i = 0, j=1, k=3, ns = 7b
+s = 70, i = 0, j=1, k=7, ns = f3
+s = 70, i = 0, j=1, k=8, ns = 173
+s = 70, i = 0, j=2, k=3, ns = 7d
+s = 70, i = 0, j=2, k=7, ns = f5
+s = 70, i = 0, j=2, k=8, ns = 175
+s = 70, i = 0, j=3, k=7, ns = f9
+s = 70, i = 0, j=3, k=8, ns = 179
+s = 70, i = 0, j=7, k=8, ns = 1f1
+s = 70, i = 1, j=2, k=3, ns = 7e
+s = 70, i = 1, j=2, k=7, ns = f6
+s = 70, i = 1, j=2, k=8, ns = 176
+s = 70, i = 1, j=3, k=7, ns = fa
+s = 70, i = 1, j=3, k=8, ns = 17a
+s = 70, i = 1, j=7, k=8, ns = 1f2
+s = 70, i = 2, j=3, k=7, ns = fc
+s = 70, i = 2, j=3, k=8, ns = 17c
+s = 70, i = 2, j=7, k=8, ns = 1f4
+s = 70, i = 3, j=7, k=8, ns = 1f8
+end p ---- 
+s = 70
+s = 70, val = 2, ns = 77
+s = 70, val = 2, ns = 7b
+s = 70, val = 2, ns = f3
+s = 70, val = 2, ns = 173
+s = 70, val = 2, ns = 7d
+s = 70, val = 2, ns = f5
+s = 70, val = 2, ns = 175
+s = 70, val = 2, ns = f9
+s = 70, val = 2, ns = 179
+s = 70, val = 2, ns = 1f1
+s = 70, val = 2, ns = 7e
+s = 70, val = 2, ns = f6
+s = 70, val = 2, ns = 176
+s = 70, val = 2, ns = fa
+s = 70, val = 2, ns = 17a
+s = 70, val = 2, ns = 1f2
+s = 70, val = 2, ns = fc
+s = 70, val = 2, ns = 17c
+s = 70, val = 2, ns = 1f4
+s = 70, val = 2, ns = 1f8
+
+s = 70, val = 2
+s = 0, val = 3, ns = 70
+ s = b0, -- get pp
+s = b0, i = 0, j=1, k=2, ns = b7
+s = b0, i = 0, j=1, k=3, ns = bb
+s = b0, i = 0, j=1, k=6, ns = f3
+s = b0, i = 0, j=1, k=8, ns = 1b3
+s = b0, i = 0, j=2, k=3, ns = bd
+s = b0, i = 0, j=2, k=6, ns = f5
+s = b0, i = 0, j=2, k=8, ns = 1b5
+s = b0, i = 0, j=3, k=6, ns = f9
+s = b0, i = 0, j=3, k=8, ns = 1b9
+s = b0, i = 0, j=6, k=8, ns = 1f1
+s = b0, i = 1, j=2, k=3, ns = be
+s = b0, i = 1, j=2, k=6, ns = f6
+s = b0, i = 1, j=2, k=8, ns = 1b6
+s = b0, i = 1, j=3, k=6, ns = fa
+s = b0, i = 1, j=3, k=8, ns = 1ba
+s = b0, i = 1, j=6, k=8, ns = 1f2
+s = b0, i = 2, j=3, k=6, ns = fc
+s = b0, i = 2, j=3, k=8, ns = 1bc
+s = b0, i = 2, j=6, k=8, ns = 1f4
+s = b0, i = 3, j=6, k=8, ns = 1f8
+end p ---- 
+s = b0
+s = b0, val = 2, ns = b7
+s = b0, val = 2, ns = bb
+s = b0, val = 2, ns = f3
+s = b0, val = 2, ns = 1b3
+s = b0, val = 2, ns = bd
+s = b0, val = 2, ns = f5
+s = b0, val = 2, ns = 1b5
+s = b0, val = 2, ns = f9
+s = b0, val = 2, ns = 1b9
+s = b0, val = 2, ns = 1f1
+s = b0, val = 2, ns = be
+s = b0, val = 2, ns = f6
+s = b0, val = 2, ns = 1b6
+s = b0, val = 2, ns = fa
+s = b0, val = 2, ns = 1ba
+s = b0, val = 2, ns = 1f2
+s = b0, val = 2, ns = fc
+s = b0, val = 2, ns = 1bc
+s = b0, val = 2, ns = 1f4
+s = b0, val = 2, ns = 1f8
+
+s = b0, val = 2
+s = 0, val = 3, ns = b0
+ s = 130, -- get pp
+s = 130, i = 0, j=1, k=2, ns = 137
+s = 130, i = 0, j=1, k=3, ns = 13b
+s = 130, i = 0, j=1, k=6, ns = 173
+s = 130, i = 0, j=1, k=7, ns = 1b3
+s = 130, i = 0, j=2, k=3, ns = 13d
+s = 130, i = 0, j=2, k=6, ns = 175
+s = 130, i = 0, j=2, k=7, ns = 1b5
+s = 130, i = 0, j=3, k=6, ns = 179
+s = 130, i = 0, j=3, k=7, ns = 1b9
+s = 130, i = 0, j=6, k=7, ns = 1f1
+s = 130, i = 1, j=2, k=3, ns = 13e
+s = 130, i = 1, j=2, k=6, ns = 176
+s = 130, i = 1, j=2, k=7, ns = 1b6
+s = 130, i = 1, j=3, k=6, ns = 17a
+s = 130, i = 1, j=3, k=7, ns = 1ba
+s = 130, i = 1, j=6, k=7, ns = 1f2
+s = 130, i = 2, j=3, k=6, ns = 17c
+s = 130, i = 2, j=3, k=7, ns = 1bc
+end p ---- 
+s = 130
+s = 130, val = 1, ns = 137
+s = 130, val = 1, ns = 13b
+s = 130, val = 2, ns = 173
+s = 130, val = 2, ns = 1b3
+s = 130, val = 2, ns = 13d
+s = 130, val = 2, ns = 175
+s = 130, val = 2, ns = 1b5
+s = 130, val = 2, ns = 179
+s = 130, val = 2, ns = 1b9
+s = 130, val = 2, ns = 1f1
+s = 130, val = 2, ns = 13e
+s = 130, val = 2, ns = 176
+s = 130, val = 2, ns = 1b6
+s = 130, val = 2, ns = 17a
+s = 130, val = 2, ns = 1ba
+s = 130, val = 2, ns = 1f2
+s = 130, val = 2, ns = 17c
+s = 130, val = 2, ns = 1bc
+
+s = 130, val = 2
+s = 0, val = 3, ns = 130
+ s = d0, -- get pp
+s = d0, i = 0, j=1, k=2, ns = d7
+s = d0, i = 0, j=1, k=3, ns = db
+s = d0, i = 0, j=1, k=5, ns = f3
+s = d0, i = 0, j=1, k=8, ns = 1d3
+s = d0, i = 0, j=2, k=3, ns = dd
+s = d0, i = 0, j=2, k=5, ns = f5
+s = d0, i = 0, j=2, k=8, ns = 1d5
+s = d0, i = 0, j=3, k=5, ns = f9
+s = d0, i = 0, j=3, k=8, ns = 1d9
+s = d0, i = 0, j=5, k=8, ns = 1f1
+s = d0, i = 1, j=2, k=3, ns = de
+s = d0, i = 1, j=2, k=5, ns = f6
+s = d0, i = 1, j=2, k=8, ns = 1d6
+s = d0, i = 1, j=3, k=5, ns = fa
+s = d0, i = 1, j=3, k=8, ns = 1da
+s = d0, i = 1, j=5, k=8, ns = 1f2
+s = d0, i = 2, j=3, k=5, ns = fc
+s = d0, i = 2, j=3, k=8, ns = 1dc
+s = d0, i = 2, j=5, k=8, ns = 1f4
+s = d0, i = 3, j=5, k=8, ns = 1f8
+end p ---- 
+s = d0
+s = d0, val = 2, ns = d7
+s = d0, val = 2, ns = db
+s = d0, val = 2, ns = f3
+s = d0, val = 2, ns = 1d3
+s = d0, val = 2, ns = dd
+s = d0, val = 2, ns = f5
+s = d0, val = 2, ns = 1d5
+s = d0, val = 2, ns = f9
+s = d0, val = 2, ns = 1d9
+s = d0, val = 2, ns = 1f1
+s = d0, val = 2, ns = de
+s = d0, val = 2, ns = f6
+s = d0, val = 2, ns = 1d6
+s = d0, val = 2, ns = fa
+s = d0, val = 2, ns = 1da
+s = d0, val = 2, ns = 1f2
+s = d0, val = 2, ns = fc
+s = d0, val = 2, ns = 1dc
+s = d0, val = 2, ns = 1f4
+s = d0, val = 2, ns = 1f8
+
+s = d0, val = 2
+s = 0, val = 3, ns = d0
+ s = 150, -- get pp
+s = 150, i = 0, j=1, k=2, ns = 157
+s = 150, i = 0, j=1, k=3, ns = 15b
+s = 150, i = 0, j=1, k=5, ns = 173
+s = 150, i = 0, j=1, k=7, ns = 1d3
+s = 150, i = 0, j=2, k=3, ns = 15d
+s = 150, i = 0, j=2, k=5, ns = 175
+s = 150, i = 0, j=2, k=7, ns = 1d5
+s = 150, i = 0, j=3, k=5, ns = 179
+s = 150, i = 0, j=3, k=7, ns = 1d9
+s = 150, i = 0, j=5, k=7, ns = 1f1
+s = 150, i = 1, j=2, k=3, ns = 15e
+s = 150, i = 1, j=2, k=5, ns = 176
+s = 150, i = 1, j=2, k=7, ns = 1d6
+s = 150, i = 1, j=3, k=5, ns = 17a
+s = 150, i = 1, j=3, k=7, ns = 1da
+s = 150, i = 1, j=5, k=7, ns = 1f2
+s = 150, i = 2, j=3, k=5, ns = 17c
+s = 150, i = 2, j=3, k=7, ns = 1dc
+s = 150, i = 2, j=5, k=7, ns = 1f4
+s = 150, i = 3, j=5, k=7, ns = 1f8
+end p ---- 
+s = 150
+s = 150, val = 2, ns = 157
+s = 150, val = 2, ns = 15b
+s = 150, val = 2, ns = 173
+s = 150, val = 2, ns = 1d3
+s = 150, val = 2, ns = 15d
+s = 150, val = 2, ns = 175
+s = 150, val = 2, ns = 1d5
+s = 150, val = 2, ns = 179
+s = 150, val = 2, ns = 1d9
+s = 150, val = 2, ns = 1f1
+s = 150, val = 2, ns = 15e
+s = 150, val = 2, ns = 176
+s = 150, val = 2, ns = 1d6
+s = 150, val = 2, ns = 17a
+s = 150, val = 2, ns = 1da
+s = 150, val = 2, ns = 1f2
+s = 150, val = 2, ns = 17c
+s = 150, val = 2, ns = 1dc
+s = 150, val = 2, ns = 1f4
+s = 150, val = 2, ns = 1f8
+
+s = 150, val = 2
+s = 0, val = 3, ns = 150
+ s = 190, -- get pp
+s = 190, i = 0, j=1, k=2, ns = 197
+s = 190, i = 0, j=1, k=3, ns = 19b
+s = 190, i = 0, j=1, k=5, ns = 1b3
+s = 190, i = 0, j=1, k=6, ns = 1d3
+s = 190, i = 0, j=2, k=3, ns = 19d
+s = 190, i = 0, j=2, k=5, ns = 1b5
+s = 190, i = 0, j=2, k=6, ns = 1d5
+s = 190, i = 0, j=3, k=5, ns = 1b9
+s = 190, i = 0, j=3, k=6, ns = 1d9
+s = 190, i = 0, j=5, k=6, ns = 1f1
+s = 190, i = 1, j=2, k=3, ns = 19e
+s = 190, i = 1, j=2, k=5, ns = 1b6
+s = 190, i = 1, j=2, k=6, ns = 1d6
+s = 190, i = 1, j=3, k=5, ns = 1ba
+s = 190, i = 1, j=3, k=6, ns = 1da
+s = 190, i = 1, j=5, k=6, ns = 1f2
+s = 190, i = 2, j=3, k=5, ns = 1bc
+s = 190, i = 2, j=3, k=6, ns = 1dc
+s = 190, i = 2, j=5, k=6, ns = 1f4
+s = 190, i = 3, j=5, k=6, ns = 1f8
+end p ---- 
+s = 190
+s = 190, val = 2, ns = 197
+s = 190, val = 2, ns = 19b
+s = 190, val = 2, ns = 1b3
+s = 190, val = 2, ns = 1d3
+s = 190, val = 2, ns = 19d
+s = 190, val = 2, ns = 1b5
+s = 190, val = 2, ns = 1d5
+s = 190, val = 2, ns = 1b9
+s = 190, val = 2, ns = 1d9
+s = 190, val = 2, ns = 1f1
+s = 190, val = 2, ns = 19e
+s = 190, val = 2, ns = 1b6
+s = 190, val = 2, ns = 1d6
+s = 190, val = 2, ns = 1ba
+s = 190, val = 2, ns = 1da
+s = 190, val = 2, ns = 1f2
+s = 190, val = 2, ns = 1bc
+s = 190, val = 2, ns = 1dc
+s = 190, val = 2, ns = 1f4
+s = 190, val = 2, ns = 1f8
+
+s = 190, val = 2
+s = 0, val = 3, ns = 190
+ s = e0, -- get pp
+s = e0, i = 0, j=1, k=2, ns = e7
+s = e0, i = 0, j=1, k=3, ns = eb
+s = e0, i = 0, j=1, k=4, ns = f3
+s = e0, i = 0, j=1, k=8, ns = 1e3
+s = e0, i = 0, j=2, k=3, ns = ed
+s = e0, i = 0, j=2, k=4, ns = f5
+s = e0, i = 0, j=2, k=8, ns = 1e5
+s = e0, i = 0, j=3, k=4, ns = f9
+s = e0, i = 0, j=3, k=8, ns = 1e9
+s = e0, i = 0, j=4, k=8, ns = 1f1
+s = e0, i = 1, j=2, k=3, ns = ee
+s = e0, i = 1, j=2, k=4, ns = f6
+s = e0, i = 1, j=2, k=8, ns = 1e6
+s = e0, i = 1, j=3, k=4, ns = fa
+s = e0, i = 1, j=3, k=8, ns = 1ea
+s = e0, i = 1, j=4, k=8, ns = 1f2
+s = e0, i = 2, j=3, k=4, ns = fc
+s = e0, i = 2, j=3, k=8, ns = 1ec
+s = e0, i = 2, j=4, k=8, ns = 1f4
+s = e0, i = 3, j=4, k=8, ns = 1f8
+end p ---- 
+s = e0
+s = e0, val = 2, ns = e7
+s = e0, val = 2, ns = eb
+s = e0, val = 2, ns = f3
+s = e0, val = 2, ns = 1e3
+s = e0, val = 2, ns = ed
+s = e0, val = 2, ns = f5
+s = e0, val = 2, ns = 1e5
+s = e0, val = 2, ns = f9
+s = e0, val = 2, ns = 1e9
+s = e0, val = 2, ns = 1f1
+s = e0, val = 2, ns = ee
+s = e0, val = 2, ns = f6
+s = e0, val = 2, ns = 1e6
+s = e0, val = 2, ns = fa
+s = e0, val = 2, ns = 1ea
+s = e0, val = 2, ns = 1f2
+s = e0, val = 2, ns = fc
+s = e0, val = 2, ns = 1ec
+s = e0, val = 2, ns = 1f4
+s = e0, val = 2, ns = 1f8
+
+s = e0, val = 2
+s = 0, val = 3, ns = e0
+ s = 160, -- get pp
+s = 160, i = 0, j=1, k=2, ns = 167
+s = 160, i = 0, j=1, k=3, ns = 16b
+s = 160, i = 0, j=1, k=4, ns = 173
+s = 160, i = 0, j=1, k=7, ns = 1e3
+s = 160, i = 0, j=2, k=3, ns = 16d
+s = 160, i = 0, j=2, k=4, ns = 175
+s = 160, i = 0, j=2, k=7, ns = 1e5
+s = 160, i = 0, j=3, k=4, ns = 179
+s = 160, i = 0, j=3, k=7, ns = 1e9
+s = 160, i = 0, j=4, k=7, ns = 1f1
+s = 160, i = 1, j=2, k=3, ns = 16e
+s = 160, i = 1, j=2, k=4, ns = 176
+s = 160, i = 1, j=2, k=7, ns = 1e6
+s = 160, i = 1, j=3, k=4, ns = 17a
+s = 160, i = 1, j=3, k=7, ns = 1ea
+s = 160, i = 1, j=4, k=7, ns = 1f2
+s = 160, i = 2, j=3, k=4, ns = 17c
+s = 160, i = 2, j=3, k=7, ns = 1ec
+s = 160, i = 2, j=4, k=7, ns = 1f4
+s = 160, i = 3, j=4, k=7, ns = 1f8
+end p ---- 
+s = 160
+s = 160, val = 2, ns = 167
+s = 160, val = 2, ns = 16b
+s = 160, val = 2, ns = 173
+s = 160, val = 2, ns = 1e3
+s = 160, val = 2, ns = 16d
+s = 160, val = 2, ns = 175
+s = 160, val = 2, ns = 1e5
+s = 160, val = 2, ns = 179
+s = 160, val = 2, ns = 1e9
+s = 160, val = 2, ns = 1f1
+s = 160, val = 2, ns = 16e
+s = 160, val = 2, ns = 176
+s = 160, val = 2, ns = 1e6
+s = 160, val = 2, ns = 17a
+s = 160, val = 2, ns = 1ea
+s = 160, val = 2, ns = 1f2
+s = 160, val = 2, ns = 17c
+s = 160, val = 2, ns = 1ec
+s = 160, val = 2, ns = 1f4
+s = 160, val = 2, ns = 1f8
+
+s = 160, val = 2
+s = 0, val = 3, ns = 160
+ s = 1a0, -- get pp
+s = 1a0, i = 0, j=1, k=2, ns = 1a7
+s = 1a0, i = 0, j=1, k=3, ns = 1ab
+s = 1a0, i = 0, j=1, k=4, ns = 1b3
+s = 1a0, i = 0, j=1, k=6, ns = 1e3
+s = 1a0, i = 0, j=2, k=3, ns = 1ad
+s = 1a0, i = 0, j=2, k=4, ns = 1b5
+s = 1a0, i = 0, j=2, k=6, ns = 1e5
+s = 1a0, i = 0, j=3, k=4, ns = 1b9
+s = 1a0, i = 0, j=3, k=6, ns = 1e9
+s = 1a0, i = 0, j=4, k=6, ns = 1f1
+s = 1a0, i = 1, j=2, k=3, ns = 1ae
+s = 1a0, i = 1, j=2, k=4, ns = 1b6
+s = 1a0, i = 1, j=2, k=6, ns = 1e6
+s = 1a0, i = 1, j=3, k=4, ns = 1ba
+s = 1a0, i = 1, j=3, k=6, ns = 1ea
+s = 1a0, i = 1, j=4, k=6, ns = 1f2
+s = 1a0, i = 2, j=3, k=4, ns = 1bc
+s = 1a0, i = 2, j=3, k=6, ns = 1ec
+s = 1a0, i = 2, j=4, k=6, ns = 1f4
+s = 1a0, i = 3, j=4, k=6, ns = 1f8
+end p ---- 
+s = 1a0
+s = 1a0, val = 2, ns = 1a7
+s = 1a0, val = 2, ns = 1ab
+s = 1a0, val = 2, ns = 1b3
+s = 1a0, val = 2, ns = 1e3
+s = 1a0, val = 2, ns = 1ad
+s = 1a0, val = 2, ns = 1b5
+s = 1a0, val = 2, ns = 1e5
+s = 1a0, val = 2, ns = 1b9
+s = 1a0, val = 2, ns = 1e9
+s = 1a0, val = 2, ns = 1f1
+s = 1a0, val = 2, ns = 1ae
+s = 1a0, val = 2, ns = 1b6
+s = 1a0, val = 2, ns = 1e6
+s = 1a0, val = 2, ns = 1ba
+s = 1a0, val = 2, ns = 1ea
+s = 1a0, val = 2, ns = 1f2
+s = 1a0, val = 2, ns = 1bc
+s = 1a0, val = 2, ns = 1ec
+s = 1a0, val = 2, ns = 1f4
+s = 1a0, val = 2, ns = 1f8
+
+s = 1a0, val = 2
+s = 0, val = 3, ns = 1a0
+ s = 1c0, -- get pp
+s = 1c0, i = 0, j=1, k=2, ns = 1c7
+s = 1c0, i = 0, j=1, k=3, ns = 1cb
+s = 1c0, i = 0, j=1, k=4, ns = 1d3
+s = 1c0, i = 0, j=1, k=5, ns = 1e3
+s = 1c0, i = 0, j=2, k=3, ns = 1cd
+s = 1c0, i = 0, j=2, k=4, ns = 1d5
+s = 1c0, i = 0, j=2, k=5, ns = 1e5
+s = 1c0, i = 0, j=3, k=4, ns = 1d9
+s = 1c0, i = 0, j=3, k=5, ns = 1e9
+s = 1c0, i = 0, j=4, k=5, ns = 1f1
+s = 1c0, i = 1, j=2, k=3, ns = 1ce
+s = 1c0, i = 1, j=2, k=4, ns = 1d6
+s = 1c0, i = 1, j=2, k=5, ns = 1e6
+s = 1c0, i = 1, j=3, k=4, ns = 1da
+s = 1c0, i = 1, j=3, k=5, ns = 1ea
+s = 1c0, i = 1, j=4, k=5, ns = 1f2
+s = 1c0, i = 2, j=3, k=4, ns = 1dc
+s = 1c0, i = 2, j=3, k=5, ns = 1ec
+s = 1c0, i = 2, j=4, k=5, ns = 1f4
+s = 1c0, i = 3, j=4, k=5, ns = 1f8
+end p ---- 
+s = 1c0
+s = 1c0, val = 2, ns = 1c7
+s = 1c0, val = 2, ns = 1cb
+s = 1c0, val = 2, ns = 1d3
+s = 1c0, val = 2, ns = 1e3
+s = 1c0, val = 2, ns = 1cd
+s = 1c0, val = 2, ns = 1d5
+s = 1c0, val = 2, ns = 1e5
+s = 1c0, val = 2, ns = 1d9
+s = 1c0, val = 2, ns = 1e9
+s = 1c0, val = 2, ns = 1f1
+s = 1c0, val = 2, ns = 1ce
+s = 1c0, val = 2, ns = 1d6
+s = 1c0, val = 2, ns = 1e6
+s = 1c0, val = 2, ns = 1da
+s = 1c0, val = 2, ns = 1ea
+s = 1c0, val = 2, ns = 1f2
+s = 1c0, val = 2, ns = 1dc
+s = 1c0, val = 2, ns = 1ec
+s = 1c0, val = 2, ns = 1f4
+s = 1c0, val = 2, ns = 1f8
+
+s = 1c0, val = 2
+s = 0, val = 3, ns = 1c0
+
+s = 0, val = 3
+Case 1: 3
+ s = 0, -- get pp
+end p ---- 
+s = 0
+
+Case 2: 0
+ s = 0, -- get pp
+end p ---- 
+s = 0
+
+Case 3: 0
+ s = 0, -- get pp
+s = 0, i = 0, j=1, k=2, ns = 7
+end p ---- 
+s = 0
+ s = 7, -- get pp
+end p ---- 
+s = 7
+
+s = 0, val = 1, ns = 7
+
+s = 0, val = 1
+Case 4: 1
+ s = 0, -- get pp
+s = 0, i = 0, j=1, k=2, ns = 7
+s = 0, i = 0, j=1, k=3, ns = b
+s = 0, i = 0, j=1, k=4, ns = 13
+s = 0, i = 0, j=1, k=5, ns = 23
+s = 0, i = 0, j=1, k=6, ns = 43
+s = 0, i = 0, j=2, k=3, ns = d
+s = 0, i = 0, j=2, k=4, ns = 15
+s = 0, i = 0, j=2, k=5, ns = 25
+s = 0, i = 0, j=2, k=6, ns = 45
+s = 0, i = 0, j=3, k=4, ns = 19
+s = 0, i = 0, j=3, k=5, ns = 29
+s = 0, i = 0, j=3, k=6, ns = 49
+s = 0, i = 0, j=4, k=5, ns = 31
+s = 0, i = 0, j=4, k=6, ns = 51
+s = 0, i = 0, j=5, k=6, ns = 61
+s = 0, i = 1, j=2, k=3, ns = e
+s = 0, i = 1, j=2, k=4, ns = 16
+s = 0, i = 1, j=2, k=5, ns = 26
+s = 0, i = 1, j=2, k=6, ns = 46
+s = 0, i = 1, j=3, k=4, ns = 1a
+s = 0, i = 1, j=3, k=5, ns = 2a
+s = 0, i = 1, j=3, k=6, ns = 4a
+s = 0, i = 1, j=4, k=5, ns = 32
+s = 0, i = 1, j=4, k=6, ns = 52
+s = 0, i = 1, j=5, k=6, ns = 62
+s = 0, i = 2, j=3, k=4, ns = 1c
+s = 0, i = 2, j=3, k=5, ns = 2c
+s = 0, i = 2, j=3, k=6, ns = 4c
+s = 0, i = 2, j=4, k=5, ns = 34
+s = 0, i = 2, j=4, k=6, ns = 54
+s = 0, i = 2, j=5, k=6, ns = 64
+s = 0, i = 3, j=4, k=5, ns = 38
+s = 0, i = 3, j=4, k=6, ns = 58
+s = 0, i = 3, j=5, k=6, ns = 68
+s = 0, i = 4, j=5, k=6, ns = 70
+end p ---- 
+s = 0
+ s = 7, -- get pp
+s = 7, i = 3, j=4, k=5, ns = 3f
+s = 7, i = 3, j=4, k=6, ns = 5f
+s = 7, i = 3, j=5, k=6, ns = 6f
+s = 7, i = 4, j=5, k=6, ns = 77
+end p ---- 
+s = 7
+ s = 3f, -- get pp
+end p ---- 
+s = 3f
+
+s = 7, val = 1, ns = 3f
+ s = 5f, -- get pp
+end p ---- 
+s = 5f
+
+s = 7, val = 1, ns = 5f
+ s = 6f, -- get pp
+end p ---- 
+s = 6f
+
+s = 7, val = 1, ns = 6f
+ s = 77, -- get pp
+end p ---- 
+s = 77
+
+s = 7, val = 1, ns = 77
+
+s = 7, val = 1
+s = 0, val = 2, ns = 7
+ s = b, -- get pp
+s = b, i = 2, j=4, k=5, ns = 3f
+s = b, i = 2, j=4, k=6, ns = 5f
+s = b, i = 2, j=5, k=6, ns = 6f
+s = b, i = 4, j=5, k=6, ns = 7b
+end p ---- 
+s = b
+s = b, val = 1, ns = 3f
+s = b, val = 1, ns = 5f
+s = b, val = 1, ns = 6f
+ s = 7b, -- get pp
+end p ---- 
+s = 7b
+
+s = b, val = 1, ns = 7b
+
+s = b, val = 1
+s = 0, val = 2, ns = b
+ s = 13, -- get pp
+s = 13, i = 2, j=3, k=5, ns = 3f
+s = 13, i = 2, j=3, k=6, ns = 5f
+s = 13, i = 2, j=5, k=6, ns = 77
+s = 13, i = 3, j=5, k=6, ns = 7b
+end p ---- 
+s = 13
+s = 13, val = 1, ns = 3f
+s = 13, val = 1, ns = 5f
+s = 13, val = 1, ns = 77
+s = 13, val = 1, ns = 7b
+
+s = 13, val = 1
+s = 0, val = 2, ns = 13
+ s = 23, -- get pp
+s = 23, i = 2, j=3, k=4, ns = 3f
+s = 23, i = 2, j=3, k=6, ns = 6f
+s = 23, i = 2, j=4, k=6, ns = 77
+s = 23, i = 3, j=4, k=6, ns = 7b
+end p ---- 
+s = 23
+s = 23, val = 1, ns = 3f
+s = 23, val = 1, ns = 6f
+s = 23, val = 1, ns = 77
+s = 23, val = 1, ns = 7b
+
+s = 23, val = 1
+s = 0, val = 2, ns = 23
+ s = 43, -- get pp
+s = 43, i = 2, j=3, k=4, ns = 5f
+s = 43, i = 2, j=3, k=5, ns = 6f
+s = 43, i = 2, j=4, k=5, ns = 77
+s = 43, i = 3, j=4, k=5, ns = 7b
+end p ---- 
+s = 43
+s = 43, val = 1, ns = 5f
+s = 43, val = 1, ns = 6f
+s = 43, val = 1, ns = 77
+s = 43, val = 1, ns = 7b
+
+s = 43, val = 1
+s = 0, val = 2, ns = 43
+ s = d, -- get pp
+s = d, i = 1, j=4, k=5, ns = 3f
+s = d, i = 1, j=4, k=6, ns = 5f
+s = d, i = 1, j=5, k=6, ns = 6f
+s = d, i = 4, j=5, k=6, ns = 7d
+end p ---- 
+s = d
+s = d, val = 1, ns = 3f
+s = d, val = 1, ns = 5f
+s = d, val = 1, ns = 6f
+ s = 7d, -- get pp
+end p ---- 
+s = 7d
+
+s = d, val = 1, ns = 7d
+
+s = d, val = 1
+s = 0, val = 2, ns = d
+ s = 15, -- get pp
+s = 15, i = 1, j=3, k=5, ns = 3f
+s = 15, i = 1, j=3, k=6, ns = 5f
+s = 15, i = 1, j=5, k=6, ns = 77
+s = 15, i = 3, j=5, k=6, ns = 7d
+end p ---- 
+s = 15
+s = 15, val = 1, ns = 3f
+s = 15, val = 1, ns = 5f
+s = 15, val = 1, ns = 77
+s = 15, val = 1, ns = 7d
+
+s = 15, val = 1
+s = 0, val = 2, ns = 15
+ s = 25, -- get pp
+s = 25, i = 1, j=3, k=4, ns = 3f
+s = 25, i = 1, j=3, k=6, ns = 6f
+s = 25, i = 1, j=4, k=6, ns = 77
+s = 25, i = 3, j=4, k=6, ns = 7d
+end p ---- 
+s = 25
+s = 25, val = 1, ns = 3f
+s = 25, val = 1, ns = 6f
+s = 25, val = 1, ns = 77
+s = 25, val = 1, ns = 7d
+
+s = 25, val = 1
+s = 0, val = 2, ns = 25
+ s = 45, -- get pp
+s = 45, i = 1, j=3, k=4, ns = 5f
+s = 45, i = 1, j=3, k=5, ns = 6f
+s = 45, i = 1, j=4, k=5, ns = 77
+s = 45, i = 3, j=4, k=5, ns = 7d
+end p ---- 
+s = 45
+s = 45, val = 1, ns = 5f
+s = 45, val = 1, ns = 6f
+s = 45, val = 1, ns = 77
+s = 45, val = 1, ns = 7d
+
+s = 45, val = 1
+s = 0, val = 2, ns = 45
+ s = 19, -- get pp
+s = 19, i = 1, j=2, k=5, ns = 3f
+s = 19, i = 1, j=2, k=6, ns = 5f
+s = 19, i = 1, j=5, k=6, ns = 7b
+s = 19, i = 2, j=5, k=6, ns = 7d
+end p ---- 
+s = 19
+s = 19, val = 1, ns = 3f
+s = 19, val = 1, ns = 5f
+s = 19, val = 1, ns = 7b
+s = 19, val = 1, ns = 7d
+
+s = 19, val = 1
+s = 0, val = 2, ns = 19
+ s = 29, -- get pp
+s = 29, i = 1, j=2, k=4, ns = 3f
+s = 29, i = 1, j=2, k=6, ns = 6f
+s = 29, i = 1, j=4, k=6, ns = 7b
+s = 29, i = 2, j=4, k=6, ns = 7d
+end p ---- 
+s = 29
+s = 29, val = 1, ns = 3f
+s = 29, val = 1, ns = 6f
+s = 29, val = 1, ns = 7b
+s = 29, val = 1, ns = 7d
+
+s = 29, val = 1
+s = 0, val = 2, ns = 29
+ s = 49, -- get pp
+s = 49, i = 1, j=2, k=4, ns = 5f
+s = 49, i = 1, j=2, k=5, ns = 6f
+s = 49, i = 1, j=4, k=5, ns = 7b
+s = 49, i = 2, j=4, k=5, ns = 7d
+end p ---- 
+s = 49
+s = 49, val = 1, ns = 5f
+s = 49, val = 1, ns = 6f
+s = 49, val = 1, ns = 7b
+s = 49, val = 1, ns = 7d
+
+s = 49, val = 1
+s = 0, val = 2, ns = 49
+ s = 31, -- get pp
+s = 31, i = 1, j=2, k=3, ns = 3f
+s = 31, i = 1, j=2, k=6, ns = 77
+s = 31, i = 1, j=3, k=6, ns = 7b
+s = 31, i = 2, j=3, k=6, ns = 7d
+end p ---- 
+s = 31
+s = 31, val = 1, ns = 3f
+s = 31, val = 1, ns = 77
+s = 31, val = 1, ns = 7b
+s = 31, val = 1, ns = 7d
+
+s = 31, val = 1
+s = 0, val = 2, ns = 31
+ s = 51, -- get pp
+s = 51, i = 1, j=2, k=3, ns = 5f
+s = 51, i = 1, j=2, k=5, ns = 77
+s = 51, i = 1, j=3, k=5, ns = 7b
+s = 51, i = 2, j=3, k=5, ns = 7d
+end p ---- 
+s = 51
+s = 51, val = 1, ns = 5f
+s = 51, val = 1, ns = 77
+s = 51, val = 1, ns = 7b
+s = 51, val = 1, ns = 7d
+
+s = 51, val = 1
+s = 0, val = 2, ns = 51
+ s = 61, -- get pp
+s = 61, i = 1, j=2, k=3, ns = 6f
+s = 61, i = 1, j=2, k=4, ns = 77
+s = 61, i = 1, j=3, k=4, ns = 7b
+s = 61, i = 2, j=3, k=4, ns = 7d
+end p ---- 
+s = 61
+s = 61, val = 1, ns = 6f
+s = 61, val = 1, ns = 77
+s = 61, val = 1, ns = 7b
+s = 61, val = 1, ns = 7d
+
+s = 61, val = 1
+s = 0, val = 2, ns = 61
+ s = e, -- get pp
+s = e, i = 0, j=4, k=5, ns = 3f
+s = e, i = 0, j=4, k=6, ns = 5f
+s = e, i = 0, j=5, k=6, ns = 6f
+s = e, i = 4, j=5, k=6, ns = 7e
+end p ---- 
+s = e
+s = e, val = 1, ns = 3f
+s = e, val = 1, ns = 5f
+s = e, val = 1, ns = 6f
+ s = 7e, -- get pp
+end p ---- 
+s = 7e
+
+s = e, val = 1, ns = 7e
+
+s = e, val = 1
+s = 0, val = 2, ns = e
+ s = 16, -- get pp
+s = 16, i = 0, j=3, k=5, ns = 3f
+s = 16, i = 0, j=3, k=6, ns = 5f
+s = 16, i = 0, j=5, k=6, ns = 77
+s = 16, i = 3, j=5, k=6, ns = 7e
+end p ---- 
+s = 16
+s = 16, val = 1, ns = 3f
+s = 16, val = 1, ns = 5f
+s = 16, val = 1, ns = 77
+s = 16, val = 1, ns = 7e
+
+s = 16, val = 1
+s = 0, val = 2, ns = 16
+ s = 26, -- get pp
+s = 26, i = 0, j=3, k=4, ns = 3f
+s = 26, i = 0, j=3, k=6, ns = 6f
+s = 26, i = 0, j=4, k=6, ns = 77
+s = 26, i = 3, j=4, k=6, ns = 7e
+end p ---- 
+s = 26
+s = 26, val = 1, ns = 3f
+s = 26, val = 1, ns = 6f
+s = 26, val = 1, ns = 77
+s = 26, val = 1, ns = 7e
+
+s = 26, val = 1
+s = 0, val = 2, ns = 26
+ s = 46, -- get pp
+s = 46, i = 0, j=3, k=4, ns = 5f
+s = 46, i = 0, j=3, k=5, ns = 6f
+s = 46, i = 0, j=4, k=5, ns = 77
+s = 46, i = 3, j=4, k=5, ns = 7e
+end p ---- 
+s = 46
+s = 46, val = 1, ns = 5f
+s = 46, val = 1, ns = 6f
+s = 46, val = 1, ns = 77
+s = 46, val = 1, ns = 7e
+
+s = 46, val = 1
+s = 0, val = 2, ns = 46
+ s = 1a, -- get pp
+s = 1a, i = 0, j=2, k=5, ns = 3f
+s = 1a, i = 0, j=2, k=6, ns = 5f
+s = 1a, i = 0, j=5, k=6, ns = 7b
+s = 1a, i = 2, j=5, k=6, ns = 7e
+end p ---- 
+s = 1a
+s = 1a, val = 1, ns = 3f
+s = 1a, val = 1, ns = 5f
+s = 1a, val = 1, ns = 7b
+s = 1a, val = 1, ns = 7e
+
+s = 1a, val = 1
+s = 0, val = 2, ns = 1a
+ s = 2a, -- get pp
+s = 2a, i = 0, j=2, k=4, ns = 3f
+s = 2a, i = 0, j=2, k=6, ns = 6f
+s = 2a, i = 0, j=4, k=6, ns = 7b
+s = 2a, i = 2, j=4, k=6, ns = 7e
+end p ---- 
+s = 2a
+s = 2a, val = 1, ns = 3f
+s = 2a, val = 1, ns = 6f
+s = 2a, val = 1, ns = 7b
+s = 2a, val = 1, ns = 7e
+
+s = 2a, val = 1
+s = 0, val = 2, ns = 2a
+ s = 4a, -- get pp
+s = 4a, i = 0, j=2, k=4, ns = 5f
+s = 4a, i = 0, j=2, k=5, ns = 6f
+s = 4a, i = 0, j=4, k=5, ns = 7b
+s = 4a, i = 2, j=4, k=5, ns = 7e
+end p ---- 
+s = 4a
+s = 4a, val = 1, ns = 5f
+s = 4a, val = 1, ns = 6f
+s = 4a, val = 1, ns = 7b
+s = 4a, val = 1, ns = 7e
+
+s = 4a, val = 1
+s = 0, val = 2, ns = 4a
+ s = 32, -- get pp
+s = 32, i = 0, j=2, k=3, ns = 3f
+s = 32, i = 0, j=2, k=6, ns = 77
+s = 32, i = 0, j=3, k=6, ns = 7b
+s = 32, i = 2, j=3, k=6, ns = 7e
+end p ---- 
+s = 32
+s = 32, val = 1, ns = 3f
+s = 32, val = 1, ns = 77
+s = 32, val = 1, ns = 7b
+s = 32, val = 1, ns = 7e
+
+s = 32, val = 1
+s = 0, val = 2, ns = 32
+ s = 52, -- get pp
+s = 52, i = 0, j=2, k=3, ns = 5f
+s = 52, i = 0, j=2, k=5, ns = 77
+s = 52, i = 0, j=3, k=5, ns = 7b
+s = 52, i = 2, j=3, k=5, ns = 7e
+end p ---- 
+s = 52
+s = 52, val = 1, ns = 5f
+s = 52, val = 1, ns = 77
+s = 52, val = 1, ns = 7b
+s = 52, val = 1, ns = 7e
+
+s = 52, val = 1
+s = 0, val = 2, ns = 52
+ s = 62, -- get pp
+s = 62, i = 0, j=2, k=3, ns = 6f
+s = 62, i = 0, j=2, k=4, ns = 77
+s = 62, i = 0, j=3, k=4, ns = 7b
+s = 62, i = 2, j=3, k=4, ns = 7e
+end p ---- 
+s = 62
+s = 62, val = 1, ns = 6f
+s = 62, val = 1, ns = 77
+s = 62, val = 1, ns = 7b
+s = 62, val = 1, ns = 7e
+
+s = 62, val = 1
+s = 0, val = 2, ns = 62
+ s = 1c, -- get pp
+s = 1c, i = 0, j=1, k=5, ns = 3f
+s = 1c, i = 0, j=1, k=6, ns = 5f
+s = 1c, i = 0, j=5, k=6, ns = 7d
+s = 1c, i = 1, j=5, k=6, ns = 7e
+end p ---- 
+s = 1c
+s = 1c, val = 1, ns = 3f
+s = 1c, val = 1, ns = 5f
+s = 1c, val = 1, ns = 7d
+s = 1c, val = 1, ns = 7e
+
+s = 1c, val = 1
+s = 0, val = 2, ns = 1c
+ s = 2c, -- get pp
+s = 2c, i = 0, j=1, k=4, ns = 3f
+s = 2c, i = 0, j=1, k=6, ns = 6f
+s = 2c, i = 0, j=4, k=6, ns = 7d
+s = 2c, i = 1, j=4, k=6, ns = 7e
+end p ---- 
+s = 2c
+s = 2c, val = 1, ns = 3f
+s = 2c, val = 1, ns = 6f
+s = 2c, val = 1, ns = 7d
+s = 2c, val = 1, ns = 7e
+
+s = 2c, val = 1
+s = 0, val = 2, ns = 2c
+ s = 4c, -- get pp
+s = 4c, i = 0, j=1, k=4, ns = 5f
+s = 4c, i = 0, j=1, k=5, ns = 6f
+s = 4c, i = 0, j=4, k=5, ns = 7d
+s = 4c, i = 1, j=4, k=5, ns = 7e
+end p ---- 
+s = 4c
+s = 4c, val = 1, ns = 5f
+s = 4c, val = 1, ns = 6f
+s = 4c, val = 1, ns = 7d
+s = 4c, val = 1, ns = 7e
+
+s = 4c, val = 1
+s = 0, val = 2, ns = 4c
+ s = 34, -- get pp
+s = 34, i = 0, j=1, k=3, ns = 3f
+s = 34, i = 0, j=1, k=6, ns = 77
+s = 34, i = 0, j=3, k=6, ns = 7d
+s = 34, i = 1, j=3, k=6, ns = 7e
+end p ---- 
+s = 34
+s = 34, val = 1, ns = 3f
+s = 34, val = 1, ns = 77
+s = 34, val = 1, ns = 7d
+s = 34, val = 1, ns = 7e
+
+s = 34, val = 1
+s = 0, val = 2, ns = 34
+ s = 54, -- get pp
+s = 54, i = 0, j=1, k=3, ns = 5f
+s = 54, i = 0, j=1, k=5, ns = 77
+s = 54, i = 0, j=3, k=5, ns = 7d
+s = 54, i = 1, j=3, k=5, ns = 7e
+end p ---- 
+s = 54
+s = 54, val = 1, ns = 5f
+s = 54, val = 1, ns = 77
+s = 54, val = 1, ns = 7d
+s = 54, val = 1, ns = 7e
+
+s = 54, val = 1
+s = 0, val = 2, ns = 54
+ s = 64, -- get pp
+s = 64, i = 0, j=1, k=3, ns = 6f
+s = 64, i = 0, j=1, k=4, ns = 77
+s = 64, i = 0, j=3, k=4, ns = 7d
+s = 64, i = 1, j=3, k=4, ns = 7e
+end p ---- 
+s = 64
+s = 64, val = 1, ns = 6f
+s = 64, val = 1, ns = 77
+s = 64, val = 1, ns = 7d
+s = 64, val = 1, ns = 7e
+
+s = 64, val = 1
+s = 0, val = 2, ns = 64
+ s = 38, -- get pp
+s = 38, i = 0, j=1, k=2, ns = 3f
+s = 38, i = 0, j=1, k=6, ns = 7b
+s = 38, i = 0, j=2, k=6, ns = 7d
+s = 38, i = 1, j=2, k=6, ns = 7e
+end p ---- 
+s = 38
+s = 38, val = 1, ns = 3f
+s = 38, val = 1, ns = 7b
+s = 38, val = 1, ns = 7d
+s = 38, val = 1, ns = 7e
+
+s = 38, val = 1
+s = 0, val = 2, ns = 38
+ s = 58, -- get pp
+s = 58, i = 0, j=1, k=2, ns = 5f
+s = 58, i = 0, j=1, k=5, ns = 7b
+s = 58, i = 0, j=2, k=5, ns = 7d
+s = 58, i = 1, j=2, k=5, ns = 7e
+end p ---- 
+s = 58
+s = 58, val = 1, ns = 5f
+s = 58, val = 1, ns = 7b
+s = 58, val = 1, ns = 7d
+s = 58, val = 1, ns = 7e
+
+s = 58, val = 1
+s = 0, val = 2, ns = 58
+ s = 68, -- get pp
+s = 68, i = 0, j=1, k=2, ns = 6f
+s = 68, i = 0, j=1, k=4, ns = 7b
+s = 68, i = 0, j=2, k=4, ns = 7d
+s = 68, i = 1, j=2, k=4, ns = 7e
+end p ---- 
+s = 68
+s = 68, val = 1, ns = 6f
+s = 68, val = 1, ns = 7b
+s = 68, val = 1, ns = 7d
+s = 68, val = 1, ns = 7e
+
+s = 68, val = 1
+s = 0, val = 2, ns = 68
+ s = 70, -- get pp
+s = 70, i = 0, j=1, k=2, ns = 77
+s = 70, i = 0, j=1, k=3, ns = 7b
+s = 70, i = 0, j=2, k=3, ns = 7d
+s = 70, i = 1, j=2, k=3, ns = 7e
+end p ---- 
+s = 70
+s = 70, val = 1, ns = 77
+s = 70, val = 1, ns = 7b
+s = 70, val = 1, ns = 7d
+s = 70, val = 1, ns = 7e
+
+s = 70, val = 1
+s = 0, val = 2, ns = 70
+
+s = 0, val = 2
+Case 5: 2

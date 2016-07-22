@@ -1,0 +1,22 @@
+- This is the note file for OZ and it's emacs text editor
+
+OZ syntax
+    comment: %
+
+
+
+emacs commands:
+    Save File: c-x, c-s
+
+    Feed to buffer: c-.,c-b
+    
+    Close Buffer: c-x, 0
+
+    Copy: ESC, W
+    Cut: c-w
+    Paste: c-y
+
+    C-. c: Toggle display of *Oz Compiler* buffer
+    C-. e: Toggle display of *Oz Emulator* buffer
+    
+    

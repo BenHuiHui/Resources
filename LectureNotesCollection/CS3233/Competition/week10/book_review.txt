@@ -1,0 +1,18 @@
+Suffix Tree
+
+Application
+- String Matching: to find all occurrences of P(length m) in T(length n)
+    - search for the vertex x in suffix tree which represents P
+    - all the leaves in the subtree rooted at x are the occurerences
+- Longest Repeated Substring: find the longest repeated substring in T
+    - Find the deepest internal node
+- Longest Repeated SubString of string A and B:
+    - Build surfix tree of string A
+    - merge it with that of string B
+    - color the common code
+    - Find the longest colored node
+
+Suffix Array
+Application:
+- Longest Commong Substring of two string:
+    - connect the two string with a unique char "."

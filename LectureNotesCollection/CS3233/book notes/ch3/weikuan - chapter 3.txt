@@ -1,0 +1,35 @@
+1. "What you learnt"
+- More on pruning
+- maxSum on 2D
+
+
+2. "Do some exercises"
+- Exercise 3.2.1 including the uva 471 "Magic Numbers"
+- Exercise 3.4.1 for uva 410 "Station Balance"
+
+
+3. "What is inside but not clear"
+All are fine :D
+
+
+4. "What is not inside but you can add"
+Hmm, came across some problems when I was doing CS2103T coding exercise 2. Greedy solution was expected to be easy but turned out not as trival so i think it can be a good question.
+
+Basically:
+- Budget B, up to 2 dp
+- N items to buy, each with "itemtype", "cost", "satisfaction" attribute
+- Greedily maximise satisfaction S by buying any amount of items as long as you have budget left (each itemtype can only be bought once)
+- Definition of Greedy: Pick next item by highest Satisfaction, then cost
+- There can be multiple solutions (different combi of types, or same cost, etc) for maximum S and all must be printed
+
+My idea is to:
+- sort high to low: items by satisfaction, if same then cost
+- pick from i = 0 until budget is negative, store items picked in vector ANS (1 itme per type still holds)
+- once negative, remove all items in vector ANS that has same satisfaction & cost, move them to a new vector "Permu"
+- continue from the "i" that you have negative money, and add items with same satisfaction & cost to "Permu"
+- Permu is actually more like a vector<vector<item>>, all items of same type are stored in the same vector.
+- then do a permutation with recursion on the items to get all the different results
+example:
+permu has 3 unique types, each types has 5 items. so we have 5*5*5 solutions.
+
+Note that: the definition of greedy here is specified to Satisfaction then Cost and the index of the item is not considered (thus multiple sol).

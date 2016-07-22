@@ -1,0 +1,51 @@
+
+Bugs/Error:
+Page 177, The sample code for rotate: (right above section 7.2.2):
+    1. one close bracket is missing in the return statement
+    2.  Need to define the "DEG_to_RAD" function
+
+
+Note on Improvement:
+Using operator overloading, we can extend the "Point" struct as such:
+    struct Point{
+        double x,y;
+        Point(){ }
+        Point(double _x, double _y){
+            x = _x; y = _y;
+        }
+        bool operator < (const Point other) const{
+            if(fabs(x - other.x) > EPS) return x < other.x;
+            return y < other.y;
+        }
+        bool operator == (const Point other) const{
+            return (fabs(x - other.x) < EPS && (fabs(y - other.y) < EPS));
+        }
+
+       struct Point* operator = (const Point *other){
+           x = other->x; y = other->y;
+           return this;
+        }
+    };
+Note that the last overloading on "=" provides an easier way of assigning Point values.
+Similiarly, we can use such operator overloading on other struct.
+
+
+On problem UVA 11646 (Sample Problem in the divide and Conquer Revisited,i.e. part 7.4),
+it's also easy to solve with math. Notice that, the diagonal of the rectangle is actually
+the diamether of the circle, and from the ratio given in the input, we can find the angle
+of the diagonal to the width of the rectangle. We can use this nice relation to write a 
+formula and solve the problem
+
+ACed Program:
+
+int main(){
+    double a,b,angle,d;
+    int CC = 1;
+    while(scanf("%lf %*c %lf",&a,&b) == 2){
+        angle = atan(b/a);
+        d = 200 / (angle + cos(angle));
+        printf("Case %d: %lf %lf\n",CC++,d*cos(angle),d*sin(angle));
+    }
+    
+    return 0;
+}

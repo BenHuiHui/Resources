@@ -1,0 +1,37 @@
+	It's now 3pm, and we're here doing the demo for our TodoList the GREAT.
+	Let me try thinking about some cases here:
+
+	Jim got several things to do in mind, so he type in these following:
+
+add !1 Celebrate the success of this demo @McDonald 7pm #CS2103
+add Do tutorial @library for CS2104 20:00 ~ 22:00 #study
+add Sleep at 11:30 pm tonight
+add Lunch with mom tomorrow 12:30 @home #life
+add Play PC games @home today 11pm ~ tomorrow 4am !3
+add Refactor the code for CS2103 @(SOC Basement) #CS2103 this Saturday for 6 hours
+
+	then he want to see what task he exactly what catogory he has typed in
+dis
+
+	and he is quite curious about what's in #study:
+#study
+
+	he want to see the default list (inbox):
+#
+
+	then he want to see all the tasks he currently has
+/
+
+	then he want to see the tasks do at home
+/@home
+
+	then he want to get the very low priority task
+/!3
+
+	and then he want to delete it
+del 1
+	he want to check the high priority task, and do
+/!1
+
+	then he see want he need to do, so save the application and exit happily.
+exit

@@ -1,0 +1,17 @@
+Book Review for Chapter 6:
+
+6.2 Basic String Processing Skills:
+tip: 
+1.if one need to get next non-whitespace char fron the input, one can do:
+    scanf(" %c",&c);
+  The space is to note that we'll escape the space fron the user input.
+2.If one need to read unknown numbers of integers line by line, one can use istringstream:
+    string buf; while(getline(cin,buf)){ istringstream in(buf); int n; while(in >> n){ /* Do something here */ }}
+    // Note that this is slightly better than the example given in the lecture
+
+6.4 String Matching -- KMP
+Note for the KMP, upon finishing, the value of j is the longest prefix of P occurred in the T string. 
+    That's the trick to solve UVA11475 -- Extend to Palindromes
+
+6.5 Edit Distance
+This DP approach can be used to solve various other problems by setting the Insertion Cost, Deletion Cost, and Swaping Cost properly.

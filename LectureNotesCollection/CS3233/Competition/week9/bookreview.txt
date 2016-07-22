@@ -1,0 +1,33 @@
+5.3 - Java Big Integer:
+ - infinite precision
+ - extra feature: 
+    1. base convention
+    2. powmod
+    3. gcd
+5.4 - Combinatorics
+ - Fibonacci
+ - Binomial Coefficient
+ - Catalan Numbers: # to build distinct binary tree with n element
+5.5 - Number Theory
+ - prime numbers:
+    - sieve of eratosthenes
+ - GCD/LCM:
+    - Eucid Algorithm to find out gcd
+    - LCM = a * b / gcd
+ - Modulo Arithmetic:
+    - (a + b) % c = (a % c + b % c) % c
+    - (a * b) % c = (a % c * b % c) % c
+    - doesn't work on division
+ - Extended Euclid
+5.6 - Probability
+5.7 - Cycle Finding:
+ - Floyd's Cycle-Finding Alg: tortoise and hare alg
+5.8 - Game Theory
+ - Decision Tree
+5.9 - Power of Square Matrix:
+ - Square Matrix Exponentiation: O(n^3 * log(n))
+
+
+Tricks & Techniques:
+1. To represent the maximum int, one can use 0x7fffffff
+2. When using bool array, one may simply use vector<bool> instead of bitset, cuz the vector<bool> has been optimized (so that each would take 1 bit only) alread

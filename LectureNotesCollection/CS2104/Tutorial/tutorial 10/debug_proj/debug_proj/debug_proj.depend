@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1320378992 source:/host/Documents/Dropbox/On Learning/modules/current/CS2104/Tutorial/tutorial 10/debug_proj/debug_proj/main.c
+	<stdio.h>
+	<stdlib.h>
+	<setjmp.h>
+

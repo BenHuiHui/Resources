@@ -1,0 +1,19 @@
+Review Questions:
+4.2.2.1: see the attached AC code for 10047 and 321
+4.2.2.2: cuz if the graph is stored as Adj Matrix, for a given node,the program would have to iterate through all possible pair to see whether it's connected or not.
+4.2.3.1: 
+    Union find: using a variable to keep the # of disjoint sets; each time when two disjoint set is linked together, decrease this number by 1
+    BFS: in the original algorithm, replace the dfs with bfs. done.
+4.2.5.1:
+    The push_back(u) is done after the dfs2(i). Therefore, all the son of that node would be visited first, and then push_back(u) got executed.
+4.2.5.2:
+    Note that no need to use a queue/topological sort, just each time check if there's vertex with 0 incoming degree, output it, mark it as visited, and decrease it's son's incoming degreee by 1.
+4.2.6.2:
+    it's true. split the graph by 2 parts, in each parts no ele has connection with another. Then one can see that by forming a cycle there must be 2n elements. Therefore it has no odd cycle
+
+
+To Be Improved:
+1. Page 72, in DFS alg: didn't define the DFS_BLACK, AdjList
+2. Page 72, in BackTracking alg: 5th line, need to mark visit before calling 
+    backtracking, and mark unvisit afterwards
+3. Page 81, the TarjanSCC's algorithm: need to give further explaination on the meaning of visited[] array, and the meaning of stack S. (I refered to Wikipedia and finally understood the algorithm...). My Understanding: the visited[] array are the elements belongs to one connected component, and it's used for a quick lookup; the stack S stores the SCC elements

@@ -1,0 +1,26 @@
+\documentclass[14pt]{article} 
+\def\stir#1#2{\left\{
+\begin{array}{c}
+#1\\#2
+\end{array}
+\right\}}
+\title{Bell Number -- Ans}
+\author{Song Yangyu}
+
+\begin{document}
+\maketitle
+\section *{Method 1}
+(refer to code1.cpp)
+There's a very nice recurrence relation for stirling number:\\
+$$\stir{n}{k} = \stir{n-1}{k-1} + k\stir{n-1}{k} $$
+We can understand the above recurrence relation this way:\\
+for an element $e$ from this n elements, if $e$ forms a set itself, then there're $\stir{n-1}{k-1}$ ways for the result of $n-1$ elements to form $k-1$ sets; if $e$ form a set with other elements, then there're $k$ sets for the element $e$ to be in, each of the arrangement has $\stir{n-1}{k}$ ways to form sets.
+\section *{Method 2}
+(refer to code2.cpp)
+Another way of solving it, by realizing the recurrence relation:
+$$B(n+1) = \sum_{k=0}^{n} {n \choose k} B(k)$$
+We can understand the above recurrence relation this way:\\
+for the $(n+1)th$ element $e$, it can be in the same block as the other $n-k$ elements, where $k \in [0,n]$. Choosing out this $(n-k)$ elements we have ${n \choose {n-k}} = {n \choose k}$ ways
+\\
+Then we simply need to use the code to simulate
+\end{document}
