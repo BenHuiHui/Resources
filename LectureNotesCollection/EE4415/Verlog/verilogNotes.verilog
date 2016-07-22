@@ -1,0 +1,16 @@
+// module and name is composoary, the port list is optional
+// When using a TestBench, possible no need the ports.
+module holiday_1(sat,sun,weekend);// Ports defined
+	// note that each statement ends with a ';'
+	// cuz verilog language is concurrent.
+ 
+ /* declaration part */
+ input sat, sun;
+ output weekend;
+ /* declaration part */
+ 
+ /* Body */
+ assign weekend = sat | sun;
+ /* Body */
+
+end module

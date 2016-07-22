@@ -1,0 +1,1110 @@
+%PDF-1.2 
+%âãÏÓ
+ 
+10 0 obj
+<<
+/Length 11 0 R
+>>
+stream
+BT111 712.5  TD0 0 0 rg /F0 11.25  Tf-0.2237  Tc 0.1612  Tw (Motion and Depth Perception) Tj137.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-137.25 -11.25  TD /F1 11.25  Tf( ) Tj0 -13.5  TD -0.4673  Tc 0.3664  Tw (Although the vast majority of objects in ordinary environments are stationary the vast ) Tj0 -12.75  TD -0.5183  Tc 0.5986  Tw (majority of the time, ones that move are particularly important. They include the most ) Tj0 -13.5  TD -0.5322  Tc 0.7197  Tw (significant of all objects) Tj96 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.4952  Tc 0.6827  Tw (namely, ourselves) Tj73.5 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.5406  Tc -0.0219  Tw (as well ) Tj31.5 0  TD -0.5276  Tc 0.5276  Tw (as other people, animals, ) Tj-223.5 -12.75  TD -0.3799  Tc 0.1058  Tw (certain classes of human artifacts \(such as cars and other vehicles\), and normally ) Tj0 -12.75  TD -0.3568  Tc 0.2443  Tw (stationary objects \(such as rocks and trees\) that are falling or have otherwise been set ) TjT* -0.4739  Tc 0.3205  Tw (in motion by the action of some force. Our very survival d) Tj238.5 0  TD -0.5645  Tc 0.5645  Tw (epends critically on being ) Tj-238.5 -12.75  TD -0.4371  Tc 0.5092  Tw (able to perceive the movement of such objects accurately and to act appropriately. ) Tj0 -13.5  TD -0.4276  Tc 0.4151  Tw (The consequences of failing to perceive a falling tree or an approaching car can be ) Tj0 -12.75  TD -0.4984  Tc -0.0641  Tw (dire indeed!) Tj48.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-48.75 -12.75  TD ( ) Tj0 -13.5  TD -0.5079  Tc 0.5454  Tw (Considering the importance of perceiving movemen) Tj211.5 0  TD -0.4768  Tc 0.383  Tw (t, it is not too surprising that the ) Tj-211.5 -12.75  TD -0.5197  Tc 0.5341  Tw (visual system is particularly sensitive to it. Indeed, objects in motion grab our ) Tj0 -12.75  TD -0.5002  Tc 0.4377  Tw (attention more forcefully than almost anything else. If there is a moving object in our ) TjT* -0.5125  Tc 0.3786  Tw (peripheral vision, we usually turn our eyes rapid) Tj195.75 0  TD -0.5952  Tc 0.6464  Tw (ly to find out what it is and how it is ) Tj-195.75 -12.75  TD -0.5946  Tc 0.6667  Tw (moving. This much seems obvious, but like many other obvious facts about vision, ) Tj0 -13.5  TD -0.4749  Tc 0.4374  Tw (explaining how it happens is not as easy as it seems.) Tj215.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-215.25 -12.75  TD ( ) Tj0 -13.5  TD -0.4472  Tc 0.5347  Tw (The first issue with which we must come to grips is the difference between the m) Tj336 0  TD -0.726  Tc -0.5865  Tw (otion ) Tj-336 -12.75  TD -0.5246  Tc 0.5714  Tw (of an object and the motion of its retinal image. Image motion depends on both eye ) Tj0 -12  TD -0.5525  Tc 0.6036  Tw (movements and object motion. For example, eye movements produce image motion ) Tj0 -13.5  TD -0.4501  Tc 0.2626  Tw (even in a completely stationary environment; as the eye moves in one direction, the ) Tj0 -12.75  TD -0.549  Tc 0.7365  Tw (image ) Tj27.75 0  TD -0.4423  Tc 0.3413  Tw (sweeps across the visual field in the opposite direction. Here, there is image ) Tj-27.75 -13.5  TD -0.5139  Tc 0.5691  Tw (motion when there is no object motion at all. The opposite can also occur, as when a ) Tj0 -12.75  TD -0.5164  Tc 0.5633  Tw (moving object is tracked by the eye: Its image on the retina will actually be stationary ) TjT* -0.705  Tc 0  Tw (eve) Tj15 0  TD -0.5703  Tc 0.4766  Tw (n though the object itself is in motion. ) Tj155.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-170.25 -12.75  TD ( ) Tj0 -12.75  TD -0.5267  Tc 0.4464  Tw (Thus the computational problem of motion perception is how to get from the dynamic ) Tj0 -13.5  TD -0.5082  Tc 0.4649  Tw (optical event on the retina to the veridical perception of moving objects and self) Tj325.5 0  TD 0.0038  Tc 0  Tw (-) Tj-325.5 -12.75  TD -0.697  Tc 0.1345  Tw (motion \() Tj33.75 0  TD /F0 11.25  Tf-0.055  Tc 0  Tw (egomotion) Tj49.5 0  TD /F1 11.25  Tf-0.4462  Tc 0.2587  Tw (\) within a generally stationar) Tj116.25 0  TD -0.5104  Tc 0.2693  Tw (y environment. This is not a trivial ) Tj-199.5 -12.75  TD -0.5468  Tc 0.6718  Tw (problem, particularly when the complications of eye, head, and bodily movements are ) Tj0 -13.5  TD -0.4646  Tc 0.6052  Tw (considered. The visual system appears to solve it in at least two steps: an early process ) Tj0 -12.75  TD -0.4672  Tc 0.4047  Tw (of motion analysis concerned with the registr) Tj184.5 0  TD -0.4683  Tc 0.6558  Tw (ation of 2) Tj38.25 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.5348  Tc 0.5973  Tw (D image motion and a later ) Tj-226.5 -12.75  TD -0.5029  Tc 0.3779  Tw (process concerned with interpreting image motion in terms of egomotion and depths ) Tj0 -12.75  TD -0.2487  Tc 0.4362  Tw (of 3) Tj16.5 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.5029  Tc 0.5833  Tw (D objects \(either stationary or moving in 3) Tj173.25 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.4139  Tc 0.4764  Tw (D space\). We will consider each ) Tj-196.5 -12.75  TD -0.4591  Tc 0.6466  Tw (process in turn.) Tj63 0  TD 0  Tc 0.1875  Tw ( ) Tj-63 -13.5  TD ( ) Tj0 -13.5  TD /F0 11.25  Tf-0.0937  Tc -0.4687  Tw (1. ) Tj11.25 0  TD 0  Tc 0.1875  Tw ( ) Tj22.5 0  TD -0.1145  Tc 0.302  Tw (2D Image Motion) Tj83.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-117 -12.75  TD /F1 11.25  Tf( ) Tj0 -13.5  TD /F0 11.25  Tf0.0625  Tc 0.125  Tw (1.1 ) Tj17.25 0  TD 0  Tc 0.1875  Tw ( ) Tj16.5 0  TD -0.4117  Tc 0.5992  Tw (The Apertur) Tj57.75 0  TD 0.1266  Tc -0.6891  Tw (e Problem) Tj48 0  TD 0  Tc 0.1875  Tw ( ) Tj-139.5 -11.25  TD /F1 11.25  Tf( ) Tj0 -13.5  TD -0.4236  Tc 0.3432  Tw (Thus far we have presented the correspondence problem as arising only in stereo and ) Tj0 -12.75  TD -0.4502  Tc 0.58  Tw (discrete motion. It seems unnecessary for real motion because when each point is ) Tj0 -13.5  TD -0.5059  Tc 0.3472  Tw (displaced continuously, there would appear to be no ambiguity in the nature of t) Tj324.75 0  TD -0.435  Tc -0.1275  Tw (he ) Tj-324.75 -12.75  TD -0.4557  Tc 0.5069  Tw (correspondence. But there is a particular version of the correspondence problem, ) Tj0 -12.75  TD -0.4671  Tc 0.4671  Tw (known as the aperture problem, that arises in real motion as well. It is an important ) TjT* -0.515  Tc 0.4525  Tw (problem in motion perception not because we frequently perceive the world through ) TjT* -0.1528  Tc 0  Tw (aper) Tj18 0  TD -0.4747  Tc 0.3943  Tw (tures, but because the cells that code motion in the visual system typically have ) TjETendstream
+endobj
+11 0 obj
+6545
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 10 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 14 0 R
+>>
+stream
+BT111 713.25  TD0 0 0 rg /F1 11.25  Tf-0.4887  Tc 0.4083  Tw (small receptive fields and therefore respond as though viewing a small portion of the ) Tj0 -12  TD -0.4925  Tc 0.68  Tw (visual field through an aperture.) Tj129.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-129.75 -13.5  TD ( ) Tj0 -12.75  TD -0.5045  Tc 0.4107  Tw (The aperture problem refers to local ambiguity in the) Tj216.75 0  TD -0.4843  Tc 0.1718  Tw ( direction and speed of motion ) Tj-216.75 -13.5  TD -0.4934  Tc 0.5559  Tw (whenever the portion of the image that is visible within a restricted region) Tj301.5 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.2306  Tc -0.3319  Tw (referred ) Tj-312.75 -12.75  TD -0.3317  Tc 0.5192  Tw (to as the aperture) Tj72.75 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.4786  Tc 0.2911  Tw (lacks unique points whose correspondences can be unambiguously ) Tj-84 -12.75  TD -0.4604  Tc 0.1122  Tw (determined. Consider, for example, a straight horizontal ) Tj230.25 0  TD -0.7376  Tc 0.6751  Tw (line moving diagonally ) Tj-230.25 -12.75  TD -0.4587  Tc 0.3462  Tw (behind a circular aperture as shown in Figure 1A. An observer viewing such a display ) Tj0 -12.75  TD -0.501  Tc 0.5278  Tw (can know the direction and speed of motion only if the correspondence of points ) Tj0 -13.5  TD -0.4985  Tc 0.3975  Tw (along the line is known. But because none of the points along the li) Tj273.75 0  TD -0.4604  Tc 0.1479  Tw (ne are visually ) Tj-273.75 -12.75  TD -0.4858  Tc 0.4858  Tw (distinguishable, there are no unique points whose correspondences over time can be ) Tj0 -12.75  TD -0.7214  Tc 0  Tw (unambiguously) Tj60.75 0  TD 0  Tc 0.1875  Tw ( ) Tj2.25 0  TD -0.4344  Tc 0.1447  Tw (determined. The center point at time t1, for instance, could correspond ) Tj-63 -13.5  TD -0.4941  Tc 0.5209  Tw (to the center point at time t2, but it could also correspond to any oth) Tj276.75 0  TD -0.5577  Tc 0.7452  Tw (er point along the ) Tj-276.75 -12.75  TD -0.5092  Tc 0.4623  Tw (line at t2, as indicated in Figure 1A. The line's motion is therefore ambiguous. It could ) Tj0 -12.75  TD -0.5009  Tc 0.4237  Tw (be specified by any vector whose tail lies along the visible line at t1 and whose head ) TjT* -0.4574  Tc 0.4574  Tw (lies along the line at time t2. In fact, when people are sho) Tj234.75 0  TD -0.6774  Tc 0.4149  Tw (wn a line moving behind ) Tj-234.75 -12.75  TD -0.4581  Tc 0.4725  Tw (such an aperture, they always perceive the line as moving perpendicular to its ) Tj0 -13.5  TD -0.4705  Tc 0.283  Tw (orientation \(in this case, vertically, as shown in Figure 1B\). This perception ) Tj0 -12.75  TD -0.4775  Tc 0.4983  Tw (minimizes the speed and distance the line appears to move.) Tj242.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-242.25 -13.5  TD ( ) TjETq 171 0 0 -301.5 219.75 464.25 cm /im1 Doendstream
+endobj
+14 0 obj
+2842
+endobj
+15 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im1
+/Filter /DCTDecode 
+/Width 243
+/Height 429
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Length 16 0 R
+>>
+stream
+ÿØÿî Adobe d€    ÿÛ C 			
+
+ !"(($#$% '+++,.3332-3333333333ÿÀ ­ ó ÿÄ Ò          	
+ a !1AQa"q2‘¡±B#$Rb34Ár‚C%’SÑğcs5á¢ñ²ƒ&D“TdEÂ£t6ÒUâeò³„ÃÓuãóF'”¤…´•ÄÔäô¥µÅÕåõVfv†–¦¶ÆÖæö7GWgw‡—§·Ç×ç÷(8HXhxˆ˜¨¸ÈØèø	)9IYiy‰™©¹ÉÙéù
+*:JZjzŠšªºÊÚêúÿİ  ÿÚ   ? ÷ƒõ‹ë§Hú¿™‡‰–Ì‹oËkßUxÕC"tœßíŸĞIƒ‡ÔÚdˆ8–vù'Û?êñhqÇê ;È¿ÿĞôFÿ lÿ «ó3ÇÇïùªCûgıW ¹ğÏØ¯÷„ÿ òçıS€K³ ç\,ù¢Gûh}OMÙ@Hádsÿ ¯ÿÑôoùt>¥‚wed3úxy#ş§?Û?êPç2áñÄÉÿ ¤iíŸõ$DçZÙñÅÈôm#ı´>£‚ê.$~¯wüÑÿÒôƒı³ş£©Á˜ƒM¿óD›ı³ş¢;¬É‰ƒ]€ÿ ¼§?Û;ê piêõ‚ÿ ùªvÿ lÏ¨nã­cüä2ÿÓôÑı²>¢—şÚÅ‘ü$¿åÈú‰¸7öæ$ÛÔ‡öÅúŠî:æü8·ûaıEtG^Á×ı¿å_ÿÔõ/õÿ õşw°5ÿ GgùT›õïêSŒ½ÓÉÿ “ÿ •H}xú˜xë½<ü2kÿ *úçõ=ÜuÎ{)¯şl¿ÿÕõ¯õáõH˜ı·ÓçşL×ÿ 6N>·}T<u¬å5ÿ Í”‡ÖŸ«#«à™ÓùEåRY¾­:®ÿ ³ü«ÿÖöõ‹êùˆêxšÿ £3üªÖ6f&]fÌkë½€í.©ÁÂ|$#$¿ÿ×ëşºAşØ¿VĞL¢gúLWFÒÖNãzf=°Àt–8êQ¨~Œ8a3åªÿĞï·ƒ¤V'Â$"í#hóä©ÏMÍv‡woèò§·cğÛMN«ÿÑîK„nÖ	â è?J°Úa êHMX!Ğ6ºtĞè™¡³0$è#‘+ÿÒíô¸¸ ÑFêÙúF†í ã¹t
+A±°Ùih3óE{k59Å€ïpH‚ÿÓëİU¸W±¢mè;Š1± Iº“0‡Á=X¸äÖÓKîĞÎœ¨³Òiû;´™-‰_ÿÔìÇMÀÚÙêúÈ`‰ÿ uGì<3ù-0ÆÑ®§ÉöWIeNcñiÑ¢Æø%ô~1øT‘íko¿ÿÕì,è½ß88ç¶è y&?Wú)±ßÜüb}A§¤ÓG’sõ{¡À?³±‹‹ãø¦i¡òQÕÏ«¶jî›ŠNçâ™@ğ_ÿÖîµMu×‡õµ±µ±½fğÖ0  Õî^}õÈùq>®:7,˜ş“ÿ×îôÁ!2<43û†‚=Ê C~÷‚¤ö6n3¨ óÿĞï$Y2,h#·)X 9Ö@<ğMl©$Û®ŸÂ}¤™‚x×²ÿÑïZ@uZv“æTàÖµÇ†óü©Çb{;xÊƒÁ.²	lïWÿÒëºßR§¦båeY[¬9£k>“¥À 'NıÕ,.²ÌÌë±‹nK,ô®‚Ku’I^{…¢+¿qÚÿ nÿ ‚›iX×n%Î²LüJÿÓîkhdD’L)€•F›¦GæíºªZ×^ZĞà	ÓS ù”A¨L†'ÍÿÔîİ"d{{*D84‘ k¨ì“›¸w4HKô¥Ó:ˆYĞ/ÿÕïÁsrA—ÆŸ?ö@’Ù ËŸ/öQZ 1ÇøP<DÊƒı«£ì¿YÛWóş—RÿÖ÷—õ·ÿ C:’Ş›š~êõ(k"²#ãÿ×ï ‡?óÈcD9*.%­°	’>[B‚^àÓÍD÷Cl³I±¿ö_ÿĞîáÒĞxu†JL²OÆA:ò0Y2™ƒMnÚ?‹.üJÿÑîF’¤0R5A±Í<5¤|ÜPìo¶íºñ;ÀT¾°ôìœş““‹Ao©eŒÚ_!¾ÛÔ8_ÿÒßé½3¨;ªÛÔóİH·ÓmÕA$0$’F¤˜í [›ŞĞ´ú§G	s<Ü~ï‚‹A†–òàHóÑÿÓëºŸSÃéNÍÌx®ºš\g¾±Ì’¸ì^Ô>ºåUÕ:³_‰ÓqÀv&Œ9äp÷7ùÎö~_FÊoLêv›©¶‰˜áÏğ,ğwïñ] ps_º;y/ÿÔïNò^$AsÏğNdUf»bÖş»'^APê4ğKc…¬qo6II_ÿÕï˜×Tju1Şcı”MÛÓôIk£Pµqİ‰õŒÌÏZ¿ş…Ô»UÿÖ÷ç¿\ıLØ™éy#á/b¸òí÷»Qk{y‘JÓµÖn]ºŸûÿ×ïC‰}€À¼ñÑ à÷û€$İ3Do&²çº<À¥Îc`™/ ÿĞîZÒ}0@­q×±‚ˆçAĞ f¿‚F ¶" >h£éC Ú_ÿÑï]í®Öè,~z,^³õŸ¡t¡aÊÍ­–‚"¡.°’æ¶Oàª·ë_RÈ~ì?«][.¯WxÙËá=‰)­CİŸõo«bVİ]a£{@ø¶WÿÒéú'ÖƒÕË[‡•[Ÿ¸—VékÀ‘ù¦à´‘[ŒA?-*«Õ:GÀ³7.ÆÕM,%Äòx€<O’ãúwLê?]shêİ^£GL îÄÃ:oîÿ ÿ =9ÿÓîZY- °@ûz—NÄÎÇÈ£*±e67køŸóÍ0~¼õÎ—õÂ‘ë¨ìzß}{^ğèq?v¾Jõ2çúÎxËUÿÔïX  !àyHHhæ ù&sÜvÈ=ÉãÍ0ZI“µÆ#ÿÕïô"LFÂuï©BşÕQö/¬qÿ ;Y/ÑÖ»t—ÿÖêş¸owöÆé€k&óğ> ZYNpõZ@ <:O¸h¢\º	ÑÍã´§Yƒôš/ÿ×ïO»c´óÿ *…`‘XÔ“¿‰òR­ì±âÂuñ’¡ÍmŸLŸ.ÿĞï\Ó@[é´Èø¦wµ…ÄjXĞOÉ=Å•2ç=ĞÖ\IÓná?rçzwíï®Ù7¤\î›ÑYfÛ:€ûËN­¨ßÂÿ qÿÑõO«ßR~­}]nîŸ†Áyúy6û®y<’ó®¾P<–êKëÔŸ«_X[9ømõÁ–dÕì¹ñ®r<—ÿÒÖê¯ëŸP¬?¶.wSè®–ÑœÑúZ]6À9òpçğı3¥æırÌgUêõú6~¿8~ûşÿ ó÷® Ö7Û° m
+º› NÑ>EÿÓîL‡‰h.?5Èı{ê=+ÒgJû:¯SËvÜ|b5lHàó‘ÑtLn£Ó0èê¶ì–m¹­ö“'ÃîüUêšCWÉÿÔï‡·d'v¾d¦©Î·	¤OÈ§íğx•"àè#ÚÈ½ÿÕî¿µ[‰ÃúÉ=ºæHÿ iZíÒ^sõ´9ßÛ+¦µ¿ó‘qÿ ‘BÿÖî¬±Îµã¿¨§S®ˆaÏqişGÁN»µÌióêãéÔ&`»Qáù×ÿ×ík›é¶#h3ç0“£6¸–¶·:w[Ë^ƒ¯À"^÷ øpüßŒWÿĞî,q¸A°xö°ú&OÖ¯¬ê½.}X•~Ÿª\Í§»ÛX>.#îÕz~&&.-X¸µ6šiheu°@h‚2ÿÑ÷•.³Ö:wEé·õ¡p£†îs r{Äôş…Ô>¿f×Ö~±Ğê:5rzKyƒdñm±Ü¢?›éÿÒÚÁÄÉú§õŠÿ «™›p®¬ßÒì³Wz`û«å¼¾AmØ÷´–Fé“¯İ+- —‘¹ío·â¹ß¬Ÿ\N,ÀÁ¬fu\§ÓKgÛ¡÷:8ÏòIÿÓÒú§õaı4Û™Ÿ`Ìê™o'"óÈàíoƒØÓÃ¢£!Ï±¢4sùéëÉtT¨×R|’ªç9ÂLu_ÿÔî]xa¯@ f½çOöPÎG½áÂØöøÈRvL›$íƒPL§şÔÎİõË®eö•¯ÿÕ÷—›ım#ş\ş—<‘aÿ ‘‚Ö{Kîyí¶íWÿÖî­as+n€‡¯'Dåã·+Ùİê½€CÙû¤}êÃkÚÚÚ@'cµñåE¡Ì˜İ´ÏŞ¿ÿ×î?7h:ú$à@>hv³ôv·–€<£Q¢;½ÂÆ“.š05CÈ}ôİsâ7;¸€è¿ÿĞîÿ µ6oÕÛºÍÍŒµ‘fSÉ†Immø $|Wl’KÿÑöN±ÖzoEé×u¡shÇ¤Kœ{ø ;“Ø.3¤tn¥õ×©S×ş±Phé´8YÒúcÏ>Ú;“ØÉÏ ./ûkô÷Yõi½V–ÎOF¾¼ÊÏ‹ãà[©ø/ÿÒíÃÛ™ÛXĞCƒ\ÓäZ
+ç~¶}doO{:gM¯í}S%àSKxhïˆMõ[êì©ËÌ?kêYO#!ç^>‹|?ÏEÑ†2Záôœ÷<WÿÓî(hšDIçˆ”&RçûO´(Y[˜á n‘ÜÉIÕ±®ƒ;¶O¤w_ÿÔí+gºÆmÒ}ú)¾‰eƒÆó~U/íN#ë3ûs.gÇkp¿ÿÕ÷æÿ YÏıMn&?¸ÇOÓ«ÂÃê5q>D JÏë}O'§7&–5Ö¹ícwLûÉ1áºWÿÖè™–î»‡ÔMÕºš1n¬TC·=Ì33¨öÿ Ÿn{'ûbu·gcáı]»5¸v>’ö< st”;?¶Öƒ3õS-¡­ï>>;¿û`ı`lıUÍ€jLqıÿ×gl.ºíóõS4m ˜£äßÛ#­3Ôú­œ´Î¼	çÛÊ¥Öÿ ¶'SÉéFõ½êÔöúk%±'NÁuŸW¶GPÁè/¯©½fÆQ‹Së¤–¼¸i¨<ÊÿĞë‡öÙê¾¦uæƒ¬ıœğœm¼ˆ;ş¨uÖißı•ı¸@çê§]<ã²Ÿ t£õß¨Uõ‹ëbœwÏNéDÈaŸo‹¿ƒ÷ø/ÿÑ÷–GÖê›wÕN»[¢’ÿ ¥¹y?\nÅú³ĞºN¬æu|¬z…Uv¬
+ÀŞóØxx¯ÿÒØú©õj®•»3"Ã—Ôòì.Ê½ÜŸ #üôyÎÑ¢5$GÂSµÆkiĞ489’«p²áù¥ÒG‘_ÿÓî›goô>Ä&}ÃäÑñNû™ï'‚Ö·OÜĞ7í“Úu_ÿÔî¬{\lÒ	Ó_‚ö¦qwMúÂãÉë™„ïr’ÿÕéş±û¿¶Ö+cw÷@#ıÿ ‘h
+ÜáY]'ËBªuN‹…Õ±[‰”7V6¼×‡GœÄ%tRY! m«îĞ¯ÿÖÛë} ^ş¯ÒEšÆØÇÈfMz{]¯>¤õş›ŸˆlkÅV½Â§QqÛclËñ“U­k4xˆÔÈ<ÅŒ¾à<¹_ÿ×î,föÉ/GÁQë8ætœÌZåÏ¾›X'Äˆ¤ş×}KöŸÔ‰D8c¶—áU,?‹WF¿ÿĞ÷—;Ôº^_JÎ»­tj}G\C³°›§Ú@Ó{;@şøhu‚¶:gSÂê¸4æáØ-¦Ñ ğAîäÁ‚¿ÿÑ÷çÿ ÛoëïNè=3¥WúÇQÏ¡õ6¦ÿ be€·{¼9Ğw>KêOÔ¬^‰‚Û,ivm¥¾­§ ÑàéÛS·0´ñc‰¶¥ÿÒîª¯Jç€ÏB…u™fïÊ‘®i¤·ô~IÆàN¼4§¯ÿÓîMocA™gm~õ'c—n N‘;€-³’75ºüÔK¶Xáû¾ıÿÔî?µ “×tîÖgşŠîR^kõ‡Oí²Ç}-½æ"ç}ËÿÕîƒÚÊÃ‡ÑmD™ó¨:Í¤‚b åHísl:´ŠÚ	ò…‡õ‹;ªUéŸÖÚæÛT5Î±­¢N’#Q:…ÿÖÃúÉõ?­õlÌ¬İ-¹O"›ĞÇÖÈpí¬à»L_®#
+·dfQ‡y ÙM–4>·@Oc*å[>­:íßµ±H.Ü¹?ÿ ë«êÛvÇTÅ »Cë25ÿ×êõ£ ~ˆ£‹$OªßŠ¥ı®~´t×:§C»;bf8çáYê7kK´²²f‘¸Šôq×ú¸ê8§ás?Ê¤:×G&~1#ÂÖÿ •ÿĞövõN˜á-Ë ü,oùT¿h`Äš¿¿å^Aı²ºÖü¬ŒëßWì­ı>«*É³ï§k9}•Ï¸‘¡€tåu½[ûd3+§b}Y¨u¯ÕiSTËq˜y}§¶ÓÛÄ}ÿ ÿÑ³Ÿõ¿‡ĞwÛóEŒês>ÍMÔ×W“IÖ< ®Ò§µ¡­k¶Eàü?"fû Ã¡Ó¯}Ti'Btû¡ÿÒíìµ»¬ó% òZà5ö¢Q‡Ôx|ÊwXÑ»k‰[ğ…ÿÓï^Xë_]ÀkØH
+Nsµp†ö÷ò*&ÖH;¥ñ¯<	PşÔàÖ?éq™ùBÿÔ÷—›uíÃûjØã%¬èCAçs•ÛED5¤í¬~KÿÕí-—™öĞ;IO‘"›Ë.k kg“´h¹ÿ «½+êÎ%C	¡Û÷ì –¿qŸ™îº
+ñê©‚¶@kl­lCt:@ìÿÖØö¿ú¥‘‘êÛÓª{í°î:ÉñïñPgö¶ú™ºÓ«‡:	“ æ¢ïíiõ(Áı›XL?şl£ÿ -Ô­Í?`h$I÷>;ÿ 	ÿ×/SşÕ?U¯Âµ˜Øÿ f¼²Zö—®óê;#}Gú§ı­z¨ı‘Özx]o±eNºàÜ€?>¿~ òGo‚ìö—şÖšÿ q€ÿ ]ÿ 7L´·ö´?ñÂû¿æëÿĞîı¤ÿ µ©.?²cw…öéşÙGşYím şÌvŸèöëşÙgg]õ_û^úİ'ê¦oëyçJ·z"4u'FvÎ³óBè=ön(u¶œÌ«]~UîæÛ’~`/ÿÑîk¬ÍÄm÷îuSsAcu †Ä!l€÷gÓ‚~}Ó8µĞ@öƒ§ÁÿÒî!ÇÑÓo<¦55Œ:i¹¤Áó*N`!Å±È>ì>±x<Ü5_ÿÓïL–‡xãàPZğÓØxÏU?íIê÷PpáıS0ï‚í×ÿÔ÷æı} ÿ mÌIı„Ø>¦rÔÈ ´å¬ıaÉQ$Ù¹°Iaàj¿ÿÕîœÖ—ØZt/¤ö°'¿«<iÉÑ3Ù^Ù0ó.<“
+LÜPvçj¤¿ÿÖîÜÒÏh ±ü|<AlÇÓİ¯2N©¬5ïíÛ_o5+v½ÓÄ4qä¿ÿ×êz×Õî™ÖêÛ™[™mOi¦úÛ*"LµÓ§ûwûbı^ıÛOÖ\&hc½,‘ÄKµk¾$IZlşÛ˜€3zWÅ³¸û8{gÈ‡k÷&wöİÀ±„at.¯“aú!Ô4é<—2ÿĞèòúïöÃëÎôKjúµˆòA5;ÔÉpğ€Öü@‘â‰Ñ~¯ôÎŒÏÕZ]m’ëm°î²Çk«Ü­&0‚ÁšíiEnĞĞæë•ÿÑîÎ»à 
+O,ı4såª… ípo¸{A'àÛØëƒ½¾öÄ/ÿÒïHpÜ åÍ‘á¡R±µ‰{îtƒá Nâ}@$À´ë¬¨±Ä²³éŸh?Áî¿ÿÓïZâÆÁ`%ÆG‚ö£'ılåIŸî_ûÚí’_ÿÔé¾°5ÿ òê^àL~Ã­§_œµ-|›šyÜå‚•$XH™sGÌ4©‚HF´Ï¿ÿÕô DW·ÜM…Ñ=‚fG‰:ü•<V\d8“ó:Âş,n~Œñò_ÿÖîÖû€;òR}…Î°óôF¿öS¼8—´Î¯4¤£¸–D.w:/ÿ×îØLgsÉäq¢‹K«$n‚ïçştì'ÔkXÙ xÓ€¦Á·Ó€4kÆJÿĞï @6×Ï‡ówQx-s€ÿ ã¢‡G@İhí¦’¤ãp»{kÙÿÑïƒtxêZ öåFĞğ×jv—t×A÷¢mÎOéF¾R„í n“%Ğ@øWÿÒïƒ@ nçON×Y-İî.ƒóI “ÄL*û\Ó²"·_öÿÓíÿ ´èpú©‘»¿QËÿ {]ÒKÌzë§ûkd4˜şãÒ?LWÿÔín$KÛ©7O%H9Æºä›‰Ÿé{K™?¾â ø¨6À¢]Pg_šÿÕî+²Ç6¿vı“á)÷6+‰ùÎp{b%ƒ¡+Ö‘¦¬ÔüI_ÿÖíßôŸ"DÀ5L{n ’A°Ÿ†¥Yµ¬ ÁÜ{ó¢v=¢6è	v‹ÿ×íÃ‰É1µÜFœ¥'AàÃ1¤jœÙ :V$ò5M¤¿ú OÆÿĞî,d’C‰ö´.Îktïí
+E³cÄÀˆ>a).i˜úm9eÿÑïÃ÷HiÜ=GO€„Ô’^f5³O¼¨Ôã-˜ 8’À©‹t:É×âÿÒî½H-jIƒ§Oé;BÖN½‚……„¹³«YOÒå/í@Öª¹DÚ9Ÿô0¯ÿÓ÷——uÖ:Ïí­—ùÛ:n<÷á*øc‹âÇ:<y_ÿÔë;ƒw@ î;cÌ%]Ocà0ì=ø2SŠe ŸO¿Š>Ò † xñ_ÿÕìœÒEšˆ}5ëZG¾@$GŠ.ÖÁÜ9±“'ÀèaÎ`&u6@?_ÿÖìÙ¹Î¯keÅî:i<Â‹ÜkÒIÓÅE µ•H‚7“×²3úV5ße~[¬m—CIkZÉ2$éªÿ×é:c3êtee70TàÖY¦ğÓŞ A;Gush|ƒ« âBw1äXÃ"@øÈ
+V0ËÈtw_ÿĞíâC£Fî¾
+ ş“sAoã¹3^EO K‹Ç"¼¹ÀA—=Ä—|¹_ÿÑí«/.lvØï»U<rCcqHê|“ÀÎŒtOÅAÎ‚ÂâŠóÿÒí_;š&;Q	iu¡Ó¨hãÈ©ÿ jßëJÉÿ ‰ùô0®ÙÿÓ÷æ=P´ÿ m^¤4Ü:v8ß¯ã˜scBC‰òÑ²¤şŒ{BÿÔîôd¥`ÏÈ”œ}BöÉÑ­ãäšØ-s¤´ûZø¸ÉQvÒË_$–´tĞ/ÿÕí¬õ	MO”ø¤ÖöÜ ¼$ø'ius2KŒÇ…ÆÃXˆ:ºgNëÿÖí€1ÂC¢kaäğÂ|aWê]+©SédWê¹± µÃ¸")ğºnOc4´9òç9Î“©.$“ åÿ×íìc@°8û€h™˜?˜¦°´:æx ğ'²zöê&78Aù1/Ú>ˆ/ŒÿĞîw{µ6ş'â¢Ğ=¤hLëD`ŸKX—;¿2š¶° Ö‰#Xì&WÿÑîXÖ´O<D”ï-ĞWğî{'pòOö8 ÿ *x€ıĞ~ˆ:y¯ÿÒîï,ÖFƒİãT¿µcêy3;³²ÏÃô¥vÉ/ÿÓèz“C¿¶§X©øŞû–cÅm–¸Tyí!;Ûc·¸kìå:¨=Ş›_ Ğ	í§ó¯ÿÔí€lÚ¤<§mÁİÄ¼‡D–´ëäTØĞ&A ÙyĞö±±âï?ÿÕìë/iÖu-øÀLİÍ’àdGŞ˜—€43·
+¶oSÃé¸ö_™Üz˜ç<è<‚ÿÖÕÃêßZºıSõ{¡Ùe£3=Ş•E±ËAÕÃä¯ÿ ¬Ÿí›‘½Öõ›ˆ\gm½à	t(¿ê‡öÑÄauy/©cÛen<ğuP»ëFoKÈÿ Y:uıöÙçÃ±ŞcµƒNİ×ÿ×ëÚj»Òs^½Òï©SÜà=Î±ğR!Ó-<ş)·8
+Ü		“à¿ÿĞìØ	lL1ŞŠoUûg@[\üN¨Õ¡ûş–Ñø$Ï! Á06Ï™_ÿÑí,°—<ñ¢<£Tpçïµš}6¶>å¥ûdãAÁä¨½ÿ ÆF‘a÷ÿÒïµŸ¨ø®<;#(‡¬åÚ$¼Ë5‘ı´ºİ“pq‰x+ÿÓíŞZÈ ×$ıÉ‰{À%»nåEõîmƒ˜á¢›ôû8ØĞb<D¯ÿÔítÕÂd¼	ùêBe¾èÜ÷j“°¬‚gO£/%±&0</ÿÕíÌ†—	#Óÿ *ÍúÁÕñú>¬öºÛÖ×E,ëlqÑñW¾«ÿ kÛr.§­}kÛ™Ÿô©Ã0hÄ´pçx“ßß/ÿÖ÷²±1s1ß“K/¦Á®Æ‚×0W™õÏªùRoTé;ò:;²°¤—bÿ ²yg‹{|8ÿ×ìğr¨ÊÇ§#í}VÕ½®n¢"1€öŸÍ§…¾â?3¿˜LæVÁoÏ]WÿĞîŞ kô`G‚Fl@.kd|TYî.:ïkuì5Lêİî"7<€_ÿÑî«në'B]pİÿ ØNzf Ó çB“ €Ù.wÇ„oíJúÂé„Üü“¯ú{×ÿÒ÷—˜õÃûd}dp'ùŸ Zõ|»Øÿ y  4Œh¿ÿÓí7Ù½Ğ»Dó)Z÷<µÚ5³AE¶›	p-õ|<Tæî®9q&_ÿÔíö‡»ÚC‰ÓøGüˆm.ˆ‰a?‚L.™=¹”Ïum³·kXÓ¤JÿÕéş ôÑõƒëoÖl¯ÒâáXüN˜ÇÆYLèÇÀ/JI%ÿÖ÷“9¡À‚$=×•·ÿ U>·dtV:~{•€æIX>\%ÿ×íƒ¬ôì!¢@àwR¹ïnæ´–ˆò(—=Î öscÌ‰å5–Hy=ÀGÊ
+ÿĞî÷–éÑ©íªªv¹¾İ#^Ru‡xÓw¸Ÿ4ÌŞİÃI.Óò/ÿÑíªxmuƒŒwà):ÇÍ‚4­ÄxrB·ı©çı`t‚DO¯ÿ CºåÿÒ÷æ™ »ûaıgº\?½iY"Çè#{@ûÔæw2ñò…ÿÓê¨Ïõz½ØAÚë®ıàò\çˆí·ñV[°±ƒé—=ÄÏÄÿ •"İ¾ƒvıí°>	—:±“•ÿÔíÒÖ‰Ò+™„ï!¦Ş ö<Ï‚Âúİœp>¬õ|†“¹´†6ç8ºW¡ıRèõtO«]+¦Öİ£w›È—›‰+ÿÕ÷’IÿÖ÷—ı¶ñÅ}¬·pIÍ¦Ò[Ï¦÷8|ä}Ê--Øé˜q)ÿ×îÙ{[ <'ÌvC#ß<€ñ©ù¨º£³CÚxò…:Ãœ6™‚ó#°Ô¯ÿĞí«mgÑi5$ùÂw‡ÖF’ï½3+¨‚5ØOàR±»´ˆk[ ïÊÿÑí¡£ÒGp~j÷ö©ÿ ”Gø]ÿ CºÔ—ÿÒèîõOöÈúÖÑôzàÇ•jX÷6í²6{êVÖûhıÆ>ÆŒÖµÂ í@i0c±1øö•©‡Òñ±³®Î¯w«˜Öú€¼¢<9Ö4_ÿÓ§×lúé_ÖQÕëÂÅÉşJl­»7³	äO3¢7ì?íæ4®rHãÒıÒ?¶†¿İ¼rÁ#Òz“ºOöÑapoZÅÒ"±®¢?5ÿÔ	é¿ÛQ® õ|0=¤ŸLjuÍYZpÿ ¶:6Cº–~-¸Í²ğÖÄÍv&¦—ı¼ İŒí{ÔıÚ%û?ûy‰şêt3áú;?æ‹ÿÕëÎöô˜C¡GËæ©şÍı¼ÁşWĞLİwêo[úæş»ÔzOÖ“ƒ]ÕTËq†(x6´ı'4»G4pcPWh¿ÿÖ÷ÉmsPş×½wÔãÑl|w¶?YX–\1[ ÈcIopv…hÚ]i3á¤ùø¯ÿ×í…û‹^[t)5ú†Äûİ>|&®[‰x”ì1é†şp:¯ÿĞî¶ dŸ=TĞ	lÈ`(Sİêî Ê›"Ã·&I½´ìeÿÑô_íU?ë£ÏîÛÏúk×X’ó{¿¶wÖ¡·pm}<O„ÔWÿÒíÖËNÙ;Ëµç@PÙ‹a«{ZâÍÄnZx”VÃ¯Ñ3ÛÇEG7¦au+1r«e¬{#^Ç±±>+ÿÓ–WÖ“õB°õ§Ù{[\áÜÍ]sAáİƒ„êx#ÍuÔÙMôzµ<:·Ö×5Ã»KA
+V†‡<p~a-­Úâa¤¼|H ¯ÿÔŞúÕÓ_Ô~¯gâ´ëòÖw8j?»¯©İb¾µõ[¤õõ±Ù¿Éíö¼|œ[)/ÿÕ÷™×º?YÆc\÷cäĞïS*¯ã(³Äyà
+ÉÆúí‡Ó€ÂúÏu=3¨Öæ3REy;Œ5õËOqË{ø®¥ÿÖíÿ ¶ŞG«ÑºwEf¯êÙÔÔæ}*È{ÏÊŞšºFÈqs£S§µcKIØNŸ¢Ê™ì1%Ú‚ÿ×îMm;AÖA$¤¨¶°kÚG·Cã¢BªÄIk[:|­`sµú _ÿĞíXı Ô7kg^xEôÃ=NÚÊ¡•K]UåÄ@ ñíW¿µHû_ôh×ÛoızÿÑ÷——ı³~¶Aˆ>Oûéh‡ƒè	'W|"	_ÿÒìM&¶Ä´Ã|”-Ì§ËíUXî{´“ üË–úÇö|á…˜Ü[¬°ã—ÒÇTç2Ù-ö:5a3¡øÊ¿õ§êwGúÃC]šÇW}m®ÖX	:k¢ÿÓÊé?\İõcî‹“…›ö+]UW2¡ƒÿ wˆ… ÿ í«Ó·’zOQ~è b¤“¿¶¯JiÙ¹â 5é)í³ÑC«Œ¡¸8HpOô—ÿÔ«õûmt«]S+,tÌ›¾Ñˆ\¾§»é¶	ú$ê#ÏMWl?··ÔÉ ãõ“ÿ ='oöõú’y¯=ŸÒÇ?åRÿ —Ïê/sšÑØœwj¿ÿÕìöôş×ç›ò›ñÇùı²¾±ko®¦Œ–õŒÌL¼VT×c½ÕDÉ‘	îG€ÑzOö¯úØÎ½õ2œœ‹fŞ]“kÆÖ¸ÖÖ4- ™esH}kúÕÖ"ÓöiÃé¡ÀûØ'}£úG(_ÿÖînàÆ÷.&G=”E£ôp% ºDsÊL¼CDD5ÆG†ŸåMëûaÍ×a1ó_ÿ×îZâ*'ƒ°sÏFÀKƒ‰"9"J–5¯±¿J s¡JZºk ùö_ÿĞî^ö ó:nhƒá¬!dXM-"F£NÇoåZ?Ú¨ƒõ£à[Ïúk×X¿ÿÑ÷å­¯wöËúâIäÿ x­FÔÖ†‡47Øy<è¢ÒáÜì'ï+ÿÒéº¾¹}'3—e¸®­w´Qğ±-ÅÁª—öSMms¼`¶eAáÎs‹\ÒÁ¯ÍôU¿Pw—O„ÿÓìEÏÔh^F¾D§õza¥²O:D¢6ŠÜjiv ó+3«ı\ÁêøÆ¹¤nfö½º9lA™…ÿÔë¾®lúUµôo­Îô-Ü~¤áä6`o?˜ïĞó§BcÚöµÍ!ÍpÁ	Ó0òÑ÷/ÿÕön£Ó:^™™÷U‹P—Yi óğ^aÖzî×»›ÓØü«›‡­s†Û3£³F…¬>|şk¬lzq«ckcÀĞ"  ŠÊ5>cWNšèBÿÖíª¬^Ã.qv²¡X¡ éYÔƒÊwV!Û‰küÑ[v`–6Åÿ×í½"Xâ~Ú ø;k-{ø™l6¼>ŞgÔhÜHQ²½µ½#éŸ)_ÿĞëòXãN@ñsŒò´-oíS?òßôIçÓ²áÇ.±%ÿÑè1ŞöÊúäãî!Ø:|(Z¾¬0¸ğÊ¾~Î“½2óôƒ½0|INçÃm3'cF“à¿ÿÒíl|¹å§G9­Ÿ)Iî†¸v._ Rqi-‰ißÆtQ­ÿ FI’ç»ò¯ÿÓí`; Ô¸Ô˜Z][F®<Ÿ‰IöViéí×Èx˜9øöÓ“K.¬µ¡Í±²§H+ÿÔÑÇè=W¢Éú·Ö¯éŒÓÏÒĞd®˜ùj´‡Öí«f®—µÛw‘kI×rƒúïöØÎ†—Ó1¿§Øş'óÌ~
+¥?SÙ•“^\Î¿®eÖïc²ú6q;+ú#î_ÿÕíªcÚƒZ!®ÑÄk¢zícEn˜:™ø §½°Ò:nk Ü@paû«ÿÖîÛ¡-;¡ O”¨Øknùpú Aä§amÍÉ€4Öd&õY. Ï¹£Ošÿ×îŸ©¶ukÏ˜3œç;hv¦È'ÃTáÕºfŞüÄ,—³ì·ĞzšxiÂÿĞô_íT ş×ı;Ôó÷ØåÖ$¼¢üH]ß'œQ<ÄPÿÑí{w‚tc@ 0¬½ÛÆ›@ğ’L¨ŠAm¢6ã¼3Yßú£Cà
+ÿÒí™ß©…´¿nã>òd|RcN€÷sä¢@kDh6’OÜ¿ÿÓí=0ÖK\?Š|º¢ã'óZØÔë0•€mx&µºüPÍN"%¡Àg°_ÿÔíNíÂ§~4(a¦ZLKœf{h¶·ØKµ.pùè§ÊIv¢Oå_ÿÕí[I–— rvé×·°.#ïIá°\´í>	šHy LüJÿÖí,KÁ?›ß˜„îcöØÑÆö9å8cæÂ  ØÓ÷¢kÚ÷íàÙ>Kÿ×íZÇniçŞãø¦c];Dú„É:ğPsXÿ ²äÑ1aßE³ı«Yéÿ kş„ØĞ÷½ËÿĞ÷—“ã½úïõáÏ/Çşúù­Ë]SEĞI‡©¼¿ÿÑíæ¾\š;k¡(•ØÇ¸wı's¡á-õ=Ìvá­„óñ*-xŠ‡¿ÿÒí›µ¸™v¾:¤ÒßN#ôs¡	¬ôçOè~*\¶×Ö¶‰ùxü×ÿÓîæú–—i¨#MBa[ æƒ=´)àµÛD€f8ì«ågàašİ“‘U{·ÖxlÄè$ò¿ÿÔìñm£%•[M±ÜCÙ¨:xZkF„ŸÊ•f¸`ˆI;)³cu“°ÈÓÉÿÕîuÚkø§È_>1	á¤?Q!Í_ŠŒc¤’`€Hñ€¿ÿÖïsæÚİ{uLØÚĞî7>(Òto'Æ8ScêµıœóÁãUÿ×ï)hŠÎ Ão:ß±dCb*´ş_¹jk¿ë Á‘öqşôWP¿ÿĞ÷å¬iúéõÑĞ	ûM×ı,-»*îØD@øAQ´8ß¤.3â«ÿÑìès÷µÍÚeÎó)˜Âq¡øöNÓhô;†µåÇâQ,$4FÃ$ó¬¯ÿÒí=77p‰†Ií0¡cFÛ »Óh:ëÉÕä{ÃN Œ+*{û4’ğ4ï¯uÿÓìnpq2Ço%dZë&C‰ù…ÇımnGÛº=Õ5Û+7—¿ìæà74D´x«ßQñïÇèuºúÍ[nE¤9›4sÌßÍA…ÿÔí€|‚íĞ;”ÌfÍ¤4’3å	¶êİ ƒ·Sñ)ÜÇm05|t_ÿÕíŸ½Ï·BC¡­Ÿ"4-´÷.ør†k;_º`Y¯ÜƒRtõ ÿ K•ÿÖí‹\Z $òšóÑ6À^ÎåÄOÄ)°G§¸è\â`ü|{%Yp5a»øø²¿ÿ×ëº‹Kz}áÅÀ·Ò\O‘[¿ÚÌGÔ.ÛõVşRºd—ÿĞßéŸ®\ÉçíÔ |?FÕ´Ö‚Gs¸ü;ñæœÄ€cl8€
+LÖ¤GˆÔ¯ÿÑíXæl­°LW:©¹ÏÙ  cÍ;Ú×?£tLıókG!ÿÒî,l½ğ4ŞÁğĞ¤D:LvšüƒõÂŸ#ÏR†İ6ûu%Ä _ÿÓíš…s¤‡gÍ3H­³Ù;" vÖ=ÔÚ=¤@ 2}¼¿ÿÔîõÚtŸdh~åQsa´ó?äMdµî/Ò@ãÁ¡À†´XøÏÿÕï+sK@#ôĞü
+N- @™y?€Qh0ÖÄn°Èù”ª²t.>_Î¿ÿÖîÀpu}À™ñå;?4Éú;¹ï5lum=›¢|Unªì¼øüÜk È‚¿ÿ×ôßíp#ê'@ÿ ’Œ]"KÊ:p.úíõĞ7¾m:ü*jÿĞí˜ÒÆÖKµÜvĞ¦óY]$¥ÀJªå­Ğc¢ÅÓs©ipôàıáÿÑìÈ,u¼¸Ù'¾¥¥á·F‡H“üŠùõl†èm´ó¬ş
+[ƒYa Ã¬| ¯ÿÒí@%Í eqò€¢K‰¨™‰.òî±r¾°İv`é]ıW©6K«¨Åu@›ÃxW°ÿ µ§Ö~¢Ö»®õ÷â3_ÕzHØ>6:Iû—ÿÓíÙı¦>¥l‹Û™”{ºì«$ıÄ!_ı§ºMl'¥un§Ó,·eåìÍ®çïY9˜_^ş«2ÇfÔŞ¿ÓÀ×'»o¬xº¾ÿ t…£ÕúgTÇõğ¯nMÓ¨"È>EÿÔí!ÓaÜDl|u)ĞIÖò€Šã64ÖÃ¬ó©û‚Ø[^ƒ’OÈÿÕíeàí.‰™ó
+L.ôØw/$ğ”ô8ncvÈ »NĞö:¸.İyø¯ÿÖî	ÚÆƒÈiÔvÓüªLåÆ$ÀU^¸âŞ™ÔÆè?ex3ı·¿µÖßõĞ6ñö:ÿ "ÿ×÷—•ô‚õ×ësF{$t­¿Î·š]éÒ6Àk\ïÁÿĞî_´"ÂcúÉV[¡ô|š}§mgÚ»ˆÔ;X?Jî]í|u_ÿÑíœÆ3|6}úkäÚlt’C­'2Sz-h`G<÷òR¬=¨–A‚O_ÿÒÜÏ»«u®©OÕ¾o¡sëõsr†¿d¤øÓ ÿ uzÕß«}#êçM¯¦Ò*­¿IÇWØïŞ{»“şæ‹Q%ÿÓ÷—Ÿ}rú£oK¾ï¬¿Whı;aÙØ5ˆnS’æÅƒ9øòı?¨cgàãæâú¬Íƒ¯Cæ;¯ÿÔîErÖ¼èİæ¦±	ØA5€ ’N‡Ì¥KKƒHv»âtRcu‡jb«ÿÕï+`náƒ<hœ´ùíğø(¾‰Ğ€ÑÊ{@Û„C[¨ù•ÿÖï@q/!º¾ÿ ‘gõæ4t®§-Ñcxÿ C?å]ö»nß¨ßWÇüR¨ÿ µ]ÿ×÷ä½í?Z~»?´ß& ·Ø¤@Ğúq÷:(X÷¸9Á®hmm‰_ÿĞì…­¼ FÖ°6F“·ˆV\âòóÃw4h<Ğl.s	ÜD½¢;ğTƒœçºC®†ùD/ÿÑí™d:’Lã2>*û…m/‰.q‘ÂTê•ô¾v]¦M°nñAó:Š×şÖ}Ş•õu™yƒwQê„ee<óîúø5°#ÆWÿÒ÷’IÿÓ÷—–}…¿V~¼ætŠ½˜=UÎÄhÅ¿‹[÷û€ìè#c4Û©2BÿÔîğl¨h$8î#´)TFæËZxQuîi`“§ùÓ¶Ïl6	 s¦‹ÿÕíÉÜà›@Fº•'<—8Oæ¼…+,"L‰qhã¼öSz—¿JÆmJÿÖëúëÜîÔ‰QxƒIõ¥¿Rº ˆıFƒ¯›[É/ÿ×Øè!¿·¾»’H©lÇ“WAhi´søòò2qh>CÚ×ÚC*kŒ	 ë/£ç;77­8Z÷2¬ŠØÀö‘´6D:•ÿĞìÔ°kƒ²*iõdËÆ„¢Ş£‚ğ×7&©ßûâñOöÌ?fëY¸=Æ‡ŠUeâŠØ=V»Úî\<ÿÑìÔ_¼¿:üV×S“_Fé»ÃÛÔz5­l/“?rõà   p¯ÿÒ÷’IÿÓ÷Áÿ mZIú±ÔÙ!ø½M”’9Ù{K\>Â3]£Dƒít‚yBt5­‚ ù¿ÿÔí-ÜâóºÇÅM¡§q CXÄêœµu€ Ò>	Û[ƒ›€scÄò¿ÿÕî_µ¥ÅÀ€_ÚÈŒ­¦à\ÀfÙQØ}‡häùh¬5†t¨ğ&q²'jÿÖõo©ş>¯k?ÜüoúÕ¶’ò.„ğŞ½õÈkîêÙ>@~ÿ×íöûpsu:÷XıVœû~±t¼–1ÇÆuÍµÏD´p¸he›¶}Ä;AÀàşÎz·ÔNÓúÅ™½RƒoOÎ¼»ÖkÜ3Üu×V“ß·ÅÿĞ%_Ú§ê]iÖú¶¸ˆÓ¼¦ö¨ú#Ğ\Œw‰Cgö¦ú©´9ÕÛ«	ÒÃ¦’¢µ?Õnnˆş0øñ÷y/ÿÑÈëŸÚëêÿ OÏèm`¿ÑÉêX˜÷Í§FÚH0{â½şXß©C³›¯#!ßäRoö’ú¢Ğrz“`vÉ?äQ?ÚCê®íÃ;ª´ùeÏ+ÿÒÛúÑı©º'Iú¿Ôº†/Sê¢ìzKëİ“í‘ıPµ?å”ú¾":¿YgL¡ÿ 4N?´·Cµ× ğcşhŸşY®‘$½×Døeù¢ÿÓ7öÂşÖø#¥úÏVÉ~WQ¢†³##{@;‰pF¢4=•gjú[½{©m;·¼¦‰ìşÕ¶A?·z˜†Î¶ê?òØäéúÁÔ´!ºXuWÿÔCûYfzvõ©É tÒuÕ'ÿ kN¨×–¬½HCAõ	ïñVº)ê?U2Æ7SÌ¿?2ÖzY—¸ŸIÑô$Äö<v]s¬%ãh—n&q¦‹ÿÕî…+.âK xILË‡²&6“#à³¾°Ş?ÖçT,~Ã‘©ş‰]ÔØÿ ZWãşs±èSWÿÖ÷—”}_®:Ç×CúÎF¾At."\|mĞyI+ÿ×î`h—˜óÓı”˜ÒâÉ&wkñY9_¥‹ÿ fŞ×ÜòÍÏ­µ=í!òƒ¬®®}kÏú—Õ©é ß‚[Á¹®İ]dû«k§Ü àöáÿĞì(¾›ê¦Ö¸X×S¸8j! âLƒü‘"H.vİÆ™í©X¿\úmù1”ûm¥¬¾¢Á®êáÃç+ÿÑõï«]n½Ğ:U¤ûr©kÈı×páò ’ÓIp?Û§¬u“õ=ö`×]”ßg¡•½¤¹¬x0[¨QÏ!ÿÒõ©O«õoªı3¨uZk£/*¯UÕÔhk‰-ä[ëİm$¼ßë®Xêß^ºWL¬‡UÑêvfF„ş’Áµƒâ»æ¿ÿÓî	1îÚå©86eÂK@â^[$²HaóR% ZAHĞ|ÿÔï$µ½¢cÂØTòğ±sq‹}aõX\×j ®#ªırÔ›™ÓršzríÑeu—Añˆöı×wˆênÇ¢öê×3{Hî¿ÿÕî›X‚L†“ÄÂËúÏ[ÖßVq$à^A=½]¯Õÿ Z}yû7ıjÖ_ÿÖ÷åå½Oë;\L»’Iòö­Ás½°Ğ@tGšoZÍ ™0x/ÿ×ê:¿[OÆ¢êë}–WXit_dO‰Tz·IêY½G.ŸE•TÚÜÛ‰sm¬ğ {šñ¤§*ÿ VéØ9õºŒÜvŞĞÑ´<O~Ë‡ÁÁşÙı;	¸X§Ğ©»k$¹­"@“Ø¿ÿĞ¬şÛ †ôâ\@1>:~D•ı¶Òêzt9ÂvÎ¦š•¹ŸÛp9ãì}=Î.‚Fî`	TèXÿ ¶?ÔÛ>ÄÌN1ú¦[Sos½*-v„nC~;¯ÿÑëjÿ o!ÏDèçák¿æéÇXşİûuè=$Ÿ+üİgõïùx:÷IËéy¿W:aÇÉn×‘®„~Ÿb%_«¬ÿ nj«eLú¯ÓZÆ Ö†ä€ €İÙÿÒëÿ ×öçıVÁwÃ)¿óe•õƒûdÿ lÏ«ôãÙÔ~¬áÓö‹T”×9î=ƒZâJäúgQşÙXu‹zr®Î¼ß}Îµº“0¦ à´‡Ö¿íğâ~¬²áı˜xãİÿÓ‡úíşØ›÷­‘£÷ipäQ[¾¾˜'ê¶ïtƒë?ò©³ë‡×ÆIwÕGrâmøöòOW×o¯€~ªÚ`°ó×è¯ÿÔ>º}tÿ Unú$ÿ ?æ«'¯fõ.¶Ö·©}L¹î¶2Øx“Øíü«êSë´ÔŞ›ÒoÇ§§
+ïÈ#èÈÚÒ6‰€yğ·õ†÷‘í€$xº¿ÿÕé¾µÚÃõs­íaX5ÿ K+·ú­§Õ‹ÿ $qÿ è[V¢KÿÖÜú»XwVúÌèşîfk®šµmú[˜Ş$‡ ŸçPezL;w§Äù…S«t^­Mw=íîªö–2ÒHà{¯ÿ×îƒXÊÈ€@­­`!XÒAË{|T-!ÄDÀ cCˆì œ¯ÿĞíÙ@ØARÎ	
+Á,s…Ä’ãğòUóú6SÀ8™uz”Ú^×?wÅgt¯¬¿X~¥‰Ô«»¬ôf}CvN3<?=£Ç>åÿÑõî‰õ› uê}^—NX\Ö;ŞÏé7‘óMEö2¶9ïpcZ$¹Æ ‹ëÿ ÛK£aØü.ŠÃ×:¼c5V|_g |$ö_ÿÒÜÃè]K/©?¬ıa¿í}@•1ƒôX­+ÏÏŞ¶EB	äLù}=µ€'é¸ 8ƒYºGÒ.?•ÿÓîYVµ4ÓÃçIŒ3\êàà<¥'49ÒdW¬ù‚ )úBDl |û/ÿÔíì®½I'F6ãºrÏ} ìh>)=%òDÁñ¬¯­ìs>«õË$ÉÅ°Aæ=5ÿÕö«ÍÛĞ:SuÓ¯?@-—•ıZ.9ÿ Z hÿ Vó]ğ25_ÿÖïD2¿p*.<ë¢‹ˆoqXuP7Ó´pá[GÌ„G8ÜÑ¶74¯ˆ_ÿ×î\ÚÌî öğtĞ}' ?>$À2!±½†dz…Ò|>	ä{ %ÚÇ¸ˆ_ÿĞî˜ÂÂNá¬):¤,?£b·|å;@×_Ñ>d,.§õ;êçR¹Ùa¶»Å`‹èqcÁæe±ø¯ÿÑÚ?T²ª&¼o¬½j†‚ hËtvà2£gÔ™{Áê™yİ[k€ıs%îiç´…½ƒÓº~1ÇÄÇf3\ğ6ÔĞY€!Ül$ıçEÿÒïİ L‚p$Ó¶{gÅD2ZØŸ¢ã¯š F 0Ï„¯ÿÓïX=¯ji¬ ïà <¿ÊœÚ÷ÀlN5ÿ =wyèóã…ÿÔîİc\ã¶ sÁƒñøp¢K:ß-wì¬Ÿ®VƒõS«O¸º‹Ì´ñ-zBÓ¢tİgõZuş _ÿÕ÷—“ıRq9YLuŒã§İó]ö³{AĞ1 Oy"WÿÖî^ĞıúhctùŸ$®-"è’ÖÈø76^ö}P'úÈ{÷5¦FçÙ¯İşÊÿ×îƒÚAĞúüIµÉ¨´öqïàJbeÌ«ZO‘LG$ûk'My•ÿĞî\İ£RHÙ§1	¸	€ hâ í¤¾{µ­ÿ jö÷F Ø5ù¯ÿÑîÛ½·óá¡Ñ8‡9€Î2|xI§V€{—~U80;PN¿ŠÿÒïËÏÅ1Ú'i:6à¦^'Á­ÎJ‹Ë}7‡&gáşÊÿÓîÒç½„m÷†xBªÕ¡º{‡h;j—Wã¸‚O}°>Y q2t+ÿÔíŸ[‹k èÇnËëÃ^ßª]XL³8è4™^—ÑÆŞ‘€8Œz‡ûP®/ÿÕ÷äSŞ=/¬/&º¦aã»ò.’Çë¸hZ5ø>J6ZĞë‚æé®º/ÿÖíƒ±ÈÒM‚GÜ¤ËšCd’„ñÇ=ĞYpd˜ GEcê/©ÜŸs¾:¯ÿ×îÃ`2A‘§˜Q5­:ğØ×Íßì'}â^µ´iÌÆŸ•JÈ¼î'Û~!ÿĞî7Væ?¦Şßnk÷k¡pˆï§Š¦şµÓ˜2l7´7Âr´Ùwä2­b>»«©í$ËÚHíÿÑîÚZ6€@ãàö·n¥ WİJ]è?F¥J×leZ4ùj¿ÿÒîŞY/ ƒÆ³æXúËZ<màO)ô{v‚gw~ú €;k·Ş¦ùûåÿÓî« šÈ3B’DÌI‘á*Mš‹5:3ç$²£c!±?šœ/ÿÔÙşØ&±õK¬8é <5?ì¯PéÀŸˆ"–O÷¡XIÿÕÒú”ÂîŸÖt¸õL¨âõĞ:»ëH1¾Ñ ğ²s^ğæ.FŸì§ôİê±ò5{§ï_ÿÖìZÂÓî:é¤r¢Ö¹éqÜDòm-kdíqa:9á'˜65¼ú`}ğÿ×ëß[À|×.âaKasŸã§'åp$ËM¤k=Š€pçwã…ÿĞëÅoš\âáÌ.7ë/Õ;z‡\Åµ•*Ênİgw®áíïÂíjkÙ¨>í®ˆÛ*{ĞH/!œ¹ÿÑëŞÇ2·‚%Á‚Gó#ócÿ 7ÛX×¶¦Sä5î˜<? ™Í±÷YÅ†|õ_ÿÒìš×@0d¾cÈ“XàæÏ¸îy×â†º+?Gé5“) lµ‡ÂÿÓìœl4,tEãÔİ; ÁG ´’[¨ ëúüúÏêäÉŠÚŞ<H_ÿÔö¼1˜â"+od—ıGºoQ;¿ãO(?UÿÕíÚY¹®ÏÌ”šğ6C„nqDTµ²ĞâDnŸ¼¦Üá[bZÃ?rÿÖíZoºØ$óÊÆ(± @u
+opw¨æyñÔ!›A.‰‚æHø¿ÿ×íXÒ˜.w?pR©p®`És„üÒ"=ÂCI&x@»;4ßmT´3R÷Iñ_ÿĞİ?\¾©ˆiê¸€†Æ¶7˜jöYé9ÏwÙs)È0Ñ5Ø"¯XcÕ25£_‚b\ø×ÜÖÇ3ªÿÑîÖˆĞC×@t*S5×¨ò{i ;v×LqâP«Ók‘'ğ_ÿÒîAÜA’Ğtï˜4 ¹k£D)<Ï‚67ò¦öC?˜Ø>&
+ÿÓîœÂwë¼Ô¶Hs„Ò gæ¹¿íŒö7êwV nh~óW«QüMÑ‘ÿÔ÷—ıC?ÜÌ†‘ õ,¢õ×CN‘:—9Æ;ió_ÿÕìÁAC£Ç²wééû}†gê1Ü& hî¬?vÛ$AnÑ§i%ÿÖë½¥ÎÚ$CHı¡IÌ|–9 ûãàe@Óag]>A­à‘½äüu_ÿ×ëN>&/Úò,Õ[ç8è<Ö7LÃúÙõÈ¶Î˜ÑÑúI?ËrM·	æ¦#Ìÿ °º¾•ı©~§am³.‡õ|ÍİAæÃ÷}ù-ÑõKê fÁÑp|5qşò¿ÿĞô~£ı«¾¢gîqéâØf-Ã“ñö@ûÂæz§Õ­ÿ Vj}½+&Ï¬<A³$ş´À?uãéü .‘ÖpúÆ3r1^ãúbÂ!Õº~‹‡b<… ˜'x_ÿÑìŞ×9¡¡Å ï ê'U*Xv´™¤ëÁÑ<öİÓNµá=ÅqÏÅÿÒìÚ^w‰ mh=¥=áÖL²~eGpkÜ&&"g°Sq{M„’&À	øÿÓîeÌs¤d8yÁ\÷öÆ ıMê„´@sIù=‹ÕéF¸ãhüŠkÿÔ÷äÚÿ Óı—i_·åGoÒò.€’Ç4ù…ÚöÑ¡¤èö3ŸŸä_ÿÕílæ@¨ÁH±Ÿ¤fİDGŞusğ™Ôÿ :w†’w“ãÏ¶«ÿÖî¶À/qòä¨ì0q$ŸÀ(¹ƒh-öìi.òXWú+~¼õ7ddøé¶W_üM½º’€ßÄşÿ×öö1•±¬cCĞZÑ Ø)$’ÿĞ÷çÿ ^ş«[’ÿ ­¯Ö¨³±Y£rª»úmäÿ •ºvv'Qéø™˜Îß^EeíÚ4ïä­0ŒyŸ f;j¿ÿÑîƒšd‡p{è¢=1¿yÚ"<ÊVÒ¨ 04ùÎ©{GªuÜø…ÿÒîöxiĞ8;r¢ZŞfw»¿" Es¬n°=]@QqÉ»ÎšOÑ>KÿÓØşØÃş:†„A‘Ûô^­WñLşˆSIÿÔ»õî&Ù’F^\êbÜº Ö;j<ğ4
+V:ÏÓ;@İ¬xÉ•"ãg¬AĞ5š÷à/ÿÕíè{È$4XĞ'ÂB‹ım³Ö	1à?*f±©­‚DøˆO¼Å%®2IÜ<4+ÿÖëıQ5xŸ+'ë†nM]1˜xnœ¾¦úp±ùÖº	ù	^•Ğú>'Dé}3»iÅ¬Vß8äŸ2dŸŠ¼¿ÿ×÷’IÿĞ÷uy&¾¯ıpë?W˜ExoÁiÖ×gÒhp -Ç\h2?F5<
+lpİk[Eº÷9_ÿÑì¯pÜàÓ¯·Oš—?mÍŸÎg?Ñ
+MsÎöÉÕáÊvŞç™-—:ÿÒìÙo 8@|€yìEç×Úâ`ŸŠ¬°šÆĞ4']gNë›úÿ kõG3pb°FºU«ÿÓ÷FÖÇ¤¼wû_†» ÛdèëòH?¿ÿÔìî®iâAˆìªdgĞÜç`µ²ßI·K Û $ø“Æ‹?êç«WKÎ·.§ã8æäXXíHiy#Ğ©ÿ Ë›õ <œc|Ï¦ıÍ_ÿÕµ_öÎú˜ğĞî¡>ıwVñİR«ûe}Mõi5]Ã ÿ j¤ßíõ3ÚÓÔ«§ó]ÉŸ$¿åÃú– ~Ódû®ññ…ÿÖúíõW#ë×Õk­Ï«ìx?h²ë5ÚÇúD2tñ+ÒÇöĞş×Çş7±?¾ÿ al¯¨'¿…ÿ …1ı±~¡ŸøßÀùÜßò¯ÿ×õı°¾¢“ëƒ§ÿ ÕC?Ê¤ß¯ÿ QÇÖÿ U5ÿ •H}|úD¬7şª«ÿ ›)¯?RÇÖ˜~UÍ—ÿĞ×úùõ‹ê³¾¸ıZê8İcÑédãäº›˜àÖ@sd‚bLÄ«ë¯ê»šgªb9¥€ .fºvÕÏ¬ÿ VÏªGUÄ‰l~™ iªwıcú¹®Ş§‡îsy¹¦O+ÿÑèÇÖ«î‘gQÄ‚ı	µš<şjUõş†ç7û¡ßoé™â|Õì±òjªÊ\Ë+;‹K#AÄ£6¶\øº~ğ¿ÿÒî«-¯o¶i“å3Zİ I:øJç?¶uÿ ­lÆ4í?¡QêµzÚÿÓ÷—ÿ kâGÕAM|xÿ åÓ9Î.´ÄísI'rÿÔÜwOËÿ \™Gí;iôY@¤È$øHÄ‡D9äâ	·¥àô§^q*ÉéWX\ğkø®$ÉIaÔ‘Ùt4t~ƒ“MŒgî—ŠØ|<—ÿÕßg@èeÀ;§ã8í|MMĞkä£ş·>¯¶@ÀÆ`$šY¬ü”õcêîçÓ1Í¢E,“Şı_èXßÛê«lé¸¿dÉ94XÃSKÿ FY ˆ&xó_ÿÖõsõ+êiç ôÓÿ DµÍTÔO©'Ó|4Å¯şj¹¬uÿ kn’ÜŠq~¯tüü¼q6²ªkãö›¬ˆgÃWÀ¯!ë¿Sºÿ \êv]WOÄéÚÒÊñ±jôÚßXŸLÎç ]îÖâ`ÿ×¯õ"ÎƒN=XY~¬aäV)³;€\ê¿Æ=€Iáîn­"+Ó±> ÿ klìjò±:?NÈ¢ÖË,©-pò!ÿ kí~ãäÅÀı{ú™õ>­¿WºfK¢†ºœœŒ–Ö#{`OÁÒ¿ÿĞ¾Ïí{õ=áï=6¨ @lóö»ú™êŸîeA²îwÅ0ş×_S6»¦ÖIph‡8O>aş[©?³€’áôÈ#ÍÿÑ·_öµú”ø.éÃW:6Øøäù¨tİÿ Sr+Ä":5×<×o|W»ó_üx'‰ƒÙu5\KÆšuŸ3ÇÅÚàÖ“ 5Ìë¡…ÿÒíFM»À&X&<$.sû`\ë¾­d€Ù.³ºyØ¯¤¿ÿÓ÷ãŸÚä´}N N®ºè×‰°ÿ •táŞë ’]lÉí®©œòà77i.àv_ÿÔí+ŸLÉÕÎ"|'ı…‰GYºî²ş˜ì!McPë,ƒkvjæ´¶×Õ3~³ıWúÇEŞõtJ®ı`î¬VíxËÕ©¶«©k«s^RÒ8‚
+ÿÕìæğ6 ká!AÁ€ÚÒ7´¹’'È¬o®•d;¥ŒüFşµÓ2*Ì£Ÿ¥Yiƒñº­ŸÛ[£t_©ØoÌÉ¿¨Õ8TOÒw}ÑÙ‡Gyè¿ÿÖŞé¿]zÖŸ©™_XºHé]3·šp^Eù± –ú„{â@hl¸Ìn^}Ò¿×F_Ô®µwTÁ¾¾“‹Kïéà41Ÿh¶Æµ¤anã´™ƒç_©}WşÚ=/£t|Üœì¦;©g³e£½V\CEoyŸ¤@Òu }Úİê×Ö¾õŞş×22ß}Xyy]6üWM ï.¤	qæ÷’+ÿ×ö·úÍ×úÇÖ®±,¯¡õW5¶×…é–âÜY¥}DÈyĞîifF‹ªÃşİ8ëËıouLFôı…Ô[y´9È"tö$Á@T0òÛõëoYúÀÂN-e¸O]s½ÃÉÏ’BÖ·l€FçF@/ÿĞílc^ğ‡o'qğ”«o¹ld™ş
+v†zl A÷:;Lò•L“@"6Ï<+ÿÑìlÁ¦ê-§"¶Ù[ë;šñ!ÀëËóşµõªXéé@Úî‘U÷^Ó»Ów!®îÖÎŸ•ê,5ÙO¨'ÜÆÇ„i‹Z×HˆÚ	ñÕÿÒ×úüÀzöÈİ“ŠĞœØÅëI$¿ÿÓ¹ı®ŸéıOéÍ‚A¶Ã sï+¤7Ll3ñÕ*H¨p;¹òıÕ×ú›ñ_Ñ˜Û]G¯–Ö8©g¸‘Áäò_ÿÔŞwE¬õf¿&ç6²ë™F›[c™·C¬LN¨İN³——Œ+PY¸r7HŸˆår5k¾£]e¬úÇÔ+k× này"Yõ®6@úÏÔƒ`¹ÆuÂ_ÿÕªÏ¨_X»ıhÎº>“¸Ÿ¤¯¨ßYv¹­úÓ™ÇM`Æ“–¾¢YÑz×OvW~6òÁš*öHi0Ö’y+Ó-şÕYó1ª­ÿ ]òoÇeŒc±Úæi¨ o0¿ÿÖë/şÖÿ ]¯cg×Œ›×5û_ŠÒ74‚ÓûQÊşÖß^2[X·ëÅöúV¶ê÷â3ÚöÒì•¿Úïû`[u¿ë³ßf9.©îÃd°––˜÷i Â«‘ıªşºäõn¥w× ìÜi4Ş0«i ˆÜ$uEÿ×ÂúÛõ+ªu¬•ôƒÖqú®T—æäW‰]~'@÷·Rãá÷­O©¿^º~%¸ßXM5[Ú[O‡ùOÍXwAşÙCOõÅYl»ûyÒ{(³£làæ‘õ‚£2A4·Oö«ÿĞG¡ÿ là7»·i")ê¡—ı³Ão[Å!­&MCX<}Téé?ÛKdşÖÅ 	ş(q;|üS—ıµ]-=[Ğ=Ìæª¿ÿÑ©õwûbfÓuY™];!m•i´Úºª3ëGLÄÈÅë7Ñ}T¶¶cŠ&@n†I|½€Y§ç4wï+ëİŒ=í Ë³qZ&?Æ1ÿÒ÷’^?ı®cıgt€GÓ6m‰úeÿÓì©¤–³I®wâŸÑ;«ptÃ]29’“±1­*kMŞÒDÁ‡A×[+sˆ$†ãà¿ÿÔí_]cy“µ­8å1fÖ¸·—84ú ìÜçÇ«¯(M`,oîÚè¿ÿÕìë­»›-îL|ÿ &ˆyX8yXÂ›éTêÜÑÒ;¬~–ÿ ­ŸS€oH#«ô€'ì/Ûe:ÿ byíätü«§éŸÛkê~[…Y·[Ñò:¡Y¬ëjØù¯ÿÖõ¦ıoú¦öooZÀsxd×ïK3©ÿ m¨İ9¤©V]KjÂı+ä6HŸ‰›ÏúÙõÃë84tìk>®ôç¿*ø9Oh0Îy2|
+±Ñº'Oè˜µÑŠÃ·ÕİkÜeÏ3Ë‰Ô•ÿ×í‹%#_q2'ÁI•7ônÜLÈï*“‹Zİ¤¤ƒáÊq£\$ì2<ŠÿĞìŞÑµÄƒ&½¢>jU±í­Ó-vĞ<|Ëd:Iq–ë2˜5Íuºn˜§ÂÿÑîŸ[_c‹IkFŸã:o@ò1¯ó,/®•‘Ñi-äçãL÷‹X>KÖ—ÿÒ÷—ki?SúH{lq#Oh{¹]s¶¤1ÇïÿÓíw–H‰vÍÛW'¢À	kšÆ‚O'NßzVZHxĞûšĞAóbÂé;HÜZ><¯ÿÔíš\Ñ¶	³Yù)Tíá®"=î:jL†XúË†â7LOÅ9±åŒ=¬.#æ|×ÿÕì·†Wº+a;ßq-:öñ0‡‘]Âú™s!£ÜĞDÀB¥gÕ?ª^£‰é¤—ö©¿¼<ÿÖêğúoIÁøtãÃÀı@=ü¿Ps·:±ı’ š§–ì&çAH¦»	ğ'â¿ÿ×îƒã`HqS=Â¡ô¾‹;Ä²˜[ïpmÚãş}”wÔö¿Cô@v«ÿĞîğğ`àOn4°¹Ğí£xÔw¥½‡qq.;ş}“‡~‘¤¬éßUÿÑîØCšÑ¸ˆq1àcN×gÓ±› ÚÄGúsª¤¿ÿÒ÷äêßöÏè+§ÕÒ0nmubÃ•À¸#Í^8ŸÛKkè8eÛv‚2Çó„çûf;vï«¸¾à™Ò÷×ÿÓèGöĞ ‡}\ÇptHûk?œ&ßÛ ¹Û¾«ÔAtƒöêô÷JBŸíAú®ÂwÎ«á	Ü?¶4Àú©KôÎ§“/ÿÔß¨ÿ lv45ßUŒ6xÌ§Rgüª!ÿ Û¯õJİ D·2~Rù^ö–­Û-ÚHÉ¤ÿ :…ÙŸ^å%’cDª'Hóò_ÿÕÛCë‘$?ê†i?²Õçæ£gSúŞj{ÖŸPÀúU™ĞŞI½Oë8!§êQÛ¾±‘Ïô’gWúÄE¿Tº©“$†°ñıeÿÖŞ§ë_©¬oúÓêú8¸ÅM<‘ü$#õ‡¯Íğ)Ö@1Hï?ÂOgÖN³ê§Zhk@;qÁŸöŞIWõ£©°Iú©×Aˆ‹?=
+ÿ×ÚÖ|û»ê·^dGÙ	ÖGš‹¾²å’\~¬uİ²9Ãtˆ'Í3şµä‚Hú·×™†á¤GŠ•Ÿ\âà~¯õÆ‚é-N˜ŸŠÿĞÕ[ßaè}i­ùÌ@?ÎŸıy0wGêí——:0ŸÎŸäOş½qCléT~’Dá¿N|”G×œY8O@AıNÎ#à¿ÿÑ/]úÇÖ¿gáâbçnvv3©ö´k\u#Á{bI/ÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷—ÿÙ
+endstream
+endobj
+16 0 obj
+22652
+endobj
+17 0 obj
+<<
+/Length 18 0 R
+>>
+stream
+Q BT390.75 162.75  TD( ) Tj-84.75 -9.75  TD ( ) Tj-195 -12.75  TD /F0 11.25  Tf-0.2138  Tc 0.4012  Tw (Figure 1) Tj39 0  TD /F1 11.25  Tf0  Tc 0.1875  Tw (   ) Tj8.25 0  TD -0.5598  Tc 0.6223  Tw (        The aperture problem. The motion of a continuously moving straight ) Tj-47.25 -12.75  TD -0.5286  Tc 0.5661  Tw (line behind an aperture is ambiguous because any point along it at time t1 can ) Tj0 -12.75  TD -0.4352  Tc 0.5073  Tw (correspond to any point at time t2 \(A\). In fact, observers perceive perpendicular ) Tj0 -13.5  TD -0.5468  Tc 0.5468  Tw (motion \(B\) in the ab) Tj82.5 0  TD -0.4907  Tc 0.3373  Tw (sence of any unique points. When unique points are visible \(C ) Tj-82.5 -12.75  TD -0.5564  Tc 0.6368  Tw (and D\), the actual motion will be perceived.) Tj179.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-179.25 -12.75  TD ( ) TjETendstream
+endobj
+18 0 obj
+861
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/XObject <<
+/im1 15 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents [ 13 0 R 17 0 R  ]
+>>
+endobj
+20 0 obj
+<<
+/Length 21 0 R
+>>
+stream
+BT111 713.25  TD0 0 0 rg /F1 11.25  Tf0  Tc 0.1875  Tw ( ) Tj0 -12  TD -0.4968  Tc 0.5843  Tw (If one or both ends of a line are visible within the aperture, however, their ) Tj0 -13.5  TD -0.4181  Tc 0.3056  Tw (correspondence is unambiguous and can therefore be used to determine ) Tj298.5 0  TD -0.4147  Tc -0.1478  Tw (the perceived ) Tj-298.5 -12.75  TD -0.5624  Tc 0.4218  Tw (motion of the whole line, as shown in Figure 1C. The unambiguous motion of the line ) Tj0 -13.5  TD -0.4732  Tc 0.4107  Tw (terminators can then be attributed to the line as a whole, provided there is no ) Tj0 -12.75  TD -0.4833  Tc 0.3981  Tw (conflicting information from other unique points. The same effect occurs with ) Tj321 0  TD -0.3325  Tc 0.52  Tw (the ) Tj-321 -12.75  TD -0.4556  Tc 0.4087  Tw (vertex of an angle, as shown in Figure 1D. We will call this tendency to extrapolate ) Tj0 -12.75  TD -0.5054  Tc 0.4251  Tw (the unambiguous motion of unique points to other parts of the same objects the ) TjT* -0.8537  Tc 0  Tw (unique) Tj27 0  TD 0.0038  Tc (-) Tj3 0  TD -0.5125  Tc 0.7  Tw (point heuristic.) Tj60 0  TD 0  Tc 0.1875  Tw ( ) Tj-90 -13.5  TD ( ) Tj0 -12.75  TD -0.6295  Tc 0.667  Tw (A good example of the unique) Tj123.75 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.6163  Tc 0.8038  Tw (point heuristic in solving the cor) Tj129 0  TD -0.4985  Tc -0.064  Tw (respondence problem ) Tj-256.5 -12.75  TD -0.5295  Tc 0.544  Tw (is provided by the barberpole illusion, illustrated in Figure 2A. A barberpole consists ) Tj0 -13.5  TD -0.4668  Tc 0.5137  Tw (of a cylinder painted with a helix of red stripes on a white background. It rotates ) Tj0 -12.75  TD -0.5147  Tc 0.4772  Tw (continuously around its cen tral vertical axis, so all points on) Tj244.5 0  TD -0.4534  Tc 0.6409  Tw ( its surface actually move ) Tj-244.5 -12.75  TD -0.433  Tc 0.4598  Tw (laterally \(leftward, in this case\) at all times. Yet a rotating barberpole produces the ) Tj0 -12.75  TD -0.4937  Tc 0.2812  Tw (illusion that the stripes move vertically up the pole. Why do we perceive this illusion ) TjT* -0.4218  Tc 0.3093  Tw (rather than the actual sideways motion?) Tj163.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-163.5 -13.5  TD ( ) Tj0 -12.75  TD ( ) TjETq 113.25 0 0 -83.25 111 477 cm /im2 Doendstream
+endobj
+21 0 obj
+2310
+endobj
+23 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im2
+/Filter /FlateDecode 
+/Width 161
+/Height 119
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 22 0 R ]
+/Length 24 0 R
+>>
+stream
+H‰­×Iwª0 à0ˆ[¤V·Š¶nªlÕÒ²ÅöY¶Úªl‹Ü¿ÿÂµ
+9§e|dâ&ÈJdıOU»qªÚ[[™Fé7ã7üÙA©=uÜSU•sı÷ Y 4YÛÌõkñÓ;A²BüÛåíıñÆ= îğWjG–èévĞ“ì«Yvèñf°óœU,k7‚˜åÑ
+ û6PN÷ô11
+ıëëFúÀ¶~èIá/eÄ&®oEOá&Ğøÿõ¥ô&Óu'5ã]wğ-ïv;Ø½ƒAh!Íÿ…–hzË3bJf›_M,8Zcht7†ÒÙ×=Š¹õ íä©E*Á%<viİk7×Áñ) 	oë¤ |œ‚^-ü5·/m"5¥Cæ
+4³b\ŠÁ­¡–.ÜåK×›¿I	é8CÙÓfÅ€«Œqúkö±¢)‹¿}†{.x÷!	¢N˜‰>¸´¯h(¬y/˜÷ìŸ)è´ñ Ó|"ÄuL
+¹b:%l‡-Ò<¦¯ı”éğHº·¢ÛóBà?Aôc”Å|"Q$#"à•ûØf?º(øà  Æp[ÄCÔÏ›@Z+Ô£òtTF[û
+‰.jåcğZÂv&mş‰ó=ÿk]ÃZ“ü*o&Ã·:ùjo¡¿°Tõî‰ø\txy×RßÂÄí”p@gÍ+j…@·="’÷,­`üêHÇ8rFj0”?„-Œ¥vfêÍÛEÀ®ø‹ [—àIt‹€¦Ÿ‘D£á/0‰\4Í
+€Í\2)?LCæƒ×ú·ğiı—X¤ijÇWn5 â¾ÎÅ’ BÍ3±4˜Î nE`2ÀwU`²DšW&Ù©l
+ˆ–
+^usJ´ÛT"!qï\ŠEÂ×U°xrŞ¥Àø;*F|¬ <T#P/ÂNN@Î
+Aµx˜vL%`¸Œ‹š±®ÓvôÁqô¢ÖÑz%İgü4¥Ëê­ıS<ÛVÄ d¶ÇÎläz›isc/r@®ñb_Š>¨Æ *MøıÖzKXlìUè§t5øñW	¥¾~hı‰æ•0H¼_¯.A±½oló8è-`¼1FE@¦æE•‘¶ézœhÖzN£µáÄb`g€ÙV$ }äá`é®pÛÁdš"òÈæéÑ5zi¶bñ0ÚŸaùZ¤Cpr¸DÓğŞ÷I§ü™nŞVTF›)7múG»È½²èÅ¦(–‘¤ D7VÖæ²Ñ•	‹Ğ•­®Œ®ƒÒáŸÌŠ­:¥æ§hâš„Ò‘Ãu<“Üp 'a&èÓ*3“Ôa/L4ÉYí„ÉÛ ç€àuR³ØÒ}‹¢‹&…÷â².-Ü‰øúØÎ0› ]Y¬kæ¬÷S¾5éÁk‰ßš¸ÊÙXˆ$”`áÊÆVİ"kÅÙÏÏĞZq0ç
+€ì&àI—yÚùUö“—ô6Ç¶á#ó´t|ÄiWß;I=®­?Ä M½„LD
+şkLï“0“ŠFğ‹}7˜n¢éŞğCw	QºdËhø“‹X
+Œ—ÃtH„ ƒêåÀ¤ÚÇôVDœŞ3£c•ãİíÿ¤{5Sq0Áñµ
+Cˆ¬}ÈOä±ä¶‚|²$_øÀ›•l+˜xMç½
+@6"£
+­¶P	-ƒôp?HØ)€iÈJJ¬ãÊ‚qkì½®ë‡Ï
+@vzãäc)bôÒğe¦n£4ˆ¸Ş—¿x&ËF£oÓãn,gMO¹`3Ì‹;¨Ñˆ‚6•éåpCî`'ÑkîçèáüUµJÚã¯ˆ·ïı…!÷ wZá¥ÃÌ,}°ùİ‰ø=±)Ò:~“9İY)ÓÏœZ/jñ™ËWÊv|–±6½d¾ŒŠÀ?í ³ÌZÑ+¯²lÅg¤p>ˆÏ<¡Ğ¬ÇgìcR®á 0™Ùq±Q“BÌbM˜ºaävO¦é2 Ü4
+~¢b]RwPáŠ¸ĞŸêPÔƒßÿ>J±
+endstream
+endobj
+24 0 obj
+1573
+endobj
+22 0 obj
+<<
+/Length 25 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+25 0 obj
+62
+endobj
+29 0 obj
+<<
+/Length 30 0 R
+>>
+stream
+Q BT224.25 393.75  TD0.0804  Tw (       ) Tj19.5 0  TD 0.1875  Tw ( ) TjETq 84 0 0 -73.5 246 467.25 cm /im3 Doendstream
+endobj
+30 0 obj
+119
+endobj
+27 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im3
+/Filter /FlateDecode 
+/Width 119
+/Height 105
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 26 0 R ]
+/Length 28 0 R
+>>
+stream
+H‰í—Ksâ8€ÛğÕ	™áêÀ®Ä†p%â+¾ö5Á–úï¯$¿d[&ÙÔÖÖÖîvª–ô©[­~ÓÃïÊ»ù·²ûé÷Ù]÷ö?ÂÓÇí|`Ù“—ÏX¸/OÒÈ^.&§…mıOXøQœ#ó±ïánú
+Õ»}€N Û;Í7ƒÇK¬‡OĞÈWŸgˆÛ‹,®AKmóİiqeôì]dñ ÛF—•Fó\¾_bÆ;¸eq<©cxWÊ<Æ>K.§6EÅŠ¸z††—•“‚_—õr{¡õªB‹şSÆs40*1&„+Yúb”c,‘ß’…œ=8d·‚%‹OôR‹tMlKƒ*½ñæ,@eÙL/³û˜aêaY"ÉÒ¥Zè ù’¨,óÜh‰m¤Z²Ë%£­b`›åd³tWùÚx6Ï‰] ¬=8ÒÒß™“Ø’["ûŠi¹eß–…µÌcÓÂ€›Rˆgv©Wuqs%­KÛ(XqG¿Yá8@+Xi
+sR‰²3”ï÷ sôd¹‰ëX$×‚í÷z}«ß³z=»o38÷y©²iş²4€†l3®fŒæ$O´_«]æ±´Ôòu05´Czû,êÙ‰ğ˜xxÓ02á—7ÚCÄêsPËòë/5¸ƒ»º«ğê*w·UeÓü…42à²ÅÓpı¬“ælšèºjsê«¸2°40˜¿‡ìët¼›WPæ€Z½t?s­±f +OLï¹»÷^íy³Šô0áclïcxnñ±£¤–¥yiN
+‡M$m4…©„û½Ä¾¯¤;J%.0ª‘®¤f³ÿV¸[û€4Iúj$õ Ê swŸ«ÅU¿»šÆc¯OItWÙ“ÌòKÕ8;=J’iìãz²»Œ-·1¡…€6ÎbÅáîûŒŒUÇËİí°hnbÔÏ<h)oñ‚½F<gz‰W†¹ÖbG¦å›2sVŒe—'ÅÆ¡ÂòK½ælÈ=N“àÙpVG)£*Ë_$8‹¦ç"u’Ág©.ë%Ë*Ë=ÆcìÜ <¦¬8oT°9M†’ì9LœõTf?4™-´XIxŒYVæfq–lF×«pñaLÒ­<îÄ9–Tg,,Æ ¯—ÊŞ©Ì…¥´ôZ’°†<¸.ÁÓ2û ¿3ä®*ÇYntÂ~%6ª;0“p‘·Åô¼£,P–©X1Ò"Ÿ°>‘Pëi—"‡neÖ¦V–\^ù®i‘OØİ)±¸¨1šñ?®:‚=±W|ù}Ã®š=¤‡áõ fy»-°8Q*&Yûå—³ÅŒ+ïø—ôVÍV·’BÜÒï
+.ûBÀ1Õ°¸©Àn¯¸GŒõ¯ÌFóR±=õÒfü¼¡Še)üºÚ.¦eC¹Ÿ)róóÑ¥]åï…D|Ë§Gw\ù%y™e³Æ“ÓfaYÊ •Ø@1Mó¹=ßú*ô3ö¢HìŸEÿ*½Ş¿ƒ¥vuLÉ•IÖ¾.±ÓŒ­Ì=³f±õRİ_°•‘3T¥õE¬KùßÓ+:®ríWXé…øì×äŸÀ²úâÓ-k5'Ÿ¾Êœ†>ÔG4@şWËv¶G¦§}\7Ş®ámŠ;¿vW¦³³‡l|€ízv…áÏv4Ôwx3ÃŞ™±G»·¤m…÷í°;ÀV=û°ÔõnŞ;6ÛİşaóSÇ¦tl_dÃÖˆê4`ìš¸Î®ıŸmlÅìK,Ñïğf=i1öı¥Ïm~ îÍF¿Ûo÷]ÍÕëYì´ğ¬½ik<ã³¼î5Î›Øà\`g|cšìÎmn‹¦‡P!v7äŸ^üpvø³(~8T² #Ôù¯
+endstream
+endobj
+28 0 obj
+1417
+endobj
+26 0 obj
+<<
+/Length 31 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+31 0 obj
+62
+endobj
+35 0 obj
+<<
+/Length 36 0 R
+>>
+stream
+Q BT330 393.75  TD( ) Tj17.25 0  TD ( ) TjETq 94.5 0 0 -74.25 381 468 cm /im4 Doendstream
+endobj
+36 0 obj
+89
+endobj
+33 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im4
+/Filter /FlateDecode 
+/Width 134
+/Height 106
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 32 0 R ]
+/Length 34 0 R
+>>
+stream
+H‰í—Isâ:€E0äÊ#\y®fØ®f	¾p%@â«ñ¢şû#Éò‚-Áfª¦+%\ùëvw«%0¹TáQù[á¾<ì…Szñô»çõbÛÙ>‚ØŒ¶ë×Ín …pùX8Ó-ıÏÿRŞ‹Ù›<Ğ%|FN„à‡óSæSxÄŒ~izw!œ&ŒcÙ$?Ş\Q‡{2hkôD‡ú=^°R×>*‘×O“;¼pÇq¬:¨4O< !˜]dä\C?ğğÄIgˆ’¯SáFß¬¶bIí£æˆ1€™R××p^|‹ı]+MÑÑá\k÷U±¡C¡ áLHP¿	!¢X°’Ö8à)bÕ.Œ`±°xÀÔ¯va5hG¿LÖ¬ÚEµçFF$$TZ!¢p:Ì\­ Şõ¹01ÜaÖÔ ´ğ÷POÓD`ÖsKÅ×_İÇ*z1ó\Ë¡ó°íÛœé×9$¹O9áôèxAˆôw›E³A`Ö¶.jÓM¤áŒĞø&Bá1°M`ÊoIÇs‚Ê#`¾ô÷‘óHMÙ$A½Qí1„=ß›ñµY¶•šz«Úc²Â»ÇÊ|80q•Ss7ÙÕGÀi¾x9›¾Í”ß$¨Õ@ ›_şIdÊo7+¨)Äõ”sBh’œî©¨‘t.N½&¸ŸJL‚í'IF:1)DìÜIl&ÿŸnC¹^@vbNµXbŠ™­Ï‹µ¡B-†IŠ¡rÉ-F€ƒ2Ã­˜ñ|™{ÒG”µ™“!DöJ?m(ÚrÙ+İõ#æd·>Ìª7D¨EˆD1\3‚u[òöÅ*s?!ASÄŠÓå]i4TŞ'u¤j(bÍ©r¯wYmÈk—e™­ÅÂàw37T†@=aDFrdÂÉ$U©qæù±`25¿ñİ²:ôÂît…ĞU—İ7ˆË(¼ß
+!hbF	„EYÁö¤8‚ìƒr.1Q8û’À«`Å„áÔÃ
+F#ŸÜ á*áqB$©¡Yr›°Ñå½`+}QË	E
+ÁZ™ü‰IÌÉ–#‰ öS]KGŠèï¯
+™ŒøÂb¡êxá<ş!~]pŠ;?„—;½ø‡ø“j]¬[ù7y(M"Èe "ëW\Î5„¡ŒÃáhnÊ!ú(-º¤k„*Ø·kbróû’|ŸŠW{¾ã­„è#şnqéßÜtõÍf;}xïÁŞMØía^¬áfËeê¥^5–OµQ¹İ¬‚ÛÒôÆ¥®8U…è-˜{Ñ‚†Ã}¶½Ë¸
+N«İj YºÒ‡ÁA ª’S áMì1R¢Rmüƒ º°²`SŒïvk
+[Ã%ˆİtB/­ncJ½¨ü„™e
+ V–~è*êgÏ+Æ ê“UÃÕcå°¨X£r1Âjîèµ¥îí×]LÂY‚ƒB4Ú·W¯£Û«^1Â¿;§8‚pJ`Óşdé©É-ÁìŞ.ÌWğ~€KUš·^ù0Äş
+endstream
+endobj
+34 0 obj
+1167
+endobj
+32 0 obj
+<<
+/Length 37 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+37 0 obj
+62
+endobj
+38 0 obj
+<<
+/Length 39 0 R
+>>
+stream
+Q BT475.5 393.75  TD( ) Tj-364.5 -9.75  TD ( ) Tj0 -11.25  TD /F1 9  Tf-0.2494  Tc 0.2494  Tw (A. Barberpole Illusion) Tj75 0  TD 0  Tc 0  Tw ( ) Tj26.25 0  TD -0.161  Tc 0.036  Tw (    B. Possible Motions in the Center   ) Tj130.5 0  TD 0  Tc 0  Tw ( ) Tj38.25 0  TD -0.2202  Tc 0.0702  Tw (C. Possible Motion at the Edge) Tj106.5 0  TD 0  Tc 0  Tw ( ) Tj-376.5 -12  TD /F1 11.25  Tf0.1875  Tw ( ) Tj0 -13.5  TD /F0 11.25  Tf-0.2138  Tc 0.4012  Tw (Figure 2) Tj39 0  TD /F1 11.25  Tf-0.4552  Tc 0.37  Tw (           The barberpole illusion. The stripes on a barberpole are perceived to ) Tj-39 -12.75  TD -0.5266  Tc 0.6391  Tw (move upward even though the pole is actually turning laterally \(A\).) Tj274.5 0  TD -0.7303  Tc 0.6678  Tw ( This illusion ) Tj-274.5 -12.75  TD -0.4601  Tc 0.4132  Tw (arises because motion in the center of the stripes is ambiguous \(B\) and motion at the ) Tj0 -13.5  TD -0.3738  Tc 0.4779  Tw (sides appears to be upward \(C\). \(See text for details.\)) Tj222 0  TD 0  Tc 0.1875  Tw ( ) Tj-222 -12  TD ( ) Tj0 -13.5  TD ( ) Tj0 -12.75  TD -0.508  Tc 0.4456  Tw (First, notice that along the middle of the stripes, there is directional ambiguity due to ) TjT* -0.6804  Tc 0  Tw (multipl) Tj27 0  TD -0.4586  Tc 0.4154  Tw (e solutions of the correspondence problem. Figure 2B shows the edge of just ) Tj-27 -13.5  TD -0.4997  Tc 0.4193  Tw (one stripe at two different times, labeled t1 and t2. From this midstripe information ) Tj0 -12.75  TD -0.5351  Tc 0.4726  Tw (alone, the edges could be moving horizontally leftward \(as they actually do\), ) TjT* -0.562  Tc 0.7495  Tw (diagonally up an) Tj66 0  TD -0.5041  Tc 0.5416  Tw (d leftward, directly upward, upward and rightward, or any direction ) Tj-66 -12.75  TD -0.4318  Tc 0.3193  Tw (in between. But now consider the ''ends" of the stripes. \(They are not actually physical ) Tj0 -12.75  TD -0.4745  Tc 0.6152  Tw (ends of the stripes, of course, but only the points at which the curvature of the ) Tj0 -13.5  TD -0.5456  Tc 0.7331  Tw (cylinder occludes) Tj71.25 0  TD -0.4557  Tc 0.4825  Tw ( the continuation of the stripe on the other side of the pole.\) These ) Tj-71.25 -12.75  TD -0.4867  Tc 0.3281  Tw (perceived ends appear to be unique points moving upward, and so their perceived ) Tj0 -13.5  TD -0.5073  Tc 0.4448  Tw (upward motion specifies that the stripe as a whole is moving upward, as illustrated in ) Tj0 -12.75  TD -0.535  Tc -0.0275  Tw (Figure 2C.) Tj43.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-43.5 -12  TD ( ) Tj0 -13.5  TD -0.6037  Tc 0.7913  Tw (This pe) Tj30 0  TD -0.4597  Tc 0.301  Tw (rception is illusory because the "endpoints" of the stripes are not actually the ) Tj-30 -12.75  TD -0.51  Tc 0.5475  Tw (same from one time to another: They move laterally around the pole to locations that ) Tj0 -13.5  TD -0.4073  Tc 0.2823  Tw (are occluded at time t2. When the correspondence arrived at by the unique) Tj309 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.726  Tc 0.1635  Tw (point ) Tj-312 -12.75  TD -0.4717  Tc 0.6592  Tw (heuristic ) Tj37.5 0  TD -0.5085  Tc 0.4915  Tw (is erroneous, the motion that is perceived will be correspondingly erroneous. ) TjETendstream
+endobj
+39 0 obj
+3219
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/XObject <<
+/im2 23 0 R 
+/im3 27 0 R 
+/im4 33 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents [ 20 0 R 29 0 R 35 0 R 38 0 R  ]
+>>
+endobj
+41 0 obj
+<<
+/Length 42 0 R
+>>
+stream
+BT111 713.25  TD0 0 0 rg /F1 11.25  Tf-0.4858  Tc 0.6733  Tw (By this account, if the stripes had a clearly visible texture) Tj234.75 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.4357  Tc 0.4732  Tw (for example, if they were ) Tj-246 -12  TD -0.4818  Tc 0.5193  Tw (made up of many red dots on a white background so that correspondences over time ) Tj0 -13.5  TD -0.232  Tc 0.4195  Tw (were unam) Tj46.5 0  TD -0.697  Tc 0  Tw (biguous) Tj30.75 0  TD 0  Tc (\227) Tj11.25 0  TD -0.5254  Tc 0.3795  Tw (the barberpole illusion should disappear. And indeed it does, ) Tj-88.5 -12.75  TD -0.4467  Tc 0.5092  Tw (provided that the texture is coarse enough.) Tj174.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-174.75 -13.5  TD ( ) Tj0 -12.75  TD -0.3436  Tc 0.0154  Tw (Notice that the ends of the stripes at the bottom edge of the barberpole are actually ) TjT* -0.4271  Tc 0.5075  Tw (moving leftward. Because they are true endpoints \(rathe) Tj232.5 0  TD -0.3432  Tc 0.4057  Tw (r than apparent ones, as are ) Tj-232.5 -12.75  TD -0.4852  Tc 0.4383  Tw (those along the sides\), they specify the true motion of the pole. Why do these bottom ) Tj0 -12.75  TD -0.4861  Tc 0.4861  Tw (endpoints not determine the perceived motion of the whole barberpole? The answer ) Tj0 -13.5  TD -0.4513  Tc 0.4888  Tw (appears to be that they are simply overwhelmed by the larger) Tj252.75 0  TD -0.5799  Tc 0.6174  Tw ( number of ends along ) Tj-252.75 -12.75  TD -0.3256  Tc 0.0131  Tw (the sides. If barber) Tj78 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.4477  Tc 0.4477  Tw (poles were very short and fat, the perceived motion of the stripes ) Tj-81.75 -12.75  TD -0.502  Tc 0.485  Tw (would indeed be horizontal. This interesting fact was discovered by psychologist ) Tj0 -13.5  TD -0.3946  Tc 0.3946  Tw (Hans Wallach using a 2) Tj98.25 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.5351  Tc 0.294  Tw (D analog of the barberpole illusion in whi) Tj168 0  TD -0.5288  Tc 0.4663  Tw (ch diagonal stripes ) Tj-270 -12.75  TD -0.4481  Tc 0.5779  Tw (were moved behind a rectangular aperture. Regardless of the actual motion of the ) Tj0 -12.75  TD -0.4336  Tc 0.3086  Tw (stripes, when they were moved behind a vertically oriented rectangular aperture, the ) TjT* -0.4205  Tc 0.308  Tw (stripes appeared to move upward. When the aperture was horizontally or) Tj300.75 0  TD -0.4255  Tc -0.137  Tw (iented, they ) Tj-300.75 -12.75  TD -0.4195  Tc 0.107  Tw (appeared to move leftward.) Tj114 0  TD 0  Tc 0.1875  Tw ( ) Tj-114 -13.5  TD ( ) Tj0 -12.75  TD -0.5616  Tc 0.6241  Tw (There is a related phenomenon involving the perceived motion of "plaid" gratings ) Tj0 -13.5  TD -0.439  Tc 0.439  Tw (created by superimposing two square wave gratings at different orientations. If a ) Tj0 -12.75  TD -0.5204  Tc 0.4936  Tw (single grating is presented in motion, its perceived) Tj203.25 0  TD -0.4669  Tc 0.2794  Tw ( direction of movement is always ) Tj-203.25 -12  TD -0.4761  Tc 0.3752  Tw (perpendicular to the orientation of the stripes, as explained above in discussing the ) Tj0 -13.5  TD -0.4428  Tc 0.3419  Tw (aperture problem. If a second moving grating of the same spatial frequency and ) Tj0 -12.75  TD -0.4642  Tc 0.5892  Tw (contrast is added to the first so that it moves in a diffe) Tj221.25 0  TD -0.4782  Tc 0.3657  Tw (rent direction \(Figure 3A\), the ) Tj-221.25 -13.5  TD -0.4936  Tc 0.5204  Tw (combined grating pattern is perceived to move in neither of the directions of the ) Tj0 -12.75  TD -0.4744  Tc 0.4119  Tw (component gratings. Rather, it is seen to move in a direction midway between the two ) TjT* -0.4859  Tc 0.352  Tw (component motions. This result corresponds to the movemen) Tj249.75 0  TD -0.4742  Tc 0.5367  Tw (t of the points where the ) Tj-249.75 -12.75  TD -0.478  Tc 0.5155  Tw (gratings cross, as illustrated in Figure 3A. This is what would be expected from the ) Tj0 -12.75  TD -0.4321  Tc 0.3518  Tw (above analysis of the aperture problem if the crosspoints are taken as unique points ) Tj0 -13.5  TD -0.4896  Tc 0.5105  Tw (whose motion specifies the motion of the entire plaid patter) Tj242.25 0  TD -0.4687  Tc 0  Tw (n.) Tj8.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-250.5 -12.75  TD ( ) Tj0 -12.75  TD -0.4609  Tc 0.5121  Tw (Interestingly, if the two component gratings have very different spatial frequencies ) Tj0 -13.5  TD -0.4642  Tc 0.594  Tw (\(see Figure 3B\) or very different contrasts, they are perceived as moving quite ) Tj0 -12.75  TD -0.5159  Tc 0.5963  Tw (independently in different directions, sliding past each other . That is, they do not ) TjT* 0.0038  Tc 0  Tw (f) Tj3.75 0  TD -0.4899  Tc 0.3961  Tw (orm a single plaid grating that moves in the direction of the crosspoints, as would be ) Tj-3.75 -12.75  TD -0.4468  Tc 0.4343  Tw (expected from a simple analysis of unique points. In fact, the crosspoints do not affect ) Tj0 -12.75  TD -0.4821  Tc 0.4017  Tw (motion perception in this case at all, as though the motion system doesn't even ) Tj322.5 0  TD -0.5092  Tc -0.0533  Tw ("see" ) Tj-322.5 -13.5  TD -0.4739  Tc 0.5114  Tw (them. This may actually be the case, since different populations of cells in area V1 ) Tj0 -12.75  TD -0.4331  Tc 0.3527  Tw (would respond to the motion of the two different spatial frequencies. The existence of ) Tj0 -13.5  TD -0.5258  Tc 0.5087  Tw (seemingly unique points in the stimulus thus cannot affect perceived motion un) Tj321 0  TD -0.2812  Tc 0.4687  Tw (less ) Tj-321 -12.75  TD -0.4819  Tc 0.4015  Tw (the visual system responds to them as unique points. When such points arise from ) Tj0 -12  TD -0.4645  Tc 0.402  Tw (information processed in two different spatial channels, as when the difference in ) Tj0 -13.5  TD -0.511  Tc 0.5378  Tw (spatial frequency of components in a plaid grating is large, the motion system does ) Tj0 -12.75  TD -0.7925  Tc 0  Tw (not) Tj12.75 0  TD -0.5845  Tc 0.772  Tw ( respond to them.) Tj72 0  TD 0  Tc 0.1875  Tw ( ) Tj-84.75 -13.5  TD ( ) TjETendstream
+endobj
+42 0 obj
+6046
+endobj
+40 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 41 0 R
+>>
+endobj
+46 0 obj
+<<
+/Length 47 0 R
+>>
+stream
+q 211.5 0 0 -125.25 199.5 723 cm /im5 Doendstream
+endobj
+47 0 obj
+43
+endobj
+44 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im5
+/Filter /DCTDecode 
+/Width 301
+/Height 179
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Length 45 0 R
+>>
+stream
+ÿØÿî Adobe d€    ÿÛ C 			
+
+ !"(($#$% '+++,.3332-3333333333ÿÀ  ³- ÿÄ Ò          	
+ a !1AQa"q2‘¡±B#$Rb34Ár‚C%’SÑğcs5á¢ñ²ƒ&D“TdEÂ£t6ÒUâeò³„ÃÓuãóF'”¤…´•ÄÔäô¥µÅÕåõVfv†–¦¶ÆÖæö7GWgw‡—§·Ç×ç÷(8HXhxˆ˜¨¸ÈØèø	)9IYiy‰™©¹ÉÙéù
+*:JZjzŠšªºÊÚêúÿİ  ÿÚ   ? ÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’Xÿ Yº®wHÅÅÎ¢Ÿ´RÌŠÙ“S`=Ì³ØKˆ ‡¹¤ÉˆÿÓõoªg?­begäcœZ_’úñªt2K‹I^¤BÛI%ÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’Xÿ \:_Lú±Õ3qéßEunÛºÃºÿĞôŸªİg¨æun¡…e×eããSKı\¬ch{Ë´ØCIl6AÚ5‘'·P’KÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷ì,lü,Œ<–z”dVê¬o‹\ ¹7NÀÅé¸8øX¬ôèÇ­µÖÙ&N¥X_ÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷[©tì>§~[”^ÒËZHø‚ù›Ñ:L³"Üqk­ÈÛêÙ}ÖZ÷ÎÑ/sˆL¦¥__ÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷²ò±ğñ­ÉÈx®ªš\÷À"¯ÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷”.ºš¾ë[$Ï 	& “âL5ÿÕ÷’IÿÖ÷’Iÿ×÷—õ†Ì›:İİv±g¥õiõVÖ	Áhıdù†ÖææÓòÉÃúŸõ³1‚ªì¿Ñs_d±§6Ã{×ok¤­t—€FèLÿ ÿĞëó1zßRúÃ—c1-éy¶†Ó}ïg·õ;Ä4µÆv½Ò@ŸÖ}TË³§ÒÊºñM˜î²¿V«ñ]{Íeá®‚á©{^O¸Áhÿ Ô>™›Òsòp2ÿ «¥à:À	#{îËsµ“&N¦OÄ¬tN½Óğî·#¥\÷_“M´ã9›,hÊkœLØ\òF…ï ë I_ÿÑê:ÏJúÑÓ,é‡õÜGUc²+%–¿s÷NĞd{T³>®uò˜ÃéÃ%L´²Òÿ Ñ89ûEÍiÅ¾Òñ$n‰DÆú»õœõ†s(sF;1\û±ß¸´±ä¹…Ï´–´k·É£‹_^ş¯u®§ÔZşŸU¯6ãÕKl†Õ’ø"ÆKO¸Ã÷ i¯ÿÒêƒÖ³qrí¯+=›ú¥8^…á‡ fŞçK›¤mÚí"5ÖáÅúëm®ÂeWÑm}C7!™®{=VükY^›‹¿Œ{NİºDöW?µ÷NëøC,u*ŸK8Í¡2ûZê:Ö‚ul¸Fïb¿ÿÓ÷’IÿÔ÷—Õ:¿Yı½RÃÈpÀÃ½(ÖOèİm­ƒaöÚê™=€zÌé¶ıtÅÀuÖQŸi¤ôóÉ¹Ö=í½¦í‚Ç'vÂA ÿÕê3:—ÖN¥ÔºĞèïÍeÕådUX°=h=¦°øh>©'H'HGêlê-Å®ş–î·èW{·U—ö‰sZ[7@püàæn'HÕjıOwZc2ñsîºËñğ0ƒß¹ÂçTM†]"K¼tù.{§õ¹@Àvcú+2ú†&‹~Ğâ×~¼î;wmkkÓÛ2cÿÖèsr~±õ.…Ó¨·©—W„cV6Ãk2ñNæÈ÷83yyù«÷ıhN0êé&ÿ HÙë·!ÃÒ«d–±ÖíßêÆá®“¤M¼¾´İ×ºKrn3›^3²}Mï­ÀĞ†±µ|‚âíÛ¾‹@…/¬ïúÄß¬ôÕ‰nc©¾ü H±¬®£l]«Zæh%ÅÎk†‘=ÿ ÿ×êÕ>³İe¢Üç_éÓ›MeÕÛpÉ¸8XCbC8€¨ÖJ±Öş¶Ù“ÓkÊwPÇ·¬>,¡Á¥u£æíw,ÚÌkİk}DÌêù,Ïûcoôjô]÷¸¹Å¤¾ê­Ğ4ä€t]ZÿĞ÷Êÿ l,œLnmËÎÅÊùì&ïu¢7z`b7yù«_T.évâÜps3sÙêãq-1ÛÔç5Ğ/ÿÑ÷’IÿÒ÷Ô¾²}^éW²£Ôñ0­{wµ™1„¶b@$i!rÿ Y·Ô®‚üËgSnKœz}Œ°Ò¸w>~ ú¹õÃê×ÖjM½>¬½¢\Á"Æ6pqÿÓ÷“ €G}¯ÿÔ÷’IÿÕ÷æÿ X0:úÑVNWÕ[QnMv½Ã¿iµÖ0µí´náÚ˜>î¡âµŒÆ¥¬«ĞcXĞÚÌ{h4‘§"¯ÿÖö³‰ˆjuFšÍoq{˜Z6—¸’<gYñÕØô:ÆØêØ^ÂK\@H‚AøiğD_ÿ×ö|¬™Ó›f^U´b–µ÷Zæ°8q‰òTŸõ«ê‘ »¬tó·Ü'"½#¿+œú»ı·?µï_É­Ã)¸9®­ƒ9¡ÚHô`4™04]È €Ax+ÿĞ÷”)¦š+ÔÆÖÁ$5€ $ÉĞy©¯ÿÑ÷’Xß\êş®å¼d34Ôç¾Ë½–¹¾§æïl´¿ÿÒô¨¹8ùMÏ·ÚÛˆ]X¯™MÈ4¸¹ÅÁÎİ¤4öÏ$®©bõ­8/¨S€q332-¥×†bU¾×’uÈXù¿ÛG£àXkËé½V—»kñLÁù¯ÿÓô\OíÓ³h}Ø½+«^Æ&¼G|>*¶_ö×èWš2°:­€²ÌGƒÉûeôœö:ÌN™ÕòÒAuxV†ƒ”ÿ íŸõkßC7©Vø²Ü+&;iÿÔéºö¼úà1lÊè=O5˜.ycjÂ¼ ç!Û ‹JŸ¯ŸR~¯TÜ*ºngL­­7§ÚÁ{ûdı_Ï¬Ù‹Ô®h;IfC„øHaQËşÚU°­ô²ÛŸdnÛn@1ãô8_ÿÕô|Oí—õg5¥Ø¬ê†˜q¯!Ğ|á‹o£u¾ŸÖ±“„ç¹Œ±õ8[[Øæ½¦-pğWÒ_ÿÖ÷’\7×ÆõÇ×Uæİ‘„ÆY]ØWdz5î|9¥€I2Ó´j¿ÿ×ö›H£§bRûtÖÍÖèhAàêÊÇë_ZzgFÊÆÅÈfM×ä2Ë+¯‹-vÖ‡¸*6l‹Un²Ì^¨Æ4çŸ‘ 2}œh¿ÿĞïåŞú9¿(|pïÿ š$?¶ÿ ÔmXÉÓş)ßÿ 4SoöÉú‘Õ¨'0s«ûCàäzgïOş¸>£–†•‘?däxëı‰ÿÑè:HşÔ]Ş®7JËÈ´:M¹=?*Ç4ùT6<€]ßÛSê>;ÍWf_K›Ë_…’ùÔåÜş×ñ?´¬ù+‘ÿ HÒÛoû_:“ùˆû.G?ğÚÿÒô¿ùqş¨Äı£""‘äñÿ ­n‹×úO]Ç·#§\n®›M61ì-xhtàëA%ÿÓ÷‰õ¸R:KŸ“Ú1Å”5Åìkš×›ëØó¸<Ïm{B¯õG­äu+sé¶ûr›H©õ_e¡moÜš$’ÒZ`'‘¦«£_ÿÔô±ÖzJúÿ ‹fu“Ò-k´™&æHÓà¸¯ÿ ]z½ouW¹ìm,í	'Éok¿¯_V«è–²Ì¢Ãë¸Ác»µ¾sÿ ÛëoÕûş°†×‘ºhhÇs¯_ÿÕéÿ µÏ×«4ô|–Y˜ó’]·kÎ„4O ¬?í…õ»êııl9™RßAí×Ÿ·?µÇ×/«UôÜ°üĞÍÖ‡ æ»»GxXßÛëwÕì·eYaÌn3eÁ®î4óÿÖéÿ µ¯×«ôœªck"òCv»‚ÑŞ<–OöÇúÕĞoë8å™ÆŒQ4w;Äy…µı®~¶ıZ¯¦åVrØÇú¡ÄmwÌx‚º¨yXÙ˜}c#âÊ¬êÙ…®rÿ×÷’IÿĞ÷Åıdµíë`á·:üã‹]´¶‹ß[!ÖZI±ñkcNLh]OI½ù+÷‚m¼‚I‚Z'•mÿÑôn³Õ0zo×®“fe¢šİÒóZA2ãv>šyÖ¾¸ıYoHÏİœÑ8ö¢í}§ÉxÕŸZº °0äˆ&ui€ >´ô'×¹·µ§Rÿ iàü—ÿÒÔş×?[>¯ÕÕ²}LÆ07ZïŞiğ^ş»~®A?o¯A»¿rõ×õvûuzÄs?‘yW×¬ÿ W¬úË›u‘ú1"u†6ÏÉÿÓÈoÖ>„\Ü¶ìqĞJ>±t-®2«úAÆO{‹~³}_p¹ôDÎå›õ;"Œ¡õ²Ú,mµ»«®aÕ1ç…ÿÔ÷’X¿\j¾ï«Ù,ªŸ\—Ò\ÑPµÁ‚Ö—9¬ ‡9¢\ÑP4</ÿÕõªoÈ¶Î¡s¬ÈÊ šÙNVm•ö 	-#c%­'ÚvIÄ…yŸöÀé}G©ıyéÕaPm}}.×˜ªÑİyW×_«}z¸æÙŠöíc¾+ÿÖÊú‘õgëìÌ‡×Óí{M§Vü'ë¯@ëuõÖ¶Ì'³ôL3áÊÒú‡õW¯_Ó/{0¬ [²Z$è'ùÖ?×¯«ır¾²kv%ÀŠ™ô‡™+ÿ×Áú‹õsëF5ïoO¹ícC¶èaºıË?ë×@ëug²«0¬¨ŠiĞo=ÖÔo«ÿ X—4ØĞKZ|'˜óY^º'[«ªb±øwè‚iO:ıËÿĞÁú‡Ğ¾°}›)ìé÷¼‡4ÚÉçÖ¿µ3,«êîmVêì§©e1í{H3º{üWj’ÿÑ÷’\×¾£‡‡Ö6fd1öZÙÔ›Šê,Üù±ÀØÉiÒ¤mñÿÒöŸêıƒÖµ·Ùé3}¬ú/vÑ.G¬/8şØø™ù[:8t¾÷ı‡0¸V&êQ©ò\§Ö/«Y?bç`déY?£'áà¿ÿÓòÇô~¨ë\[‹i âÎàÉû”_ÑºÒá‹dpa+©ú‹ÑºÅİS$³
+÷ƒ÷{kt‘ x.ÚÎ‡×·¸—’ùĞMNĞiŞÿÔ½û¯ıİ;$ÓQÓÁy¯Öî‘ÔiëÙaØ–‡¶t,püß-/ª@Æ´Ò5iÔÈòåE½3ªƒY8×9Ä CXd`/ÿÕ±OEë0áejÒHmnî9]oö£ªúzoÖ
+ï­ÕX:³÷5â?W£»Ä—ÿÖ÷Ìÿ l,®Ÿ_Õó™c2. 5¶²ÇWam¬v×4>}øKê=½:Ì\Ï²baa‘hõ„_©ƒë¬-!tËÿ×ô.©ÕºoMşØ8ïÌ»Ñé’	ŸÓ4öÁpß_ş·}_ÈúÀMyaÍ1²í{ø.‡û\ısú³WA¹¯ÌkÈsµÄjà?õÿ ëoÕëºô³)®©€;k¢u>ÿĞë?µÏÖß«tôlìÆ·õ—Zîío’ÀşØ?Yúıtòƒ€©’@#ÇÄ-ÿ ímõ«êõ]+&—fVÇËƒHtÁkuáaÿ l­?WnëXÎ§-¶~¡ÄLHs¹‘æ¿ÿÑêÿ µ§Ö¿«ÕôŒšìÍ­¯õÉˆ<%‘ı²>°ô+úÆ;›–Â+@"u;Ÿ§gû[}jèéYm³>­ÿ h&5˜-h%½õ#'¬_Cƒë³«f88pï+ÿÒ÷’IÿÓ÷ÁõÜŞ¯OÖlÜŒLúÛ^=UÙiÆ¦Úìk\ò6ZÂ9Ôk:h=¾5†Ìjl3/c\w7iÔw¾«ÿÔô~¯Ô0º×Ş•n]­©éY¬kŒêMØæ4ø#uÏ­ŸW‡Eê1ŸX?f´'’Ó—¿Ñ$4f6 È‚>°ômìÊ¬™ ‰ÑÿÕ×şÖßY:%}[(Y—S?W y‡7ºôoõÏõ|;iÏ¤Wx§Yz }¾Dı ¼§ë¯Ö>†ÿ ¬İE­Í ´š‰p3Ã?™ÿÖË[è€;.·{Á€éåN·Ñkº¢r«¤2~ŒŸîUıaè63{:†1éÿ *ËúŸ““õ®ê,Öî­í2bc>åÿ×÷’X?\z¥=,·ítcŞçÖö2ì†Òmk,ixkÁ'òr¿ÿĞôíu~fM÷d\n.5µ³!¦Í¤¼µÍqÚ	0  9+°^aı°zfwQúõƒ^%.¹Ìéosƒ=_å?]~¯uÜnºö?Ğı¬w¤h¿ÿÑÄú‹õ_ëİ"Ñ^¥¢÷7è˜ê±~¹}_ëUõ]˜—5Í­°ÃÉmıEú¿×ïé«÷Z4d€`,O®½¬×ÕÃmÁµ®5V ²%ÿÒÁú‰Ğ:åØ™.gN¼`i!‡C!e}xè½Y½V¦?!ô«ÑÕ‘ùÇÉhkş‡×¯ÅË²¼Ş¡¥í¬‘Áâ<?¯}¬âõl}ø·6*ÏëùWÿÓÀúƒÑzÛğ²¬nö4¼ æÖã‚õÏíQ]Õ}[Ê®æ¹–3¨åµÍx‚p»D—ÿÔ÷’^mõÚ–õ«{ésEVÑ—Órí¬šÅ Ak6–nxy,H_ÿÕön“K¨éX4¸k¢¶fA¸ï
+Úóoí•…—™õ§¡×M—<`å¸ŠÚ\@õ(Öå>±t.¶î‰œfäè¼kS§ƒ=—ÿÖò³Ò:¦çíÆ¸íƒôsÏ
+#¥õV¸¹Ø·<ĞıIé}bÌü‡7!ÀPâàÊÜtÜ<¸^€ş…Ötéù$HĞTé‰ã…ÿ×´z'[qvAöÌzNÉyÖ™Ô×3Zükw	®aâ<ÂÍNÎys™dÀ˜iñğš¼©ë4œk‘«šgI_ÿĞ5XA¬cÎĞÖÀö;˜>K¯şÔ5º®™×Øàæ¸ugÈpƒ?g¡w‰/ÿÑ÷×²éÂÀ9Äûk÷²ªêöËcÃ@—h5#ŸË
+·Õ¹Õi´âcŒvµµXİº¶ÆÈ¼8AQ-!Ÿˆsİ‚,ıaµ6âÈ:0’9ÿÒô.¡ÕzwNşØŒveÂî$?¦“Àò\/öÁúÙõ~ÿ ¬5æ±Áµ0KAŸ‡¥şÖßZş®×Ñ2ìÖ4ı¥æ ø4v+›şØYº¾±9ã1g¢ÍDé ê¿ÿÓëµ¿Ö«˜ıæ»>±9ÓÁkc²ç?¶Ö¯«Öıd°SœÇ¹Œ­¯À?wšéµÇÖ«µôœ–?:¦?ídiµ¿ì¬íõ—¡ÛÖés3+{N3@ğ&]ä¿ÿÔë?µ—Ö¿«ã¤åWgP¥¯&ÛhŸ‚ÉşÙ?Xº½j™•<}”4–u.t	ø-Ïíoõ‡ WÒ²Ùöêšï´µÎà€#î[Q®§#«]SÃÙgVÍ-sx#Ô+ÿÕ÷’IÿÖ÷Ê}fú×Ôº?R56Š™†Ê~EÍyÚ÷¶Í®öş`{ZÇeàñÏK‰u—âQu•š_em{«w,$Ià£GPÃÈÊËÅªÀû±ÆÜÈ>Âæ‡¼Ñÿ×ô§Ô0ğ¾¿ô×dÚÚZzN`y€O­FŸ
+?]úÓõptN¢OP£ø‹[ô»–¼j¾»ÑÛ%ùu í:‡â‚Ş³Ò¶í9U4ÕŞì¯ÿĞ³õ+ë÷ÕÔ,·¨gCG¤Ã[ò] ğĞOcÙvvn/¨aqÍ¿A }’ıÚ.sêÏøBı]êVWÕpïé·<À}smgî‡÷§â³~¹õî‹‘õ-ìÌ©Ìqa’èüÆø¯ÿÑÊ=k£´öªşÑ­ô¦åc¶RI{I%Àwñó^åûw¢Î†7ük8ûÖGÔû¨¿;ëe´XÛ«wWÑì2ê˜ó¯ÅÿÒ÷’\ç×–å“U´eäPÖdR×SMV¾òëĞ,ÒgÏÆeÿÓõ©˜¹XØ™búm£Ô¼ÙôT÷8¸ŸD–ºOrøªtuïí‘—ŒÜìsqé´Õé‹»{n²[;„‰®kû`ôÜş¡õï¼Z,¼·¤‰Ø	mv¤/%úéĞºÍ}nêÎ»šÆˆs?GÁÿÔÁú‹õë½î¯§Üğ-sd1Ç°ü‹ëÏKëõ«YfÕ‘K 9§^V÷Ô_«ıfş™qfîh»PÚİ4iä¹Ï¯]©ÕÖK]‰}v
+˜aÌ#™íÿÕá~¤ç6›ÏN¹®n^M¢ºê-%Î%¢Ìğ¥õã¥u\~±MVâ^*gµÌ25qÔ>…Õ²0sMx97ş	en"`s¢§õÛ¤õ*:¥,³ö<Pßk˜xÖÿÖç¿µÿ IëtÜ‚ÌİúFêÊÜcO‚õïíLÛYõg%¶0ÖñÔsk¦Aõ2»D—ÿ×÷’\YÁwúçê¼·#§>ëºÆF;ğëk¦#^Àö¯ÿĞöÌV¹˜ÔµÎ/-cAqtÎœÌ	øÂåş«õN—“õ¿ëuteÓu¿†²Æ’@Ç`0ìAbll\¬¿­İ¼zŸ{™–âÚÚLR‘¬L.?ë@ë°óì–°ÔéšİŸ/%ÿÑòàgºÛ?C`—Ğ™*c1ìMŸOOiÓO‚?G¼aõ¼3ÿ LVç’lÒ%¦&x^«_Gê–ËÆÆ·mpp¬~j ¯ÿÒÕWà5•ÕÓ,«Ü ¶§~$WŸıiÂË=g¨1­k†°Aí—Ádı“+{â«$D·ÍM˜™‚êÀ¡Â\ m:ù/ÿÓˆÅÍ,mnÅµ¤Ö>‹O—eÛj
+ì¯¥õöØÒÇ¬ıÁÜÉÇ¡w©/ÿÔ÷Ï}xnÎ…uÍ-c·SY²×Ú+­µ›œïMÍ0Ø™y˜•Cê3º‹¯Ïey¸¹>›v¶Úöz®,FË.xx Hó™gû[:¿í×™Ö]H¯íõ’$ì¤|w?î_ÿÕô<Î«ÓúwöÂµù™¡®èõ†—Lù\/×Ï¬ıÿ Y2Ksaµê	ä?€]_ö¾úÕõuÍùÕW»!çÜyÑ¿ä\·öÂúÃÑ,úÇc†}[EuşÿÖìµ§Ö.…_CÈgT×§NãšÑßà¹Ïí…õ‡ İ×´æTàÚØ×t+›Åú‡Ğ>°c?¬ôî¾ÎŸÕjÈÜÁs¦²ZiÁâ~wë¯_Å¿©á»+*´œ…Ì­òÑdÑå<y/ÿ×ìµ§Ö.‚Ş—»>†ş°L¦Öÿ ‘bÿ l~»Ğlë5ŸAfh;\çësûZõŞ†Î“˜} œ’@u˜ØİyãE³õú²0z½µ<=êùû\Ó Tğ¿ÿĞ÷’IÿÑ÷ç?]ºY³¬dz•ßSŒÑÓÆ.6ËÉypy}n ’F„€d™åvİ3¥cÓ›“fUÛlu¡ÓZ65£h<h¼Ûû[ÿ koØ_Ûë6{ëŒlGúx´\7˜ş‹HoÌ¯ÿÒôn£Ÿ‡‡ı°ú{ò®m=#(X@o§üŠÏ_úËĞ]Ğº–Î¡âqì<^.zÇIcËÎUbFÖ–¼jtRoWé 8ıªÎhhÄ÷çUÿÓãÇGé_X>»t@r©û5¶˜òà e~ã?ÒĞ|WÒ-ëİnC vÿ ÑüêMë½ÂGPÆ#ı5¿å^KõÓ«ô›>²çØÌìrĞöÑƒ]>ÿÔÈO¤ÉoÚé|N¥ãI?
+×Kê1¹”8eÒàÛ —9£Iø¯rı³Ò?âv>¢ozÅú›}9ß[m¦ÆÚÇuƒacr¿ÿÕ÷’XŸ\­²Ÿ«Ù66ÿ ³1¬Úñ{i%›Æà,q¤‘ÌH:¯ÿÖôŸ¨5gÑÓ,§'!×ú^‹K/±¶zL6K¤À.2<kÁuÌ>½áçf}{âãÙYÒk.ØÒ`¬æ<WıréR¯¬¦ípØH5=­ˆÑÿ×ÄúĞúí½z}; °\ñ¥n0Ì®sëŸKë,ë—Uv%áÛ-sê4]Ô‰Ö¯é6šğ2,‹İ1[ŒÑİ`}qé}R®úİ‰{²²ekâ¿ÿĞÃú‹ÒzÍ½>ãVÖ7ÕpmN:íÀÿ 0±¾½ôŞ§W]h~5Íp­‡ik#İOêHêwtÜŸÔò,k-‚[Yæ<´Y?_:gQgZ,~-ìı{\	Ç#ÉÿÑç¾¢ô¦ìß^%Ï÷Äl1ô~Öÿ µVSõRúìicÙÔsƒ¹‘i]ºKÿÒ÷’^kõÿ §eıdg¯e½˜î³Ó¾‹l5m¢ø-iw6ÈwèävÿÓö¼ Ñ‡i¼zl‹/5ùòŒ¼Ãûcãådıvé5ããÙ{¿fß>›Kˆ­~k“ëİ­WÑòìûCÚw<šÜ ø˜ó_ÿÔòS…›¡m6Hyìg¾©l×:¯Õì “2Òº_¨7¨_Õ-ÅºÍ”K¶°˜÷t½oMêîy?c¾7†Ç¦ïóğû×ÿÕ?ì®¤	?c¹ãtÏù—ıgÄÉ¯­ç±Ìxk\4 Ï ,»(¼Tb·-Ò°QqiÈõi.kãÔi$¯¯ÿÖ“z~q¨i†.k:kÛ·ó®ÇûOµíéXÚXáÕìîˆ¥wÉ/ÿ×÷C¬ôì.¡†Ú²ßéÖËk´8íÑÍp {ñÇ}5T~©ô®›ÓqrƒzƒÛNíÌw¤*hkköZ uñì·WÿĞô[z–öÃË9Y£wHÆŞ`Ó]?Ì¸¯ŸXúş´efVïmRAĞCBì¿µçÖ†ß«îİC?Nş\À?È}úÇÑõšßO:‚+’?›ğ_ÿÑíµ¯Ö‚:¿®ĞÙÉy2ğ?5¾+™şØ]£?ë{3(±¢¦kÁ<WQı­zçEgÕ×‡gPÍ·ºC¬h#ÚÕÍÿ l®¹Ñ?× iÍ¥ÇĞa€àDÉ"¿ÿÒí?µ§^è£¢ä—çã´»%Än± ŸkGsâ°?¶WZéëìm¡Á¸ÍÓx#’WEı­zïDı…pûv;OÚ	p64rÖö1àµ~¡Û]İ?ªÙ[Úö;«õ×4È#×tj¿ÿÓ÷’IÿÔ÷Ê}joÔƒmÿ ¶,s.ÛQ³Ğu»ÀÍºW¬í6ìİ>ÕÓã
+=B¾c}=¼m#ÊÿÕô|Ü¼\oí†ì‹YH=ğÈ Ÿ^­±õ§®ôAõoªŸÀ?HÓ2<'¼¯=c£4³*§¦ñâ¿¬t—›StWÿÖİşÖw£7?4ÙÍÕÒë$n¹^:ÏG"Fv9é­ÿ *a×:)0:†7ü:ßò¯%úåÖ:MŸYzˆn^9næƒ/aƒEÿ×È¯«ô˜ ßNàO·x#SñVºSé_´pöäR7ZÙ÷ˆ îµº\OÛ(Q¿åX?Qìe™[^ÇÖíÕ¦AıÿĞ÷’\ç×WXşÊ«¯$=¯¶êim¬¬°Ï½¥Í‘ÜkÌËÿÑô_íu€üN‘sÜK…¯`­ÆL±•1€í|Ì3$Ï’ë–}{ÁÎÍúøöâÑfC«éxäúl.Û7[p¼ƒëoKêë2»1¯c¥¥Í}nŸ¢ß.ëÿÒÊú•Ñ:Ûú5;0²-iµÒïIÄ4|cÏ²å>¸ô¨Î³x³ö9Á€·a‚é>¥tn­oH{›…yh¹à–±Æ4nš…õÓ¥u
+ºÓçêÜQ;˜|ÿÓÂú“Ñú.ÒÌ+‹E˜­ÑÀ>ë¿MÎ¯¬Ã¨¸8V$9„×²ÖúÓº•½>ÏOâh’ÚÉ|?×›šÎµg­k  ‘<ñ¢ÿÔÀú‹Ós_x®‹H6™vÃû£I…ë¿Ú•gÕ;áuĞAGéœ»4—ÿÕ÷’^]õÜWgWÛÏìëÂ'¨–‚Ò[^öú–¹ÂI	×EÿÖöÌZı,jkĞlc[¤FƒÈø"¯0şØÔå_õÓ§3—ŞáÓ,%¬Àõ›©Ë“úÅÒú è¹Îvãm2íõ»Q§’ÿ×ò‹œCZÚl²	Ú{§nHˆ­Ş`´ˆÕtÿ Qpóìê/`ªÇ9´6v4ŸÎè»Šú_QfĞì[¤“ÓÿĞ#:gP¯cN=ÀâIiñø/,úÉVCzÆnàïãfL¢ )½®÷VèkÏnĞŸ»>Ùíp´jAît_ÿÑxÙ'p5ØX6ö1Ùvÿ Ú¯oIë­Ò^éÓı
+¥Ş$¿ÿÒ÷Ï}y8íè[ï‡5¹–ÒúŸc/vásœ	ğBÔlO>ã0ÎNW¨q™e5Õ±°ÑcZLí’à $ŸzUÿÓô¾¥Ó>´Óõ–ş«Òmytã½™–XÇ5Õ¾Ç6±Úë“ëŸQÿ ¶'WêÖõ~Æ©Ö‚ÑmÄh ÿ ¶¾®ôÏí‹ĞúhÃİ#&\ö››Ïûè¬¯¬T¶/Xê.Ë5tŠÉ  /¸Äÿ ¿ÿÔî~®tïí‡ĞğÂé7ş¿Ú®o08ôO‚ÇúÁõOûcu¤ìß³ô¬w9­l}¦×  ÿ JZ¿Vp?¶'CéÎÄ=?¦dM…ûeå @‰ğYŸY~«ÿ l.·Ô”0ºmÆ³oÚé÷Ğ_ÿÕí~­bl>‡…n3úONÊ/´Ù½¹¯o`"=à³~³}\şØ]s¨}¨tì
+6±­nvèóô‡ŠÓú±ı°:±]Ñ°/°Ø^3œØ$èŸ¿õ;¦õŸÒngP­”ä_™—’êê~ö·Ö¹Ït	ŞÿÖ÷’Iÿ×÷ÂıbÇê¹ªbtºr]]Ø´×i} =® 7ÔÕ®Û:‰i+¶Æ©´ãÓSZÚØÖ†“0 ˆ”EÿĞôÎ¯Ó¾±Uõ¯Òññr˜0_Šúò.uD`p Šß<*½^ßí…ÒòñÑº{unfáœó<!pÃû_l_L‡b`“#_µ;·‡èÔı¯ÿ ¶&Ç±ôÿ w?¬º×ÿÑê~ªôŸíĞ-½ÏèØ9"ÆíöægüQ]	ë__„ÿ ÀÎ1#¨ä$¿m}|€OÕœ}{¢4ÿ —×~­lN¥Õr³ÙÑq«ÄV3O s´/ÿÒ!ú‘ı±Á/'¸é¦[x‘¯ÑåXÆúŸõÿ &›‡CÇp©ívß¶2LŞßÊ»ÓõƒëÄøÀ$}¾­?Ú¢ıJÀêøÔõ‹ú+p®Ïê6å6–Øµc%ÃB}¥ÿÓ÷’\ï×«éÇèµõ—Ø/¯Ğx»ÒY:8ÙhGgouÿÔôŸí}Ô2óº=Ësßp±q}Ş¨Êk° v´ˆ ‚9H+¨Ifõî©oLÁm´R/¾ëéÇ©vÖïµá ¸Á€&L|ÿÕõ“õ—'+ª7¦dÑ[/c²™sêy,š}dj´Oj«_õ¿>Œüç?£ÓğóÙƒc›a7—>¶883lD¼™‰=µ>ºuA‡E×`RÇçQ~eÎpë«¬=‚õLLêKë;²¯éõpÃ——Ÿ!ó·ì¶=“Æ»¶qÚWÿÖôìß¬½Hu+º~6]ö¦âÔëí-i#\÷:` @ I&N€.c«ıkúÁ›Sº¯Lœjú}XîÉ¦Ë€g¨ëŞÇ´LïÓ©-Ò6Á•£ÿ .mmoP¹Ø`ÕEYÖRĞ÷‹ö]Ó¸:°Ñ»iú.ti>Zv}rv56¿+4ÑŸö+EVAK‡´LqxÏeÿ×ï:GöÇgPmEØŒi¹Ø{Ë\K[‘`g»um÷6AÒAìåÚ¤’ÿĞ÷’^oõş¬«ºõ[pqİé°İfîvHØı»okZ5÷JÿÑöÜrãEEìôœXÙgî˜ãäˆ’Áë_Z‡LÊÈ©˜Vd×…ÌœÛXæMO. €uqö8;d€¿ÿÒõ›>²c3¡u^­è¼×ÓN`{4Üÿ ³9áÑ¯}ºJ¡ş¼îmßa³¥\Î¤û+mX¢ÊÎö½xvù€ ­Óæ L…*~¼aÜêÀÃ½¾ÜspvÉ¥÷dœpÒ7jCÚé#Håh[õ‹¬·šúìôƒh·A/ôëİ|	î¿ÿÓô×ıu¢›‡Ú0o£—U~S‹=:ox4Ã¤€\\n>¬ı°:—O´»®Öï³ebU•‰cÅUo6Z=ä5§sO¼ËG$öÚÿ —¦Œ11­³mYVÚ*uOŒpÒïp|Şİ°O:Æ¨ıgë¿LéY6b>·ÙÛ™KX_[ç:³gÒ{š Ï: WÿÔõŞõ‹«»n;,iÔdñ£muBu³1§JÔI%ÿÕ÷©¦úŸUÕ¶ÚŞ!Ìx8y‚šš(Ç¬WMm©ƒ†° >àˆ¿ÿÖ÷O%ı#;¦Yeï£#ì.{ŞZj-Ìñ&{,L>•õK#¨ôN£ÒòqÛö#“UÇ{Km66^9’áô~g™QÂÄú‰_Rêi¹xYä‹¯½Ö°ı™å‚°	˜D:É /ÿ×ô‹¾¯ıCê8zgcÛéåYf= Ê^\ƒ€‚@ğuDé3êwBËªï´c73:Ûí¢Ëmh}Ÿh´¼†uÀHÔ€WÒ~¥YÕº–9È£#;7%¹ĞoÚìm{es} ÌköÑXÊúµõ?%Ô×~.18û1˜Àè‚Ñ½¬ $Nà#•ÿĞô¯Ğ>£æ³+û1ñïëÛK\Ëƒlyy÷šÁ1%Â]Sô¥K§}^ú§‡Ô³sõß{nu®õ.$S²¦Öe¥ÄKZuq7juDÅú¹õ''ÕV>EA®nË‹ƒ›K¤l;Œ5:À­üGìõz.ßVÆìpvíÍë:wî¿ÿÑ÷’IÿÒ÷’IÿÓ÷@‰<ğ²º¯ÕşŸ’ÌŒÀæ½á•;m®cokIsXğ ’@>'±+=ŸTı«ßYzc³w×Õ˜öÙi$R2dw ¸"yåXTz[¦G¯eŒµ—œ›À±¥­Úâé€×8GLò¿ÿÔô<ßíwÓï}ßgÊ¾Š­«ŸI¶: £ Ü]ºg{‰:ò	'ºÒÉú³ƒwÕÎ«Ñ©¾ÊÆuw¶ëÜâë7Ú.q~h#„ìú¥ÑÅì¹æÛš,}vØ]U–5¡¢Ç4è] kã¯ \}@ú¼ZæØÛíŠ›M^¥Îw Æ9®`dŸn×4yìdh¿ÿÕïú¿ö¹ÅËÇ²¼,Û±Ë±3hxs¤Zü’÷Ÿ¶> Fß©=&Úœ,»%÷›Åã)önµ®Ø $	Añ:ê­tïªı/¦eÑ‘†m¨ÕŒÌ]‚ÂXö4¹Ãp<º^ã<êµ×ÿÖ÷’Iÿ×÷’^YÒzOÖ\şƒ‹õ|İ›]Wâİ^Srñ=:ñH’ÍÚÒét%Ò	:/ÿĞîñ>¨ıcÇÌÅÏ94YÌÇ\úí²ÇY£Ò XZ	wy"ƒ„+~£u«zFü:,éC¸™nm·zDı7mö5€Ö{%õ7ª†}&úìûE{s¼‡Tü§ØöíÄ´í3É:J¯‘ı¯:öçUÁúY†%æiÇ®çº¿i­Áä1ÀA#Q3ªÿÑîq¾®õœ¬= :Œkq1³3íûU{ÎWaÏhÔÁ;ãp¬u«ßYÖ.ÉÄn”§WQg­kÚó³´–+p[ ÎSoÔn²Ú.¥Ç×gãQU÷9ÎİŠæ½Îq¤m;µt¶KaÀª×õc®õ`ÈÆ£Ñn{Ù]…îeÓŸMÍŞàÀ6¼0·]Ku ‰ÿÒîÕŸ­ıTõ|jpM–»0Ùˆ/{YXººİ®ôõ3NçHéâº¾‡ÓİÓ:'Méîx±ØxÔĞ\8qcgç
+òKÿÓ÷’IÿÔ÷—-õöìŒzzôÛV9«©±ÆÛØçWXô­à1¬r/ÔúÖ­9µÕFSq›•…KÛ[[M›…NmÍmÁÄ6e®-%Şßi2¿ÿÕímúµ×=l¶äàWÔ1‡S«8Ölle´b¶¢Ò×i¹¯hxÜ`Çc
+­ÿ S:ãú¶.UXuRÂ0Mİ]ÁY.`s†ñ Èôà§Ñêß^³ìÕ¹»ú[œq,mõ¯³×Ÿ÷ÙnÙî
+ÎéQ¾³ãáÙUØõ»Ó®†äÑ´õ"Ì†=òæŸp{á6Á%Ğt$¯ÿÖíú_HË»ê—×>ŸƒörîÍf>,´(hhvOc±„ãëNgRµÎéÂ®ìÜ[Å¯º§zmª ×Hk‰ÕÃÛ3&=ıªôş›PÖ·f.{*}n=Bß´Ô]a‡{hx.|¾ =ßVº®M]@·öµıA˜Ws éùÌ¹ÂÉÜ0Y%²á³lv_ÿ×ô,Ÿ×ÇWÇ¦ìKF7UÊÍûI{Sê±hÛ·dÁl 9^’KÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷‚I/ÿÑ÷—ÿÙ
+endstream
+endobj
+45 0 obj
+12731
+endobj
+48 0 obj
+<<
+/Length 49 0 R
+>>
+stream
+Q BT411 597.75  TD0 0 0 rg /F1 11.25  Tf0  Tc 0.1875  Tw ( ) Tj-300 -10.5  TD /F0 11.25  Tf( ) Tj0 -12  TD -0.2138  Tc 0.4012  Tw (Figure 3) Tj39 0  TD /F1 11.25  Tf-0.4326  Tc 0.3133  Tw (           Moving plaid patterns. When the stripes of plaid patterns are similar ) Tj-39 -13.5  TD -0.4337  Tc 0.3712  Tw (in spatial frequency and contrast, they are seen to move as a single uniform pattern ) Tj0 -12.75  TD -0.4053  Tc 0.2928  Tw (along the diagonal path of the intersections \(A\). When the g) Tj246.75 0  TD -0.4251  Tc 0.0501  Tw (ratings differ greatly in ) Tj-246.75 -13.5  TD -0.4301  Tc 0.3497  Tw (spatial frequency, they are seen to slide past each other, moving in two different ) Tj0 -12.75  TD -0.3699  Tc -0.1926  Tw (directions \(B\).) Tj59.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-59.25 -12.75  TD /F0 11.25  Tf( ) Tj0 -12.75  TD /F1 11.25  Tf( ) Tj0 -13.5  TD /F0 11.25  Tf-0.1125  Tw (2     3) Tj25.5 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.2397  Tc 0.2397  Tw (D Motion and Depth Perception) Tj147.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-176.25 -13.5  TD ( ) Tj0 -12.75  TD 0.0133  Tc -0.2008  Tw (2.1 Object Motion) Tj85.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-85.5 -12  TD /F1 11.25  Tf( ) Tj0 -13.5  TD -0.401  Tc 0.401  Tw (The theories of motion that we have considered thus far are concerned w) Tj303 0  TD -0.71  Tc -0.6025  Tw (ith ) Tj-303 -12  TD -0.5266  Tc 0.7141  Tw (movement in the 2) Tj75.75 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.5197  Tc 0.2982  Tw (D image: how changes in the retinal distribution of luminance can ) Tj-79.5 -13.5  TD -0.5083  Tc 0.5635  Tw (be detected over time. But this is only the first step in motion perception, for what is ) Tj0 -12.75  TD -0.5271  Tc 0.5101  Tw (ultimately needed is information about how objects are moving in the 3) Tj288.75 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.6225  Tc 0.06  Tw (D ) Tj-292.5 -12.75  TD -0.5406  Tc 0  Tw (enviro) Tj25.5 0  TD -0.4394  Tc 0.3769  Tw (nment. For a predator trying to catch its fleeing prey) Tj215.25 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.4871  Tc 0.4246  Tw (and for the prey trying to ) Tj-252 -13.5  TD -0.4073  Tc 0.5948  Tw (escape its attacking predator) Tj118.5 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.5  Tc 0.5  Tw (detecting motion in the 2) Tj100.5 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.5889  Tc 0.4764  Tw (D retinal image is wholly ) Tj-233.25 -12.75  TD -0.5012  Tc 0.2512  Tw (inadequate. To be useful, image motion must be interpreted to provide information ) Tj0 -12.75  TD -0.4369  Tc 0.6244  Tw (about the ) Tj40.5 0  TD -0.5343  Tc 0.5968  Tw (motion \(or the lack of it\) in environmental objects. This requires the ) Tj-40.5 -12.75  TD -0.5011  Tc 0.4207  Tw (separation of the movement of physical objects in the environment from those due to ) Tj0 -12.75  TD -0.4423  Tc 0.2837  Tw (eye, head, and bodily movements. Only then does the observer have access to ) Tj0 -13.5  TD -0.6355  Tc 0.823  Tw (evolutionarily useful inf) Tj95.25 0  TD -0.5256  Tc 0.4881  Tw (ormation about how objects and self are moving in the world.) Tj250.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-345.75 -12.75  TD ( ) Tj0 -14.25  TD /F0 11.25  Tf-0.2052  Tc 0.3927  Tw (2.2 Self) Tj33.75 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.2644  Tc 0.2019  Tw (Motion and Optic Flow) Tj106.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-144 -12  TD /F1 11.25  Tf( ) Tj0 -12  TD -0.5101  Tc 0.5976  Tw (Every time we change the position of our eyes or head, retinal motion is produced. ) Tj0 -13.5  TD -0.5231  Tc 0.4606  Tw (This motion is global in the sense that it occurs over the entire visual field ) Tj303 0  TD -0.3607  Tc 0.1732  Tw (rather than ) Tj-303 -12.75  TD -0.4863  Tc 0.5131  Tw (differentially for selected objects. Figure 4 shows a very simple example in which the ) Tj0 -13.5  TD -0.413  Tc 0.4005  Tw (trajectories of a subset of points on visible surfaces have been tracked for a short ) Tj0 -12.75  TD -0.5281  Tc 0.4848  Tw (period of time. As you can see, the visual stimulus is rich and complex.) Tj291 0  TD 0  Tc 0.1875  Tw ( ) Tj-291 -12.75  TD ( ) Tj0 -13.5  TD -0.5488  Tc 0.5633  Tw (Because most people spend a large portion of their time in locomotion, actively ) Tj0 -12  TD -0.5647  Tc 0.6272  Tw (exploring their environment by moving their bodies, heads, and eyes, the visual ) Tj0 -13.5  TD -0.5061  Tc 0.5061  Tw (system must deal with global patterns of optic flow much of the time. Optic flow is ) Tj0 -12.75  TD -0.3595  Tc 0.172  Tw (thus not a) Tj39.75 0  TD -0.5489  Tc 0.6114  Tw ( laboratory curiosity, but the dominant  stimulus for normal everyday vision. ) Tj-39.75 -12.75  TD -0.4356  Tc 0.3731  Tw (The analysis of optic flow produces not only the perception of the surfaces that make ) Tj0 -13.5  TD -0.5508  Tc 0.6847  Tw (up the visible environment, but also the perception of our own path through that ) Tj0 -12.75  TD -0.5335  Tc 0  Tw (environment) Tj51 0  TD -0.5223  Tc 0.6027  Tw (. We thus use optic flow to navigate through the world and control our ) Tj-51 -12.75  TD -0.6059  Tc 0.7934  Tw (actions within it.) Tj66.75 0  TD 0  Tc 0.1875  Tw ( ) TjETendstream
+endobj
+49 0 obj
+5185
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/XObject <<
+/im5 44 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents [ 46 0 R 48 0 R  ]
+>>
+endobj
+54 0 obj
+<<
+/Length 55 0 R
+>>
+stream
+q 170.25 0 0 -132 220.5 723 cm /im6 Doendstream
+endobj
+55 0 obj
+41
+endobj
+52 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im6
+/Filter /FlateDecode 
+/Width 242
+/Height 188
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 51 0 R ]
+/Length 53 0 R
+>>
+stream
+H‰ì—ËWâÀ‡+€²Œc¶T¶¨Œl£èdËŒh¶Œ£dK^İÿşíWUhñ1êÌ¹÷Ö9jÙúªéş5çìø_°ê Aÿ±‹Ágš·ôÏ%@ûÓÀ”ü×èW³şé‡‚}h’?›Äàc—>êCı)|¥òÎïĞïõzÉ»ƒçÁÂ-»0Àò%ì Ë qSnï•C¶#–öÜÀÚCÀ°ÙÆj«Œ1åÆèOÀeƒ³¡§qy»¢OkOq	˜G0NSãN¶Äœ2c´;Ÿ5±…*_oí¢%–vÁ%™µ¦8”ƒGßá–(£)ãì°/Zz2«–‡Æec>ôL“VIC†Œr°ß OikØ>ü'yu‹dŠ÷°'03£à
+GÅ#œö«ŠpÃ(@°WË[.a×x´±zQ*Ğ8¿S•©Úär¢æ¡i“M¸%íûE=æc—‚ÆQ2¬®hà43¿Èc”4hL¿È+q)Ä@1 '0?øNÉØ0ÿˆN'š­-¢x)5Ä²œºTvûøäEX[KÁ^=” ]wy!¯²gYh=š×a€Ş”¼ù€R d\ÑåM¬×Îã’x÷jÁ¥´]í*g1£´–mJa¼.Íüs<Õ»4M´±«Ú¬oÆ¶c§qf„‹°²¶=4/1^h?l›…>#»È%3ªÜÙ,
+1eûAh;¡@û”Ì½tJìÎ¨ç:V2ÜÔ¼L6ÚWTôa¶X,nÅÏâù–o7ßèˆùË‡ç{`,qõ(Ï]¥¯¶ê\œw)KE
+©:™'×Ù‚ç.pa¨?ÇO×ğ=xµÒIúvğàé:ÇˆshYVºãÁEì 7	\‚÷Âœù[½¸/‰„’hSylÌnÂ„?o
+üè®sm.øM‹\ Òµ;J\R¤úËş¡í™ò“`fuêMŒKxóK@	‘§V[æ@Y	]NèÜ{LœÑÂlõpÇ9ây[¨=Ãã!’—{Jiİ¥ÕüK Åï7¼¤·²/‘°áeÍ«Ôi+nX$gí{„”-š÷²AÛ~I³*,³(%\FÜp~ÇêŠb¡¢,Ûœh²œ&4k‘6(Û¤–>^I¥©r°V‹„Dğ¿»v5çZ©E’ÌD¾Œf›„ØXf“C’ÓKònÕ¬2¦¡YÒ07³]éêvkZ#Ûó$"XAtÔ†’ÉdnËñ8ß1W£•\Ã•ûø|1ä[”>vg¾Õ¨1F¤í3W)H0IFÅ¼ˆES¡í'ŠÑX
+J²¦@hP¤@ò‚3¬¬hPRé„–}9XÛc§JÑ{H7*Y»C°«’£ä 9P9½ÙOWiğGÙÿx¼$xğ/‚g1»Şï¤c¬Ûétºİ^§wàl¸;‹‡MÛ¢³Q;ZÔ-•EËôµàÄU:µº£şpE…qÌ7ìõàØQXâ¼[ßœÓû|CådÎèøa¯ IE·Th'ı'˜—Ø/èb7É“à@ƒ°W°xb¸Gì…ğ%Ñşøâ•qÌç`c}E«©¾;À@Ö)%5Ü`æñK0Ã›7}ØÓÀ%Šì}1'ôØĞ7´WVPšÇ üŸ.,Ù{´:Ù0?æÕ	xr¾ó»03ŸC¨µş1/¼Ğ‹qÄ²,S`ºêÍW!Átkq :Zso¬$K|h~êDyjĞüTÙ‹9©|OkÊù¡$Ë5®$`‡Z+`ú<Š†Ñc¤Ô¯Ìße şLä+öVfv¡ÔñÏT(±¤b»ÜJ¬•I!<—nrÂèAË!™˜ Í‡’±cõ@Òì*é¶—&ÿß.ë)°¬$µz?Ğ`ñXÀ!”_\`HFŸ›çÍAÁ½1íoåÎ†í§c¬>èn_‚u‚åæúğíÅGf°<ş[àÁÀmª¿9ÀÎ†Á;ƒÏ7‹Üàö;ƒkü×ÀËO6‹Şosm;K?üË#·Üà\­¼¸„=òkŠó·n=÷‚]ç‡íà‡W};àÂŞXÌo«¿gBìÚúí`+’l²Å×§À ^ßè½ İ¹¹n'Bú4Ó4²à¨½<¥©›¶›'>@÷j!gı@¤1Jº×©‹lPFJ”¨³ÚŠS—Às‡¸Y*ĞàÖLœ5…l=©@„Tz¼ô•V, çK­0‘Òç´èüÕÅ 4Ì”E±‡àŒÀ$}²ÆB‚K¸ì©2î˜›2{8æ²ûLÏBŞœ2Á±kN…³›XOõ›¤ºÿÉÙ—1òèó—E,T«]™˜IliôŒzòßÉÚÌØ)J7Ëûœ2Ôé9:’ædÌvßÇÛÁ|±%àKÁŸs»ÀÎ†Ÿ şœÛéŸšêäoÓÿƒÿÛÁ…³á›À[1GU¾Ì—öà.ÖŸ,ü;^-z¿©¬ÒšîZw¬Á,°ˆù’™;ƒì:KEŸD‚ş›Ô« u}{kÜ˜ÒÎá¯–)HQ¢F\Œ±¡Qxm™Ş·ÑûÑ”u¾ù/«ç'4„²ÔÒ¤Ww¿ß”æ’¦Š„cÈ0Gèu¼¤°°cœbK¸=ëËnáÎìì4 p<›MN{±7z½Ş‘éÓàöN{š¢ycÖ;6à†–2Bªt<—¤-OÑ+û‡¬’OpŒ4y<¤œ+-›Äæb†¼T›¡IdÔg¨rzre¨ ƒ«D±õ½VQ›øÂŠ÷GW	•©^E*§Vÿ±Éo®ñ|g¥"~º“ë;v6¶€äV×ç‹Ájª•‰Hé¸r<›EoÇèù©‚W‚W ›«İ~oğ¼I²•›9\îTşFÁÀ7p‚Ÿ†è?Ã”ÏÇ/_ö¬uä¯Ão³ÉètÖõà.µõáğz6º9›Ü\·u¥xv,78*;yüİİ¥Õ]\«y¼]3ëÛÕ­8IÏàkl5Ø]ßN®„oÀQÊ—#îúŞiÿ´Ó?ë	;rüuÛº«çÒıbæ\Ìó0Yï1xêypŒ¿ŸÓ­b‚ç^§¹Şáıwu'ÛU0¿èÄ|İ‚÷óÚ‹oÀ×­"o³îÏÁ/
+Ş&oíXc)¹eºZåú_ä¦ƒÕŠi@îpL®Ja²’Ö5+¢U³íô"“V¶ºñJ°Åb!ãp§ÑhÇ€mZE“ÀË]”Qá¹j? \WMğ]Z‹Z›<_K­;tZS¯ÓÙà
+öFDÍ¢HƒAk2ñM	q#LÊ–œĞ&[x¢v ¢{âàC)@¼6¶Êa4¹MïğjtmÀ=£¹D
+:aè|‰¸9Jtïa¿‹#xˆÁ+_€ÛşÑäì@„˜6¯&'lÅü1Şº¹Ò|±ç8;¹º‹ôæ¢+õ9bF…Ö+÷ïrmsı¢x™¬V‰5úofÁëvä*4Ö&Y½åÍ²fß¸ãÆòÄÕpğt¼gmıIÃ?ëµøbpğ/‚ÿÓ~Ù4'a¸ñÀúªLfÖW'¸:0)_àJ&|\@ğ°lÿım}µ±½I˜Ùªí
+¤‘d=jIV¿ò.lhW€;ÿupTÔĞ90¸@ fW$?ìuzø¹ğÙ";LÄÏ:{pÒ†'§¦kk·&¤q¤ûÚ´`ª×¼qÌÏ»'W`©MÊàëMôªF\ù’©(c2T£™‹;(‚_2õAÃ¢¹ŠxÜ˜ªR¸p:7=Î*bjcú·0İ(!Ğ"ôúxñTXïš{¦{`g˜MÏ²Ô“•˜¢ïÀQÈXµÏHØ;ÓP3Î¦.¦Úveû­•Ü1)uTlb—Rw8´–êGwécÄ¼öğÕ4´FjªÃ†Qªîàê-XÌ¡4ß1e~–Š%IÅ€&¦û£,>Î·] ºB°>úñ@Ì×ŞæÒº]´Î%C¾‹<\¼iû]]º¤•RF½ªœò‡õº“Ê¥|WÇuã‰¹î= ,öóAìUµQñæÃºßÛR°G„dNÏ¬pËÀ†“¼Ø;¯?œ>uw*Ğp§ÈÂŸ\Ç;¿lÿ><x[Øğ}àEôàÍ¼¨¡S	Ö¼äıB (âÂ‡«ÀÎSC9ı¸ø¶Xnƒ{põ^rx.¾©½lUà+€¦lÔ(ÓI›à'ÈşPM,G²0ÄŸSîÀ"ñÓ_+f­•øgïŒfõª=Ö1ÊŒjÿdpN­RÈÒG>ºÜzñ@¥´qg¶/ŒÜT®1*ƒ”"…Å”Ç(oÅ$;ãÎ„ò¶eé5Ø¦2®!¶ÖîµÈ¹Ò\(Fj¾ _£ŒP›bë<àğäT¯‰áıÚEÈÑ2ãp1*{‹
+ä»HÅ˜—#S‰ãL‹¿u.Å<éöQ®Ä`©€×–Ğ*1M•šõO‚uÎpuí¬ØB ß õÈØÇpçWˆ‘x^ÔÉÕxL2Yˆ©2pÂä»>¹‘oˆ‹³ïW‚]’ÿcZäÊ#ÎbRHv«˜†õÄœ¬ì=`Fª6¤g6µêã´ÌúYrKÎByÄãïE5Ÿ¿±rp™}|Ûë6»ÍËf¯×k¢Û»ìõò{Lğrp?L&Óé ¿ïSô¢S€ßm88™ÿ&°ëœÌõ{ö`’Í©ÀL^íÄ`øI3Şğ`D­@ªÀ&[™‡6ƒoÑ^­R h)åªDÍ²¥n=MFÊY1¯3Sù[‚MÙÔ8©(²İ…+I=õÀ³‹E×JQüÈõ‚$sÎlåÕnµ,M t®_¿R `Àœ„€k™ì B ¯J~‚M`ÈZ
+ÅÖ-X*âğtÛÌqhê Öñø¦WND~¤´™"ßTrŒ¨64œëR¾hH.Ê{œÖ¶æÆcQùÉ…Ò§®‡³Êl.‰ˆçüí›•t±h~ø•ô¡g%Éµ¼qÌ¯uÇx!Î[g¿±6Ó²ç¿?„Û?å`¨Ê6š+{ª—Õ|ÌúqÍÆÅ« çÂÿ—À	ĞŞÀx1œ -ºqœoÕ	À|^\ç\fÜn­„½¬V3ü»™M{½ÙËt6™ÃG‡Zİ`ïÙõÙûÚ½>ï_ô.úşr …ğ±Ãá³–ˆóRèM “Í‘Œ7µš+ Ô”³†Ú1Èš’ßØ(»0Ş¶;œø¡whc.j!è-¾ÖÂ#sŸÕ¡ÆëümÌ/fÀ¹ÉEª+W©.Š¦½[ŸÌydxŠ¼mè£3˜?)òMÆÙyaEBçOê©Ÿ3_•€[¦@d‘ªämÏœ˜	“E¨œÌé3ºÂf/BX2–³Ä…¶jà»àHoc^nD	¦Ÿ–=huõ8ÛKßùŞtÍ)¼ŸÆãm»Ñƒ^}Ì$4š0\3³#’œN*eŸµn¨zµßÇ`Rs˜¿}Óì|Óî:gŒóè.æÙQì•Ş‰ó\ŞEÇÁå›ƒEøíŠ†·%—eÿ .?š
+endstream
+endobj
+53 0 obj
+4208
+endobj
+51 0 obj
+<<
+/Length 56 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+56 0 obj
+62
+endobj
+57 0 obj
+<<
+/Length 58 0 R
+>>
+stream
+Q BT390.75 591  TD0 0 0 rg /F1 11.25  Tf0  Tc 0.1875  Tw ( ) Tj-84.75 -9.75  TD ( ) Tj-195 -12.75  TD /F0 11.25  Tf-0.2138  Tc 0.4012  Tw (Figure 4) Tj39 0  TD 0  Tc 0.1875  Tw ( ) Tj28.5 0  TD ( ) Tj33.75 0  TD /F1 11.25  Tf-0.4577  Tc 0.2702  Tw (An example of optic flow. If an observer is moving toward the ) Tj-101.25 -12.75  TD -0.5292  Tc 0.4961  Tw (X while fixating his or her gaze on the O, the illustrated pattern of optic flow will ) Tj0 -12.75  TD -0.474  Tc 0  Tw (resul) Tj19.5 0  TD -0.537  Tc 0.5102  Tw (t in an environment consisting of a ground plane, a distant wall, and two ) Tj-19.5 -13.5  TD -0.3155  Tc 0.053  Tw (rectangular surfaces at different distances. ) Tj179.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-179.25 -12.75  TD ( ) Tj0 -12.75  TD -0.5298  Tc 0.6102  Tw (The pattern of optic flow on the retina provides information about how you are ) Tj0 -13.5  TD -0.5841  Tc 0.6779  Tw (moving within your environment. We will consider a parti) Tj235.5 0  TD -0.4963  Tc 0.4963  Tw (cularly simple example. If ) Tj-235.5 -12.75  TD -0.5086  Tc 0.5555  Tw (you look directly forward and walk toward a textured wall in front of you, the pattern ) Tj0 -12.75  TD -0.5136  Tc 0.4011  Tw (of optic flow is that of radial expansion outward from the fixation point, as illustrated ) TjT* -0.5304  Tc 0.5679  Tw (in Figure 5A. If you back away from the fixation poi) Tj215.25 0  TD -0.502  Tc 0.5823  Tw (nt instead, the flow field that is ) Tj-215.25 -12.75  TD -0.4691  Tc 0.6066  Tw (created is one of contraction toward the focal point, as illustrated in Figure 5B. \(These ) Tj0 -13.5  TD -0.4991  Tc 0.3652  Tw (same flow fields would be generated by the swinging room moving toward or away ) Tj0 -12.75  TD -0.4551  Tc 0.6426  Tw (from the observer as he or she looked straight ahead) Tj216.75 0  TD -0.5403  Tc 0.3528  Tw (.\) Flow fields get more complex ) Tj-216.75 -13.5  TD -0.4712  Tc 0.498  Tw (when the environment contains many different surfaces, but as long as we are moving ) Tj0 -12.75  TD -0.4324  Tc 0.3949  Tw (forward, they will have some expansionlike pattern as surfaces get closer.) Tj304.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-304.5 -12  TD ( ) TjETq 96.75 0 0 -105 173.25 369 cm /im7 Doendstream
+endobj
+58 0 obj
+2256
+endobj
+60 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im7
+/Filter /FlateDecode 
+/Width 138
+/Height 149
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 59 0 R ]
+/Length 61 0 R
+>>
+stream
+H‰İ—Íwª:Àƒ×Û»Åkm·ŠU¶VÛ²õë•mkkÙ¶Öšmå#óï¿„ˆš ‚ç7çB~Œ™Ìd •Èh †I¥ÃtôŠ¹‚dñJBL‚KBÆ£V’ï¤^ò-A.ÊB	b—…	â”…È>Æ¥!í”a”fÀSuË>.ía€m
+ùS¦ëòÌÇNyH‚¸dpˆpOçd!ø»
+D„`é–!×U ÂÇnˆA\	2æ*ˆ×9‡ws¯4$]kUR ÌbÇ« ùH¿*0ÒuâT$ÁSaZ™ğuoWƒÄSkàŠmÕi¦\W†¼WÙı„„g0„fƒ30 :¤€Íf=‘ÙÍÍ¬;ih¤ÕN£½a˜ÓĞ)
+é4ºÃÑÔ¬M"¸ü¿©Yg˜’ÿ¤sÈ9,±ş#9ªñ÷8duT£Àœğ1ë¸w!s,éóK”f6·$Éhş"¡ùe ;¾|úŸ	TÉñÎ˜oØç·¾pËY'Ó_È¬QòØ'„à§ädK‚7¯¶ü²Ú¹;z²%¯å `Ë;Ò=»{	9É`äB;í¸yg%Aüd,2ñ!D€[£É}µ¡„‚ĞTÔo*HX_µ³Aş×àíYq~RNìUròd&]Ò³á@”g…Æ’‘Õ—WBD.9|ÒWU+šu¢0%g\·ØÔ¦[9¬ƒHŸ¤Qµ²B2SŞSÆ}ì|Å-[€g±jC¸< ô¢üÂ|²ÿ©§ˆÚ-Øi7jÎÄ€àı:;2»mx9=dºô÷Ò²Ãï(Xv¬ŒP=Ï˜L{¢Ğ¼ò6§‡/Ê¢[ÏÊÂnï¼´	O‘“ºÄlÓ¡û&(UiÂÅîKŞñ ²<Şm_ŞCà±|bÃË@üƒUÂ]C”.&CnùÇ0†’x:n’¯/_P¯ñ;fÅıG›ÿW¡·Ø"ÌLáEÎ}ˆÉr‰ÕŠZH=“œL:²Em}‡:éÖ¬¿F]ıßOzì øà[W3aq3Ô©ê!¡»hÑè«Y‹gƒG·ºD_°ÓßmÈ×8^#úzöX1ü±f¸ë|¥=HºãÒ»1Äc£-Ö¼ôYG
+ÈKòá_÷!¢û¡ï«·Ùbôä×v Ït™PsV¨>Ÿ¿µ‘åmiÁ×A¶¬6º¢öÄmô[!“ôQhş¦tM«iæß æÁ×òéÇzKhÑê¤À¡c1¼‰ÙÑ}¦æî¼•ãø³ş†µ1V«™a–À„N,fe!‘C¨ı¦ÕÚ¼¼Òiñ]âœy^Ó¢Ş÷üjLƒ‘Lû£“!b¹vÛ§€¿SíÁG æÂh˜f}ÚÿDº-L»¡Ïïf.OJkhªFŞ‰– +ã%uÇš…ÃE!„Ñ£â•ÙkşÈr‹AÄÆ3j‰
+‡Ş/’B¦rÙ£†¸t—LLFÍV˜lØæE¢ôô¶èÉõ­
+¸ŸMÑE=phÁ´ø'"·é¡‚›F>äv‘†Ù–Nkß!¾dU@*-XÅÚœ»Ë0hš*YæÎ[{ÑÌ!ß×Á_^Ã_ò$?QšÕ|Ã†w£Ç:_öi´ò!¡C\Ú0WÄ•|àÓ ³¬Ë–=OHÑÕIn—MÖ}>	2SêLQCdCvd‹Bˆ§1„sX¼Ú¼#LDy^{Å [aˆtrÅItiƒêwò‹¶œ5—
+b&uoèI—Ä³V´’N’ËlùH¤Ûå\†„®x\’Š­º¨D!¢ôJŞ¾/³¡û"§'Õ~/YD2$
+:ÍÈ¶Şßì§øbä8€mÆú™g	¿ŞÛÜ”PŸ"s ¿~7ŞãÓ!Â£>JhQ	ˆ(»(]}tDqü<r\~¤sÈ9,éüÈí±dĞY*åu6ê»VwhÅ¿QÜ²vŒ²f”\©˜tTLëˆtÿD(Ø 
+endstream
+endobj
+61 0 obj
+1546
+endobj
+59 0 obj
+<<
+/Length 62 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+62 0 obj
+62
+endobj
+66 0 obj
+<<
+/Length 67 0 R
+>>
+stream
+Q BT270 264  TD( ) Tj4.5 0  TD ( ) Tj33.75 0  TD ( ) TjETq 96.75 0 0 -107.25 342 371.25 cm /im8 Doendstream
+endobj
+67 0 obj
+108
+endobj
+64 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im8
+/Filter /FlateDecode 
+/Width 138
+/Height 152
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 63 0 R ]
+/Length 65 0 R
+>>
+stream
+H‰í—Í{ê*ÀI?N·‰µu«ÑÓl­ÖfÛk¶Z›f{jmÙÖ$À¿€æHÔó¼‹÷ŞéÓ@pøe˜©‘Å¬NƒüÔ)|  …  Àù±.…€«ã À%8’!ÑálKÈéá9ØŠÑ-&ÈÈ‰åÀ
+‚< &·è!P’öşTfÜ¢ƒ a¢uËFÓ>¯2 híiÉxr7¾Ë[3	©¼ïáò'‰zFÈ&ç“’4š%5\˜Ï†{ùu8dÎáİlñ‡ìb‡lclŒpÓ{rKˆyë©Ù2dŒ®ƒÈwÈğøÇ@dx¢¿1kÕ@Pƒ5\!Öp=ÄnáZÈ°~ùÕC²ÇA6õk¸’4ˆp-×¯áz	¿Â08¢Lğw&_ïß?Ïã’´.[=XÇ±X¶c[´J+À­:À–9‚K¸®Ûê±?×q[KŸüÁ^û£ş`Z'oïónÓÈÏÿ¤&U4‘MWw„ÚâIº—R?¯N!n0œú×B=Áë-Ñ%H| dÛY–Ÿ‡@^J‰N11@¤ùe‹ö‚$Q¡sh¿f€à¬wäÁ‚aûAÈŞ{>/—‡A–ˆ=?+àÍa8aÏßDñÌÓê©›ÊrıÄ
+ÄÂxA½%ıJ’ßìe9?á`ëI´~T`Êá<‹2¹çp5â¶ÂùBßŞ}ÉÓıGÔ²5%gyÚ•ßUu•O˜)•e„qÕ]ˆ—8P5¤\…Hêu”d£0D» —êCçXá­%¯š¬	~Í!d•;0†ÛZ
+Ú°ª«_;Ÿ>{âH@¾xãF}<¯Ûw<šOB,f-Y«•L™É"a8#ïI©AåßW1ÙŒ;é[`‚”†“öañ«WêM?½]ÛñmRœöÈ¶æÌè¿İ¢ë—r®	Ä’ËßJÊkß©ŸUĞ'è|iQ$3iLL>%{+Å÷âÈ‚®ï	>a›XzNã$sl{9(uQ…øU^`#Bx>K’ˆ¯oN*[A·âŞ˜Lé(è	x_ ü`ŸÌ@èÁ_LªÇÌ$=æ§ÇM [$+¶–¡Ç2õÂšT¢±i›%ÂoˆÉ‹çeyîõ#¥®:=2Y÷ÿÔ€ş´ü4¡ÕÕå¥ÚãI©K×l<ñMF,õkÏŞÈˆİdaïİ,,ŞmG™ÖÌ%:MÀyIA/Ğûœc§lãŠŒ:Uø—éŞ½~ÂÜOïH%:YÃl†bº¨SúşÄ¦ú:[SøÖ/õ(Î~½T‡áÌ’ñĞ" I@`RÛâj÷ºá„a8}{f‚;ƒô…A,‚ Í³¯`01CNfá7Ìç@…cİh7,Dç¢CAlĞk1òÏò2VäQò£=fy,û'|5T–‘4Ë7*!aD†ç4¢¶3Û]:ö‚<±iOÚØ"W˜FèÖªaóB6Í&›iôà†±†§:[ô–$—sÚ©eÛO¿é©/=§+H±{Æ•8•“=–CfÄˆn'j][c	fL¯XÕc;¢wm¬õaÇ‘Î2Ç×Ør+=bPİ2¦Ï-şMÔ+ùËŠÂ¿
+^ƒó¬’8„LynĞÖ;'’ä¬’jUûÎÈÎÔÉİAg|ó¢Á¹òÄïwH®®%åèàŞ,3„$A@è\¡¯t+¼—z‘º$er¡¼ûMéq\D$=Z|áİâÅO…]°õ%Ì/ÒÕk‡ªĞÈöõÏœŞS¾SRtl61vß|òCc4^U‹":ñòöÛ#÷“Rº¦Ÿ±OƒCAPu/ÈAÔk?@V$ìééÕ=…i©-ÁİÜÆË Y^N¬@m‰òü»eì:bĞò›[BúeóÈSµj ñ:RBV+U+R;ö&U2H‚U¦¨-‰¡`åE“Ê¤„ˆÎqÎ»©¨«LQB¤!Ã¬£Ï!ò*¦0‡jãµø¸Í!èW¹Ğš‚À°Ò&¯­S~Œ¥©Œ?GK¢3Ee‰<5ÀşÑ‹Cù¶AvÛz2¯@¤`›´pX¯ôË×*š )gÉUÖıú HœÁEÀË—ƒ o¢ì˜{Bä|™¿÷‚l'ÄEé}ÈöË¢÷¬²‘	YªõŒé×-DëY“c¥têš@.êşgèo@jå?È¿†ow£şxäº}ñŸ=h!jôßé¹6ĞË<W·,·ÕrBqƒI8†E™ÿÌz1
+endstream
+endobj
+65 0 obj
+1741
+endobj
+63 0 obj
+<<
+/Length 68 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+68 0 obj
+62
+endobj
+69 0 obj
+<<
+/Length 70 0 R
+>>
+stream
+Q BT438.75 264  TD( ) Tj-327.75 -9.75  TD ( ) Tj0 -12.75  TD ( ) Tj75 -12.75  TD -0.3967  Tc 0.5842  Tw (A. Motion Toward) Tj78 0  TD 0  Tc 0.1875  Tw ( ) Tj23.25 0  TD ( ) Tj33.75 0  TD ( ) Tj33.75 0  TD -0.4844  Tc 0.6719  Tw (B. Motion Away) Tj70.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-314.25 -12.75  TD ( ) Tj0 -12.75  TD /F0 11.25  Tf-0.2138  Tc 0.4012  Tw (Figure 5) Tj39 0  TD /F1 11.25  Tf-0.875  Tc 0.9125  Tw (          Opt) Tj43.5 0  TD -0.4422  Tc 0.4252  Tw (ic expansion and contraction. If an observer moves closer to a ) Tj-82.5 -13.5  TD -0.3805  Tc 0.3373  Tw (surface \(or the surface moves closer to the observer\), its texture expands optically. ) Tj0 -12.75  TD -0.4643  Tc 0.3705  Tw (Movement away results in the opposite pattern, optic contraction.) Tj269.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-269.25 -13.5  TD ( ) Tj0 -12.75  TD -0.5236  Tc 0.3897  Tw (When you look in a different direction, ) Tj161.25 0  TD -0.4978  Tc 0.2567  Tw (as you also frequently do, the situation ) Tj-161.25 -12  TD -0.4343  Tc 0.4343  Tw (becomes more complicated, because the pattern of optical flow changes every time ) Tj0 -13.5  TD -0.4929  Tc 0.5398  Tw (you make an eye movement. In the absence of other forms of image motion, an eye ) Tj0 -12.75  TD -0.5177  Tc 0.7052  Tw (rotation in any particular direction causes optic flow) Tj212.25 0  TD -0.5221  Tc 0.5846  Tw ( in the opposite direction, as ) Tj-212.25 -13.5  TD -0.523  Tc 0.523  Tw (illustrated in Figure 6A. When a pursuit eye movement is made during self) Tj306 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.6888  Tc (motion) Tj27 0  TD 0  Tc (\227) Tj-336.75 -12.75  TD -0.5422  Tc 0.569  Tw (for example, to track a sign as it moves in the visual field while driving) Tj288 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.4816  Tc 0.2941  Tw (this eye ) Tj-299.25 -12.75  TD -0.552  Tc 0.6645  Tw (rotation component of motion is added to the flow field caus) Tj246 0  TD -0.4267  Tc 0.0517  Tw (ed by the forward ) TjETendstream
+endobj
+70 0 obj
+2015
+endobj
+50 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/XObject <<
+/im6 52 0 R 
+/im7 60 0 R 
+/im8 64 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents [ 54 0 R 57 0 R 66 0 R 69 0 R  ]
+>>
+endobj
+76 0 obj
+<<
+/Length 77 0 R
+>>
+stream
+BT111 713.25  TD0 0 0 rg /F1 11.25  Tf-0.5345  Tc 0.5489  Tw (translation of the observer \(Figure 6B\), resulting in the complex combined optic flow ) Tj0 -12  TD -0.5055  Tc 0.5166  Tw (depicted in Figure 6C. Here X is the direction of heading and O is the tracked point; ) Tj0 -13.5  TD -0.3959  Tc 0.1743  Tw (people are able to correctly perceive their heading \(toward X\) as ) Tj269.25 0  TD -0.577  Tc 0.5145  Tw (being unchanged by ) Tj-269.25 -12.75  TD -0.5363  Tc 0.7238  Tw (the eye movements that produce fixation on O. How is this possible?) Tj282.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-282.75 -13.5  TD ( ) Tj0 -12.75  TD ( ) TjETq 100.5 0 0 -78 255 645.75 cm /im9 Doendstream
+endobj
+77 0 obj
+693
+endobj
+74 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im9
+/Filter /FlateDecode 
+/Width 143
+/Height 111
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 73 0 R ]
+/Length 75 0 R
+>>
+stream
+H‰İ—KCê<†Ór<nœ#ÛŠB·UP¶A»EQº­Št[zIşş7ï”K
+•‹ºú²˜¦Íä™I2Ó$¯§
+%Uß+‘pğ"Ä#ióÇÎáı3–SU«·x·L5K…×ƒ ß^Ğ0@N®`“’—Y¡’ê±¢¢qjı¥Ïu»®Ò”5õ-ô¹è×Ñ*şÀ¢E®Ë3›äë#5Fôf“áPöÙÃw_ÆR®„JÙwHe`šÍ¦m>Uj.Â6Á]©î/­—Éìc6cõ¬A"6PµœçĞâl~ˆYN[?Ãáò¿âhIeyë!kÖŞÅéçœ<xeOƒn¡‹É¢>#1JAÊyWòŸM°J<Á#½§O­dkòŠ¤œ¸=•¶SË#ÚFı‚£=–ı€ë‘€sƒä}Àß-‹eSjÂü®D# )²CúOĞg dğ'O‘Ÿ_^ÙO_âßğRà³‹üä¼ğ7g¢¼¼è³ã€Óò±¡[÷—Íœ½ùâ|ã¯ª;9+G6›f½*jô—9ïíæ„;8š¥vs²]şhF68ÓMUm¡#u›£W½?ç|lÙô–…Qğ›k.£e›Ç5XY#N¸ê‘È´¦ãâçÚQê|æ6ÔÜ[½hdv¡i]bIÄEH«†nÉš›8)N)†cºkúØ¨—B\bë0Tu]l…ıkHyrÕ qOÒõè—“İÃL†\c®øÃ/TyN`”ºeğSÉÅ¼d¾7>‹ßŸ\Tv1Î”9[s§|­Ş(áh¥Ç2,çô´ú©ŞìPİÃ9ÈŸ8ÎNüçãÚÃñ¾ÄÉ¶Tı•ŒŠY,õA‡'d‡‡”­)é]Og¼c»%˜j”÷¨±?0‘şöÏu$²4ég¥”ÎaP[PîÌEy!j[¾°¿Haœ‘?}i¦£Ò_˜Y!r’µáIà,-ªs$9{Å¿§êøô[!üYï·>—…uçŸH›'hÀó“ï¶ëÿO!/­^‡ëæ’õò´úw8½âè}½â<ü§¤Gæû§œíüšø×Gr²|ïä›šĞQãä¾­2sĞl/÷¯…‹)s[ês.'¨7‡ˆ13?l!€]£KYP¹¸U‰Ù¼÷#şKÓëïfÜëq³	óâãíâ;€	f|†|¹k@â†Å‚tiàxoßÜ'ºaNÙŸ|Éf û<®ÅÎÈ³ãØ¯£4Ï÷ô”˜Ê¶¶ïçÇß˜I-,"5QFôãíıáœ­r£ÕGƒmÎLÍò–pôÆ¯T²òÇıÇİçé¼zÑAéi)ıq«)Îq(«ÕjƒN·Ó–ø³,Ä©V›y9¯V»İAWçBx{\ù°eÎ¡Ñõ¹-¤T	Çƒì«ÒyÖ9Å”Zp¸óÆù&ÍÙîyÙŸÜw>ú’ÔÄÈGÕyaTk´9Ô¬Úrÿ’sû!8iƒ_ê/ğç¼‹ºkÀ£Fíiå‚ê¯Ï”q¯'˜iã’æÇığç•ô]agÎù¥Œp®‡+¼õúèÃFrG©A+…›×ó2ò%qwÄ­ùqÔFy_Õ"UÍ+­Õ§Ïç¹·ÉY7GsQJK9º?[åsœ]şl•—RÅã9ŸÆógãÂ»„£—öpŞøÑwJ9É'õÕ¸8Šæx‰œÏ?»9ñòøÎGÇ!¬h`R¤ÄÅ­ê7m£„³ZÌ)sç2Âé>Õ+6ü¹ï„*îHZ•ÄWY¤ŞB6ò[=Ãşó€8™yîÑ‹m€Ó?‡Âkœé:1äÂİE‰”=¬ŠP¥†@&FF‡Æ•š7èû¨KŸŸÂ°—ºH=P§Ôà}#éñ¸ÂmÅ}Õïqe}z¢ì‰C#7÷®ûº¬¤{â°x„ßâà·§xJ8©V×±¥şp3öô>·‹Lˆô
+²ßşgÌZØ*RÑ%kÕ'‡rx€Î+ÿãd,êuÖ?Šğ@Ş‰Q)'Û”9ñˆ¨â)uà¢j6ÕÓ‡;O¥C5¡'WşÌx£ÊüwŸ8×¤©F†Oœ Šz|IİäW&ÍİÕk¤^Õ³MVjW‚4ãªA)ş@!èWïV8†M×Æ	PŠKt±›İeóÎ:,"eå;•¿{±WàNy(Rã¼æ.®=‚³j.‹g6ò1{¡2ŞÍY˜™”ç×âXu	P¡ek~äl"$K8Ÿ*ùXËñĞâ|…ó‘U˜cúäË¹ñp0‡ôÕ8âµµ.Á1Œbc‹‚,L,w/ í‘˜=šˆ¹hPııŸğ»¯ä­ÊĞªåÅ28?Q/5çÑÏëø’¶BÎ¼°h¤·¬D*3›¬<½£Wfòe×!ç<•¹A.[9©q‚±À¨-fÆ(×c­Ín;9}Şf•å°ñÖ¦ª^¶.¨:gÔàÊ›³‹p€?‹á!eû¢ë1íŠã9<’³¸*Í¦ãÎğ yåÈ¼ˆ9ïªÕÎ°3ŠçûÉÌÅß~NugQá„M÷€ô¯İ:˜B¤Q£
+^L€b‰Ø¥míH½2¾œ$âŒdütŠ†ÄáæË`mL†«ï’§Uè§ÜWşá(7oËÂãz¢ÙÊØCÕµa¥ÏÁŸ¾#»J¤2ïÎ$ı‘Í7'Á²ß`×üCKÎ¼ÊÓæñ{>_Ç–œÈä
+Æö©¤°dá—9?S¢ÿ k=¹
+endstream
+endobj
+75 0 obj
+2067
+endobj
+73 0 obj
+<<
+/Length 78 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+78 0 obj
+62
+endobj
+82 0 obj
+<<
+/Length 83 0 R
+>>
+stream
+Q BT355.5 567.75  TD( ) Tj-49.5 -9.75  TD ( ) Tj-85.5 -13.5  TD -0.5546  Tc 0.7421  Tw (A. Flow field from rightward eye rotation) Tj170.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-84.75 -12  TD ( ) Tj0 -13.5  TD ( ) TjETq 106.5 0 0 -78 252 516 cm /im10 Doendstream
+endobj
+83 0 obj
+258
+endobj
+80 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im10
+/Filter /FlateDecode 
+/Width 151
+/Height 111
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 79 0 R ]
+/Length 81 0 R
+>>
+stream
+H‰Í—K[âJ†ƒ£‡- #Û Îd‹‚f‹ÈG0[Ô‘ŞéËß?]_%"9ÓÏCõ­úíª¦+İ}åcŒn]Êú$zFö&İ@š€»¸m$VzúÙ¬9t~PA:]t:>eğMûª\™q¥Šòmª}Ì™SŠu|faÜğLîÀ¢ˆÇM´õÀ7®ÇHT†h“¥Êá9±¾)1í]:-ğu‡ûì‘İ8†^{†ÉÏï»-S	mÉ¢W°•˜¢Ê~)=æCÎ|²_hÒ~WmËı†ñ%¶”ˆd!#/ÕtÉº>›Å
+CVö~Rí–F¬\K1g&Ñ0UñŸR5l¤åKUÄªëR`JòÛôØ!&+ëæ0hq¾2k~’(JŒãu1«–(Õ¢@çíÅ½kšb9é'“¼ïv«ÍZ£vY­V[­«Öı•HuïÄéétJ¿ez÷e½ç-İ›¥²õi–%vaıÂŸ§+e‹JwõXFïª!n¦šgÑËŠe=òşã(1î…eIş4Â™qy›p˜NâOC€y¦‚Êäë5;ƒBv½4Æ–µàˆéy3s]éü\×LŸq$a'# Ş“è™ÔIAEï6ïõX²¬§#Ÿ]BFÏ›ÙÀ†TÙ½Ë¶Ä§ÿñåxlË¯G¿}ú£#	“Ø`ò–—T$,i$w±œP†€ÀàèyMÉ(W¦_‰µ‹Â¤Å²üd¦Ãö×WîÕCXÑ,*ÚœÓ÷çqZw“]éÊ&Öi³ÓiÚ_§uÕ©ä±…•ïm¶ëëß~‡[X^A™ÖkVF©‡ùtå"c%>3Âx6]‡`±5TQ	KWÀZ8ca¯è_øÄrpŠÎ±ùERİLÎÙ°8¢2Xmhéû`¢Ò£¢H¦&í–‰ÕëÑ	&ë®EzvBi€5d,Tw	UU
+íY¢«î²Òğˆ¥ÍFŞcÌ±ø\1°âôP¸!Xµ*^ôk¿Ç¾ÿ#¬=bèØµ!†öf-cù›Y|Î™›Xi]bÉ ¥	Ïáæb;{MğŒb•çä&¾bÍË0«‡LV®—,Á,—%3GpÓ1èá`¥ó,íKã­Û5Êî÷!4˜î©³pšN*˜Ê–‰Ú!†3°°”G,Ç¾ÑYÉ0ª’»ójÌšæ|\¥çŒ™´\{l_ûÏ²(ıIVZ÷PÖø/eõÿR»
+Xql_çY:İóq€Â ï#_ãDæ›NQÈ×p-–‹z›á¾eÍª)TCbÅ1 †ªD‹*µ‹jÍŞÉ%nË«·(Şë¼ÔÇ8ç#ÀÉäN†<vÔÀük/›§ŞW±TÉı,K:û‡ÑMÿ÷3riV/»ŠsNùk¥Â¶‹©HXòa=ÕSÊj¸sœ3ä9–ª6«F­YkzŸô1*µ|ÔY·²T·ãof©YIÚÀ
+¶°Òs}ÌÒ2Çb¯YÚ™nŒì*¿b)‘Ì`YaMzÿè±èC^ÈÙÊR¹bMø1ê ¹—ÏGåPà©ŠS¶úUÇñÂÔØÍ>ÆŸ‘÷1ª£”ÜÆaÖÇk•²,½¦Ùßº'n>`}4ï&Vúûw(kPÀİ‡u½ËßÁ®m>ncõÊ_ºöùûıN>î¼^²´o¥Q·•{ˆ!n×Ù¥ñä·ft*¤ñÆâµµÙ®ø1éˆœ.mdíÒY¢/K·¾rK»r,6…ŒÊ²"\XM¯LòÍ­ç|Ì¤ÂÿÑ¾aÔOæ1Òß…õaÅ)ñîNû«€µL»°¾rİ§;ŒÇ_ÿë@w·Ë#¡üXZ–DÙ.¯üªâZÄcYSSøÚ‹5–X“vß»m<>¥{­§`¡¥â½ZøØçë§G&‡:?!;¤óæ}Ì²"V±›kíÊEç#^©¦]FİÙéµÏ²Ìš±á½ò6ÖıCÿaßë:V|¸>ÈJÁ6Öûx<Gİn§Ó3¬õnİ_…i}_˜öØ÷…é+íú+ Á/›øôä–p%ã{¡@Y¤X¬)ÖYiÉÜø¦è%ív½°¯$u¼bŞ“e5QhÀ°Øÿ8å¥ÃŒØ›E1Ô¢‚>½ lræÂŠ”^8,İ|<êì bÖğC˜µ=¶?bé)JS.¶Æva’M›jö…Wj&)Ø—µ%}=+ÌI‘ÒÒdÊÌòIhÈøõX'G—m×,½U™Şm_ëã¿YZB¹
+endstream
+endobj
+81 0 obj
+1716
+endobj
+79 0 obj
+<<
+/Length 84 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+84 0 obj
+62
+endobj
+88 0 obj
+<<
+/Length 89 0 R
+>>
+stream
+Q BT358.5 438  TD( ) Tj-52.5 -9.75  TD ( ) Tj-76.5 -12.75  TD -0.6032  Tc 0.6657  Tw (B. Flow field from moving toward X.) Tj152.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-75.75 -13.5  TD ( ) Tj0 -12.75  TD ( ) TjETq 106.5 0 0 -82.5 252 385.5 cm /im11 Doendstream
+endobj
+89 0 obj
+257
+endobj
+86 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im11
+/Filter /FlateDecode 
+/Width 151
+/Height 118
+/BitsPerComponent 4
+/ColorSpace [ /Indexed /DeviceRGB 15 85 0 R ]
+/Length 87 0 R
+>>
+stream
+H‰½—MCê:†[@ØAÙò¡²EQº­tËQ±[Tl¶Ğ4Éß¿™™i+Vôœ›EJót273QOV şN[;;Äíş¯Y!"ëÁu5vÎºq|¸ò¢”×àò1~ÀšÇ%˜Æo*Ä:ÁË¼Ô‡KtÁa­ƒ¨¬'ˆÖ gOhæœÈË2š·<Å_«"ï«û¦R²*ğ{NEn?zˆôc{xi·ĞÖêA–è+98Wê\E0qª<LàHYÌ\®kø¬å¢Éş¨cù&:éàSŞô‚Dkåh
+#ó^ñ)‰v	WO”—Øs;Øÿÿz·h)¸b5Ç>F°¢?†´zÄ/[†ÁêC"Â™Ò¦ÇØ¾ßE´Ô3£$ƒˆ˜°ÔŒ…9š´Áñßá+ÙBñr‰ı¹aİ=öeÂ’xW°§§o±oV\óÏûø¼¬®Õ‘-?Â0d!Kl€ÆL³ŞÏ@½O†÷İF½»mîş¿µz³}zÃô;¬çìØdQ4ë=§‰×Õİ—¬œ„É8èğE·1`Õ“ÿM»R¬õÂ"¿Il!„Ä©…šx1ì’ôÒ÷ÏX‘+œKø¤°HV0j……æÅÄZS`u°8…$ÉnSK±âšŠÁ²ŠDXõß[mƒa1ÍXc¨J0YÛE1Eê‰NR,Õq_ª@IPj@Áp@Ê°„æuå!+‰û1öË@hc_v,\uHføÁâøÇzà{b‘îÁ_äA±‹{‰Û]ŒöŒÙÀŞTbÅ`'DX#†‘¨«¡çD6[İ +ÿ€•n‚í†¿gí‡Ç²rŠƒëÍÇ¡Ü? »FÌ©vq›áp@“>€å\c\è¯}ğ%%›¢Sør¶{$kWêwfóëL\Ú&Ë´%yÁµ‹s÷¦i‘#´G´Ò¬µÿn5™âgí†şc5´šü%&V	UP°MÕïÄJÊä¯«é5ê|*¯í;Y“÷z‹­?¶/üÍÂ‚è´ ‹v óN”Aæ#m×jÏÂ¬N!zaëg*nj©ò7‹« úW¼"=áD"öÀ_èI–úŸÇ—Ø;ˆ¾fh—©¡ ¾cî–M·•ùn_ï÷E¬t|ıõ7íÊÅê‘¬Ød™ãbÖÇ—v¥XEkD	ê»”e%C»‚O¹…¬íİË^æ.°¨SO,¿OŒè•ô›¥ê	wûb5"nUN/PÜ÷Pï5KĞË>Ğ.‘œ Ğğ¨ÆÓ¬¥»·Ë*=9ú9ï¦]áşzŠµŠÓné5rÌâÒº4ò$qıpŸ«x
+Øg ¿Zdµ^\¨¥®GÜ×ÒX 7XcˆÙtñ‚ş
+ñiòç‹~|]êë‘uz@CÜğQÁ¾%;ëí¡ø:‚•ñ×¯X™ïø5+_Ÿ¬±ˆÅş«Ğ÷i–>«eXÆ¸@CYÖkÇÉD×æ< ³xöH»Ú§M¨<ëy¢<ğšS¦ÿ±FX3c¯íšmß½‘>W[Öõj8lhÔëº–ÛØõ&WËF½²©×ôÖØÒ¢<„5j#¾İDy|®ÿ»} <´¦exäŸsğ=wñÇX1ğ-ø,4ÖHJš±(.=Œ4kxë“ïüc_èöı'şÂmo î÷Æ˜|/bâwŒ÷…ËÖ÷òVeÙßÙUï°,KíXñĞl“'“;
+¡l¼L7ı/X“Éäùùyñ<`»gëBßè4ÚÖ¸wÓè‚s„+[{Vï´;¼ÑÜ~[¢4Àë®÷¿gÍô'•Œ…Á!åY.­Ca\Şÿ]¨m3Ò1q›}4
+2,:ÒŠ^$æG¶§õ8É±Vğ¤¬mY‘=êì²,]ı«=IS[À;r‡<A7•ã³cy ÜèŒ%¬Myò¨ÏVó~&«{©k_Ô§,«ùÑÂ‚Ø®`ApŠŒ:õ­Ès¬ª®r-‹òPRÎrZã;ˆŠÎz `X#ùúÅö´¸ÀşµÍ¡¢åUEùqw˜ÜµØß{)í¯QÎ_ô¾:¸Gã4kz€¥³Œùé˜ÈÇŸ³R?Å
+X±1%½Æ<«È®xÿ²+P™Vh×aß‡¿b¥ı•·kÕ‡6”¡G¶óø‹Î»ú8ºû”5¯2PN°xy\×¡¿¼è@1éÔO¸Î¶ïğª‡§sĞM9­‰Q=5ô5Ë±]­SŠû=|ÑğyùïÌBÎæ6¬Ò*éóŸ’W(Œ³™Qcö°wüèÑÿé-F“œFBÕIh+ğWr®uòutRûZÑOöB¶óWz– ®l~”éš¼¸f2Æç´£X¿®åÚ•İ~ÃÊÃş¿î~Àb9w¡?ùkï{äıå&Öö,aÉ–|¨ÀV4]®.%1­JrZbJÚW(SCŠÖÛW›»ö)£üX²J/pèÃƒe_qµamxßhĞV…ÊˆÚF¢c`E¯‘½_A¹òH9mƒEä1]¯:˜Ëµœsyè]ìïG¹úô˜Ô è/U—œES¬”×Õ\L˜û±‰+²Úvµópğ†,Ş/¯©®ë&Ğ-¦ÏV¦²äÚİbz{Ó»a¿cnÿK6ÿ
+ën-«…å5hènËÒ;1]+{_w"­ÈE ãK¸—|d±‹¿t½ÈÏÚI¬¶Ş­µÍÄié_½A¬v ¾¹wbÊivY¨!YEÒ‰Š„ëg˜¸î'õ*È\×˜(aöPpÉ‰×M¬ß³=öĞ÷‰¥I½Š¿<z×{™^Ê¶¹`Q ÍsyHĞñRæ
+ÈÏX‰j¯}œ^+ÔãW¬5éÑr°¾ß´]´çPr“ÿBCáXã.µz§S¯{×İk<‡ñÒXI“L±PvB]Ux}ÇŸŸ°D =¤cúÔo[–D%ù‹zœ2øÓ…±¨@ÏAIj	 iCÿÈu^e«G9Ğ_‡¯ÚÍÓAK÷0rcÆÜ‚±€œ¦Ä{îÂ¼÷|Ê·ŒïICâÅ·$õ8xÒjcŠQ
+$ù|ÎÎ4Òu…ÓQcÒÁ9~ÁÌ¬µc~vôô<K=²ßQÖ^*È
+endstream
+endobj
+87 0 obj
+2308
+endobj
+85 0 obj
+<<
+/Length 90 0 R
+/Filter /ASCII85Decode 
+>>
+stream
+!!!!>*?@R;7;H[SPEV3A]"6n\irB&Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+endstream
+endobj
+90 0 obj
+62
+endobj
+91 0 obj
+<<
+/Length 92 0 R
+>>
+stream
+Q BT358.5 303  TD( ) Tj-52.5 -9.75  TD ( ) Tj-111.75 -12.75  TD -0.5693  Tc 0.5068  Tw (C. Flow field from moving toward X while tracking O.) Tj223.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-306.75 -12.75  TD ( ) Tj0 -13.5  TD /F0 11.25  Tf-0.2138  Tc 0.4012  Tw (Figure 6) Tj39 0  TD /F1 11.25  Tf-0.6891  Tc 0.7266  Tw (          Comb) Tj52.5 0  TD -0.5229  Tc 0.3354  Tw (ined flow field from self) Tj98.25 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.4745  Tc 0.5548  Tw (motion plus eye rotation. Part A shows ) Tj-193.5 -12.75  TD -0.499  Tc 0.6115  Tw (the flow field generated by a rightward eye rotation without self) Tj262.5 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.5334  Tc 0.3459  Tw (motion, part B shows ) Tj-265.5 -12.75  TD -0.5079  Tc 0.6954  Tw (the flow field generated by self) Tj128.25 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.4777  Tc 0.3652  Tw (motion toward the X without eye rotation, and part C ) Tj-131.25 -12.75  TD -0.5075  Tc 0.445  Tw (shows the flow fie) Tj75.75 0  TD -0.4692  Tc 0.4067  Tw (ld generated by self) Tj81 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.4653  Tc 0.3716  Tw (motion toward the X while the observer makes ) Tj-160.5 -12.75  TD -0.4249  Tc 0.5186  Tw (a rightward eye movement to track the O. ) Tj176.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-176.25 -13.5  TD ( ) Tj0 -12.75  TD -0.524  Tc 0.5507  Tw (There are two different kinds of explanation about how people might be able to ) Tj0 -13.5  TD -0.4205  Tc 0.4716  Tw (perceive their heading accurately in the face of eye movements. The ) Tj286.5 0  TD -0.5616  Tc 0.3741  Tw (retinal image ) Tj-286.5 -12.75  TD -0.4221  Tc 0.2882  Tw (theory assumes that the visual system itself is able to factor out the translational ) Tj0 -12  TD -0.554  Tc 0.7415  Tw (component that the eye movement produces from purely image) Tj260.25 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.5177  Tc 0.3302  Tw (based information. ) Tj-264 -13.5  TD -0.505  Tc 0.63  Tw (Formal analyses have shown that optic flow on the retina contains sufficient ) Tj0 -12.75  TD -1.0013  Tc 0  Tw (in) Tj6.75 0  TD -0.4705  Tc 0.358  Tw (formation to do so \(e.g., Longuet) Tj135 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.4672  Tc 0.4404  Tw (Higgins & Prazdny, 1980\). The extraretinal theory ) Tj-145.5 -13.5  TD -0.4649  Tc 0.331  Tw (assumes that information about the eye movement itself) Tj229.5 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.3968  Tc 0.3968  Tw (either from the eye ) Tj-240.75 -12.75  TD -0.4805  Tc 0.518  Tw (command signal or from proprioceptive feedback) Tj201.75 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.4682  Tc 0.0557  Tw (is taken into account by ) Tj-213 -12.75  TD -0.4229  Tc 0.6104  Tw (effectively subtracting i) Tj96 0  TD -0.5193  Tc 0.4068  Tw (ts contribution to the flow field.) Tj128.25 0  TD 0  Tc 0.1875  Tw ( ) TjETendstream
+endobj
+92 0 obj
+2859
+endobj
+71 0 obj
+<<
+/Type /Page
+/Parent 72 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/XObject <<
+/im9 74 0 R 
+/im10 80 0 R 
+/im11 86 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents [ 76 0 R 82 0 R 88 0 R 91 0 R  ]
+>>
+endobj
+94 0 obj
+<<
+/Length 95 0 R
+>>
+stream
+BT111 712.5  TD0 0 0 rg /F0 11.25  Tf-0.1659  Tc 0.3534  Tw (2.3 Depth and Motion) Tj101.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-101.25 -11.25  TD /F1 11.25  Tf( ) Tj0 -13.5  TD -0.4376  Tc 0.4108  Tw (In the previous chapter, we considered how the visual system is able to use ) Tj0 -12.75  TD -0.5881  Tc 0.5256  Tw (information in the 2) Tj79.5 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.4886  Tc 0.4261  Tw (D image to recover the third spatial dimension of depth. Many of ) Tj-83.25 -13.5  TD -0.4009  Tc 0.5884  Tw (these factors were quite independent ) Tj154.5 0  TD -0.6567  Tc 0.8442  Tw (of motion) Tj39 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.5589  Tc 0.4964  Tw (for example, accommodation, ) Tj-204.75 -12.75  TD -0.4566  Tc 0.2691  Tw (convergence, binocular disparity, perspective projection, texture gradients, edge ) Tj0 -12.75  TD -0.5245  Tc 0.712  Tw (interpretation, shading, and so on) Tj134.25 0  TD 0  Tc 0  Tw (\227) Tj11.25 0  TD -0.5442  Tc 0.7317  Tw (but several were derived directly from motion.) Tj190.5 0  TD 0  Tc 0.1875  Tw ( ) Tj-336 -12.75  TD ( ) Tj0 -13.5  TD /F0 11.25  Tf-0.2229  Tc -0.0896  Tw (Rigid Motion in Depth) Tj104.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-104.25 -12.75  TD /F1 11.25  Tf( ) Tj0 -12.75  TD -0.4593  Tc 0.3468  Tw (In studying the perception of ) Tj120 0  TD -0.5843  Tc 0.2718  Tw (motion in simple 2) Tj74.25 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.5622  Tc 0.6247  Tw (D displays consisting of pairs of ) Tj-197.25 -12.75  TD -0.6034  Tc 0.4576  Tw (continuously moving points of light, Swedish psychologist Gunnar Johansson ) Tj0 -13.5  TD -0.5227  Tc 0.5852  Tw (discovered some powerful depth effects in motion perception. In one display, two ) Tj0 -12.75  TD -0.5411  Tc 0.5411  Tw (points moved back and forth in synchrony while ) Tj198.75 0  TD -0.4615  Tc 0.399  Tw (they also moved closer together and ) Tj-198.75 -12.75  TD -0.4368  Tc 0.2743  Tw (farther apart, as shown in Figure 7A. You might expect that this simple pattern of ) Tj0 -12.75  TD -0.5091  Tc 0.5895  Tw (retinal motion is what observers would perceive, but most did not. Instead, they saw ) TjT* -0.4975  Tc 0.435  Tw (the two dots moving forward and backward in depth, a) Tj225 0  TD -0.4937  Tc 0.5312  Tw (s though they were lights ) Tj-225 -13.5  TD -0.4525  Tc 0.415  Tw (attached to the ends of a rigid vertical rod \(Figure 7B\).) Tj225 0  TD 0  Tc 0.1875  Tw ( ) Tj-225 -12.75  TD ( ) TjETq 181.5 0 0 -192.75 215.25 477 cm /im12 Doendstream
+endobj
+95 0 obj
+2519
+endobj
+96 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Name /im12
+/Filter /DCTDecode 
+/Width 258
+/Height 274
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Length 97 0 R
+>>
+stream
+ÿØÿî Adobe d€    ÿÛ C 			
+
+ !"(($#$% '+++,.3332-3333333333ÿÀ  ÿÄ Ò          	
+ a !1AQa"q2‘¡±B#$Rb34Ár‚C%’SÑğcs5á¢ñ²ƒ&D“TdEÂ£t6ÒUâeò³„ÃÓuãóF'”¤…´•ÄÔäô¥µÅÕåõVfv†–¦¶ÆÖæö7GWgw‡—§·Ç×ç÷(8HXhxˆ˜¨¸ÈØèø	)9IYiy‰™©¹ÉÙéù
+*:JZjzŠšªºÊÚêúÿİ  ÿÚ   ? ÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞö~£Ôğzf8¿.ßM…Á€\ç8ğĞ	'È.³Ós›[±­6z{#ck™ôšà@-#ÁĞT:§_é}*Üjs,{lÉßé2ºòí‘»F4ñ!+«àbtßÚ9:¼m¬vâÇn÷íÒI"WÿÑöN™ÖzoTm§ïPÔClcšæ½„‰× Dö«ÓõŸ¡ßš0ëÈ.±Ö:¦»Ó¦ç¶e¢Í»„±~²t\·ÔÊ2Cpa¬¸nõ6‘ hïMğ{<-wÖn‡E"ë2šêÍ!®%ÍĞ$îp I:/ÿÒõ¦}lú¾ú,¸e€ÊÛkŸ¹o¤XH™í&!ısú¸*6}©ÇkŞÇ0Si±¥k,Û¸‡4’D	¶j¶»«eµ<XÇ´9®iàx ø%ÿÓ÷’Y}lèæœ6åE¢÷c{«{Xm‚ÀòĞÒdDÊÿÔöÌlšr±ë¾’Mv49¥Í ÇÀ€GÍRéßXzGRÈu——¼4½»˜ö‹0¸ ö‚D–’5!'ëoÕü\ëğïÉ5ÙöWsUn{Cšfİ‚CÔ÷ZWåãQn5V¼5ù6êûœç‘ıëIù/ÿÕö£×ºWM¹”å\X÷·t5vÖÌnqh!­îç¡M•õ‡¤bÓêÙq#Ö}µÖ÷¼ØÉÜZŒA˜uıhèVäQEyBÇ\+,sã_é ,àmÀ‚ ™ÈTºG×¾ƒÔzS3® ı»ì­ÕÙ 8ì–P²Ğu¿ÿÖõ«ş¶tzÙe™D5ÆĞH­ç`­å.†ûZ.t5mc¦¾Ê«mÀºÜ‹1X ëkç9¼v&xÑ\Iÿ×÷’IÿĞ÷×±s~ÙÒº†-/ì6Øl¡¥¡ÎkØ[¹¥Ä	lğHNª×I7X2²-À¾íÛIi²ÀÖ‡?i"t€$èÀUúÉ‹•‘^?§…öÖ0¼‘U‚»ê²=­åÀÔ;¼âAÿÑô¥ĞóİĞk¸×fgU#Ù-e¤6ÇUeN~Ö¹Á€ûOa?5w¦ãçäuü¾©‘ŠüÎ-XÕ×k˜^ı®s‹Ç8 7@ãÂÉ£¤u—õJ~Óye\ú!õ7
+†{ı7ŠØCŞî4wrL
+Kú›Ö*¯§>Ì¦Q—…‹ÓÚéR]ConØõ–€NœHæÿÒô<o¨¹Mû/Úú˜Èû0¬W¶§Û“]îŸy™5†ˆˆÉSÏúŸvGW66Ø¦ñ“e–mÇ>ÌW5±:È¤ëşd½_êmBÜ×³4VÜ»ÍÏ©ìs«?¡®°öîND˜ÖO+£¦¦SMu0 ÚÚ  hp ’ÿÓ÷’IÿÔïßÓzİ¸½të+=NÛşÖû*ôÛS²¡À——D@Ú5îd¹<^ƒŸÖ}n§Šê1ëÂ~7¦Ë€¬úÈôCsZEríĞxI@Ëéf¶}kéØİ-÷ÕÕYsí¯Ñ8µTKåûı¥¦}¤Ÿœ¯ÿÕô¿­=;!ŸWÆ3r²ƒ”_s±lc/Ûö{XsœÑ«œ'^%eÓõ'¬uÙ“v-Ö‡cÅ§}Ã<º¹}ohÎîG$JÕ?U3êÍv^7Qc,fUÙhÜë×CÛ¸à‚9 ÀQŞÎªÌãÔíöc]‘ì-u¶RÆ´ZàÖµÛ¹»OpÿÖî.ú‡Ö«èøx´õ:²-ÀÇ§¾‚À+mÕ=ÅĞó.ıc<L‹ÍúŸ–êrıÓŠüÑ•NO©PquVd[`,‡ÃOéîĞ‰h"Œªy8F›~Ş‰FeÙ•cú0æºÊŞÍ»÷jĞO=û.ÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕöÇåc±Å†À^–·W}ÃUó·ÖßíßõÕŸZ3™Ó25ÏªºKàÃíÍ™1Æ‘ÇšõÏ«ÿ ]ş°u®‰Ôqş­ßs2jk‹Û},iw€çî‰˜Ú«ÇëÖÁ1õVóáúŞ?üİÿÖĞú©ı´¶OPêÙX¶ıYQ¥™fê‡¦i÷µÏ>Ã¸åz½yw¹sğî¬‘%¤°ÁğÑÅít@..dÇÓioåŒ²»Ç´ğZd/ÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’Tró/Ù6ĞĞÖÔÇïî@ì>=Ïâ¿ÿÕõºêê>“,½Î.lÀvŞL·èè;£·ªcT.ªÌP úmö‰í"Bà¾¼j/ª]uG®bšæ:â1Ş=;™utv"N«¡şÖ=F¼Ï©ø54Ø@â;}ö¤/ÿÖ÷’Iÿ×öÛ1é°’æÃˆÍÑßx×²™•Hsªw¬Ğ	¿Ÿ€wù~ôjìm€‘¡y&
+’ÿĞ÷’IÿÑ÷»kè˜ÀTÛŸ’ö1íÂ´µüÌâ9åxgöìú÷õ¿ë:^=Ù'ªYcE/Úm.Ô¸¹§P8‰<WUı©ş½}mêU/³+§äõ«q²}&\ÇÖ×9¥³½Í’ßu_ÿÒô¯õÑõ’cıiçLOñøÑÿ Cõçûiıtè=W¥UõzÊY,œ¶:ò~¤ãøÏµú·õ“¯õl/[;êæOK³He¶0îRC‡À´-q™–gõ+ÕÌÿ *ÿÓöA˜^Ø-ÚN¤¹š|·'™dÔ¬d—3OÅ0ÎÊÇĞ6’}Ìì>*Æ.C2±«½€µ¶7pæÿÔ÷’@Ë.,mm%¦×Ky“øó_ÿÕö|êÚŞ™“[Ğ({Za´Â.08oäE PU;:GO{œæÕé=Üº¢ZÿÖë¾®Üş‹õÃ¨ôjë İ/¬ºK_´nlv“1Üp»wæäPÙ»îÔ	£ÜœÆ„"SÔ0¯vÚíip1´èéøU…ÿ×÷’UÚ'>Ç7Xkü	™0?(_ÿĞ÷’IÿÑ÷ŒSağiüŠ8†qh#ü["ËúÃõ?êÏÖFÔ:Æy†©ØçHsAí¹¤ò•ÿÒön•Ò:gGÁ«§c3©Û]b O™>%[LZÒàâ‚uÿÓ÷’Hğ¿ÿÔö^öÙÓqœŞ;«‰$¿ÿÕö²7e°éì­Úw÷şB£Ô`e
+ŸşòTñH8Ô‘ÁccîE_ÿÖ÷çßÛé=¡}``!µÙé[·¾³6î¿cÙcöæ¸î
+Øô^ ¶¶Ø€0¿ÿ×ö_Ùşœ}û(€@lîoxKwT¨´9•ä65,;]÷ŠcÕ±˜\ÛYeOk7–9†câ4üQ?XÉd‡zpĞ´‚â><ÅÿĞööVÊÛµ¢?¤’KÿÑ÷ò$ãÛìwäQÃşIGú["ÿÒ÷’IÿÓ÷’IÿÔ÷Â£ĞÁoIÄ÷ä—ÿÕ÷€3l;µuL |§ò¦ê-.éùmš^÷¥OL™;¯ÉÿÖ÷–×~—ûOêÆ}-ş1Œõk?Âf¿ˆ‘óU?µ¿T=Cê¦ {ƒ¬Å'Ğ{7èş¿ÿ×÷’T]ûuíöW¼/ÿĞöÆ·{}µØC\ŞÁÄè@ó&ËÍXI%ÿÑ÷’P¸M„öiü‹ÿÒöÌ_ä´ÿ A¿‘$—ÿÓ÷’IÿÔ÷•>Aé˜ÑÆÅqÿÕ÷möäRò4!Ìã‰ƒüÉ³ˆ9$ö©ÿ ¯ÿÖöÜoäõwö7ò"$’ÿ×ë¾¦Ø?\úÇCq-« ›(ïáÕ&~ĞÒIÿĞö2Gí¶ÿ e'ı¸Vî¬[Së<=¤}ê8Ö›qê°ˆ/c\G!ÿÑ÷’IÿÒöÜˆû=³ÆÇOÜ£‡®>³ú6ê~É/ÿÓ÷’IÿÔ÷’<*]ebÿ Gù×ÿÕ÷’P¶±cNš‚ìA~õÿÖö,Ëı^›œÇ·mŒ¦Àæ»ú'_Vp£ìxğ zl‰ød—ÿ×÷ç¿Û·ô»Ñ>±ÒØ+¼àjÅÍ.%èØËkeŒ!ÌxiÁáIÿĞ÷Z×]Ûì„·AWéí{pêæå_ÿÑ÷’IÿÒ÷§Ñ²9Ú"†ŒLqş†ßÈŒ¿ÿÓ÷’IÿÔ÷ìüŸ‹fVnEx´Wôí¹Á­oÄz_Zé^—]Ó³)Ì­§kKÃ¶ŸŠº¿ÿÕö^g¦ão5q$—ÿÖ÷MøìÏksG¤	-i —ÓÎŸì$Î™] {m 	†µÒİ|)öõJÈ‡U{uÀµß„…ÿ×öCÔTı£ê IsFöñäF§7í+¹11:ıÜ¬¯®½+ö¯Õ¬ìpĞëßV¹Ù®dHùªÚÛª»¨ıRÃŞI³hy?Áãı©ÿĞ÷•"Gí–‰Ôc8ÿ ¶
+ÕÖ¶šlµÜ1¥Çä¿ÿÑöÌVXÌjYa—µ>`jŠ’KÿÒ÷”.¯ÔªÊçnö–Èí!S¯©×Sknka 4PàYÿÓöO³uHí­ï¯¤?æÉ}›ªÏòÖÄqèù²Ù:·»õöê4ıĞıë#ëGGúïŠöt^»OO°´ˆv02§'oÉ¥ÿÔÛúõ3ûiôÌ°î¥Ö†9½ô–Ûp>¶İÒD¼#|¡v±~¼ïŸõÍDx~Ïoı$^ı»ş®ıs¿ê×O±ÙGª×÷dz6m 1Å º@ÔOšÆÿ îƒõ™_¨g·ÕÂÁ4znuŒöÛfà@ ÄÔq1İÿÕö1‹Õ¶sšO¢<?¤Š0ñ*Çİéˆ˜‰üJ°’ÿÖ÷Ç0é¸÷¨QnöípÚöhæÄqÜyÈ«ÿ×÷oÄÅÈ¦©–iá¯Ş«;¤µ­#"ìr|¸vìé—ÿĞë>«½¿W¾µuƒ‹Kœë¡àXèkƒD‚<	ã^<—pz™¯ùF5ÔêeÁ»š>m”j3°ò#Ò¹&t]<¹UÜOíÆ?É]¯õÂÿÑö—¸İx¨	c!Ïw˜2 ùêÙVIÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’P²šì‚á«~‰ğ+ÿ×ö°Üªà‹†²_£¼µ?¾Ğ[¥Oo˜‡á+#®}xú©Ğ+İÕ:X®Â§OªG“ İø,ï«ßÛSêW]Ç¾êú…XB«Ma¹¶W[ Àq¬|—ÿĞõõçõ>'öïNÿ ªª¿æËÆ?¶·öÇ£ëÎ_ÕëhÉ³šËïi­î$˜¦Ú`Ÿ8ì½7û[l6ıpè3"C.›MWWK\æ’  ·’¿uÓäRÌ±îÄkã‡]¿h“ùÿÑön]V‹^÷fÆÖ×;k[á©“şz+ìcÆ±€5­ ì¤’ÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’T:¿AèjŸG©àÑšÈ ˜[>‘ò_ÿĞôşƒı¯¾©t|œ|.ŸYªûM¥·Si ÒcN%işÁè{vşÎÅ‰˜ôY‘qŸ^?´¿Õï­YUeÓiéY`c´±íKtÔxÊé~¦ıOéT:+:f{Û¼Ùe¶FëbI€ aó_ÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷ï¾Œzl¾ûUU´¹ïy­hä’t "/ÿÒ÷’IÿÓ÷’IÿÔ÷É}múÍÖ~®ç)¢¬Ì|ŒGºª¬³amÕZaÜll	üÓÂèºf>m´·3)Ù7úU¶ÇĞİá°â!£éuùBÂê¹YØ}{íêW,Æ®ÊqÍ3÷¸5»Úæ<‘¨ttGÿÕôœì¹™ÖúV–ÙÒuy–<c>·¹â³NÓ.aé»Hù¢âu|Ãõc«_“˜Ú­À~e'5ì±Sœ…Ğ rAÙ`çuî³Ó¨¾÷eæbâXìJÚş¤ÚEû¬Èc^æ1­ßLºw@Ğ¥wÖş·ŒÌñkíŞk·ì Q;ÜË˜ †ê}6¶p'Ä¯ÿÖôÕ:¿Xê–×ƒ›u8n~Kñîª¶û…uc€=Í2ßQö|H‰€¡Ó:Ö¨ül{2îÇ&Ê¶W[›úVA–&ÇtòáTé}oë&GRè´ß“mv[V+îmµµ­°:­ÏÚÆ°“&eåÍ:Fš÷ëÿ×÷’IÿĞê¾ªgu\£õi–;:¦õ,K]‘~FVößcœXíÄ:}°•Şu2+éY‡íÅ¢Ãë¸Õ>èîG+šèy=\un¯‰€}z(û!¯í¹O·s,İc^ˆÜa¤é "iÕv^?KgWn~CóÖ/Çm½Î®æ}µõúb²H_@"'ÅÿÑôÎ³ÕzÆ'Ö¬*0±ş×[ğ/±õ:áX‘e`;PA:ÇÍbbu~½ÕºÆ>~59C&üWâ€ëmÇÚ=]ûCª$ÿ Hî:m<$3:ÖN.³éëlÄua¸l°Yö á«»[·iw³éjªuŠ~¶åS×ñN>UÖ[OSk€6úf¢×ú€ƒY$l 23»¸_ÿÒì‡PÌÇêX3ö«znGPÇ­ƒ$]ëŠnu€—{½9óí>èöÊ~ÿ ¬?í_´s‡N4@³Ñô¶WëúÑíß»Ôşï£µi}Têg2Î”Ì¼|Ê5íÌûSĞo.¬7R!Ä€ã"``èºÅÿÓ÷’IÿÔ÷•lŞ›ƒŸöµRÛ¾Íso«wæXŞ<Ä«+ÿÕöL‰Ò2sªÎ¿«2jÚYkš†Ó-øí&GáG©ô>—ÕKó)6:€á[ƒÜÒĞèZG0©é>œ°U[1v9†Ñ°µÓ 93ã*¶'ÕÎ‹‰êzx¡ÆÓYqµÎ°ŸMÛ™«É0Ó¨ÿÖöêi®–Ö 9çYÕÄ“ø’¦…V5Y}•°5÷¸>Â?8††‚~@Uÿ×÷’IÿĞ÷C t.i»§bâXæí/¢–1ÄxHE}	¯¬f9ÅÎm,Ç’@¯ÿÑö*zBÇÌvm=;¬§8ŞÊX,%ÜÀLêYı£õ'1ÙøÙ¬Ã‘S^Z„ƒ
+İu×Um®¶†1€5­h€ à ¤¿ÿÒ÷Å­qi Ó"{„ÕUU52ª˜ÚëcCZÖˆ€`—ÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷•F?+×É,"Æ²À=7A§Cóïø#S‘]»€–¹¤‚×"?›Ï…ÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’Uñ„]™çhÿ ¡l_ÿÑöË±ê¸ãÜÙÚæ˜s~²ƒ_‘I°˜Iı#F£]Ÿˆû‚3Ç´9iàƒ ©/ÿÒ÷’IÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑö¬ã²ÿ ÓGûÃQÒBuíõŸMŞ\ˆÿ 3æ¿ÿÒö¯´†Xs}2bù¦N€#ò”t’_ÿÓ÷’IÿÔ÷’IÿÕ÷’_6m?íõÆ¯®ıG¡“ƒo¥UT=Ì@ã%Ó:ø¯ÿÖïÿ µŸÖ¬±õ?£äõ‹ënvOªÆo!®È¼·pÌDÇuÙ$’ÿ×÷’IÿĞ÷’IÿÑ÷[}|ßôáÿ BØ¹oí«õÛ+êwÕŸ¶aÖÛ2².Rlú,$\G}ƒÄø\Gö¤şÛÿ X:÷Ö6tN¶Y’r˜÷Qmu†–9. Ä Ó+ÿÒ÷Îk\Ò× àyº¯èİF´Í‘ú7x?åÓà‰NEv’Ñ-{@.c¹l¯ÿÓ÷’IÿÔ÷’IÿÕ÷’IÿÖõ.½õê‡Ö¦eu^™VMíêKšHó-"~kFŞ…Ñnéõtûph³¦†×K«ic âh³Ö¥Øcû‹Õ2ºp M‡× ü$ê¸$:ŸÖÌõC¦WÔ+7tÇÃ£Î«?sÜ¿ÿ×õŸõ³ ç\(nOÙòNŸgËkª¶ ğ	ùJØI%ÿĞ÷’IÿÑ÷1ÿ Ëÿ MïXÿ ^~¯ôŞ¿õc?>½ìeO¶·Çµ¤‚ùé¢ÿÒÚşÒßQ:_Vs_‘—kŸŒaÑ•–´Øà™ÔøqÏn>«æ`İ«äâ7¶>IûE? wı„Ç«ıiéÿ ê‡Hnmc›º[÷OÚïïK•¾Ÿõ¯ u½
+²Û^@0qòªà ğø/ÿÓöëi®Ğ7‚PÍ—Q;Á²±æpÉş_r3\×´9¤8á:ÿÔ÷’IÿÕ÷’IÿÖ÷’Iÿ×÷_;§tş¡I§7¬ªæ\Àá÷~©C»£u,®™U»Õ£ûË&ôKWõ;¯n,.¯sºÏEÉÏÂÊ¹Ï{}¡ÔIşÇ¹ÃÚ?t˜ğ…ÿĞ÷™h0D‰‚$—ÿÑ÷’UñŒİ˜#‹@ÿ Ø¿ÿÒö^µ§GêOêÖéıR¹íNgêŞAïö·Ï÷Œ]¢KÿÓö~£ÒºgS§ÑÏÄ§.¿İ¹À|%cÿ ­+p‰wEê¹};Â›ëÑıå’Gõ\ÕÅı~şØ¿^¾¨çt¼gabfo.¶×â‹"ÚÆ›KH%†uçvóµú¯õ§}hÀn~»æ‘ëÑsK\GG4#ïì¿ÿÔöÊ,µÁÂÖµ¯iƒ´È:rŠ’KÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒö¬xõ²ÿ ÓGûÃPzßúÔäµ¿ï%rÿ Ú–OÕ‹IçíOŸïX»UÿÓ÷’IÿÔ÷*¿¿â? EIÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷s7eùZ?Ş…ÖH¨Ûß÷’¹_íHâï«7Ìé—`ƒÛÚÅÿÓ÷’IÿÔ÷j#×¼Å³÷#/ÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷,œš1h²ûÚë¬Kœò 3¢óƒı¼zw^êà`tLûòl:2¿LÇ‰$¸ rt^˜8ğ_ÿÑ÷’IÿÒ÷1Ìİ—åhÿ xjZÿ Qºü–·ıä¯ÿÓï?µ'ü¥íçùSùçè±v©$¿ÿÔ÷Ï}eúıõOê¾Mıg;ì¶^Íì–ÌOµ§º¹õ{ë?DúÉŠü®“{²hc¶›V1¤øæ‰ñÂĞ¯øûõŸ£òÑÿÕ÷’IÿÖ÷’Iÿ×÷’AÊÌÄÃ¥×e_^=Måö¸5£æWÿĞõõç‰”Kz>WXwøìÛLÿ ¦¿kOÈ”çëŸP¦ÊÆèÕ˜öâ·Öº?¦ğõÅŸ©ZËó+³ªd7QoPy´ƒâ}­ş«B³Ñş­t.‰f]7
+¼WåÚëns¯q3ò h<ÿÑ÷’IÿÒ÷’U±ëÃÂáÿ BØ¿ÿÓö^´'£õÿ ­ÿ y+”şÔF~«Yãö§Ï÷Œ]º¯Ôp:}üÜš±j¾ç†·ï+ÿÔôñõÆ¼Ñ§åuYĞZÖzTÃ–mD99ÀúåÔ åu:EGš°ê[­‚>êşk'®ÿ jŸªVÜ,®¦ü¬‡b¿u–_÷ºöÇÑq'A1£cÃºê±±ı,zñ°ên5@5k@†Ío |~åÿÕöê©eM!²IÔ¹ÆI>eM$—ÿÖ÷’Iÿ×÷—ËÛ­ıb³ëïR§'"ê™‰nÜjÃ‹ZÆ@ÚZ?„ ’½—û^¿ëg_ú‡Ñ/Êê–áXE¢Û}&ºë˜CçÈIi'9?ÿĞõ\_©››‘}ê9-_÷\ñğŞHoõ@[œ$’ÿÑ÷’IÿÒ÷’IÿÓöœoã³?ÓGıbâ·OÖ®£õoêy~ ìÛF1°‰ôÚæ¸“á$ç?Ú3ëÇ\g^@ëxùŒ¶ÚÚı=;XÉ’è$5Á°yìGyö3Ó¾·õå½N®™Qæ®šÍÏm€şÿÔõ|/©ßW±2QÆû^Pÿ …9uÖüœòcåeÎkZ\â ’O İmºc´GøÇı{OäóS¯¬v÷8Øÿ Şwm;x|—ÿÕ÷’IÿÖ÷’Iÿ×÷’YİOêçÕş­mvõ™e_A÷Ô×	#%ÿĞöö1•±¬cCZĞZÑ Ø)$’ÿÑ÷’IÿÒ÷’IÿÓ÷_=|ÏôÑşğÕ_®ô“õƒ¦]Óº¦;rq­‰iAF ²¾©ÿ k¯ªŸTíºî•Š[}­Úë­qsöÌÀÃæ¿ÿÔ÷ävRßQĞuüÑñ?Ì5Oöpø7ŸPÆ­?Gîÿ *2ÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷1çÖËÿ MıãQ×ÿÔöË2Ç4cÚŞŞgÀ(ú6ÚA¼À˜Âcæt'òy#   ì¯ÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’U‘UWeî:ú I;À_ÿÔöÜ›ÄÙ8íŸ¢Óî0{‘ Ÿ÷£1Œcv´@òRIÿÕ÷’IÿÖ÷’Iÿ×÷’IÿĞ÷’IÿÑ÷’IÿÒ÷’IÿÓ÷’IÿÔöL_õG?ø®Yô~ŸÑKËÁ]I%ÿÕ÷’IÿÖ÷’Iÿ×÷’_ÿÙ
+endstream
+endobj
+97 0 obj
+8724
+endobj
+98 0 obj
+<<
+/Length 99 0 R
+>>
+stream
+Q BT396.75 285  TD( ) Tj-285.75 -10.5  TD ( ) Tj0 -12  TD /F0 11.25  Tf-0.2138  Tc 0.4012  Tw (Figure 7) Tj39 0  TD /F1 11.25  Tf-0.4563  Tc 0.4563  Tw ( Depth effects in perceived motion of simple 2) Tj190.5 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.5088  Tc 0.3962  Tw (D events. Two dots moving ) Tj-232.5 -12.75  TD -0.5111  Tc 0.5222  Tw (in phase as shown in part A are perceived as two dots moving in depth as though ) Tj0 -13.5  TD -0.2657  Tc 0  Tw (attache) Tj30 0  TD -0.4853  Tc 0.4964  Tw (d to the ends of a rigid rod \(dashed line\), as illustrated in part B. Two dots ) Tj-30 -12.75  TD -0.4222  Tc 0.3285  Tw (following each other around a rectangular path as shown in part C are also seen to ) Tj0 -13.5  TD -0.513  Tc 0.4192  Tw (move in depth as though attached to the ends of a rigid rod pivoting through the ) Tj0 -12.75  TD -0.3566  Tc 0.1691  Tw (center, as il) Tj47.25 0  TD -0.4957  Tc 0.6832  Tw (lustrated in part D.) Tj77.25 0  TD 0  Tc 0.1875  Tw ( ) Tj-124.5 -12.75  TD ( ) Tj0 -12.75  TD -0.405  Tc 0.4425  Tw (Other displays produced similar depth effects. Whenever the pattern of 2) Tj301.5 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.6793  Tc 0.4918  Tw (D motion ) Tj-305.25 -12.75  TD -0.4753  Tc 0.2878  Tw (could be perceived as rigid motion in depth, it was. This included several rather ) Tj0 -13.5  TD -0.5016  Tc 0.5016  Tw (surprising cases, such as the one shown in Figure 7C. The display cons) Tj291.75 0  TD -0.6159  Tc 0.8034  Tw (isted simply of ) Tj-291.75 -12.75  TD -0.4526  Tc 0.3401  Tw (two lights traversing the same rectangular path on opposite sides, but this is not what ) Tj0 -12.75  TD -0.402  Tc 0.0895  Tw (people perceived. Rather, they saw the lights moving as though attached to the ends of ) Tj0 -13.5  TD -0.4342  Tc 0.3717  Tw (a rigid rod that rotated in 3) Tj108.75 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.5055  Tc 0.543  Tw (D space, producing the complex moti) Tj152.25 0  TD -0.5676  Tc 0.7551  Tw (on pattern in) Tj51.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-316.5 -12  TD -0.5333  Tc 0.5333  Tw (depth depicted in Figure 7D.) Tj117 0  TD 0  Tc 0.1875  Tw ( ) Tj-117 -13.5  TD ( ) TjETendstream
+endobj
+99 0 obj
+2189
+endobj
+93 0 obj
+<<
+/Type /Page
+/Parent 72 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/XObject <<
+/im12 96 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents [ 94 0 R 98 0 R  ]
+>>
+endobj
+101 0 obj
+<<
+/Length 102 0 R
+>>
+stream
+BT111 713.25  TD0 0 0 rg /F1 11.25  Tf-0.5162  Tc 0.2999  Tw (Such findings suggest that there is something quite special about rigidity in perceiving ) Tj0 -12  TD -0.5343  Tc 0.3218  Tw (object motion: All else being equal, if there is an interpretation in which rigid motion ) Tj0 -13.5  TD -0.3965  Tc 0.2626  Tw (can be perceived, it will be. We w) Tj141 0  TD -0.5412  Tc 0.5923  Tw (ill call this the rigidity heuristic. We will see that it ) Tj-141 -12.75  TD -0.5242  Tc 0.4617  Tw (plays an important role in understanding the relation between depth and motion, ) Tj0 -13.5  TD -0.4043  Tc 0.4251  Tw (although there are cases in which other factors override it.) Tj240.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-240.75 -12.75  TD ( ) Tj0 -13.5  TD /F0 11.25  Tf( ) Tj0 -12.75  TD -0.0682  Tc -0.4943  Tw (Speed of Self) Tj59.25 0  TD 0.0038  Tc 0  Tw (-) Tj3 0  TD -0.0831  Tc (Motion) Tj34.5 0  TD /F1 11.25  Tf0  Tc 0.1875  Tw ( ) Tj-96.75 -12  TD ( ) Tj0 -13.5  TD -0.4992  Tc 0.3867  Tw (Given that the direction of self) Tj124.5 0  TD 0.0038  Tc 0  Tw (-) Tj3.75 0  TD -0.5208  Tc 0.494  Tw (motion can be determined visually, the other ) Tj-128.25 -12.75  TD -0.4747  Tc 0.3737  Tw (component that is required to specify one's motion through the environment is speed. ) Tj0 -12.75  TD -0.5046  Tc 0.5671  Tw (Information about absolute speed is not available solely from optic flow because ) Tj0 -13.5  TD -0.4881  Tc 0.5923  Tw (speed is defined as the rate of change in loc) Tj180.75 0  TD -0.536  Tc 0.5985  Tw (ation over time, and this requires ) Tj-180.75 -12.75  TD -0.4878  Tc 0.4503  Tw (information about absolute distance. Absolute distance cannot be determined from ) Tj0 -12.75  TD -0.5528  Tc 0.6653  Tw (purely optical information without additional assumptions because of the fundamental ) TjT* -0.4885  Tc 0.4617  Tw (scaling indeterminacy: The same retinal events could re) Tj228 0  TD -0.5889  Tc 0.2764  Tw (sult from environmental ) Tj-228 -12.75  TD -0.4876  Tc 0.5501  Tw (events in which all environmental distances were multiplied by a constant factor. ) Tj0 -13.5  TD -0.5275  Tc 0.5787  Tw (Determining absolute speed from optic flow thus requires some scaling information ) Tj0 -12.75  TD -0.4436  Tc 0.4811  Tw (from a nonoptical source, such as eye convergence or familiar size.) Tj276.75 0  TD 0  Tc 0.1875  Tw ( ) Tj-276.75 -13.5  TD ( ) Tj0 -13.5  TD /F0 11.25  Tf( ) TjETendstream
+endobj
+102 0 obj
+2451
+endobj
+100 0 obj
+<<
+/Type /Page
+/Parent 72 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 101 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 
+500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 
+778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 
+500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 
+500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 
+778 500 778 333 500 500 1000 500 500 333 1000 556 333 556 667 667 
+667 778 333 333 500 500 350 500 1000 333 1000 389 333 389 521 444 
+444 250 333 333 667 500 722 220 500 333 747 556 500 570 333 747 
+667 400 549 333 278 333 576 540 250 333 500 389 500 667 333 469 
+444 722 722 722 722 722 667 722 722 722 667 667 667 667 389 389 
+722 722 722 722 778 778 778 778 570 722 722 722 722 722 722 667 
+556 444 500 500 500 500 278 444 444 444 444 444 444 444 278 278 
+733 556 556 556 500 500 500 500 549 444 556 556 556 556 500 333 
+333 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Bold
+/Flags 16418
+/FontBBox [ -250 -200 1280 933 ]
+/MissingWidth 800
+/StemV 127
+/StemH 127
+/ItalicAngle 0
+/CapHeight 933
+/XHeight 653
+/Ascent 933
+/Descent -200
+/Leading 200
+/MaxWidth 1067
+/AvgWidth 400
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 556 611 611 
+611 778 333 333 444 444 350 500 1000 333 980 389 333 389 427 444 
+444 250 333 333 611 500 722 200 500 333 760 556 500 564 333 760 
+611 400 549 333 278 333 576 453 250 333 444 389 500 611 333 406 
+444 667 722 722 722 722 611 667 667 667 611 611 611 611 333 333 
+722 722 722 722 722 722 722 722 564 667 722 722 722 722 722 611 
+500 333 444 444 444 444 278 444 444 444 444 444 444 444 278 278 
+646 500 500 500 500 500 500 500 549 333 500 500 500 500 500 278 
+333 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -267 1200 867 ]
+/MissingWidth 800
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 867
+/XHeight 606
+/Ascent 867
+/Descent -267
+/Leading 200
+/MaxWidth 1000
+/AvgWidth 400
+>>
+endobj
+2 0 obj
+[ /PDF /Text /ImageC /ImageI  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 12 0 R 19 0 R 40 0 R 43 0 R 50 0 R ]
+/Count 6
+/Type /Pages
+/Parent 103 0 R
+>>
+endobj
+72 0 obj
+<<
+/Kids [71 0 R 93 0 R 100 0 R ]
+/Count 3
+/Type /Pages
+/Parent 103 0 R
+>>
+endobj
+103 0 obj
+<<
+/Kids [5 0 R 72 0 R ]
+/Count 9
+/Type /Pages
+/MediaBox [ 0 0 612 792 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006F00740069006F006E005F00310020002D0020004D006900630072006F0073006F0066007400200057006F00720064>
+/CreationDate (D:20020105155739)
+/Title <FEFF004D006F00740069006F006E005F0031>
+/Producer (Acrobat PDFWriter 4.0 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 103 0 R
+/Type /Catalog
+/DefaultGray 104 0 R
+/DefaultRGB  105 0 R
+>>
+endobj
+104 0 obj
+[/CalGray
+<<
+/WhitePoint [0.9505 1 1.0891 ]
+/Gamma 0.2468 
+>>
+]
+endobj
+105 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.0891 ]
+/Gamma [0.2468 0.2468 0.2468 ]
+/Matrix [0.4361 0.2225 0.0139 0.3851 0.7169 0.0971 0.1431 0.0606 0.7141 ]
+>>
+]
+endobj
+xref
+0 106
+0000000000 65535 f
+0000115876 00000 n
+0000115509 00000 n
+0000116146 00000 n
+0000006651 00000 n
+0000115559 00000 n
+0000112693 00000 n
+0000113821 00000 n
+0000114110 00000 n
+0000115230 00000 n
+0000000021 00000 n
+0000006627 00000 n
+0000033544 00000 n
+0000006795 00000 n
+0000009698 00000 n
+0000009722 00000 n
+0000032574 00000 n
+0000032599 00000 n
+0000033521 00000 n
+0000045223 00000 n
+0000033732 00000 n
+0000036103 00000 n
+0000037948 00000 n
+0000036127 00000 n
+0000037924 00000 n
+0000038098 00000 n
+0000039988 00000 n
+0000038323 00000 n
+0000039964 00000 n
+0000038120 00000 n
+0000038300 00000 n
+0000040138 00000 n
+0000041747 00000 n
+0000040332 00000 n
+0000041723 00000 n
+0000040160 00000 n
+0000040310 00000 n
+0000041897 00000 n
+0000041919 00000 n
+0000045199 00000 n
+0000051584 00000 n
+0000045453 00000 n
+0000051560 00000 n
+0000070069 00000 n
+0000051843 00000 n
+0000064774 00000 n
+0000051717 00000 n
+0000051821 00000 n
+0000064799 00000 n
+0000070045 00000 n
+0000083769 00000 n
+0000074837 00000 n
+0000070381 00000 n
+0000074813 00000 n
+0000070257 00000 n
+0000070359 00000 n
+0000074987 00000 n
+0000075009 00000 n
+0000077326 00000 n
+0000079144 00000 n
+0000077350 00000 n
+0000079120 00000 n
+0000079294 00000 n
+0000081497 00000 n
+0000079508 00000 n
+0000081473 00000 n
+0000079316 00000 n
+0000079485 00000 n
+0000081647 00000 n
+0000081669 00000 n
+0000083745 00000 n
+0000095756 00000 n
+0000115676 00000 n
+0000087091 00000 n
+0000084776 00000 n
+0000087067 00000 n
+0000083999 00000 n
+0000084753 00000 n
+0000087241 00000 n
+0000089570 00000 n
+0000087605 00000 n
+0000089546 00000 n
+0000087263 00000 n
+0000087582 00000 n
+0000089720 00000 n
+0000092640 00000 n
+0000090083 00000 n
+0000092616 00000 n
+0000089742 00000 n
+0000090060 00000 n
+0000092790 00000 n
+0000092812 00000 n
+0000095732 00000 n
+0000109816 00000 n
+0000095989 00000 n
+0000098569 00000 n
+0000098593 00000 n
+0000107518 00000 n
+0000107542 00000 n
+0000109792 00000 n
+0000112545 00000 n
+0000110006 00000 n
+0000112520 00000 n
+0000115775 00000 n
+0000116247 00000 n
+0000116336 00000 n
+trailer
+<<
+/Size 106
+/Root 3 0 R
+/Info 1 0 R
+/ID [<08729063c228e80284b47fc4a041e8e3><08729063c228e80284b47fc4a041e8e3>]
+>>
+startxref
+116515
+%%EOF

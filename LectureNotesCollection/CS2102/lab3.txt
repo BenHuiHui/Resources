@@ -1,0 +1,26 @@
+//Q2  
+select c.book, count(*) as numofcopy
+from copy c 
+group by c.book
+//q3
+select c.book, count(*) from copy c where available = 'TRUE' group by c.book having count(*)>=All(select count(*) from copy c where c.available = 'TRUE' group by c.book)
+//q4
+select s.name from student s, loan l, book b where l.borrower=s.email and l.book = b.ISBN13 and b.authors='Charles Dickens'
+//q5
+select count(*) from book b where b.authors = 'Charles Dickens'
+//q6 ***
+select s.name from student s, loan l, book b where l.borrower=s.email and l.book = b.ISBN13 and b.authors='Charles Dickens' group by s.name, s.email 
+having count(distinct b.ISBN13) = (select count(*) from book b where b.authors = 'Charles Dickens')
+//q7
+select s.name from student s, copy c,book b where c.owner=s.email and b.title like '%Computer%' and b.pages>100
+//q8
+select distinct s.name from student s,loan l where s.email not in (select c.owner from copy c where c.book = '978-0262033848') 
+//q9 *****
+select s.name from student s 
+where not exists
+(select * from book b 
+where b.authors='Charles Dickens'
+and not exists
+(select * from loan l 
+where l.book=b.ISBN13 and l.borrower = s.email))
+//q10

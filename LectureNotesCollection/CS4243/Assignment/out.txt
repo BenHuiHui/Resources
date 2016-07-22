@@ -1,0 +1,127 @@
+			Output for question 1: 
+
+A = 
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+A's rank =  3
+A's inverse = 
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+ cross product between first row and second row of A =   0.0000   0.0000   1.0000
+
+ cross product between first row and third row of A =   0.0000  -1.0000   0.0000
+
+ cross product between second row and third row of A =   1.0000   0.0000   0.0000
+
+ cross product between first row and first row of A =   0.0000   0.0000   0.0000
+
+ cross product between second row and second row of A =   0.0000   0.0000   0.0000
+
+ cross product between third row and third row of A =   0.0000   0.0000   0.0000
+
+The first and second rows of A are orthogonal to each other.
+The first and third rows of A are orthogonal to each other.
+The second and third rows of A are orthogonal to each other.
+EigenValues of A:
+[ 1.  1.  1.]
+EigenVectors of A:
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+Singular Values:
+[ 1.  1.  1.]
+Matrix U:
+
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+Matrix V:
+
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+ dot product between first column and second column of U =   0.0000
+
+ dot product between first column and third column of U =   0.0000
+
+ dot product between second column and third column of U =   0.0000
+
+ dot product between first column and first column of U =   1.0000
+
+ dot product between second column and second column of U =   1.0000
+
+ dot product between third column and third column of U =   1.0000
+
+ dot product between first column and second column of V =   0.0000
+
+ dot product between first column and third column of V =   0.0000
+
+ dot product between second column and third column of V =   0.0000
+
+ dot product between first column and first column of V =   1.0000
+
+ dot product between second column and second column of V =   1.0000
+
+ dot product between third column and third column of V =   1.0000
+
+
+
+			Output for question 2: 
+
+A = 
+[[1 0 0]
+ [0 1 0]
+ [1 1 0]]
+A's rank =  2
+EigenValues of A:
+[ 0.  1.  1.]
+EigenVectors of A:
+[[ 0.          0.70710678  0.        ]
+ [ 0.          0.          0.70710678]
+ [ 1.          0.70710678  0.70710678]]
+Singular Values:
+[ 1.73205081  1.          0.        ]
+Matrix U:
+
+[[ -4.08248290e-01   7.07106781e-01  -5.77350269e-01]
+ [ -4.08248290e-01  -7.07106781e-01  -5.77350269e-01]
+ [ -8.16496581e-01  -5.55111512e-17   5.77350269e-01]]
+Matrix V:
+
+[[-0.70710678 -0.70710678 -0.        ]
+ [ 0.70710678 -0.70710678 -0.        ]
+ [ 0.          0.          1.        ]]
+ dot product between first column and second column of U =   0.0000
+
+ dot product between first column and third column of U =  -0.0000
+
+ dot product between second column and third column of U =   0.0000
+
+ dot product between first column and first column of U =   1.0000
+
+ dot product between second column and second column of U =   1.0000
+
+ dot product between third column and third column of U =   1.0000
+
+ dot product between first column and second column of V =   0.0000
+
+ dot product between first column and third column of V =   0.0000
+
+ dot product between second column and third column of V =   0.0000
+
+ dot product between first column and first column of V =   1.0000
+
+ dot product between second column and second column of V =   1.0000
+
+ dot product between third column and third column of V =   1.0000
+
+
+
+			Output for question 3: 
+
+Determinate of A:  0.01
+Rank of A:  3
+Singular values of A:  [  1.00000000e+01   1.00000000e+01   1.00000000e-04]
+Practically, rank of A should be 2

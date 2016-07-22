@@ -1,0 +1,51 @@
+function res = f1(t)
+res = 8*exp(-t) - 3*exp(-3*t)
+endfunction
+
+function res = f2(t)
+res = 5*exp(-2*t) + 11*t.*exp(-2*t)
+endfunction
+
+function res = f3(t)
+res = exp(-2*t).*(5.5*sin(2*t)+5*cos(2*t))
+endfunction
+
+t = 0:0.08:8;
+x1 = f1(t);
+x2 = f2(t);
+x3 = f3(t);
+
+plot(t,x1,'r-');
+plot(t,x2,'g.');
+plot(t,x3,'b-.');
+
+xlabel('t');
+ylabel('x');
+title('Song Yangyu on Q1');
+
+
+
+// another method
+clear;
+clc;
+function res = f1(t,x)
+res = [x(2);-4*x(2)-3*x(1)]
+endfunction;
+
+function res = f2(t,x)
+res = [x(2);-4*x(2)-4*x(1)]
+endfunction;
+
+function res = f3(t,x)
+res = [x(2);-4*x(2)-8*x(1)]
+endfunction;
+
+t = 0:0.08:8;
+
+x1 = ode([5;1],0,t,f1);
+x2 = ode([5;1],0,t,f2);
+x3 = ode([5;1],0,t,f3);
+
+plot(t,x1(1,:),'r-');
+plot(t,x2(1,:),'g.');
+plot(t,x3(1,:),'b-.');

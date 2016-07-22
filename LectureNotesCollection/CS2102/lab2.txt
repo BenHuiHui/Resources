@@ -1,0 +1,35 @@
+//q1
+select s.email from student s
+//q2
+select distinct s.email from student s(find different emails from student) worong, email is primary key of student, just select s.eamil from student s
+//q3
+select s.name from student s order by s.name desc
+//q4
+select s.name,count(*) from student s group by s.name having count(*)>1 ; select * from student s1, student s2 where s1.name=s2.name and s1.email<s2.email
+//q5
+select distinct s.name from student s 
+//q6
+select s.name from student s, copy c where c.owner = s.email and c.book='978-0262033848'
+//q7
+select s.name from student s, copy c,book b where c.owner = s.email and c.book=b.ISBN13 and b.title like '%Computer%' and b.pages>100
+//q8
+select b1.pages + b2.pages 
+from book b1, book b2 where b1.ISBN13 = '978-0262033848' and b2.ISBN13='978-0321295354'
+//q9
+select distinct s.name
+from student s, copy c where c.owner = s.email and c.book <> '979-026033848'
+//q10
+select distinct s.name from student s, copy c where c,owner <>s.email or c.book = '978-0262933848'//print all the name 
+//q11
+select s.name from student s, loan l where l.borrower = s.email and l.book = '978-0262933848'
+//q12
+select s.name from student s, loan l where l.borrower = s.email and l.book = '978-0262033848' union
+select s.name from student s, copy c where c.owner = s.email and c.book = '978-0262033848'
+//q13
+select s.name from student s, copy c,loan l where (l.borrower = s.email and l.book = '978-0262033848') OR (c.owner = s.email and c.book = '978-0262033848')
+//no answer for this, we should use union for union
+//q14
+delete from loan
+//q15 
+//when loan is droped, loan is empty
+//S X C X L = EMPTY

@@ -1,0 +1,1182 @@
+ /******************************/
+/** Default Skin (BLUE)***/
+
+.TopMenuGroup-0
+{
+  background-image: url("/images/menu.gif");
+  background-repeat: repeat-x ;
+  border: 0px solid #5A0C08;
+ /* background-color: #336699;*/
+  cursor:hand;
+  position:relative;
+  z-index:110;
+}
+
+.VTopMenuGroup-0
+{
+
+ /* background-image: url("/images/menu/menugrad_1.gif");*/
+  background-repeat: repeat-y repeat-x;
+  
+  border: 1px solid #5A0C08;
+  background-color: #C6DBDE;
+  cursor:default;
+  
+  /*border: 1px solid #000000;
+  background-color: #366CAD;
+  cursor:default; */
+}
+
+.MenuGroup-0
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+
+
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:hand; 
+}
+
+.VMenuGroup-0
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#4C60A3;
+  padding-left:2px;
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default; 
+}
+
+.MenuItem-0
+{
+  /*color:#162D7B; */
+  color:#333333; 
+  text-align:left;
+  font-family:Arial; 
+  font-size:12px;
+
+  padding-bottom:4px;
+  padding-left:5px;
+  padding-right:5px;
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItem-0 a:link
+{
+  color:#333333; 
+  text-align:left;
+  font-family:Arial; 
+  font-size:12px;
+
+  padding-bottom:4px;
+  padding-left:5px;
+  padding-right:5px;
+  cursor:hand;
+  /*font-weight:BOLD;*/
+  
+    text-decoration:none;
+    cursor:hand;
+  
+}
+.MenuItem-0 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#333333;
+    font-family:arial,sans-serif; 
+   font-size:12px;
+}
+
+.MenuItem-00
+{
+  color:#333333;/* color:#162D7B;*/
+  text-align:left;
+  font-family:arial,sans-serif; 
+  font-size:12px;
+
+  padding-bottom:4px;
+  padding-left:13px;
+  padding-right:13px;
+  cursor:hand;
+  /*font-weight:BOLD;*/
+}
+.MenuItem-00 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#333333;
+    font-family:arial,sans-serif; 
+   font-size:12px;
+}
+.MenuItem-00 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#333333;
+    font-family:arial,sans-serif; 
+    font-size:12px;
+}
+.VMenuItem-0
+{
+  color:#666666;
+  text-align:left;
+  vertical-align:middle;
+  font-family:arial,sans-serif; 
+  font-size:12px;
+  border: 1px solid #ffffff;
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:2px;
+  cursor:hand;
+  /*font-weight:BOLD;*/
+}
+
+
+.MenuItemOver-0
+{
+  background-color:#CCCCCC; /*background-color:#757590;*/
+  text-align:left;
+   color:#000000; /*color:#ECECEC*/
+  font-family:Arial; 
+  font-size:12px; 
+  padding-bottom:4px;
+  padding-left:5px;
+  padding-right:5px;
+  cursor:hand; 
+  /*font-weight:BOLD;*/
+}
+
+.MenuItemOver-0 a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000000;
+    font-family:arial,sans-serif; 
+    font-size:12px;
+}
+.MenuItemOver-0 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000000;
+}
+.MenuItemOver-0 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000000;
+}
+
+.MenuItemOver-00
+{
+  background-color:#CCCCCC; 
+  text-align:left;
+  color:#000000; 
+  font-family:arial,sans-serif; 
+  font-size:12px; 
+  padding-bottom:4px;
+  padding-left:13px;
+  padding-right:13px;
+  cursor:hand; 
+  /*font-weight:BOLD;*/
+}
+
+.MenuItemOver-00 a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000000;
+    font-family:arial,sans-serif; 
+    font-size:12px;
+}
+.MenuItemOver-00 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000000;
+}
+.MenuItemOver-00 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000000;
+}
+
+
+.MMenuItemOver-0
+{
+  background-color:#757590; 
+  text-align:left;
+  color:#000000; 
+  font-family:Arial; 
+  font-size:12px; 
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+  width:100%;
+}
+
+
+
+.VMenuItemOver-0
+{
+  background-color:#757590; 
+  text-align:left;
+  vertical-align:middle;
+  color:#000000; 
+  font-family:Arial; 
+  border: 1px solid #ffffff;
+  font-size:12px; 
+  padding-bottom:4px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:2px;
+  cursor:hand; 
+  /*font-weight:BOLD;*/
+}
+
+.MenuBreak
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+
+
+}
+
+.MenuBreak-0
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+
+
+}
+
+.DisabledMenuItem-0
+{
+  color:#9DB6C7; 
+  text-align:left;
+  font-family:Arial; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+
+.DisabledMenuItemOver-0
+{
+  color:#9DB6C7; 
+  text-align:left;
+  font-family:Arial; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+
+.spanSpace
+{
+  width:100%;
+}
+
+/** End Default Skin **/
+/******************************/
+
+
+/******************************/
+/**    Skin 2 (RED) **/
+/******************************/
+
+.TopMenuGroup-1
+{
+  background-image: url("/images/menu/menugrad_3.gif");
+  background-repeat: repeat-x;
+  border: 1px solid #5A0C08;
+  background-color: #5A0C08;
+
+/*
+  background-color:#F3F9FB; 
+  border-width:1px; 
+  border-color:gray; 
+  border-style:solid;
+*/
+  cursor:hand;
+  position:relative;
+  z-index:110; 
+}
+
+.VTopMenuGroup-1
+{
+ background-image: url("/images/menu/menugrad_3.gif");
+  background-repeat: repeat-y repeat-x;
+  
+  border: 1px solid #5A0C08;
+  background-color: #C6DBDE;
+
+/*
+  background-color:#F3F9FB; 
+  border-width:1px; 
+  border-color:gray; 
+  border-style:solid;
+*/
+  cursor:default; 
+}
+
+
+.MenuGroup-1
+{
+  background-image:url("/images/menu/background.gif"); 
+/*  background-positionx: left;*/
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:hand; 
+/*  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); */
+}
+
+.VMenuGroup-1
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#FFFFFF;
+  
+  padding-left:2px;
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default; 
+}
+
+.MenuItem-1
+{
+  color:#FFA500;
+  text-align:left;
+  font-family:Arial; 
+  font-size:11px;
+
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItem-1 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFA500;
+}
+.MenuItem-1 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFA500;
+}
+.VMenuItem-1
+{
+  color:#FFA500;
+  text-align:left;
+  font-family:Arial; 
+  font-size:11px;
+
+  padding-bottom:7px;
+  padding-left:3px;
+  padding-right:3px;
+
+  cursor:hand;
+  font-weight:BOLD;
+}
+
+.MenuItemOver-1
+{
+  background-color:#A82323; 
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:Arial; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MenuItemOver-1 a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItemOver-1 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItemOver-1 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MMenuItemOver-1
+{
+  background-color:#A82323; 
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.VMenuItemOver-1
+{
+  background-color:#A82323; 
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MenuBreak-1
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+}
+
+.DisabledMenuItem-1
+{
+  color:#E7C2D2; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.DisabledMenuItemOver-1
+{
+  color:#906077; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.spanSpace
+{
+  width:100%;
+}
+
+/** End of Skin -1 **/
+
+
+/******************************/
+/**    Skin 3 (Gold) **/
+/******************************/
+
+.TopMenuGroup-2
+{
+  background-image: url("/images/menu/menugrad_2.gif");
+  background-repeat: repeat-x;
+  border: 1px solid #5A0C08;
+  background-color: #5A0C08;
+  position:relative;
+  z-index:110;
+/*
+  background-color:#F3F9FB; 
+  border-width:1px; 
+  border-color:gray; 
+  border-style:solid;
+*/
+  cursor:hand; 
+}
+
+.VTopMenuGroup-2
+{
+ background-image: url("/images/menu/menugrad_2.gif");
+  background-repeat: repeat-y repeat-x;
+  
+  border: 1px solid #5A0C08;
+  background-color: #C6DBDE;
+
+/*
+  background-color:#F3F9FB; 
+  border-width:1px; 
+  border-color:gray; 
+  border-style:solid;
+*/
+  cursor:default; 
+}
+
+.MenuGroup-2
+{
+  background-image:url("/images/menu/background.gif"); 
+/*  background-positionx: left;*/
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:hand; 
+/*  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); */
+}
+
+.VMenuGroup-2
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+  
+  padding-left:2px;
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default; 
+}
+.MenuItem-2
+{
+  color:#FFA500;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItem-2 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFA500;
+}
+.MenuItem-2 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFA500;
+}
+.VMenuItem-2
+{
+  color:#FFA500;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+
+  padding-bottom:7px;
+  padding-left:3px;
+  padding-right:3px;
+
+  cursor:hand;
+  font-weight:BOLD;
+}
+
+.MenuItemOver-2
+{
+  /*background-color:#DDCE7A;*/ 
+  background-color:#7D8E6E; 
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MenuItemOver-2 a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItemOver-2 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItemOver-2 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MMenuItemOver-2
+{
+  /*background-color:#DDCE7A;*/ 
+  background-color:#7D8E6E;
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.VMenuItemOver-2
+{
+  /*background-color:#DDCE7A;*/ 
+  background-color:#7D8E6E; 
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+
+
+.MenuBreak-2
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+}
+
+.DisabledMenuItem-2
+{
+  color:#E7C2D2; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.DisabledMenuItemOver-2
+{
+  color:#906077; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+/** End of Skin -2 **/
+
+
+/******************************/
+/**    Skin 4 (Orange) **/
+/******************************/
+
+.TopMenuGroup-3
+{
+  background-image: url("/images/menu/menugrad_4.gif");
+  background-repeat: repeat-x;
+  border: 1px solid #5A2708;
+  background-color: #5A2708;
+  position:relative;
+  z-index:110;
+/*
+  background-color:#F3F9FB; 
+  border-width:1px; 
+  border-color:gray; 
+  border-style:solid;
+*/
+  cursor:hand; 
+}
+
+.VTopMenuGroup-3
+{
+ background-image: url("/images/menu/menugrad_4.gif");
+  background-repeat: repeat-y repeat-x;
+  
+  border: 1px solid #5A0C08;
+  background-color: #C6DBDE;
+
+/*
+  background-color:#F3F9FB; 
+  border-width:1px; 
+  border-color:gray; 
+  border-style:solid;
+*/
+  cursor:default; 
+}
+
+.MenuGroup-3
+{
+  background-image:url("/images/menu/background.gif"); 
+/*  background-positionx: left;*/
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:hand; 
+/*  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); */
+}
+
+.VMenuGroup-3
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+  
+  padding-left:2px;
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default; 
+}
+.MenuItem-3
+{
+  color:#000066;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItem-3 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#000066;
+}
+.MenuItem-3 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItem-3 a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.VMenuItem-3
+{
+  color:#000066;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+
+  padding-bottom:7px;
+  padding-left:3px;
+  padding-right:3px;
+
+  cursor:hand;
+  font-weight:BOLD;
+}
+
+.MenuItemOver-3
+{
+  /*background-color:#DDCE7A;*/
+  /*background-color:#003399; */
+  background-color:#008080;
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MenuItemOver-3 a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItemOver-3 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MenuItemOver-3 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#FFFFFF;
+}
+.MMenuItemOver-3
+{
+  /*background-color:#DDCE7A;*/ 
+  background-color:#003399;
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.VMenuItemOver-3
+{
+  /*background-color:#DDCE7A;*/ 
+  background-color:#003399; 
+  text-align:left;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+
+
+.MenuBreak-3
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+}
+
+.DisabledMenuItem-3
+{
+  color:#EDC7AE; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.DisabledMenuItemOver-3
+{
+  color:#906660; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+/** End of Skin -3 **/
+
+/******************************/
+/** Skin MBA                 **/
+/******************************/
+/******************************/
+
+/** Default Skin (BLUE)***/
+.TopMenuGroup-MBA
+
+{
+  background-image: url("/images/menu/menugrad_3.gif");
+  background-repeat: repeat-x ;
+  border: 1px solid ;
+  background-color: #5A0C08;
+  cursor:hand;
+  position:relative;
+  z-index:110; 
+}
+.VTopMenuGroup-MBA
+
+{
+  background-image: url("/images/menu/menugrad_1.gif");
+  background-repeat: repeat-y repeat-x;
+  border: 1px solid #000000 ;
+  background-color: #000000;
+  cursor:default;
+  /*border: 1px solid #000000;
+  background-color: #366CAD;
+  cursor:default;*/
+}
+.MenuGroup-MBA
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#F9F9F9; 
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:hand; 
+}
+
+.VMenuGroup-MBA
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#4C60A3;
+  padding-left:2px;
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default;
+}
+.MenuItem-MBA
+{
+  color:#162D7B;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px; 
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItem-3 a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#162D7B;
+}
+.MenuItem-3 a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#162D7B;
+}
+.VMenuItem-MBA
+{
+  color:#ffffff;
+  text-align:left;
+  vertical-align:middle;
+  font-family:verdana; 
+  font-size:11px;
+  border: 0px solid #ffffff;
+  padding-bottom:4px;
+  padding-left:4px;
+  padding-top:3px;
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItemOver-MBA
+{
+  background-color:#757590; 
+  text-align:left;
+  color:#ECECEC; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:13px;
+  padding-right:8px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MMenuItemOver-MBA
+{
+  background-color:#757590; 
+  text-align:left;
+  color:#ECECEC; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MenuItemOver-MBA a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#ECECEC;
+}
+.MenuItemOver-MBA a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#ECECEC;
+}
+.MenuItemOver-MBA a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#ECECEC;
+}
+.VMenuItemOver-MBA
+{
+  background-color:#757590; 
+  text-align:left;
+  vertical-align:middle;
+  color:#ECECEC; 
+  font-family:verdana; 
+  border: 1px solid #ffffff;
+  font-size:11px; 
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+.MenuBreak
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+}
+.MenuBreak-MBA
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+}
+
+.DisabledMenuItem-MBA
+{
+  color:#9DB6C7; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+
+.DisabledMenuItemOver-MBA
+{
+  color:#9DB6C7; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+.spanSpace
+{
+  width:100%;
+}
+/******************************/
+/**    Skin Special (Transparent) **/
+/******************************/
+
+.TopMenuGroup-t
+{
+  border: 0px;
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  padding-top:4px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.MenuGroup-t
+{
+  border-width:0px; 
+  cursor:hand;
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+}
+
+.MenuItem-t
+{
+  color:#000000;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:default; 
+  /*font-weight:BOLD;*/
+}
+
+.MenuItemLast-t
+{
+  color:#822b54;
+  text-align:left;
+  font-family:Verdana,Arial,Helvetica,sans-serif; 
+  font-size:11px;
+
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+
+
+.MenuItemDrop-t
+{
+  color:#FFFFFF;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+  background-color:#F9F9F9; 
+
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+/** End of Skin - Transparent **/
+
+.ProjectBCI
+{
+  color:#2c2c2c;
+  font-family:Verdana,Arial,Helvetica,sans-serif; 
+  font-size:11px;
+  /*font-weight:BOLD;*/
+}

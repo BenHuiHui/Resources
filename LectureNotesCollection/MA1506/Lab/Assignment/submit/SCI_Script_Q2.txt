@@ -1,0 +1,16 @@
+function res = f(a,b,c,t)
+res = a .* sin(b*t) .* sin(c*t)
+endfunction
+
+T = 1.9969
+t = linspace(0,10*T,1000);
+x1 = f(-328.995,-2.417e-3,3.144,t);
+x2 = f(4.854,0.1732,2.973,t);
+
+plot(t,x1,'r--');
+plot(t,x2,'g-.');
+
+xlabel('t');
+ylabel('x');
+title('Song Yangyu on Q2');
+

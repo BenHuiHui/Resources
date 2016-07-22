@@ -1,0 +1,111 @@
+// module and name is composoary, the port list is optional
+// When using a TestBench, possible no need the ports.
+module holiday_1(sat,sun,weekend);// Ports defined
+	// note that each statement ends with a ';'
+	// cuz verilog language is concurrent.
+/**
+ * Module Contains:
+ *   Declaration
+ *   Functionality
+ *   Timing
+ * */ 
+ 
+ /* declaration part */
+ input sat, sun;
+ output weekend;
+ /* declaration part */
+ 
+ /* Body */
+ assign weekend = sat | sun;
+ /* Body */
+
+end module
+
+module name(port_names);
+    
+    // module port declarations
+        // Scalar (1 bit) port declarations
+	// port_direction port_name, port_name
+    // Vector (Multiple bit) port declarations
+        // port_direction [port_size] port_name, port_name
+    // port_direction: input, inout, or output
+    // port_name:	Legal identifier
+    // port_size:	is a range from [msb:lsb]
+    
+    // data type declaration
+
+    // procedural blocks
+    
+    // Continuous assignments
+    
+    // User defined tasks & functions 
+    
+    // primitive instances
+    
+    // Module instances
+    
+    // Specify Blocks
+
+    // module is a represenation of IC
+endmodule
+
+
+// module instances
+module_name instance_name(signal1, signal2, signal3);
+module_name instance_name(signal1, , signal3);
+    // syntax for instanitation iwth port number
+module_name instance2(.signal1(para1),.signa2(para2));
+
+
+module get_level_ex(in_1, in_2,c);
+    input: in_1, in_2;
+    output: c;
+
+    nand(a,in_1,in_2);
+    not(b,a);
+    or(c,b,in_2);
+endmodule
+
+
+module simple_latch(q, qBar, set, clear);
+input set, clear;
+output #2 q, qBar;	// #2 -- the physical delay of the circuit
+nand n1(q,qBar,set);
+nand n2(qBar, q, clear);
+endmodule
+
+
+
+// User Defined Primitives (UDP)
+primitive Adder(Sum, InA, InB);	// usually output then input
+	output Sum;
+	input InA, InB;
+	table 
+	00:0;
+	01:1;
+	10:1;
+	11:0;
+	endtable
+endprimitive
+
+
+`define FALSE 0
+`define TRUE 1
+module function_ex(clk);
+input clk;
+reg r1, r2, r3;
+
+// return value default to decimal
+function error;	// func def
+input[7:0] a, b, c;
+if( (a != b) && (a != c) )
+	error = `FALSE
+else error = `TRUE
+endfunction
+
+always @(posedge clk)
+	if(error(r1,r2,r3))
+		$display("error in the reg compare");
+
+reg d;
+

@@ -1,0 +1,4 @@
+?- P = (
+    global a;
+    gcd # 
+

@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+	    <title>UC Davis CAS &#8211; Central Authentication Service</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta name="Description" content="Login page for the UC Davis CAS Authentication Service." />
+	    <style type="text/css" media="screen">@import 'css/cas.css'/**/;</style>
+	    <!--[if gte IE 6]><style type="text/css" media="screen">@import 'css/ie_cas.css';</style><![endif]-->
+	    <script type="text/javascript" src="js/common_rosters.js"></script>
+	</head>
+
+	<body id="cas">
+		<div id="dialog">
+	    	  <div id="innerborder">
+	    	  		<div> <!-- content container -->
+				    	<div id="header">
+				    	  	<div id="logo"><img src="images/ucdavisheader.jpg" width="580" height="40" alt="University of California, Davis" /></div>
+				       		<h1 id="app-name">Central Authentication Service (CAS)</h1>
+				   		</div>
+	    				<div id="content">
+
+			<form id="fm1" class="fm-v clearfix" action="/cas/login?service=https%3A%2F%2Fsmartsite.ucdavis.edu%2Fxsl-portal%2Flogin" method="post">
+			    
+	            <fieldset>
+	                <legend>CAS Login Form</legend>
+	                <div class="box" id="login">
+	                <!-- You have requested a secure UC Davis Web page. Please enter your <a href="help.html" target="_blank" title="UC Davis Login ID and Kerberos passphrase">UC Davis Login ID and Kerberos passphrase</a> to access the protected content.  -->
+	                    <h2>Secure Log In</h2>
+	                    <div class="row">
+	                        <label for="username"><span class="accesskey">L</span>ogin ID:</label>
+							
+							
+							
+							
+							<input id="username" name="username" class="required" tabindex="1" accesskey="l" type="text" value="" size="25"/>
+							
+	                    </div>
+	                    <div class="row">
+	                        <label for="password"><span class="accesskey">P</span>assphrase:</label>
+							
+							
+							<input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25"/>
+	                    </div>
+	                    <div class="row btn-row">
+							<input type="hidden" name="lt" value="_c8E631C92-6C41-55CD-464F-82C9E4025251_k9EAAFA88-1256-9225-9090-3572A6A4B59D" />
+							<input type="hidden" name="_eventId" value="submit" />
+
+	                        <input id="submit" class="btn-submit" accesskey="i" value="LOG IN" tabindex="4" type="submit" />
+	                    </div>
+	                </div>
+	            </fieldset>
+               
+	            <div id="sidebar">
+	            	 <p>You have requested a secure UC Davis Web page. Please enter your <a href="help.html" target="_blank" title="UC Davis Login ID and Kerberos passphrase">UC Davis Login ID and Kerberos passphrase</a> to access the protected content. </p>
+	                 <p>For your security, please Log Out and Exit your Web browser when you are done accessing services that require authentication.</p>
+					 <p><a href="help.html" target="_blank" title="Need Help?">Need Help?</a></p>
+					 <div id="verify">
+						<a href="verify.html" target="_blank" title="Click here to verify Site Certificate"><span class="link">Click here to verify Site Certificate</span>
+						<img src="images/padlock48.jpg" alt="Click here to verify Site Certificate" /></a>
+					 </div>
+	            </div>
+        	</form>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4670080-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>        	
+        	
+						</div> <!-- content -->
+					</div> <!-- content container -->
+				</div> <!-- innerborder -->
+		</div> <!-- dialog -->
+	    <div id="footer">
+			 <div id="notices">
+			 	<h1>IMPORTANT SECURITY NOTIFICATION</h1>
+				<p>Your campus computing account Login ID and Password should only be used when you authenticate 
+				to campus Web sites and online services.</p>
+				<p>UC Davis will never ask you to confirm or verify your computing account by providing your 
+				password via telephone or email. Requests that ask you to reply to an email or visit a non-campus 
+				affiliated Web site to confirm or verify your account by providing your password are called phishing 
+				scams. <span class="emphasized">DO NOT RESPOND TO THESE REQUESTS</span> even if they appear to come from an 
+				email address ending with "ucdavis.edu".</p>
+ 				<p>If you think you have provided your password or other personal information in response to a phishing
+ 				 scam, contact the IT Express Computing Services Help Desk immediately at 530-754-HELP (4357).</p>
+			</div>
+	        <div>
+	            <p>Copyright &copy; Regents of the University of California, Davis campus, 2005-2008. All Rights Reserved.</p>
+	        </div>
+	    </div>
+	</body>
+</html>
+

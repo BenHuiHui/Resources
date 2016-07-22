@@ -1,0 +1,17 @@
+function res = f(t,x)
+res = [x(2);-x(2) - sqrt(x(1))./t]
+endfunction
+
+x0 = [4,10];
+t0 = 0.01;
+t = linspace(0.01,15,500);
+
+x = ode(x0,t0,t,f);
+
+plot(t,x(1,:));
+
+// b
+// for finding x(15), the last term
+x($)
+
+

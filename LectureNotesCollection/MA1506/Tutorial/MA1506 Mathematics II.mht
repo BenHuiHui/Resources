@@ -1,0 +1,1595 @@
+From: "Saved by Windows Internet Explorer 8"
+Subject: MA1506 Mathematics II
+Date: Sat, 16 Apr 2011 02:20:02 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://courses.nus.edu.sg/course/mattpc/internet/ma1506.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16543
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>MA1506 Mathematics II</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type>
+<META content=3D300 http-equiv=3Drefresh>
+<STYLE type=3Dtext/css>.xl101630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #fcd5b4; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 700; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: black none
+}
+.xl102630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #fcd5b4; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+.xl104630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #fcd5b4; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: medium none; FONT-WEIGHT: 700; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+.xl106630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; BACKGROUND: =
+#fcd5b4; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: =
+padding; mso-font-charset: 0; mso-number-format: "@"; mso-pattern: black =
+none
+}
+.xl108630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #fcd5b4; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: "@"; =
+mso-pattern: black none
+}
+.xl109630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #fcd5b4; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: black none
+}
+.xl110630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: medium none; FONT-WEIGHT: 700; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+.xl111630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: =
+padding; mso-font-charset: 0; mso-number-format: General; mso-pattern: =
+black none
+}
+.xl112630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+.xl114630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: "@"; =
+mso-pattern: black none
+}
+.xl65630 {
+	FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; FONT-WEIGHT: 700; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl68630 {
+	TEXT-ALIGN: center; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; FONT-WEIGHT: =
+700; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: "@"; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl69630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl70630 {
+	FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: normal; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; FONT-WEIGHT: 400; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto; mso-generic-font-family: auto
+}
+.xl72630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#99ccff; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 700; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: =
+padding; mso-font-charset: 0; mso-number-format: General; mso-pattern: =
+black none
+}
+.xl73630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: #99ccff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 700; BORDER-RIGHT: medium none; =
+TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: black none
+}
+.xl74630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: #99ccff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: black none
+}
+.xl75630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+medium none; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl76630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+medium none; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: "@"; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl77630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #ffcc99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 700; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: black none
+}
+.xl78630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl79630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; =
+FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl80630 {
+	BORDER-BOTTOM: windowtext 2pt double; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl81630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl82630 {
+	FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; FONT-WEIGHT: 400; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto; mso-generic-font-family: auto
+}
+.xl83630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 700; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: black none
+}
+.xl84630 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; =
+FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl86630 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: padding; =
+mso-font-charset: 0; mso-number-format: General; mso-pattern: auto; =
+mso-background-source: auto
+}
+.xl87630 {
+	BORDER-BOTTOM: windowtext 2pt double; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl88630 {
+	BORDER-BOTTOM: windowtext 2pt double; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl89630 {
+	BORDER-BOTTOM: windowtext 2pt double; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl90630 {
+	BORDER-BOTTOM: windowtext 2pt double; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: "@"; mso-pattern: auto; mso-background-source: auto
+}
+.xl91630 {
+	BORDER-BOTTOM: windowtext 2pt double; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: "@"; mso-pattern: auto; mso-background-source: auto
+}
+.xl92630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl93630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl94630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: normal; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: none; =
+PADDING-TOP: 1px; mso-ignore: padding; mso-font-charset: 0; =
+mso-number-format: General; mso-pattern: auto; mso-background-source: =
+auto
+}
+.xl95630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #c2d69a; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 700; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+.xl97630 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #c2d69a; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 2pt double; FONT-WEIGHT: 700; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+.xl99630 {
+	BORDER-BOTTOM: windowtext 2pt double; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: normal; =
+BACKGROUND: #c2d69a; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; =
+mso-ignore: padding; mso-font-charset: 0; mso-number-format: General; =
+mso-pattern: black none
+}
+BODY {
+	BACKGROUND-COLOR: #ffffcc
+}
+.style1 {
+	COLOR: #000099; FONT-WEIGHT: bold
+}
+</STYLE>
+<LINK rel=3D"shortcut icon" type=3Dimage/x-icon href=3D"favicon.ico">
+<STYLE type=3Dtext/css>.xl1116301 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: =
+padding; mso-font-charset: 0; mso-number-format: General; mso-pattern: =
+black none
+}
+.xl1116302 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px; mso-ignore: =
+padding; mso-font-charset: 0; mso-number-format: General; mso-pattern: =
+black none
+}
+.style2 {
+	COLOR: #ff0000
+}
+</STYLE>
+
+<STYLE type=3Dtext/css>.excel1 {
+	FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: bottom; FONT-WEIGHT: 400; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel3 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffcc; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel42 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffcc; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel4 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffcc; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel41 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; COLOR: black; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel26 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; COLOR: black; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel7 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel14 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel12 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 0.5pt solid; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: =
+400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel25 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: medium none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext =
+0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel27 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; COLOR: black; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel15 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel21 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: left; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel40 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel30 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel31 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; BACKGROUND: #ffff99; COLOR: black; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel32 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: medium none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext =
+0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel18 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel20 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: left; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel19 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 0.5pt solid; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel8 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel5 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel33 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffff; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel34 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffff; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel35 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel36 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel23 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; FONT-STYLE: =
+normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: Arial, =
+sans-serif; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: =
+700; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel24 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel17 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel16 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; FONT-STYLE: =
+normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: Arial; =
+WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel22 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel38 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 0.5pt solid; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel39 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel9 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: left; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel13 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel37 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel28 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel10 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel6 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel11 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel2 {
+	TEXT-ALIGN: center; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; FONT-WEIGHT: 400; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel29 {
+	TEXT-ALIGN: left; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: =
+1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; FONT-WEIGHT: 400; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+</STYLE>
+
+<STYLE type=3Dtext/css>.excel43 {
+	FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: bottom; FONT-WEIGHT: 400; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel45 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffcc; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel85 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffcc; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+medium none; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel46 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffcc; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel84 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; COLOR: black; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel68 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; COLOR: black; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt =
+solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel49 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel56 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel54 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 0.5pt solid; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: =
+400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel67 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: medium none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext =
+0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel69 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; COLOR: black; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel57 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel63 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: left; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel83 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel72 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel73 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; BACKGROUND: #ffff99; COLOR: black; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel74 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffff99; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: medium none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext =
+0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel60 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel62 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: left; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel61 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 0.5pt solid; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel50 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel47 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel75 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffff; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel76 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: =
+#ccffff; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel77 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: windowtext =
+0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel82 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium =
+none; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel78 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel65 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; FONT-STYLE: =
+normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: Arial, =
+sans-serif; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: =
+700; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel66 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel59 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; =
+VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel58 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; FONT-STYLE: =
+normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: Arial; =
+WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: =
+middle; BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel64 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel80 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 0.5pt solid; =
+FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+Arial, sans-serif; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel81 {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: medium none; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel51 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: left; BORDER-LEFT: =
+medium none; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel55 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: middle; BORDER-TOP: medium none; FONT-WEIGHT: 400; =
+BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: none; =
+PADDING-TOP: 1px
+}
+.excel79 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; BACKGROUND: #ccffff; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel70 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPACE: =
+nowrap; COLOR: black; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; =
+BORDER-TOP: windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: =
+windowtext 0.5pt solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel52 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt =
+solid; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; FONT-SIZE: =
+10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: windowtext 0.5pt solid; =
+FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt solid; TEXT-DECORATION: =
+none; PADDING-TOP: 1px
+}
+.excel48 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 400; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel53 {
+	BORDER-BOTTOM: windowtext 0.5pt solid; TEXT-ALIGN: center; BORDER-LEFT: =
+windowtext 0.5pt solid; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; =
+COLOR: windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-TOP: =
+windowtext 0.5pt solid; FONT-WEIGHT: 700; BORDER-RIGHT: windowtext 0.5pt =
+solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel44 {
+	TEXT-ALIGN: center; FONT-STYLE: normal; PADDING-LEFT: 1px; =
+PADDING-RIGHT: 1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: =
+windowtext; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; FONT-WEIGHT: 400; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.excel71 {
+	TEXT-ALIGN: left; FONT-STYLE: normal; PADDING-LEFT: 1px; PADDING-RIGHT: =
+1px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; COLOR: windowtext; =
+FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; FONT-WEIGHT: 400; =
+TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7600.16722"></HEAD>
+<BODY text=3D#000000><FONT face=3D"Verdana, Arial, Helvetica, =
+sans-serif">
+<P class=3Dstyle1>Course Page of MA1506 Lecture group D<BR>Semester 2, =
+Academic=20
+year 2010-2011 <BR>National University of Singapore <BR>Lecturer: Dr Toh =
+Pee=20
+Choon</P>
+<P>
+<UL>
+  <LI>This course page is for students in group D only.=20
+  <LI>An important handout detailing the course is available in workbin. =
+
+  <LI>Note that all essential module information will be disseminated =
+via IVLE.=20
+  <LI>We will be following (approximately) the following schedule. =
+</LI></UL>
+<TABLE style=3D"WIDTH: 586pt; BORDER-COLLAPSE: collapse" border=3D0 =
+cellSpacing=3D0=20
+cellPadding=3D0 width=3D780>
+  <COLGROUP>
+  <COL style=3D"WIDTH: 31pt" class=3Dxl6527216 width=3D41>
+  <COL style=3D"WIDTH: 85pt" class=3Dxl6527216 width=3D113>
+  <COL style=3D"WIDTH: 96pt" width=3D128>
+  <COL style=3D"WIDTH: 45pt" width=3D60>
+  <COL style=3D"WIDTH: 100pt" width=3D133>
+  <COL style=3D"WIDTH: 59pt" width=3D79>
+  <COL style=3D"WIDTH: 170pt" width=3D226>
+  <TBODY>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"WIDTH: 212pt; HEIGHT: 12.75pt" class=3Dexcel43 =
+height=3D17 width=3D282=20
+    colSpan=3D3><A name=3DRANGE!A1:G36>Plan for MA1506 Semester 2 =
+2010/11</A></TD>
+    <TD style=3D"WIDTH: 45pt" class=3Dexcel43 width=3D60></TD>
+    <TD style=3D"WIDTH: 100pt" class=3Dexcel43 width=3D133></TD>
+    <TD style=3D"WIDTH: 59pt" class=3Dexcel43 width=3D79></TD>
+    <TD style=3D"WIDTH: 170pt" class=3Dexcel43 width=3D226></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt" class=3Dexcel45 height=3D17>Week</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-RIGHT: black 0.5pt =
+solid"=20
+    class=3Dexcel85 colSpan=3D2>Date</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel45>Tutorial</TD>
+    <TD class=3Dexcel46>Chapter</TD>
+    <TD class=3Dexcel46>T/F</TD>
+    <TD class=3Dexcel46>Remarks</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>1</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>10-Jan</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>14-Jan</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>&nbsp;</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56>1</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel54>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD class=3Dexcel57>1</TD>
+    <TD class=3Dexcel57>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" =
+class=3Dexcel63>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel83 height=3D34 rowSpan=3D2>2</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>17-Jan</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>21-Jan</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>&nbsp;</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56>1</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF1.pdf">1</A> =
+</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel54><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/Remark1.pdf">rem=
+ark=20
+      1: separable</A></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel73=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel74>&nbsp;</TD>
+    <TD class=3Dexcel57>1</TD>
+    <TD class=3Dexcel57></TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel63><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/Remark2.pdf">rem=
+ark=20
+      2: undetermined coeff + Eg 21</A></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>3</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>24-Jan</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>28-Jan</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>1</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56>2</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF2.pdf">2</A>&n=
+bsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel54>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD class=3Dexcel57>2</TD>
+    <TD class=3Dexcel57>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" =
+class=3Dexcel63>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel83 height=3D34 rowSpan=3D2>4</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>31-Jan</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>4-Feb</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>2</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56>2/3</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel56><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF3.pdf">3</A></=
+TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel54>CNY 3-4 Feb</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel73=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel74>&nbsp;</TD>
+    <TD class=3Dexcel57>&nbsp;</TD>
+    <TD class=3Dexcel57>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" =
+class=3Dexcel63>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>5</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>7-Feb</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>11-Feb</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>3</TD>
+    <TD class=3Dexcel60>3</TD>
+    <TD class=3Dexcel60><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF4.pdf">4</A></=
+TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel62><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/Moments.pdf">Not=
+e=20
+      on Balancing Moment and Force</A></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD class=3Dexcel60>3</TD>
+    <TD class=3Dexcel60>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel61><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/Taylor.pdf">Tayl=
+or</A></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel83 height=3D34 rowSpan=3D2>6</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>14-Feb</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>18-Feb</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>4</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel49>4</TD>
+    <TD class=3Dexcel56><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF5.pdf">5</A></=
+TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid" class=3Dexcel56=20
+    rowSpan=3D2>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel73=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel74>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel50>4</TD>
+    <TD class=3Dexcel57>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt; BORDER-TOP: medium none" =
+class=3Dexcel47=20
+      height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel75>21-Feb</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel75>25-Feb</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel76>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel77>RECESS =
+WEEK</TD>
+    <TD class=3Dexcel82>&nbsp;</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel78>Recess =
+Week</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>7</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel68>28-Feb</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel68>4-Mar</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>5</TD>
+    <TD class=3Dexcel56>4</TD>
+    <TD class=3Dexcel56><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF6.pdf">6</A></=
+TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel65>Midterm (2 Mar =
+
+8pm)</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD class=3Dexcel57>5</TD>
+    <TD class=3Dexcel57>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel66></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel83 height=3D34 rowSpan=3D2>8</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>7-Mar</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>11-Mar</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>6</TD>
+    <TD class=3Dexcel60>5</TD>
+    <TD class=3Dexcel60><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF7.pdf">7</A></=
+TD>
+    <TD style=3D"BORDER-TOP: medium none" =
+class=3Dexcel65>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel73=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel74>&nbsp;</TD>
+    <TD class=3Dexcel60>6</TD>
+    <TD class=3Dexcel60>&nbsp;</TD>
+    <TD class=3Dexcel59>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>9</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>14-Mar</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>18-Mar</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>7</TD>
+    <TD class=3Dexcel56>6</TD>
+    <TD class=3Dexcel56><A=20
+      =
+href=3D"http://courses.nus.edu.sg/course/mattpc/internet/TF8.pdf">8</A></=
+TD>
+    <TD style=3D"BORDER-TOP: medium none" =
+class=3Dexcel58>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD class=3Dexcel64>6</TD>
+    <TD class=3Dexcel64>&nbsp;</TD>
+    <TD class=3Dexcel59>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel83 height=3D34 rowSpan=3D2>10</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>21-Mar</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>25-Mar</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>8</TD>
+    <TD class=3Dexcel60>6/7</TD>
+    <TD class=3Dexcel60>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel80>Assignment Due (22 Mar 1pm)</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel73=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel74>&nbsp;</TD>
+    <TD class=3Dexcel57>7</TD>
+    <TD class=3Dexcel57>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" =
+class=3Dexcel63>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>11</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>28-Mar</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>1-Apr</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>9</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel49>7/8</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel49>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel54>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel50>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel50>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel63>No lecture on =
+31=20
+  Mar</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel83 height=3D34 rowSpan=3D2>12</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>4-Apr</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel72>8-Apr</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>10</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel49>R</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel49>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel54><SPAN style=3D"BORDER-LEFT: medium none"=20
+      class=3Dexcel63>Revision on Apr 2010 Exam paper</SPAN></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel73=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel74>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel50>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel50>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel63><A=20
+      =
+href=3D"https://spreadsheets.google.com/viewform?formkey=3DdHY0TW00TDhQcz=
+BOdUdlQTB2eTh1akE6MQ#gid=3D0">Consultation</A></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 0.5pt solid; HEIGHT: 25.5pt; =
+BORDER-TOP: medium none"=20
+    class=3Dexcel84 height=3D34 rowSpan=3D2>13</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>11-Apr</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel68>15-Apr</TD>
+    <TD style=3D"BORDER-BOTTOM: black 0.5pt solid; BORDER-TOP: medium =
+none"=20
+    class=3Dexcel49 rowSpan=3D2>11</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel81>&nbsp;</TD>
+    <TD style=3D"BORDER-TOP: medium none" class=3Dexcel81>&nbsp;</TD>
+    <TD style=3D"BORDER-TOP: medium none" =
+class=3Dexcel54>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"BORDER-LEFT: medium none; HEIGHT: 12.75pt" =
+class=3Dexcel67=20
+    height=3D17>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel69>&nbsp;</TD>
+    <TD class=3Dexcel51>&nbsp;</TD>
+    <TD class=3Dexcel51>&nbsp;</TD>
+    <TD class=3Dexcel55>&nbsp;</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt; BORDER-TOP: medium none" =
+class=3Dexcel47=20
+      height=3D17>14</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel75>16-Apr</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel75>22-Apr</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel79>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel76>READING WEEK</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel76>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel76>Reading Week</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt; BORDER-TOP: medium none" =
+class=3Dexcel47=20
+      height=3D17>15</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel70>23-Apr</TD>
+    <TD style=3D"BORDER-LEFT: medium none" class=3Dexcel70>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel52>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel48>EXAMINATIONS</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+    class=3Dexcel48>&nbsp;</TD>
+    <TD style=3D"BORDER-LEFT: medium none; BORDER-TOP: medium none"=20
+      class=3Dexcel53>Exam: 26th April 2011</TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt" class=3Dexcel44 height=3D17></TD>
+    <TD class=3Dexcel44></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt" class=3Dexcel43 height=3D17></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel44></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel43></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt" class=3Dexcel43 height=3D17></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel44></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel43></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt" class=3Dexcel43 height=3D17></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel44></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel43></TD></TR>
+  <TR style=3D"HEIGHT: 12.75pt" height=3D17>
+    <TD style=3D"HEIGHT: 12.75pt" class=3Dexcel43 height=3D17></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel43></TD>
+    <TD class=3Dexcel44></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel71></TD>
+    <TD class=3Dexcel43></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P><A href=3D"http://www.math.nus.edu.sg/~mattpc">my home =
+page</A>=20
+<P></P></FONT></BODY></HTML>

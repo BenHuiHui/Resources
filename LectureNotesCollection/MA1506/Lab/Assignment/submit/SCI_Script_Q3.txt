@@ -1,0 +1,31 @@
+F0 = 50;
+m = 10;
+b = 5;
+k = 120;
+omega = sqrt(k/m);
+
+alpha = linspace(0,30,1000);
+
+function res = f(F0,m,omega,b,alpha)
+res = (F0/m)./sqrt((omega^2.-alpha^2)^2 + b^2/m^2.*alpha^2)
+endfunction;
+
+A = f(F0,m,omega,b,alpha);
+
+plot(alpha,A);
+
+xlabel('alpha');
+ylabel('A');
+title('Song Yangyu on Q3');
+
+
+
+
+// additional for calculating the max of A
+alpha_1 = sqrt(omega^2 -b^2/(2*m));
+A_max = f(F0,m,omega,b,alpha_1);
+
+// use previous result to check:
+[max_value index] = max(A);
+
+//can get exactly the same value (precise to 2 dicimal place)

@@ -1,0 +1,18 @@
+       Individual Lab 1 -- Song Yangyu -- A0077863N
+
+--- Currently Process Array: 1
+Content of Master Array: 1 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+Offset Address of elements in master array where value = 1:
+     0161 0163 0164 0166 0168 
+The 0,2,...,18 bit of the master array formed hex number: 
+0300
+This word is even parity
+
+--- Currently Process Array: 2
+Content of Master Array: 1 1 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+Offset Address of elements in master array where value = 1:
+     0161 0162 0163 0165 0168 0169 
+The 0,2,...,18 bit of the master array formed hex number: 
+03A0
+This word is even parity
+Square of the hamming distance between words: 5

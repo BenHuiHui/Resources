@@ -1,0 +1,235 @@
+﻿/******************************/
+/** Default Skin (BLUE)***/
+
+.TopMenuGroup
+{
+  background-image: url("/images/menu/menugrad_3.gif");
+  background-repeat: repeat-x ;
+  border: 1px solid #5A0C08;
+  background-color: #5A0C08;
+  cursor:hand;
+  position:relative;
+  z-index:110;
+}
+
+.VTopMenuGroup
+{
+
+  /*background-image: url("/images/menu/menugrad_1.gif");*/
+  background-repeat: repeat-y repeat-x;
+  border-top-color: #b9c7d3;
+  border-right-color: #b9c7d3;
+  border-left-color: #b9c7d3;
+  border-bottom-color: #b9c7d3;
+  border: 1px;
+  background-color: #ffffff;
+  cursor:default;
+  
+  /*border: 1px solid #000000;
+  background-color: #366CAD;
+  cursor:default; */
+}
+
+.VMenuItemRow_Student
+{
+  background-image: url("/images/menu/menugrad_1_stu.gif");
+}
+.MenuGroup
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#F9F9F9;
+
+
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:hand; 
+}
+
+.VMenuGroup
+{
+  background-image:url("/images/menu/background.gif"); 
+  background-repeat: repeat-y;
+  background-color:#4C60A3;
+  padding-left:2px;
+  border-width:1px; 
+  border-color:#7E7E81; 
+  border-style:solid;
+  cursor:default; 
+}
+
+.MenuItem
+{
+  color:#162D7B;
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px;
+
+  padding-bottom:8px;
+  padding-left:13px;
+  padding-right:13px;
+  cursor:hand;
+  font-weight:BOLD;
+}
+.MenuItem a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#162D7B;
+}
+.MenuItem a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#162D7B;
+}
+.VMenuItem
+{
+  color:#FFFFFF;
+  text-align:left;
+  vertical-align:middle;
+  font-family:verdana; 
+  font-size:8px;
+  border: 1px solid #ffffff;
+  padding-bottom:0px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:0px;
+  cursor:hand;
+  font-weight:BOLD;
+}
+
+.VMenuItem_Student
+{
+  color:#FFFFFF;
+  text-align:left;
+  vertical-align:middle;
+  font-family:verdana; 
+  font-size:11px;
+  border: 1px solid #ffffff;
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:2px;
+  cursor:hand;
+  font-weight:BOLD;
+}
+
+.MenuItemOver
+{
+  background-color:#757590; 
+  text-align:left;
+  color:#ECECEC; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:8px;
+  padding-left:13px;
+  padding-right:13px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.MenuItemOver a:hover
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#ECECEC;
+}
+.MenuItemOver a:link
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#ECECEC;
+}
+.MenuItemOver a:visited
+{
+    text-decoration:none;
+    cursor:hand;
+    color:#ECECEC;
+}
+
+
+.MMenuItemOver
+{
+  background-color:#757590; 
+  text-align:left;
+  color:#ECECEC; 
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:1px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+  width:100%;
+}
+
+
+
+.VMenuItemOver
+{
+  background-color:#757590; 
+  text-align:left;
+  vertical-align:middle;
+  color:#ECECEC; 
+  font-family:verdana; 
+  border: 1px solid #ffffff;
+  font-size:11px; 
+  padding-bottom:7px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:2px;
+  cursor:hand; 
+  font-weight:BOLD;
+}
+
+.MenuBreak
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+
+
+}
+
+.MenuBreak
+{
+  background-image:url("/images/menu/break_bg.gif");
+  width:100%;
+
+
+}
+
+.DisabledMenuItem
+{
+  color:#9DB6C7; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+
+.DisabledMenuItemOver
+{
+  color:#9DB6C7; 
+  text-align:left;
+  font-family:verdana; 
+  font-size:11px; 
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  cursor:default; 
+  font-weight:BOLD;
+}
+
+.spanSpace
+{
+  width:100%;
+}
+
+/** End Default Skin **/
+/******************************/

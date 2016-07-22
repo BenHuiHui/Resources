@@ -1,0 +1,21 @@
+function res = myfunc(t,x)
+	res = [x(2);-x(2)-sqrt(x(1))./t]
+endfunction;
+
+t = 0.01:0.01:15;
+t0 = 0.01;
+x0 = [4;10];
+
+x = ode(x0,t0,t,myfunc);
+
+plot(t,x(1,:));
+
+xlabel('t');
+ylabel('x');
+title('Song Yangyu on Q5');
+
+
+// for part b
+x(1,$);
+// output: 0.2370092  
+

@@ -1,0 +1,39 @@
+// a)
+function res = f(t,x)
+res = [1;(x(2)-1)^2 - x(2)]
+endfunction
+
+fchamp(f,0,0:0.2:4,0:0.2:4);
+
+// b)
+function res = g(t,x)
+res = (x-1)^2 - x
+endfunction
+
+t = 0:0.2:4;
+x1 = ode(1,0,t,g);
+x2 = ode(2,0,t,g);
+x3 = ode((3+sqrt(5))/2,0,t,g);
+plot(t,x1,'r-');
+plot(t,x2,'g.');
+plot(t,x3,'k--');
+x2($)	// return  0.3827296, i.e., roughly (3-sqrt(5))/2
+
+// c)
+x4 = ode(2.4,0,t,g);
+plot(t,x4,'b-.');  
+
+xlabel('t');
+ylabel('x');
+title('Song Yangyu on Q4');
+
+// another way
+function res = f3(t)
+res = 1.5 -1.118*tanh(1.118.*t-1.113)
+endfunction;
+
+t = 0:0.2:4;
+x5 = f3(t);
+
+plot(t,x5);
+// this would coincide with the ode graph got eailier.

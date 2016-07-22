@@ -1,0 +1,521 @@
+.TopNavLink
+{
+  font-weight:bold; 
+  font-size:10px;
+  color:#3F3F3F; 
+}
+
+
+.WelcomeTitle
+{
+  font-family:Verdana;
+  font-size:23px;   
+  font-weight:900; 
+  letter-spacing:-0.2mm;
+  margin-top:10px; 
+  margin-bottom:20px; 
+}
+
+.MainText
+{
+  font-size:11px; 
+}
+
+.SmallText
+{
+  font-size:10px; 
+}
+
+.textbox
+{
+ font-size: 10px; 
+ border: 1px solid #666666;
+}
+
+.Hint
+{
+  color:Red;
+}
+
+.DemoArea
+{
+  border:1px silver solid; 
+  padding:8px;
+  background-color:#F6F6F6;
+}
+
+
+.SidePanel
+{ 
+  padding: 10px; 
+  border:1px; 
+  border-color:#AAAAAA; 
+  border-style: solid; 
+  background-color:#F3F3F3;
+  font-size:10px;
+  color:#666666;
+} 
+
+
+.DemosNav 
+{ 
+  padding: 0px; 
+  border:1px; 
+  border-color:#AAAAAA; 
+  border-style: solid; 
+  background-color:#F3F3F3;
+} 
+
+.DemoCategory 
+{ 
+  color:black; 
+  font-family: verdana; 
+  font-size: 10px; 
+  font-weight:bold; 
+  cursor: default; 
+} 
+
+.DemoCategoryOver
+{ 
+  color:black; 
+  font-family: verdana; 
+  font-size: 10px; 
+  font-weight:bold; 
+  text-decoration:underline; 
+  cursor: default; 
+} 
+
+.Demo 
+{ 
+  font-family: verdana; 
+  font-size: 10px; 
+  padding: 1px; 
+  padding-left:2px;
+  padding-right:2px;
+  border:1px; 
+  border-color:#F3F3F3; 
+  border-style: solid; 
+  cursor: default; 
+} 
+
+.DemoHover 
+{
+  font-family: verdana; 
+  font-size: 10px; 
+  padding: 1px; 
+  padding-left: 2px; 
+  padding-right: 2px; 
+  background-color:#cccccc; 
+  border:1px; 
+  border-color:gray; 
+  border-style: solid; 
+  cursor: default; 
+}
+
+.DemoSelected 
+{
+  font-family: verdana; 
+  font-size: 10px; 
+  padding: 1px; 
+  padding-left: 2px; 
+  padding-right: 2px; 
+  background-color:#FFFFFF; 
+  border:1px; 
+  border-color:gray; 
+  border-style: solid; 
+  cursor: default; 
+}
+
+input
+{
+  font-family: verdana; 
+  font-size: 11px; 
+}  
+
+select
+{
+  font-family:Verdana; 
+  font-size:11px;
+}
+
+.trNode
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 11px; 
+  border:0px; 
+  border-color:#f0f0f0; 
+  border-style: solid;
+  cursor:hand;	
+}
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #333;
+	text-decoration: none;
+	cursor:hand;
+}
+.dtree a.node, .dtree a.nodeSel {
+
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	background-color:gray; 
+}
+.dtree a.nodeSel {
+    color: #ffffff;
+	background-color:gray; 
+}
+.dtree a.node:visited{
+    color: #333;
+	text-decoration: none;
+	cursor:hand;
+}
+.dtree .clip {
+	overflow:inherit;
+}
+
+.TreeView 
+{ 
+  background-color: #f0f0f0; 
+  border: 1px solid black; 
+  padding: 2px; 
+  padding-left: 5px;
+} 
+
+.TreeViewFAQ
+{ 
+  background-color: #f0f0f0; 
+  border: 1px solid black; 
+  padding: 2px; 
+  padding-left: 5px;
+  overflow:auto;width:360px;height:100%;border:#808080 1px solid;
+ 
+} 
+
+
+.TreeViewFAQ td div
+{ 
+  height: 100% !important;
+  display: inline-block;
+ 
+} 
+
+
+.TreeViewFAQ img
+{ 
+  display: block; float: left;
+
+ 
+} 
+
+
+
+.TreeView td div
+{
+  height: 100% !important;
+}
+
+.TreeNode 
+{ 
+  font-family: verdana; 
+  font-size: 11px; 
+  padding: 2px; 
+  padding-left: 3px; 
+  padding-right: 3px; 
+  border:0px; 
+  border-color:#f0f0f0; 
+  border-style: solid;
+  cursor:hand;
+} 
+
+.SelectedTreeNode 
+{ 
+  font-family: verdana; 
+  font-size: 11px; 
+  padding: 2px; 
+  padding-left: 3px; 
+  padding-right: 3px; 
+  color: #ffffff;
+  background-color:gray; 
+  border:1px; 
+  border-style: solid; 
+  cursor: default; 
+} 
+
+.HoverTreeNode 
+{
+  font-family: verdana; 
+  font-size: 11px; 
+  padding: 2px; 
+  padding-left: 3px; 
+  padding-right: 3px;
+  border:1px; 
+  color: #ffffff;
+  border-color:gray; 
+  border-style: solid; 
+  cursor:hand;
+}
+
+.TreeNodeRow 
+{ 
+  height: 20px; 
+}
+
+.calendar_button
+{
+	border:none;
+	cursor:pointer;
+}
+
+.picker
+{
+  background-color: #FFFFFF;
+  border: 1px gray solid;
+  font-size: 11px;
+  font-weight: normal;
+  font-family: "Verdana",monospace;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.calendar td
+{
+  font-size:12px;
+}
+
+.title
+{
+	font-weight:bold;
+  background-color:#D7D7E5;
+}
+
+.day
+{
+  cursor:pointer;
+  text-align:center;
+  border-width:1px;
+  border-color:#F6F6F6;
+  border-style:solid;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+}
+
+.dayhover
+{
+  cursor:pointer;
+  text-align:center;
+  text-decoration:underline;
+  border-width:1px;
+  border-color:#F6F6F6;
+  border-style:solid;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+}
+
+.dayheader
+{
+  text-align:center;
+  border-width:1px;
+  border-color:white;
+  border-style:solid;
+  font-weight:bold;
+  background-color:#000000;
+  color:White
+}
+
+.othermonthday
+{
+  color:#999999;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+}
+
+.outofrangeday
+{
+  visibility:hidden;
+}
+
+.calendar-weekenddays
+{   background:#FDD5DB;
+    color:#999999;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:11px;
+}
+
+.today
+{
+  background-color:#FBE694;
+  color:#000000;
+  border-width:1px;
+  border-color:#BB5503 !important;
+  border-style:solid;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+}
+
+.selectedday
+{
+  border-width:1px;
+  border-color:#BB5503 !important;
+  border-style:solid;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+}
+
+.organizerday
+{
+	background-color:#0099CC;
+	color:White;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+}
+
+.calendar
+{
+  border-style:solid;
+  border-width:0px;
+  border-color:Black;
+  border-collapse:collapse;
+  background-color:#FFFFFF;
+  cursor:default;
+}
+
+.month
+{
+  background-color:#F6F6F6; 
+  margin-right:5px;
+  margin-bottom:5px;
+  margin-top:0px;
+}
+
+.nextprev
+{
+  cursor:pointer;
+  height:25px;
+  vertical-align:center;
+  padding:0px 5px 0px 5px;
+}
+
+.selector
+{
+  width:14px;
+  cursor:pointer;
+  text-align:left;
+  vertical-align:center;
+  background-color:#FFFFFF;
+}
+
+/*
+AJAX REALTED CSS
+*/
+.ratingStar {
+    font-size: 0pt;
+    width: 13px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.filledRatingStar {
+    background-image: url(/Images/Ajax/FilledStar.png);
+
+}
+
+.emptyRatingStar {
+    background-image: url(/Images/Ajax/EmptyStar.png);
+}
+
+.savedRatingStar {
+    background-image: url(/Images/Ajax/SavedStar.png);
+}
+
+.LibContent
+{
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+.LibContentHeader
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.LibHeading
+{
+	font-family: Verdana;
+	font-size:11px;
+	font-weight:bold;
+	border-bottom: #A9A9A9 1px solid;
+}
+
+/*
+TURNITIN STYLES
+*/
+
+.turnitinOriginalityReportSpan75100
+{
+    background-color:red;
+    padding-right:10px;
+}
+
+.turnitinOriginalityReportSpan024
+{
+    background-color:#66bb11;
+    padding-right:10px;
+}
+
+.turnitinOriginalityReportSpan2549
+{
+    background-color:#ffff00;
+    padding-right:10px;
+}
+
+.turnitinOriginalityReportSpan5074
+{
+    background-color:#ffcc00;
+    padding-right:10px;
+}
+
+
+.turnitinPeningProcess
+{
+    color:black;
+}
+
+.turnitinCompleted
+{
+    color:black;
+}
+
+.turnitinHyperlink
+{
+    color:blue;
+    text-decoration:underline;
+}
+
+.turnitinError
+{
+    color:Red;
+}
+
+.turnitinNotSubmitted
+{
+    color:black;
+}
+
